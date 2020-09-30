@@ -340,7 +340,7 @@
                     ]
                 },
 				{
-                    "SlotIndex" : 0,
+                    "SlotIndex" : 1,
                     "TaskUpgrade" :
                     [
                         {
