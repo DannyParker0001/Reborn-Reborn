@@ -53,6 +53,7 @@
                             "Tasks" :
                             [
                                 {
+                                   
                                     "Type": "Projectile",
                                     "SpriteFile": "engineer_foam_puddle_static.json",
                                     "NumPersists":      30,
@@ -63,7 +64,7 @@
                                     "LimitedDuration" : 8.2,
                                     "HasRandomOrientation" : false,
                                     
-                                    "CollisionType": "Continual",
+                                    "CollisionType": "Once",
 
                                     "Tasks" :
                                     [ 

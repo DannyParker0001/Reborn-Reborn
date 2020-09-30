@@ -11,7 +11,8 @@
 			"GraphicName": "spectre_mortar_bomb",
 			"NumPersists": 1,
 			"TerminateOnZeroPersists": true,
-
+			
+			"ForcePersists":	true,
 			"CollisionType": "Once",
 			"Radius" : 5,
 			
@@ -33,7 +34,7 @@
 						{ 
 							"Type": "Damage",
 							"DamageType": "Plasma",
-							"Amount": 6
+							"Amount": 10
 						},
 						{
 							"Type" : "StatusEffect",

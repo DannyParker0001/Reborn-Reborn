@@ -36,6 +36,7 @@
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			
+			"ForcePersists":	true,
 			"CollisionType": "Once",
 			"IgnoreStatusEffect" : [ "Glue" ],
             "Radius" : 12.5,
