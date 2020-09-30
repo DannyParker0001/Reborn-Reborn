@@ -17,7 +17,6 @@
             "SpinRate" : 1080,
             "ForcePersists":	true,
             
-			"ForcePersists":	true,
 			"Movement":
 			{
 				"Type": "MotionCurve",
