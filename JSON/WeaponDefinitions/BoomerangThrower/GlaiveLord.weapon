@@ -1,11 +1,9 @@
 {	
     "Type":             "GlaiveLord",    
     "TargetRange":      32,
-	"CooldownTime":     0,
+	"CooldownTime":     0.77,
     "FireDelayTime":    0,
 	"RequiresTargetToFire": false,
- 	"TotalAmmo" : 1,
-	"RemainingAmmo" : 1,
    
     "Tasks" :
     [
@@ -23,33 +21,24 @@
 				"Speed": 450,
 				"Offset": 32,
 				"InitialAngle": 0,
-				"TerminateOnCompletedRevolution" : true
+				"TerminateOnCompletedRevolution": true
 			},
-			
-			"TasksToProcessOnCollision" : [ 0,1,2 ],
-			"TasksToProcessOnTerminate" : [ 3 ],
-			
+
 			"Tasks" :
 			[ 
-				{ 
-					"Type": "Damage", 
-					"DamageType": "Piercing", 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
 					"Amount": 1 
-                },
-                { 
+				},
+				{ 
 					"Type": "Damage", 
 					"DamageType": "Juggernaut", 
 					"Amount": 0 
-                },
-                {
-                    "Type": "StatusEffect",
-                    "Status": ""
-                },
+				},
 				{
-					"Type" : "RestoreAmmo",
-					"Proxied" : false,
-					"Amount" : 2,
-					"RoundRobin" : true
+					"Type": "StatusEffect",
+					"Status": ""
 				}
 			]
 		},
@@ -59,7 +48,7 @@
 			"NumPersists": -1,
 			"TerminateOnZeroPersists": false,
             "TerminateOnTowerRemoved" : true,
-			"CollisionType": "Once",
+			"CollisionType": "Continual",
 			
 			"Movement":
 			{
@@ -67,33 +56,24 @@
 				"Speed": 450,
 				"Offset": 32,
 				"InitialAngle": 180,
-				"TerminateOnCompletedRevolution" : true
+				"TerminateOnCompletedRevolution": true
 			},
 			
-			"TasksToProcessOnCollision" : [ 0,1,2 ],
-			"TasksToProcessOnTerminate" : [ 3 ],
-
 			"Tasks" :
 			[ 
-				{ 
-					"Type": "Damage", 
-					"DamageType": "Piercing", 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
 					"Amount": 1 
-                },
-                { 
+				},
+				{ 
 					"Type": "Damage", 
 					"DamageType": "Juggernaut", 
 					"Amount": 0 
-                },
-                {
-                    "Type": "StatusEffect",
-                    "Status": ""
-                },
+				},
 				{
-					"Type" : "RestoreAmmo",
-					"Proxied" : false,
-					"Amount" : 2,
-					"RoundRobin" : true
+					"Type": "StatusEffect",
+					"Status": ""
 				}
 			]
 		}

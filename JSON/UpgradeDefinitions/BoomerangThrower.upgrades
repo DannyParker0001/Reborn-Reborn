@@ -15,6 +15,16 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 7
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
                     }
                 ]
             }
@@ -39,6 +49,14 @@
                         "Operation" : "Adjust",
                         "NumPersists" : 10
                     },				
+					{
+						"Operation" : "Replace",
+						"GraphicName": "glaive"
+					},
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1 ]
+                    },
 					{
 						"Operation" : "Replace",
 						"GraphicName": "glaive"
@@ -74,7 +92,7 @@
 					
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
                         "GraphicName" : "glaive_red"
                     },
                     
@@ -85,7 +103,29 @@
 
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "GraphicName" : "glaive_red"
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" :    [ 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "GraphicName" : "glaive_red"
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0 ]
+                    },
+
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
                         "GraphicName" : "glaive_red"
                     },
 					
@@ -97,13 +137,71 @@
 					{
 						"Operation" : "Replace",
 						"RequiresMinUpgradeCounters" : [ 0, 1 ],
-						"DamageType" : "Fire"
+						"DamageType" : "Plasma"
 					},
 					
                     {
                         "Operation" : "SelectByLocation",
                         "Location" : [ 0, 0, 0 ]
-                    }
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"DamageType" : "Plasma"
+					},
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"DamageType" : "Plasma"
+					},
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"DamageType" : "Plasma"
+					},
+					{
+						"Operation" : "SelectByLocation",
+						"Location" :    [ 0, 0, 0 ]
+					},
+
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
+						"Amount" : 2
+					},
+					{
+						"Operation" : "SelectByLocation",
+						"Location" :    [ 0, 0, 1 ]
+					},
+
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
+						"Amount" : 1
+					},
+					{
+						"Operation" : "SelectByLocation",
+						"Location" :    [ 0, 0, 2 ]
+					},
+
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
+						"Status" : "MultiLayerDamage"
+					}
                 ]
             }
         },
@@ -126,38 +224,159 @@
         },
         
         {
-            "Name" : "Red Hot Rangs",
+            "Name" : "Sonic Boomer",
             "WeaponUpgrades" : [
 				{
+					"SlotIndex" : 0,
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Amount" : 2
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Amount" : 2
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 1 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Amount" : 1
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 1 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Amount" : 1
+						},
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 2 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Status" : "MultiLayerDamage"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 2 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"Status" : "MultiLayerDamage"
+						}
+					]
+				},
+				{
+					"SlotIndex" : 1,
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Red Hot Rangs",
+            "WeaponUpgrades" : 
+			[
+				{
 				"SlotIndex" : 0,
-                "TaskUpgrade" :
-                    [
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "DamageType" : "Plasma"
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "GraphicName" : "boomerang_red"
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "RequiresMinUpgradeCounters" : [ 2, 0 ],
-                            "GraphicName" : "glaive_red"
-                        }
-                    ]
+				"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Plasma"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"GraphicName" : "boomerang_red"
+						},
+						
+						{
+							"Operation" : "Replace",
+							"RequiresMinUpgradeCounters" : [ 2, 0 ],
+							"GraphicName" : "glaive_red"
+						},
+
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Plasma"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"GraphicName" : "boomerang_red"
+						},
+						
+						{
+							"Operation" : "Replace",
+							"RequiresMinUpgradeCounters" : [ 2, 0 ],
+							"GraphicName" : "glaive_red"
+						}
+					]
 				},
 				{
 					"SlotIndex" : 1,
@@ -203,180 +422,7 @@
                             "GraphicName" : "glaive_red"
 						}
 					]
-                },
-                {
-                    "SlotIndex" : 3,
-                    "TaskUpgrade" :
-                        [
-                            {
-                                "Operation" : "SelectByLocation",
-                                "Location" :    [ 0, 0, 0 ]
-                            },
-                            
-                            {
-                                "Operation" : "Replace",
-                                "DamageType" : "Plasma"
-                            },
-                            
-                            {
-                                "Operation" : "SelectByLocation",
-                                "Location" :    [ 0, 0 ]
-                            },
-                            
-                            {
-                                "Operation" : "Replace",
-                                "GraphicName" : "boomerang_red"
-                            },
-                            
-                            {
-                                "Operation" : "Replace",
-                                "RequiresMinUpgradeCounters" : [ 2, 0 ],
-                                "GraphicName" : "glaive_red"
-                            }
-                        ]
-                    }
-			]
-        },
-        
-        {
-            "Name" : "Sonic Boomer",
-            "WeaponUpgrades" : 
-            [
-				{
-                    "SlotIndex" : 0,
-                    "TaskUpgrade" :
-                    [
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0 ]
-                        },
-                                
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 1 ]
-                        },
-                        
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 2 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "Status" : "MultiLayerDamage"
-                        }
-                    ]
-                },
-				{
-                    "SlotIndex" : 1,
-                    "TaskUpgrade" :
-                    [
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0 ]
-                        },
-                                
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 1 ]
-                        },
-                        
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 2 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "Status" : "MultiLayerDamage"
-                        },
-
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 1, 0 ]
-                        },
-                                
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 1, 1 ]
-                        },
-                        
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 1, 2 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "Status" : "MultiLayerDamage"
-                        }
-                    ]
-                },
-                {
-                    "SlotIndex" : 3,
-                    "TaskUpgrade" :
-                    [
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0, 0 ]
-                        },
-                                
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0, 1 ]
-                        },
-                        
-                        {
-                            "Operation" : "Adjust",
-                            "Amount" : 1
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 0, 0, 2 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "Status" : "MultiLayerDamage"
-                        }
-                    ]
-                }
+				}
 			]
         },
         

@@ -4,16 +4,17 @@
 	"CooldownTime":     1.2285714286,
     "FireDelayTime":    0.2,
     
+    "DisabledTasks" : [ 1 ],
+    
     "Tasks" :
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "boomerang",
+			"GraphicName":      "glaive",
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-            "SpinRate" : 1080,
-            "ForcePersists":	true,
+			"SpinRate" : 1080,
             
 			"Movement":
 			{
@@ -48,23 +49,83 @@
 
 					"Tasks" :
 					[ 
+						{
+							"Type": "Damage", 
+							"DamageType": "Piercing", 
+							"Amount": 1 
+						},
 						{ 
+							"Type": "Damage", 
+							"DamageType": "Juggernaut", 
+							"Amount": 0 
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						}
+					]
+				}
+			]
+		},
+        
+        {
+            "Type":             "Projectile",
+            "GraphicName":      "glaive",
+            "NumPersists":      1,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpinRate" : 1080,
+            
+            "Movement":
+            {
+                "Type": "MotionCurve",
+                "Curves":
+                [
+                        [ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
+                        [ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
+                ],
+                "Speed": 360,
+                "TerminateAtEndOfCurve": true,
+                "ScaleCurvesByDirection": false,
+                "AngleOffset" : -0.63
+            },
+                        
+            "Tasks" :
+            [ 
+                {
+                    "Type":             "Projectile",
+                    "GraphicName":      "glaive",
+                    "NumPersists":      100,
+                    "TerminateOnZeroPersists": false,
+                    "CollisionType": "Once",
+                    
+                    "Movement":
+                    {
+                        "Type": "GoToTarget",
+                        "Speed": 500,
+                        "NextTargetRange": 150,
+                        "DestroyWhenNoTarget": true
+                    },
+
+                    "Tasks" :
+                    [ 
+                        {
                             "Type": "Damage", 
                             "DamageType": "Piercing", 
                             "Amount": 1 
                         },
-                        { 
-                            "Type": "Damage", 
-                            "DamageType": "Juggernaut", 
-                            "Amount": 0 
-                        },
-                        {
-                            "Type": "StatusEffect",
-                            "Status": ""
-                        }
-					]
-				}
-			]
-		}
+						{ 
+							"Type": "Damage", 
+							"DamageType": "Juggernaut", 
+							"Amount": 0 
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						}
+                    ]
+                }
+            ]
+        }
 	]
 }
