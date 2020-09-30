@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_Snipe",
+    "UnlockCost"                : 7500,
+    "RequiresUnlocked"          : ["TowerPower_BigBloonSlow"],
+    "Description"               : "Instantly destroy the largest Bloon on screen. Five uses.",
+    "Icon"                      : "powers_bloon_snipe",
+    "HudIcon"                   : "icon_bloon_snipe",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 10,
+    "MinCooldown"               : 5,
+    "Count"                     : 5,
+    "Weapon"                    : "TowerPower_Snipe.weapon"
+}

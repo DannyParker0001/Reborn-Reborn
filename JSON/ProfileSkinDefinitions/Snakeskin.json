@@ -1,0 +1,8 @@
+{
+	"ID":					"Snakeskin",
+	"DisplayName":			"Snakeskin",
+	"DisplayDescription":	"Skin your lobby card with Snakeskin!",
+	"DisplayIcon":			"player_profile_panel_snakeskin_store.json",
+	"SkinSpriteName":		"player_profile_panel_snakeskin.json",
+	"Hide":					true
+}

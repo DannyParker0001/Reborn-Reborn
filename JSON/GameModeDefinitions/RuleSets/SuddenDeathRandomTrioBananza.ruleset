@@ -1,0 +1,47 @@
+{
+    "name": "SuddenDeathRandomTrioBananza",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Bananza",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio",
+                "offsetX": 20,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetX": 68,
+                "offsetY": 0
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 105,
+                "offsetY": -5
+            },
+            {
+                "Text": "Both players receive the same random towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            }
+        ],
+        "DisplayName": "1 LIFE R3 BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_r3_bananza"
+    },
+    "version": "1.0"
+}

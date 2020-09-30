@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_GlueStorm",
+    "Description"       : "Cover all the bloons on screen in corrosive glue continuously for 4 seconds. Three uses.",
+    "UnlockCost"        : 7500,
+    "RequiresUnlocked"  : ["TrackPower_MonkeyAcid"],
+    "Icon"              : "powers_glue_storm",
+    "HudIcon"           : "icon_glue_storm",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_GlueStorm",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 20,
+    "MinCooldown"       : 10,
+    "Count"             : 3
+}

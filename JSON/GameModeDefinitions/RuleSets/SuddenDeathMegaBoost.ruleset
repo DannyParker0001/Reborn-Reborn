@@ -1,0 +1,39 @@
+{
+    "name": "SuddenDeathMegaBoost",
+    "rules": [
+      "FreePowerups",
+      "MegaBoosts",
+      "SuddenDeath"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Super Awesome Upgrades!"
+        },
+        {
+          "Icon": "rulesIcon_MegaBoosts",
+          "offsetY": 10,
+          "offsetX": 40
+        },
+        {
+          "Icon": "sudden_death_icon",
+          "offsetY": -5,
+          "offsetX": 70
+        },
+        {
+            "Text": "Powers upgrade Towers and Bloons",
+            "offsetY": 20,
+            "Icon": "bullet_point_glow"
+        },
+        {
+          "Text": "Both players begin with only one life",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        }
+      ],
+      "DisplayName": "BOOSTY 1 LIFE",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_suddendeath_megaboost"
+    },
+    "version": "1.0"
+  }

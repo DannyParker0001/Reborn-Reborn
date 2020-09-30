@@ -1,0 +1,218 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Monkey Beacon",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Modifier" : { "TargetRange" : [ 1.15, 0 ] }
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Jungle Drums",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "FireDelay" : [ 0.8695652173913, 0 ],
+                            "Cooldown" : [ 0.8695652173913, 0 ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Monkey Town",
+            "TowerUpgrade" : 
+			{
+				"Adjust" :
+				{
+					"TargetRange" : 15
+				}
+			},
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 15,
+                        "Modifier" :
+                        {
+                            "CashPerPop" : [ 1.0, 0 ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Energy Beacon",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1" : "EnergyBeacon.weapon"
+                },
+                
+                "Replace" :
+                {
+                    "TargetingMode" : "First"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "AbilityCooldown" : [ 0.5, 0 ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Monkey Fort",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "PoppingPower" : [ 1, 1 ]
+                        }
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Radar Scanner",
+			"TowerUpgrade" : 
+			{
+				"Replace" :
+				{
+					"CanTargetCamo" : true
+				}
+			},
+			
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Modifier" :
+                        {
+                            "CanTargetCamo" : [ true, true ]
+                        }
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Monkey Intelligence Bureau",
+            "TowerUpgrade" : 
+			{
+				"Adjust" :
+				{
+					"TargetRange" : 25
+				}
+			},
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 25,
+                        "Modifier" :
+                        {
+                            "CanPopAllBloons" : [ true, true ]
+                        }
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "MIB Call To Arms",
+            "TowerUpgrade" :
+            {
+                "Adjust" :
+				{
+					"TargetRange" : 25
+				},
+                "Weapons" :
+                {
+                    "2": "CallToArms.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "TowerModifier"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 25
+                    }
+                ]
+            }
+        }
+    ]
+}

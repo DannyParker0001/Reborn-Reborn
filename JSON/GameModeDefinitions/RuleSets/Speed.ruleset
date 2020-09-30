@@ -1,0 +1,36 @@
+{
+    "name": "Speed",
+    "rules": [
+      "FreePowerups",
+      "Speed"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "In a hurry?|CENTER_X"
+        },
+        {
+          "Icon": "rulesIcon_SpeedBattle_large",
+          "offsetY": 10,
+          "offsetX": 60
+        },
+        {
+          "Text": "All Bloons can be sent 2 rounds earlier!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 25
+        },
+        {
+          "Text": "All Bloons are faster",
+          "Icon": "bullet_point_glow"
+        },
+        {
+          "Text": "Income generates quicker!",
+          "Icon": "bullet_point_glow"
+        }
+      ],
+      "DisplayName": "SPEED BATTLE",
+      "DisplayInfo": "GO FASTER!",
+      "DisplayIcon": "rulesIcon_SpeedBattle"
+    },
+    "version": "1.0"
+  }

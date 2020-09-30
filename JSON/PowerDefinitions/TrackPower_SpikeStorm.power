@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "TrackPower_SpikeStorm",
+    "UnlockCost"        : 7500,
+    "Description"       : "Cover the entire track in red hot spikes. Two uses.",
+    "RequiresUnlocked"  : ["TrackPower_BestBundles"],
+    "Icon"              : "powers_spike_storm",
+    "HudIcon"           : "icon_spike_storm",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_SpikeStorm",
+    "PlacementMode"     : "InstantUse",
+    "PlacementPosition" : [120,160],
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2
+}

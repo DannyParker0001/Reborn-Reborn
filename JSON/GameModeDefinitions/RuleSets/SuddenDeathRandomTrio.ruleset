@@ -1,0 +1,43 @@
+  {
+    "name": "SuddenDeathRandomTrio",
+    "rules": [
+      "FreePowerups",
+      "RandomTrio",
+      "SuddenDeath"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Let's level the playing field"
+        },
+        {
+          "Icon": "rulesIcon_RandomTrio_large",
+          "offsetY": 15,
+          "offsetX": 40
+        },
+        {
+          "Icon": "sudden_death_icon",
+          "offsetY": 0,
+          "offsetX": 90
+        },
+        {
+          "Text": "Both players receive the same random towers",
+          "Icon": "bullet_point_glow",
+          "offsetY": 30
+        },
+        {
+          "Text": "No bonus tower",
+          "Icon": "cross"
+        },
+        {
+          "Text": "Both players begin with only one life",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        }
+      ],
+      "DisplayName": "R3 1 LIFE",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_suddendeath_r3"
+    },
+    "version": "1.0"
+  }

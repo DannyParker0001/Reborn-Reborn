@@ -1,0 +1,506 @@
+{
+	"ID": "GoldenDarts",
+	"DisplayName": "Golden Weapons",
+	"DisplayDescription": "Turn all your projectiles gold",
+	"DisplayIcon": "projectiles_gold.json",
+	"RequiresSkin" : "SilverDarts",
+	"MedallionCost": 75000000,
+    "Type": "ProjectileSkin",
+    "Group": "ProjectileSkin",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+	"ProjectileMap": {
+		"bomb_tower_bomb_01": {
+			"Name" : "bomb_tower_bomb_01",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_bomb_02": {
+			"Name" : "bomb_tower_bomb_02",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_bomb_03": {
+			"Name" : "bomb_tower_bomb_03",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"juggernaut_ball_01": {
+			"Name" : "juggernaut_ball_01",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"juggernaut_ball_02": {
+			"Name" : "juggernaut_ball_02",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_missile": {
+			"Name" : "bomb_tower_missile",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_missile_full": {
+			"Name" : "bomb_tower_missile_full",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_moab_assassin": {
+			"Name" : "bomb_tower_moab_assassin",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_moab_assassin_full": {
+			"Name" : "bomb_tower_moab_assassin_full",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_moab_mauler": {
+			"Name" : "bomb_tower_moab_mauler",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_moab_mauler_full": {
+			"Name" : "bomb_tower_moab_mauler_full",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_special_ability_projectile": {
+			"Name" : "bomb_tower_special_ability_projectile",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_special_ability_projectile_full": {
+			"Name" : "bomb_tower_special_ability_projectile_full",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"boomerang": {
+			"Name" : "boomerang",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"boomerang_red": {
+			"Name" : "boomerang_red",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"dart_monkey_dart": {
+			"Name" : "dart_monkey_dart",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"dartling_gun_rocket": {
+			"Name" : "dartling_gun_rocket",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"glaive": {
+			"Name" : "glaive",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"glaive_red": {
+			"Name" : "glaive_red",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"monkey_temple_supermonkey_projectile": {
+			"Name" : "monkey_temple_supermonkey_projectile",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"mortar_big_one_bomb": {
+			"Name" : "mortar_big_one_bomb",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"ninja_grenade": {
+			"Name" : "ninja_grenade",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"ninja_throwing_star": {
+			"Name" : "ninja_throwing_star",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"red_hot_tack": {
+			"Name" : "red_hot_tack",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"spiked_mine_base": {
+			"Name" : "spiked_mine_base",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"spiked_mine_skull": {
+			"Name" : "spiked_mine_skull",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"spiked_mine_spike": {
+			"Name" : "spiked_mine_spike",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"spikeopult_ball": {
+			"Name" : "spikeopult_ball",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"submarine_barbed_darts": {
+			"Name" : "submarine_barbed_darts",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"submarine_bmissile": {
+			"Name" : "submarine_bmissile",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"submarine_dart": {
+			"Name" : "submarine_dart",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"submarine_first_strike_missile": {
+			"Name" : "submarine_first_strike_missile",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"tack_shooter_tack": {
+			"Name" : "tack_shooter_tack",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_missile_01": {
+			"Name" : "bomb_tower_missile_01",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_missile_02": {
+			"Name" : "bomb_tower_missile_02",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"bomb_tower_missile_03": {
+			"Name" : "bomb_tower_missile_03",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"frag_shrapnel": {
+			"Name" : "frag_shrapnel",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"pop_and_awe_bomb": {
+			"Name" : "pop_and_awe_bomb",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"spectre_mortar_bomb": {
+			"Name" : "spectre_mortar_bomb",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		"engineer_nail": {
+			"Name" : "engineer_nail",
+			"Prefix" : "gold_",
+			"Location" : "InGame"
+		},
+		
+
+
+		"BombProjectile.json": {
+			"Name" : "BombProjectile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombProjectileSmall.json": {
+			"Name" : "BombProjectileSmall.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"JuggernautProjectile.json": {
+			"Name" : "JuggernautProjectile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerMissile.json": {
+			"Name" : "BombTowerMissile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerMissileAnimated.json": {
+			"Name" : "BombTowerMissileAnimated.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerAssassinAnimated.json": {
+			"Name" : "BombTowerAssassinAnimated.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerAssassinProjectile.json": {
+			"Name" : "BombTowerAssassinProjectile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerMaulerAnimated.json": {
+			"Name" : "BombTowerMaulerAnimated.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerMaulerProjectile.json": {
+			"Name" : "BombTowerMaulerProjectile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerGreenAssassin.json": {
+			"Name" : "BombTowerGreenAssassin.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"BombTowerGreenAssassinAnimated.json": {
+			"Name" : "BombTowerGreenAssassinAnimated.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"submarineAirBurst.json": {
+			"Name" : "submarineAirBurst.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"HotTacks.json": {
+			"Name" : "HotTacks.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"SpikedBalls.json": {
+			"Name" : "SpikedBalls.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"SpikedMines.json": {
+			"Name" : "SpikedMines.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"barbed_dart.json": {
+			"Name" : "barbed_dart.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"SubmarineBallisticMissile.json": {
+			"Name" : "SubmarineBallisticMissile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"submarine_dart.json": {
+			"Name" : "submarine_dart.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"SubmarineFirstStrikeMissile.json": {
+			"Name" : "SubmarineFirstStrikeMissile.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"RoadTacks.json": {
+			"Name" : "RoadTacks.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		},
+		"PopAndAweAbility.json": {
+			"Name" : "PopAndAweAbility.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/WeaponSprites/"
+		}
+	},
+	
+	"TowerMap": {
+		"DartMonkeyJuggernautNew.json": {
+			"Name" : "DartMonkeyJuggernautNew.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+        "DartMonkeySpikeopultNew.json": {
+            "Name" : "DartMonkeySpikeopultNew.json",
+            "Prefix" : "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+		"BombTowerMissileBlackBase.json": {
+			"Name" : "BombTowerMissileBlackBase.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BombTowerMissileGreenBase.json": {
+			"Name" : "BombTowerMissileGreenBase.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BombTowerMissileGreyBase.json": {
+			"Name" : "BombTowerMissileGreyBase.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BombTowerAssassin.json": {
+			"Name" : "BombTowerAssassin.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BombTowerMauler.json": {
+			"Name" : "BombTowerMauler.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTower.json": {
+			"Name" : "BoomerangTower.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerBionicBoomerBoomerang.json": {
+			"Name" : "BoomerangTowerBionicBoomerBoomerang.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerCurvedArrow.json": {
+			"Name" : "BoomerangTowerCurvedArrow.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerThreeArrows.json": {
+			"Name" : "BoomerangTowerThreeArrows.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerThreeCurvedArrows.json": {
+			"Name" : "BoomerangTowerThreeCurvedArrows.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerBionicBoomerRedBoomerang.json": {
+			"Name" : "BoomerangTowerBionicBoomerRedBoomerang.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+        "BoomerangTowerBionicBoomerTurboBoomerang.json": {
+            "Name" : "BoomerangTowerBionicBoomerTurboBoomerang.json",
+            "Prefix": "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboRedBoomerang.json": {
+            "Name" : "BoomerangTowerBionicBoomerTurboRedBoomerang.json",
+            "Prefix": "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboGlaive.json": {
+            "Name" : "BoomerangTowerBionicBoomerTurboGlaive.json",
+            "Prefix": "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboGlaiveRed.json": {
+            "Name" : "BoomerangTowerBionicBoomerTurboGlaiveRed.json",
+            "Prefix": "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+		"BoomerangTowerCross.json": {
+			"Name" : "BoomerangTowerCross.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerBionicBoomerGlaive.json": {
+			"Name" : "BoomerangTowerBionicBoomerGlaive.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveLord.json": {
+			"Name" : "BoomerangTowerGlaiveLord.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveRiccochet.json": {
+			"Name" : "BoomerangTowerGlaiveRiccochet.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveThrower.json": {
+			"Name" : "BoomerangTowerGlaiveThrower.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerBionicBoomerGlaiveRed.json": {
+			"Name" : "BoomerangTowerBionicBoomerGlaiveRed.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveLordRedWeapon.json": {
+			"Name" : "BoomerangTowerGlaiveLordRedWeapon.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveRiccochetRedWeapon.json": {
+			"Name" : "BoomerangTowerGlaiveRiccochetRedWeapon.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"BoomerangTowerGlaiveTowerRedWeapon.json": {
+			"Name" : "BoomerangTowerGlaiveTowerRedWeapon.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"TackTowerBladeShooter.json": {
+			"Name" : "TackTowerBladeShooter.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"TackTowerMaelstrom.json": {
+			"Name" : "TackTowerMaelstrom.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarTheBigOne.json": {
+			"Name" : "MortarTheBigOne.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+        "MortarArtilleryBattery.json": {
+            "Name" : "MortarArtilleryBattery.json",
+            "Prefix" : "Gold_",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+		"HotTacks.json": {
+			"Name" : "HotTacks.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarBloonbuster.json": {
+			"Name" : "MortarBloonbuster.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarFlames.json": {
+			"Name" : "MortarFlames.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarFlamesTwoStripesStar.json": {
+			"Name" : "MortarFlamesTwoStripesStar.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarRedCircle.json": {
+			"Name" : "MortarRedCircle.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		},
+		"MortarTower.json": {
+			"Name" : "MortarTower.json",
+			"Prefix" : "Gold_",
+			"Location" : "Assets/JSON/TowerSprites/"
+		}
+	}
+}	
+

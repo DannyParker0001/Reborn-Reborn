@@ -1,0 +1,141 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Rapid Fire",
+            "IsAircraftUpgrade": true,
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex": 0,
+
+                    "Adjust" :
+                    {
+                        "CooldownTime" : -0.8571428571
+                    }
+                },
+                {
+                    "SlotIndex": 1,
+
+                    "Adjust" :
+                    {
+                        "CooldownTime" : -0.3
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Sharper Darts",
+            "IsAircraftUpgrade": true,
+            "WeaponUpgrade" :
+            {
+                "SlotIndices": [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 3
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Neva-Miss Targeting",
+            "IsAircraftUpgrade": true,
+            "WeaponUpgrade" :
+            {
+				"SlotIndices": [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Movement":
+                        {
+                            "Type": "Target",
+                            "Speed": 280,
+                            "TurnSpeed": 250,
+                            "TargetRange": 900,
+                            "SeekAngle": 90,
+                            "CutOffDistance": 500
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Spectre",
+			"IsAircraftUpgrade": true,
+           	"TowerUpgrade":
+            {
+				"Replace" :
+				{
+			    	"FiresWeaponsInSequence" : true,
+			    	"FiringSequence" : [ [ 4 ], [ 2, 3 ] ]
+				},
+
+                "Weapons" :
+                {
+                    "0" : "",
+                    "1" : "",
+					"2" : "SpectreDart.weapon",
+                    "3" : "SpectreBomb.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Pineapple Present",
+            "IsAircraftUpgrade": true,
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "4": "PineapplePresent.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Spy Plane",
+            "IsAircraftUpgrade": true,
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+        {
+            "Name" : "Operation: Dart Storm",
+            "IsAircraftUpgrade": true,
+            "TowerUpgrade":
+            {
+                "Weapons" :
+                {
+                    "0" : "",
+                    "1" : "DartStorm.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Ground Zero",
+            "IsAircraftUpgrade": true,
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "5": "GroundZero.weapon"
+                }
+            }
+        }
+    ]
+}

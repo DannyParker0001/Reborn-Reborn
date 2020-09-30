@@ -1,0 +1,26 @@
+{
+    "Rules" : {
+        "TowerBoostEnergyCost" : 0,
+        "TowerBoostLimit" : 3,
+        "BloonBoostEnergyCost" : 0,
+        "BloonBoostLimit" : 3,
+        "RedHotSpikesEnergyCost" : 0,
+        "RedHotSpikesLimit" : 3
+    },
+    "LobbyRules": {
+		"CanSkipMap": true,
+		"CanSpy": false,
+        "CanChooseMap": false,
+        "CanRandomiseTowers": true,
+        "CanRollLottery": true,
+        "ShouldShowMedallions": true,
+        "ShouldAddRoadSpikes": true,
+        "ShouldForceSameLastTower": false,
+        "CostToSkipMap": 0,
+        "CostToRollLottery": 0,
+        "CostToRerollLottery": 0,
+        "Countdown": 30,
+        "MaxMapSkips": 1,
+        "MaxLotteryRolls": 2
+    }
+}

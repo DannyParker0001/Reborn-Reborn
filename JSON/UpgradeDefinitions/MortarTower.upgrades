@@ -1,0 +1,204 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Increased Accuracy",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "RandomFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Range" : 30
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Bigger Blast",
+            "WeaponUpgrade" :
+            {            
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 35
+                    },
+					{
+						"Operation": "SelectByType",
+						"Type": "Effect"
+					},
+					{
+						"Operation": "Replace",
+						"Scale": 1.335
+					}
+                ]
+            }
+        },
+        {
+            "Name" : "Bloon Buster",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Range" : 140
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 1
+                    },
+					{
+						"Operation": "SelectByType",
+						"Type": "Effect"
+					},
+					{
+						"Operation": "Replace",
+						"Scale": 1.555
+					}
+                ]
+            }
+        },
+        {
+            "Name" : "The Big One",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+					"FireDelayTime" : -0.5
+                },
+				
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "MaxTargets" : 1000000,
+                        "Range" : 200
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 5
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+						"Operation": "SelectByType",
+						"Type": "Effect"
+					},
+					{
+						"Operation": "Replace",
+						"Scale": 2.15
+					}
+                ]
+            }
+        },
+        {
+            "Name" : "Rapid Reload",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.49
+                }
+            }
+
+        },
+        {
+            "Name" : "Burny Stuff",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0, 2 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "Napalm"
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Signal Flare",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+            
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0, 3 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "Status" : "SignalFlare"
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Artillery Battery",
+            "WeaponUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CooldownTime" : 0,
+                    "FireDelayTime" : 0.52
+                }
+            },
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "DontResetAnimation"    : true
+                },
+                "Weapons" :
+                {
+                    "1": "PopAndAwe.weapon"
+                }
+            }
+        }
+    ]
+}

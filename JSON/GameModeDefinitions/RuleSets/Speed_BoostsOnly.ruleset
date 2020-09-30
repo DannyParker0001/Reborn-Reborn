@@ -1,0 +1,48 @@
+{
+    "name": "Speed_BoostsOnly",
+    "rules": [
+      "FreePowerups",
+      "BoostsOnly"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "All Bloons can be sent 2 rounds earlier!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+          "Text": "All Bloons are faster",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+          "Text": "Income generates quicker!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+            "Text": "3x Tower Boosts",
+            "Icon": "ltd_tower_boost_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        },
+        {
+            "Text": "3x Bloon Boosts",
+            "Icon": "ltd_bloon_boost_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        },
+        {
+            "Text": "3x Red Hot Spikes",
+            "Icon": "ltd_rhs_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        }
+      ],
+      "DisplayName": "SPEED BOOSTS ONLY",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_speed_boostsonly"
+    },
+    "version": "1.0"
+  }

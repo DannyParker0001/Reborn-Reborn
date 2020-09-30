@@ -1,0 +1,47 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 2000, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.15, 
+        "NumBloons": 50, 
+        "Type": "Black", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "83", 
+    "NameOld": "SniperMonkey23_RegenBlackTight50", 
+    "PlatformProductID": "btdbattles_vet_snipermonkey23_regenblacktight50", 
+    "PlatformProductIDiOS": "btdbattles_vet_SniperMonkey23_RegenBlackTight50", 
+    "ProductID": "Vet_SniperMonkey23_RegenBlackTight50", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_moonlight", 
+        "Cost": 3500, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "SniperMonkey", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

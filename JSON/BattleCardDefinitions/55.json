@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_night", 
+        "Cost": 15000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -800, 
+        "Interval": 0.6, 
+        "NumBloons": 7, 
+        "Type": "BFB", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "55", 
+    "NameOld": "HeliPilot42_BFBTight7", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 15000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopCamo", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "HeliPilot", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

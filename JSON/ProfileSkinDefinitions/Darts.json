@@ -1,0 +1,8 @@
+{
+	"ID":					"Darts",
+	"DisplayName":			"Darts",
+	"DisplayDescription":	"Skin your lobby card with Darts!",
+	"DisplayIcon":			"player_profile_panel_darts_store.json",
+	"SkinSpriteName":		"player_profile_panel_darts.json",
+	"Hide":					true
+}

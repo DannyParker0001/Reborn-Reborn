@@ -1,0 +1,9 @@
+{
+	"Type" : "CeramicSpaced1",
+	"BloonType" : "Ceramic",
+	"Quantity" : 1,
+	"Interval" : 1.0,
+	"Cost" : 275,
+	"IncomeChange" : 0,
+	"UnlockRound" : 13
+}

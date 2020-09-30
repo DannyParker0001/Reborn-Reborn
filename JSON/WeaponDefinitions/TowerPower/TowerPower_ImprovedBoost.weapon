@@ -1,0 +1,52 @@
+{	
+    "Type"                                      : "TowerPower_ImprovedBoost",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  100000,
+            "PriorityLevel" : 1,
+            "TerminateOnUserUpgrade" : false,
+            "TaskPersistsWithDuration" : true,
+            "ModifyNewlySpawnedTowers": false,
+            "ModifyMovingTowers": false,
+            "Duration": 10,
+            "NumPersists": -1,
+            "Modifier" :
+            {
+                "Cooldown"  : [ 0.5, 0 ],
+                "FireDelay" : [ 0.5, 0 ]
+            },
+            "Tasks" :
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "tower_boost_effect.json",
+                    "Duration": 10,
+                    "DrawLayer": "UnderTowers",
+                    "LoopForever": true,
+                    "AppliedToTower": true,
+                    "IgnoreAircraft": true,
+                    "Scale": 0.675
+                }
+            ]
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "TowerBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "Duration": 10,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_TOWER_IMPROVED_TOWER_BOOST"
+        }
+	]
+}

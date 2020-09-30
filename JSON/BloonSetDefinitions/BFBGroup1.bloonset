@@ -1,0 +1,9 @@
+{
+	"Type" : "BFBGroup1",
+	"BloonType" : "BFB",
+	"Quantity" : 1,
+	"Interval" : 0.6,
+	"Cost" : 2500,
+	"IncomeChange" : -200,
+	"UnlockRound" : 20
+}

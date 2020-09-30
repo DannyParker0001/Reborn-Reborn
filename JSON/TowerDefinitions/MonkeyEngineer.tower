@@ -1,0 +1,111 @@
+{
+    "AircraftList" : [ ],
+    "BaseCost" : 400,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "SpawnTurret.weapon",
+        "NailGun.weapon"
+    ],
+	"ActiveWeaponSlots": [
+		false,
+        true
+	],
+    "Description" : "Uses a powerful nail gun, and builds traps, sentries, and enhancers.",
+    "Icon" : "engineer_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 20,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "MonkeyEngineer",
+    "Upgrades" : [
+        [
+            "Sentry Gun",
+            "Fast Engineering",
+            "Cleansing Foam",
+            "Bloon Trap"
+        ],
+        [
+            "9-inch nails",
+            "Larger Service Area",
+            "Sprockets",
+            "Overclock"
+        ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Creates temporary sentry guns and deploys them nearby.",
+			"Increases build speed produces sentry guns more often.",
+			"Sprays foam that removes camo and regen, and pops leads.",
+			"Trap captures bloons until full; can be emptied for cash."
+		],
+		[
+			"Massive nails pop 8 bloons at once, including frozen bloons",
+			"Shoot further and deploy sentries in a larger area.",
+			"Increases sentry fire rate appreciably.",
+			"Ability: target tower becomes super powered for 60 seconds."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 125, "XP" : 15 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 270, "XP" : 45 }, { "Rank" : 675, "XP" : 75 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 650, 500, 800, 2500  ],
+        [ 400, 300, 400, 6000 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "engineer_sentry_icon",
+            "engineer_fast_engineering_icon",
+            "engineer_foam_icon",
+            "engineer_trap_icon"
+        ],
+        [
+            "engineer_9inch_nails_icon",
+            "engineer_larger_service_area_icon",
+            "engineer_sprockets_icon",
+            "engineer_overclock_icon"
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "engineer_avatar_sentry_small",
+            "engineer_avatar_fast_engineering_small",
+            "engineer_avatar_foam_small",
+            "engineer_avatar_bloon_trap_small"
+        ],
+        [
+            "engineer_avatar_9inch_nails_small",
+            "engineer_avatar_larger_service_area_small",
+            "engineer_avatar_sprockets_small",
+            "engineer_avatar_overclock_small"
+        ]
+    ],
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "MonkeyEngineer.json"
+}

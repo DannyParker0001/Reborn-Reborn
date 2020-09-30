@@ -1,0 +1,134 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -80.0, 3.0 ],
+         "Scale" : [ 1.0, 0.8000000119209290 ],
+         "Shown" : true,
+         "sprite" : "tower_card_end_bg_greyed",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 81.0, 3.0 ],
+         "Scale" : [ 1.0, 0.8000000119209290 ],
+         "Shown" : true,
+         "sprite" : "tower_card_end_bg_greyed",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 3.0 ],
+         "Scale" : [ 8.250, 0.8000000119209290 ],
+         "Shown" : true,
+         "sprite" : "tower_card_mid_bg_greyed",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -44.0, -102.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "_level_card_bordering_greyed.json",
+         "type" : 2,
+         "uid" : 30
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 44.250, -102.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "_level_card_bordering_greyed.json",
+         "type" : 2,
+         "uid" : 31
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "level_card_back_fill_greyed.json",
+         "type" : 2,
+         "uid" : 32
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "tower_card_end_bg_greyed",
+            "Texture" : "lobby_screen"
+         },
+         {
+            "SpriteInfo" : "tower_card_mid_bg_greyed",
+            "Texture" : "lobby_screen"
+         },
+         {
+            "SpriteInfo" : "_level_card_bordering_greyed.json",
+            "Texture" : "championship"
+         },
+         {
+            "SpriteInfo" : "level_card_back_fill_greyed.json",
+            "Texture" : "lobby_screen"
+         }
+      ],
+      "StageLength" : 6.963541507720947,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 32,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 30,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 31,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      }
+   ]
+}

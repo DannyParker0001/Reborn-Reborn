@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 2500, 
+        "Features": [
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 70, 
+        "Interval": 0.7, 
+        "NumBloons": 10, 
+        "Type": "Rainbow", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "72", 
+    "NameOld": "MortarTower22_RegenRainbowSpaced10", 
+    "PlatformProductID": "btdbattles_vet_mortartower22_regenrainbowspaced10", 
+    "PlatformProductIDiOS": "btdbattles_vet_MortarTower22_RegenRainbowSpaced10", 
+    "ProductID": "Vet_MortarTower22_RegenRainbowSpaced10", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_twilight", 
+        "Cost": 2500, 
+        "Features": [
+            "PopBlack", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MortarTower", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 75, 
+        "SpotlightCount": 15, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

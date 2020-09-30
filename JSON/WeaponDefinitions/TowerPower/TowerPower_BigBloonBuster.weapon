@@ -1,0 +1,71 @@
+{	
+    "Type"                                      : "TowerPower_BigBloonBuster",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  100000,
+            "PriorityLevel" : 1,
+            "TerminateOnUserUpgrade" : false,
+            "TaskPersistsWithDuration" : true,
+            "ModifyNewlySpawnedTowers": false,
+            "ModifyMovingTowers": false,
+            "Duration": 18,
+            "NumPersists": -1,
+            "Tasks" :
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "tower_boost_effect.json",
+                    "Duration": 18,
+                    "DrawLayer": "UnderTowers",
+                    "LoopForever": true,
+                    "AppliedToTower": true,
+                    "IgnoreAircraft": true,
+                    "Scale": 0.675
+                }
+            ]
+        },
+        {
+            "Type": "StatusEffect",
+            "Status": "DamageMultiplier",
+            "DamageRate": 3.0,
+            "Duration": 18,
+            "NumPersists": -1,
+
+            "ApplyForDuration": true,
+            "ApplyOnSpawn": true,
+            "ApplyToNatural": true,
+            "ApplyToPlayerSent": true,
+            "TargetAll": true,
+
+            "TargetingFilter": {
+                "Include" : {
+                    "BloonType" : [
+                        "MOAB",
+                        "BFB",
+                        "ZOMG"
+                    ]
+                }
+            }
+
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "TowerBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "Duration": 18,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_TOWER_BIG_BLOON_BUSTER"
+        }
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_BudgetBloons",
+    "UnlockCost"        : 7500,
+    "Description"       : "Reduces cost of sending Bloons by 50% and reduces negative eco penalty by 50% for 15 seconds. Two uses.",
+    "RequiresUnlocked"  : ["EconomyPower_RubberToGold"],
+    "Icon"              : "powers_budget_bloons",
+    "HudIcon"           : "icon_budget_bloons",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "EconomyPower_BudgetBloons.weapon"
+}

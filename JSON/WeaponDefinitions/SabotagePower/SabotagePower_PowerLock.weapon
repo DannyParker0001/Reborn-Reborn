@@ -1,0 +1,41 @@
+{	
+    "Type"                                      : "SabotagePower_PowerLock",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "SabotageBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "Duration": 10,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_SABOTAGE_POWERLOCK"
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "sabotage_map_edge_glow.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "Scale": 2.0,
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "LoopForever": true,
+            "Duration": 10,
+            "DrawLayer": "FullScreen"
+        },
+        {
+            "Type": "DisableUIFeature",
+            "DurationTime": 10,
+            "DisablePowers": true,
+            "DisableAbilities": false
+        }
+	]
+}

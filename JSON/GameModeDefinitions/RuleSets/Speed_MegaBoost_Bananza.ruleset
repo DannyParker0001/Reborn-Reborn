@@ -1,0 +1,81 @@
+{
+    "name": "Speed_MegaBoost_Bananza",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "Bananza",
+        "MegaBoosts"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 12
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -7
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 20,
+                "offsetY": 12
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -2,
+                "offsetX": 70
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetY": -2,
+                "offsetX": 110
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "SPEED BOOSTY BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_speed_megaboost_bananza"
+    },
+    "version": "1.0"
+}

@@ -1,0 +1,52 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0, 0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : false,
+         "sprite" : "submarine_gun_01",
+         "type" : 1,
+         "uid" : 1
+      }
+   ],
+    "customvariables" : [
+                         {
+                         "VariableName" : "FirePosition",
+                         "ValueType"    : 4,
+                         "Value"        : [6.0, -22]
+                         }
+                         ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "submarine_gun_01",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "submarine_gun_02",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "submarine_gun_03",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.36,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      }
+   ]
+}

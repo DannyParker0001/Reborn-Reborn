@@ -1,0 +1,23 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Slows down the attack rate of all opponent's towers by 25% for 15 seconds.", 
+    "DiscardCost": 1000, 
+    "Name": "91", 
+    "NameOld": "Power_MonkeyChill", 
+    "PlatformProductID": "btdbattles_vet_power_monkeychill", 
+    "Power": {
+        "BackgroundSprite": "power_card_monkey_chill", 
+        "Cost": 1500, 
+        "Type": "MonkeyChill"
+    }, 
+    "ProductID": "Vet_Power_MonkeyChill", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

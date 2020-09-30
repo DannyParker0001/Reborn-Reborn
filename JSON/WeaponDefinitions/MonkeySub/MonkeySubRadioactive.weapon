@@ -1,0 +1,38 @@
+{	
+    "Type": "MonkeySubRadioactive",
+    "TargetRange": 125,
+	"CooldownTime": 0.05,
+    "FireDelayTime": 0.0,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": false,
+	"CanSelfTargetCamo" : true,
+    "TargetsIndependently": true,
+	"RotatesToTarget" : false,
+	"DisabledOnTargetModes" : [ "First", "Last", "Close", "Strong" ],
+    "SelfTargetMode": "AnyInRange",
+
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "DamageOverTime" ]
+		}
+	},
+
+    "Tasks" : [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 125,
+			"MaxTargets": -1,
+			"Tasks" : [
+				{
+					"Type": "StatusEffect",
+					"Status" : "DamageOverTime",
+					"DamageRate" : 0.35,
+					"NumPersists" : -1,
+					"RangeFromTower" : 125
+				}
+			]
+		}
+	]
+}

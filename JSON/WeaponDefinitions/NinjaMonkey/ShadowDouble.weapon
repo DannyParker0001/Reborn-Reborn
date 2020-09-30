@@ -1,0 +1,39 @@
+{	
+    "Type":             	"ShadowDouble",    
+    "TargetRange":      	5,
+	"CooldownTime":     	75.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 100,
+			"FireFullRange": false,
+			"OnlyTargetPlacementLocations": true,
+			"PlacementTowerType" : "NinjaMonkey",
+			
+			"Tasks" :
+			[            
+				{
+					"Type" : "CreateTower",
+					"TowerType" : "NinjaMonkey",
+					"TowerColour" : [ 35, 65, 65, 235 ],
+					"TowerLifetime" : 10,
+					
+					"Tasks" :
+					[{
+						"Type" : "Effect",
+						"SpriteFile": "black_smoke.json",
+						"Scale": 0.635,
+						"DrawLayer" : "UnderTowers",
+						"LoopForever" : true,
+						"Duration" : 10            
+					}]
+				}
+			]
+		}
+	]
+}

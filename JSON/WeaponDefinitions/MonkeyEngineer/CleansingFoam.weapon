@@ -1,0 +1,89 @@
+{	
+    "Type":             "CleansingFoam",    
+    "TargetRange":      5.0,
+	"CooldownTime":     0.8,
+    "FireDelayTime":    0.2,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    "CanSelfTargetCamo": true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 130,
+			"OnlyTargetPathLocations": true,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+            
+            "Tasks" :
+            [
+                {
+                    "Type":             "Projectile",
+                    "SpriteFile":      "engineer_foam_projectile.json",
+                    "NumPersists":      -1,
+                    "TerminateOnZeroPersists": true,
+                    "RemoveOnRoundEnd" : false,
+                    "OnlyCollidePastCutOff" : true,
+
+                    "CollisionType": "None",
+                    
+                    "Movement":
+					{
+						"Type": "MotionCurve",
+						"Curves": 
+						[
+							[ [0, 0], [0.5, 0], [0.75, 0], [1, 0] ]
+						],
+						"Speed": 115.0,
+						"TerminateAtEndOfCurve": true
+					},
+                    
+                    "Tasks" :
+                    [
+                        {
+                            "Type": "Effect",
+                            "SpriteFile": "engineer_foam_puddle_spawn.json",
+                            "Scale": 1.0,
+                            "DrawLayer" : "UnderTowers",
+                            "LoopForever" : false,
+                            "Duration" : 0.3,
+                            "UseDirection" : true,
+
+                            "Tasks" :
+                            [
+                                {
+                                    "Type": "Projectile",
+                                    "SpriteFile": "engineer_foam_puddle_static.json",
+                                    "NumPersists":      30,
+                                    "TerminateOnZeroPersists": true,
+                                    "RemoveOnRoundEnd" : false,
+
+                                    "HasLimitedDuration" : true,
+                                    "LimitedDuration" : 8.2,
+                                    "HasRandomOrientation" : false,
+                                    
+                                    "CollisionType": "Continual",
+
+                                    "Tasks" :
+                                    [ 
+                                        {
+                                            "Type": "StatusEffect",
+                                            "Status": "Foam",
+                                            "NumPersists": -1
+                                        },
+                                        { 
+                                            "Type": "Damage",
+                                            "DamageType": "Foam",
+                                            "Amount": 1
+                                        } 
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+		}
+	]
+}

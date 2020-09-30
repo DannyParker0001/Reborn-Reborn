@@ -1,0 +1,235 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Glue Soak",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 0 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "NumPersists" : -1
+                        },
+                        
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 1, 0 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "NumPersists" : -1
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 1,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "StatusEffect"
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "NumPersists" : -1
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "Name" : "Corrosive Glue",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "TaskUpgrade" :
+                        [
+                            {
+                                "Operation" : "SelectByLocation",
+                                "Location" : [ 0, 0 ]
+                            },
+                            
+                            {
+                                "Operation" : "Replace",
+                                "DamageRate" : 2.29
+                            },
+                            
+                            {
+                                "Operation" : "SelectByLocation",
+                                "Location" : [ 0, 1, 0 ]
+                            },
+                            
+                            {
+                                "Operation" : "Replace",
+                                "DamageRate" : 2.29
+                            }
+                        ]
+                },
+                
+                {
+                    "SlotIndex" : 1,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" : "StatusEffect"
+                        },
+                        
+                        {
+                            "RequiresMinUpgradeCounters" : [ 2, 0 ],
+                            "Operation" : "Replace",
+                            "DamageRate" : 2.29
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "Name" : "Bloon Dissolver",
+            "WeaponUpgrade" :
+            {
+				"SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location": [ 0 ]
+                    },
+                    {
+                        "Operation": "Replace",
+                        "GraphicName": "glue_gunner_glue_green"
+                    },
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0 ]
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageRate" : 0.5
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 1, 0 ]
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageRate" : 0.5
+                    },
+                    {
+                        "Operation": "SelectByLocation",
+                        "Location": [ 0, 1, 1 ]
+                    },
+                    {
+                        "Operation": "Replace",
+                        "SpriteFile": "GreenGlueSplatterEffect.json"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Bloon Liquefier",
+            "WeaponUpgrade" :
+            {
+				"SlotIndex" : 0,
+                "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 0 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "DamageRate" : 0.1,
+                            "InitialTimer" : 0.1
+                        },
+                        
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 1, 0 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "DamageRate" : 0.1,
+                            "InitialTimer" : 0.1
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Undercover",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            }
+        },  
+	
+        {
+            "Name" : "Glue Splatter",
+            "WeaponUpgrade" :
+            {
+				"SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "MaxTargets" : 10,
+                        "Range": 70
+                    }
+                ]
+            }
+        },
+    
+        {
+            "Name" : "Glue Hose",
+            "WeaponUpgrade" : 
+            {
+				"SlotIndex" : 0,
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.714285714
+                }
+            }
+        },
+        
+        {
+            "Name" : "Glue Striker",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "GlueStrike.weapon"
+                }
+            }
+        }
+    ]
+}

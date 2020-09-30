@@ -1,0 +1,28 @@
+{
+	"Items" : {
+		"DartMonkey" : "dart_monkey_icon",
+		"SniperMonkey" : "sniper_icon",
+		"NinjaMonkey" : "ninja_icon",
+		"IceTower" : "ice_icon",
+		"MonkeyBuccaneer" : "buccaneer_icon",
+		"SuperMonkey" : "supermonkey_icon",
+		"MonkeyEngineer" : "engineer_icon",
+		"MonkeyVillage" : "village_icon",
+		"MortarTower" : "mortar_icon",
+		"SpikeFactory" : "spike_factory_icon",
+		"TackTower" : "tack_shooter_icon",
+		"BoomerangThrower" : "boomerang_icon",
+		"BombTower" : "bomb_icon",
+		"GlueGunner" : "glue_gunner_icon",
+		"MonkeyAce" : "monkey_ace_icon",
+		"MonkeyApprentice" : "apprentice_icon",
+		"BananaFarm" : "banana_farm_icon",
+		"DartlingGun" : "dartling_gun_icon",
+		"HeliPilot" : "helicopter_icon",
+        "RoadSpikes" : "white_hot_tacks_icon",
+		"Bloonchipper" : "bloonchipper_icon",
+		"MonkeySub" : "monkeysub_icon",
+		"CobraMonkey" : "cobra_icon",
+        "MonkeyFarmer" :  "farmer_icon"
+	}
+}

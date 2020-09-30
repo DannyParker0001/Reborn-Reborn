@@ -1,0 +1,20 @@
+{
+	"Files": [
+              "MedievalDartMonkey.json",
+              "MilitaryBombTower.json",
+              "SamuraiNinjaMonkey.json",
+              "SorcererMonkeyApprentice.json",
+              "HunterSniperMonkey.json",
+              "TribalBoomerangThrower.json",
+              "CandyBananaFarm.json",
+              "TopgunMonkeyAce.json",
+              "FireworksMortarTower.json",
+              "UFOHeliPilot.json",
+              "NavyMonkeyBuccaneer.json",
+              "SteampunkMonkeySub.json",
+              "DrMonkeyEngineer.json",
+              "EvilSuperMonkey.json",
+              "BazookaDartlingGun.json",
+              "MechanicalTackTower.json"
+            ]
+}

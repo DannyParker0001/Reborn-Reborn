@@ -1,0 +1,106 @@
+{
+    "TypeName"				: "DartlingGun",
+    "Icon"					: "dartling_gun_avatar_small",
+    "Description"			: "Shoots darts like a machine gun, at any position you tap.",
+    "BaseCost"				: 350,
+    "RankToUnlock"			: 18,
+    "DefaultWeapons"	    : [ "DartlingGun.weapon" ],
+    "TargetingMode"			: "ManualPassive",
+    "TargetIsWeaponOrigin"	: false,
+
+    "ActiveWeaponSlots" : [ true, true, false ],
+
+    "Upgrades" :
+    [
+    	[ "Focused Firing", "Faster Barrel Spin", "Laser Cannon", "Ray Of Doom" ],
+    	[ "Powerful Darts", "Depleted Bloontonium", "Hydra Rocket Pods", "Bloon Area Denial System" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Greatly reduces the spread of the gun.",
+			"Makes gun fire much faster.",
+			"Rapid fire plasma can pop 13 bloons each and also pops frozen bloons.",
+			"The Ray of Doom is a persistent solid beam of bloon destruction."
+		],
+		[
+			"Darts move faster and can pop 3 bloons each.",
+			"Shots can now hurt any bloon type.",
+			"Shoots vicious little missiles instead of darts. ",
+			"Ability: shoots missiles toward the nearest 100 bloons on screen."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 105, "XP" : 15 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 250, "XP" : 60 }, { "Rank" : 625, "XP" : 80 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 150, 400, 3500, 30000 ],
+        [ 350, 250, 3000, 6000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "dartling_gun_avatar_focused_firing_small", 
+            "dartling_gun_avatar_faster_barrel_spin_small", 
+            "dartling_gun_avatar_laser_cannon_small", 
+            "dartling_gun_avatar_ray_of_doom_small"
+        ],
+    	[ 
+            "dartling_gun_avatar_powerful_darts_small", 
+            "dartling_gun_avatar_bloontonium_small", 
+            "dartling_gun_avatar_hydra_rockets_small", 
+            "dartling_gun_avatar_bads_small"
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+            "dartling_gun_focused_icon", 
+            "dartling_gun_faster_barrel_icon", 
+            "dartling_gun_laser_icon", 
+            "dartling_gun_ray_of_doom_icon" 
+        ],
+    	[ 
+            "dartling_gun_powerful_darts_icon", 
+            "dartling_gun_bloontonium_icon", 
+            "dartling_gun_hydra_icon", 
+            "dartling_gun_bads_icon" 
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 12.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    "SpriteUpgradeDefinition" : "DartlingGun.json",
+    "UseDefaultRangeCircle" : true,
+    "SkipFirstFrameWhenFiring" : false,
+    "DontResetAnimation"    : true
+}

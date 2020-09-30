@@ -1,0 +1,12 @@
+{
+	"Modifiers" : [ 
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[ 0, 1 ]
+			]
+		}
+	],
+	"Music" : "main.mp3",
+	"BloonSendPath" : 6
+}

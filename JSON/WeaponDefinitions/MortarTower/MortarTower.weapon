@@ -1,0 +1,66 @@
+{	
+    "Type":             "MortarTower",    
+    "TargetRange":      100000.0,
+	"CooldownTime":     1.4,
+    "FireDelayTime":    0.7,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 60,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": false,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+			"TargetIsWeaponTaskOrigin" : true,
+			
+			"Tasks" : 
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 95,
+					"MaxTargets": 40,
+					
+					"DisabledTasks" : [ 4 ],
+					
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "",
+							"DamageRate" : 2,
+							"Duration" : 6
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "" 
+						},
+						{
+							"Type" : "StatusEffect",
+							"Status" : "Stun",
+							"NumPersists" : -1,
+							"Duration" : 1
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": .95
+				}
+			]
+		}
+	]
+}

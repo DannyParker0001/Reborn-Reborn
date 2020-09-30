@@ -1,0 +1,150 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Suckier",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "Replace" :
+                {
+                    "CooldownTimeMultiplier": 0.75,
+                    "FireDelayTimeMultiplier": 0.75
+                }
+            }
+        },
+        
+        {
+            "Name" : "Heavy Duty Suction",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "BloonchipperLead.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Dual Layer Blades",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 0, 0 ]
+					},
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Amount": 2
+                    },
+
+                    {
+                        "Operation" : "Replace",
+                        "ShredsMultipleLayers": true
+                    },
+                    
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Amount": 2
+                    },
+
+                    {
+                        "Operation" : "Replace",
+                        "ShredsMultipleLayers": true
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Super Wide Funnel",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "BloonchipperMoab.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Long Range Suck",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 30
+                }
+            }
+        },
+        
+        {
+            "Name" : "Faster Shred",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+				"Replace" : 
+				{
+					"BloonStoreCap" : 12
+				},
+
+                "TaskUpgrade" :
+                [
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 0, 0 ]
+					},
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageRate": 0.5
+                    },
+                    
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageRate": 0.5
+                    }
+                ]
+            }
+        },
+    
+        {
+            "Name" : "Triple Barrel",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0 ],
+                "Replace" :
+                {
+                    "CooldownTimeMultiplier": 0.33,
+                    "FireDelayTimeMultiplier": 0.33
+                }
+            }
+        },
+        
+        {
+            "Name" : "Supa-Vac",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "BloonchipperSupaVac.weapon"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 350,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultWeapons" : [
+        "NinjaMonkey.weapon",
+        "",
+        "",
+        "",
+        "ShadowDouble.weapon"
+    ],
+    
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+        true,
+        false
+    ],
+    
+    "Description" : "Throws sharp shurikens rapidly and can see camo bloons.",
+    "Icon" : "ninja_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 6,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "NinjaMonkey",
+    "Upgrades" : [
+        [
+            "Ninja Discipline",
+            "Sharp Shurikens",
+            "Double Shot",
+            "Bloonjitsu"
+        ],
+        [
+            "Seeking Shuriken",
+            "Distraction",
+            "Flash Bomb",
+            "Sabotage Supply Lines"
+        ]
+    ],
+ "ShortUpgradeDescriptions" :
+ [
+  [
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "",
+   "Ability: Lasts 15s. During sabotage, Bloon's speed are reduced by 60%."
+  ]
+ ], 
+ "UpgradeDescriptions" :
+ [
+  [
+   "Increases attack range and attack speed.",
+   "Shurikens can pop 5 bloons each.",
+   "Throws 2 shurikens at once.",
+   "Throws 5 shurikens at once!"
+  ],
+  [
+   "Shuriken will seek out and pop bloons automatically.",
+   "Some bloons become distracted and move the wrong way.",
+   "Sometimes throws a flash bomb that stuns multiple bloons.",
+   "Ability: For 15 seconds during the sabotage, bloons are crippled to 60% speed."
+  ]
+ ],
+ "UpgradeGateway" :
+ [
+  [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 90, "XP" : 30 }, { "Rank" : 320, "XP" : 60 } ],
+  [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+ ],
+    "UpgradePrices" : 
+    [
+        [ 200, 250, 850, 2750 ],
+        [ 250, 500, 2000, 6000 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "ninja_avatar_discipline_small",
+            "ninja_avatar_sharp_shuriken_small",
+            "ninja_avatar_double_shot_small",
+            "ninja_avatar_bloonjitsu_small"
+        ],
+        [
+            "ninja_avatar_seeking_shuriken_small",
+            "ninja_avatar_distraction_small",
+            "ninja_avatar_flash_bomb_small",
+            "ninja_avatar_sabotage_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "ninja_discipline_icon",
+            "ninja_sharp_shurikens_icon",
+            "ninja_double_shot_icon",
+            "ninja_bloonjitsu_icon"
+        ],
+        [
+            "ninja_seeking_shuriken_icon",
+            "ninja_distraction_icon",
+            "ninja_flash_bomb_icon",
+            "ninja_sabotage_icon"
+        ]
+    ],
+        
+    "UseRadiusPlacement" : true,
+    "FiresWeaponsInSequence" : false,
+    "FiringSequence" : [ [ 0, 0, 0, 1 ] ],
+    "SpriteUpgradeDefinition" : "NinjaMonkey.json"
+}

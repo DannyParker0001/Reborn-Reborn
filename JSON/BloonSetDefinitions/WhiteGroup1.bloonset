@@ -1,0 +1,9 @@
+{
+	"Type" : "WhiteGroup1",
+	"BloonType" : "White",
+	"Quantity" : 3,
+	"Interval" : 0.1,
+	"Cost" : 125,
+	"IncomeChange" : 5,
+	"UnlockRound" : 9
+}

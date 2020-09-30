@@ -1,0 +1,109 @@
+{	
+    "Type":             "ClusterBombs",
+    "TargetRange":      125.0,
+	"CooldownTime":     1.1,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":            "Projectile",
+			"SpriteFile":      "BombProjectile.json",
+			"NumPersists":      1,
+			"ForcePersists":	true,
+            "Radius" : 5,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 480.0,
+				"CutOffDistance": 234
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 85,
+					"MaxTargets": 80,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "",
+							"Duration": 2.0
+						}
+					]
+				},
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 45.0,
+					"FireCount": 1,
+					"AimAtTarget": false,
+					"MarkIDForProjectiles": true,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"SpriteFile": "BombProjectileSmall.json",
+							"NumPersists": 0,
+							"TerminateOnZeroPersists": false,
+							"CollisionType": "None",
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 500,
+								"CutOffDistance": 100
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "AreaOfEffect",
+									"Range": 60,
+									"MaxTargets": 80,
+									"Tasks" :
+									[
+										{ 
+											"Type": "Damage",
+											"DamageType": "Explosive",
+											"Amount": 1
+										},
+										{
+											"Type": "StatusEffect",
+											"Status": "",
+											"Duration": 0.5
+										}
+									]
+								},
+								{
+									"Type": "Effect",
+									"SpriteFile": "Explosion.json",
+									"Audio": "EXPLOSION",
+									"Scale": 0.635
+								}
+							]
+						}
+					]
+				},				
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 0.635
+				}
+
+			]
+		}
+	]
+}

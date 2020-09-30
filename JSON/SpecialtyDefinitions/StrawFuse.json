@@ -1,0 +1,15 @@
+{
+	"Name" : "Straw Fuse",
+	"Icon" : "straw_fuse",
+    "Rarity" : "Silver",
+    "Description" : "Pinapple countdown speed doubled",
+	"Effects" :
+	[
+		{
+		},
+        {
+		},
+        {
+		}
+	]
+}

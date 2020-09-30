@@ -1,0 +1,348 @@
+{
+  "Items": [
+    {
+      "CostInCents": 499,
+      "ProductID": "FullTowerUnlockCostDefault"
+    },
+    {
+      "CostInCents": 399,
+      "ProductID": "PartTowerUnlockCostDefault"
+    },
+    {
+      "CostInCents": 0,
+      "ProductID": "Restore"
+    },
+    {
+      "CostInCents": 299,
+      "ProductID": "StarterPack"
+    },
+    {
+      "CostInCents": 499,
+      "ProductID": "ClubRoomEntry"
+    },
+    {
+      "CostInCents": 299,
+      "ProductID": "ClubRoomEntrySale"
+    },
+    {
+      "CostInCents": 499,
+      "ProductID": "ClanCreation"
+    },
+    {
+      "CostInCents": 1999,
+      "ProductID": "ClanWarChestAmplifier"
+    },
+    {
+      "CostInCents": 0,
+      "ProductID": "Merchandise"
+    },
+    {
+      "CostInCents": 0,
+      "ProductID": "FreeEnergy"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "SmallEnergyPotion"
+    },
+    {
+      "CostInCents": 399,
+      "ProductID": "LargeEnergyPotion"
+    },
+    {
+      "CostInCents": 599,
+      "ProductID": "TastyEnergyPotion"
+    },
+    {
+      "CostInCents": 1999,
+      "ProductID": "PowerfulEnergyPotion"
+    },
+    {
+      "CostInCents": 0,
+      "ProductID": "FreeMedallions"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "HandfulMedallions"
+    },
+    {
+      "CostInCents": 499,
+      "ProductID": "BagMedallions"
+    },
+    {
+      "CostInCents": 1999,
+      "ProductID": "ChestMedallions"
+    },
+    {
+      "CostInCents": 4999,
+      "ProductID": "VaultMedallions"
+    },
+    {
+      "CostInCents": 9999,
+      "ProductID": "MountainMedallions"
+    },
+    {
+      "CostInCents": 5999,
+      "ProductID": "BattlesChampion"
+    },
+    {
+      "CostInCents": 3499,
+      "ProductID": "BattlesMaster"
+    },
+    {
+      "CostInCents": 299,
+      "ProductID": "CleanSlate"
+    },
+    {
+      "CostInCents": 499,
+      "ProductID": "PowerCell"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalCharge"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalGauntlet"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalLittleHelper"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalReindeerGames"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalArcticMonkey"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalHoHoHo"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalStayFrosty"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalHoHoHo2"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalFestiveSurprise"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalBurningLove"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalTwistedDesire"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalScalper"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalHeartBreaker"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalKing"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalQueen"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalMockery"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalScrooge"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalTrickOrTreat"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalFrankenmonkey"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalNaughtyOrNice"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalPoppinPaddy"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalLuckyCharm"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalEasterBunny"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalEggcellent"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalMonkeyOfLiberty"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalFeatheredFreedom"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalBoo"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalCountDartula"
+    },
+    {
+      "CostInCents": 99,
+      "ProductID": "DecalBMCImposter"
+    },
+    {
+      "CostInCents": 1499,
+      "ProductID": "ClubStarterPack"
+    },
+    {
+      "CostInCents": 1499,
+      "ProductID": "ClubStarterPackMobile"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_DartMonkey12_BlueTight40"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_DartMonkey03_YellowTight48"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_BombTower21_PinkTight25"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MonkeyApprentice24_CamoBlackTight30"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_NinjaMonkey22_YellowTight90"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_BananaFarm23_MOABTight4"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MonkeySub23_CamoZebraTight24"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MonkeyEngineer04_ZOMGSpaced2"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MortarTower22_RegenRainbowSpaced10"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MortarTower31_BlueTight180"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_MortarTower04_YellowTight75"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_Bloonchipper20_RedTight80"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_Bloonchipper42_RegenZebraTight30"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_IceTower22_WhiteSpaced30"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_IceTower32_MOABTight10"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_GlueGunner20_RedTight40"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_GlueGunner22_CamoYellowTight35"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_GlueGunner42_CamoRegenPinkTight32"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_SniperMonkey21_RegenLeadSpaced6"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_SniperMonkey23_RegenBlackTight50"
+    },
+    {
+      "CostInCents": 199,
+      "ProductID": "Vet_SniperMonkey41_BFBSpaced4"
+	},
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_Juggerlanche"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_Bounty"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_Purge"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_Tax"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_Kidnap"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_ChainLightning"
+    },
+    {
+    "CostInCents": 199,
+    "ProductID": "Vet_Power_MonkeyChill"
+    },
+	{
+	  "CostInCents": 499,
+	  "ProductID": "DeckSlot4"
+	},
+	{
+	  "CostInCents": 499,
+	  "ProductID": "DeckSlot5"
+	},
+  {
+    "CostInCents": 199,
+    "ProductID": "ChatPack_Pack2"
+  }
+  ]
+}

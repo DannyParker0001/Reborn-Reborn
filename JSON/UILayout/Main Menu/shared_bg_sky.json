@@ -1,0 +1,148 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -200.0 ],
+         "Scale" : [ 42.750, 20.45000076293945 ],
+         "Shown" : true,
+         "sprite" : "sky",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -68.0, 120.0 ],
+         "Scale" : [ 10.0, 10.0 ],
+         "Shown" : true,
+         "sprite" : "sun_glow",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.6588235497474670,
+         "Angle" : 0.0,
+         "Colour" : 2835349503,
+         "Flip" : 0,
+         "Position" : [ -68.0, 120.0 ],
+         "Scale" : [ 1.50, 1.50 ],
+         "Shown" : true,
+         "sprite" : "shared_sunbeam_compoundsprite.json",
+         "type" : 2,
+         "uid" : 17
+      }
+   ],
+   "customvariables" : null,
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "sky",
+            "Texture" : "main_menu"
+         },
+         {
+            "SpriteInfo" : "sun_glow",
+            "Texture" : "main_menu"
+         },
+         {
+            "SpriteInfo" : "shared_sunbeam_compoundsprite.json",
+            "Texture" : "shared_sheet"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -68.0, 120.0 ],
+               "Scale" : [ 10.0, 10.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -56.0, 101.0 ],
+               "Scale" : [ 10.0, 10.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 17,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.6588235497474670,
+               "Angle" : 0.0,
+               "Colour" : 2835349503,
+               "Flip" : 0,
+               "Position" : [ -68.0, 120.0 ],
+               "Scale" : [ 1.50, 1.50 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.4745098054409027,
+               "Angle" : 0.0,
+               "Colour" : 2046820351,
+               "Flip" : 0,
+               "Position" : [ -56.0, 101.0 ],
+               "Scale" : [ 1.50, 1.50 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.4745098054409027,
+               "Angle" : -360.0,
+               "Colour" : 2046820351,
+               "Flip" : 0,
+               "Position" : [ -56.0, 101.0 ],
+               "Scale" : [ 1.50, 1.50 ],
+               "Shown" : true,
+               "Time" : 20.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.4745098054409027,
+               "Angle" : 0.0,
+               "Colour" : 2046820351,
+               "Flip" : 0,
+               "Position" : [ -56.0, 101.0 ],
+               "Scale" : [ 1.50, 1.50 ],
+               "Shown" : true,
+               "Time" : 20.0
+            }
+         ]
+      }
+   ]
+}

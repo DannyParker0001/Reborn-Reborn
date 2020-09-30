@@ -1,0 +1,89 @@
+{	
+    "Type":             "GlueGunner",    
+    "TargetRange":      160.0,
+	"CooldownTime":     0.35,
+    "FireDelayTime":    0.2,
+    
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "Glue" ]
+		},
+		"Include" :
+		{
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+				"Ceramic"
+			]
+		}
+    },
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "glue_gunner_glue_yellow",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"IgnoreStatusEffect" : [ "Glue" ],
+            "Radius" : 12.5,
+
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 630.0,
+				"CutOffDistance": 270
+			},
+            
+            "DisabledTasks" : [ 2 ],
+			
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Glue",
+					"NumPersists" : 1,
+					"Duration" : 20.0,
+					"DamageRate" : -1,
+					"SpeedScale" : 0.5
+				},
+				{
+					"Type": "AreaOfEffect",
+					"Range": 0,
+					"MaxTargets": 0,
+					"Tasks" :
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "Glue",
+							"NumPersists" : 1,
+							"Duration" : 20.0,
+							"DamageRate" : -1,
+							"SpeedScale" : 0.5
+						},
+						{
+							"Type": "Effect",
+							"SpriteFile": "GlueSplatterEffect.json"
+						}
+					]
+				},
+                {
+					"Type": "StatusEffect",
+					"Status": "GlueOnTrack"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,78 @@
+{
+    "name": "Speed_MegaBoost_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "MegaBoosts",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "SPEED MEGABOOST FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_speed_megaboost_playwithfire"
+    },
+    "version": "1.0"
+}

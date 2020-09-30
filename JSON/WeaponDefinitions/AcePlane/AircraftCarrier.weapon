@@ -1,0 +1,76 @@
+{	
+    "Type":             "AircraftCarrier",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     2.0,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+	"RotatesToTarget" : false,
+
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 22.5,
+    		"AngleIncrement": 45.0,
+    		"FireCount": 8,
+			"AimAtTarget": false,
+    		"Tasks":
+            [{
+    			"Type": "Projectile",
+    			"GraphicName": "dart_monkey_dart",
+    			"NumPersists":      10,
+                "TerminateOnZeroPersists": true,
+				
+                "CollisionType": "Once",
+                
+				"Movement": 
+				{
+					"Type": "Forward",
+					"Speed": 280.0,
+					"CutOffDistance": 320
+				},
+				
+    			"Tasks":
+    			[
+    				{
+    					"Type": "Damage",
+    					"DamageType": "Piercing",
+    					"Amount": 1
+    				}
+    			]
+    		}]
+    	},
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -10.0,
+    		"AngleIncrement": 20.0,
+    		"FireCount": 2,
+    		"Tasks":
+            [{
+    			"Type": "Projectile",
+    			"GraphicName": "dart_monkey_dart",
+    			"NumPersists":      10,
+                "TerminateOnZeroPersists": true,
+
+                "CollisionType": "Once",
+                
+				"Movement":
+				{
+					"Type": "Forward",
+					"Speed": 280.0,
+					"CutOffDistance": 320
+				},
+				
+    			"Tasks":
+    			[
+    				{
+    					"Type": "Damage",
+    					"DamageType": "Piercing",
+    					"Amount": 1
+    				}
+    			]
+    		}]
+    	}
+    ]
+}
+

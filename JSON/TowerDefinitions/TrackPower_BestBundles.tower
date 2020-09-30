@@ -1,0 +1,46 @@
+{
+    "TypeName": "TrackPower_BestBundles",
+    "AircraftList": [],
+    "BaseCost": 1,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": false,
+    "CanBePlacedOnPath": true,
+    "CanTargetCamo": true,
+    "DefaultWeapons": [
+        "TrackPower_BestBundles.weapon"
+    ],
+    "Description": "Placed directly on the track, each pack of spikes can pop 10 bloons.",
+    "FireWeaponAndDestroy": true,
+    "Icon": "",
+    "PlacementH": 0,
+    "PlacementRadius": 8,
+    "PlacementW": 0,
+    "RankToUnlock": 5,
+    "RotatesToTarget": false,
+    "DefaultSprite": "BestBundles.json",
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+
+    "Upgrades": [
+        [],
+        []
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "CanBePlacedMultipleTimes": false,
+    "LimitedAmount": 3
+}

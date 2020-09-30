@@ -1,0 +1,9 @@
+{    
+	"LobbyRules" : {
+    	"CanRollLottery" : false
+    }
+	"Rules" : {
+		"GiveCashAmount" : 200,
+		"MinGiveCashAmount" : 0
+	}
+}

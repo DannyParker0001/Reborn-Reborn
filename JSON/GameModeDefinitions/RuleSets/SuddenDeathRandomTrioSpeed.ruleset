@@ -1,0 +1,51 @@
+{
+    "name": "SuddenDeathRandomTrioSpeed",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Speed",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio",
+                "offsetX": 20,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 68,
+                "offsetY": -4
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 105,
+                "offsetY": 0
+            },
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            }
+        ],
+        "DisplayName": "SPEEDY 1 LIFE R3",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_r3_speed"
+    },
+    "version": "1.0"
+}

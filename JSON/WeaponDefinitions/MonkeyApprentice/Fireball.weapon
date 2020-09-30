@@ -1,0 +1,48 @@
+{	
+    "Type":             "Fireball",
+    "TargetRange":      120.0,
+	"CooldownTime":     1.2,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":            "Projectile",
+			"SpriteFile":      "MonkeyApprenticeFireballProjectile.json",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 550.0,
+				"CutOffDistance": 350
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 60,
+					"MaxTargets": 30,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 0.735
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,160 @@
+{	
+    "Type":             "BloonTrap",    
+    "TargetRange":      130.0,
+	"CooldownTime":     2.6,
+    "FireDelayTime":    0.2,
+ 	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
+    "TargetingFilter": {
+        "Include" : {
+			"BloonType" : [
+				"Red",
+				"Blue",
+				"Green",
+				"Yellow",
+				"Pink",
+				"Black",
+				"White",
+				"Lead",
+				"Zebra",
+				"Rainbow",
+				"Ceramic"
+			]
+		}
+    },
+    "Tasks" :
+    [
+        {
+			"Type": "RandomFire",
+			"Range": 130,
+            "MinimumRange" : 0,
+			"FireFullRange": false,
+			"OnlyTargetPathLocations": true,
+            "TargetIsWeaponTaskOrigin" : true,
+            
+            "Tasks" :
+			[
+                {
+                    "Type" : "Effect",
+                    "SpriteFile": "engineer_trap_spawn.json",
+                    "Scale": 1.0,
+                    "DrawLayer" : "UnderTowers",
+                    "LoopForever" : false,
+                    "Duration" : 0.2,
+                    
+                    "Tasks" :
+                    [
+                        {
+                            "Type": "RBEProjectile",
+                            "SpriteFile": "engineer_trap_compoundsprite.json",
+                            "NumPersists": -1,
+                            "MaxRBE":      250,
+                            "TerminateOnZeroPersists": true,
+                            "RemoveOnRoundEnd" : false,
+                            "HasRandomOrientation" : false,
+                            
+                            "CollisionType": "Once",
+
+                            "TasksToProcessOnCollision" : [ 0, 1, 2, 3 ],
+                            "TasksToProcessOnTerminate" : [ 4, 5, 6 ],
+                            "TargetingFilter": {
+                                "Include" : {
+                                    "BloonType" : [
+                                        "Red",
+                                        "Blue",
+                                        "Green",
+                                        "Yellow",
+                                        "Pink",
+                                        "Black",
+                                        "White",
+                                        "Lead",
+                                        "Zebra",
+                                        "Rainbow",
+                                        "Ceramic"
+                                    ]
+                                }
+                            },
+                            "Tasks" :
+                            [ 
+                                {
+                                    "Type": "StatusEffect",
+                                    "Status": "MultiLayerDamage",
+                                    "Kill" : true
+                                },
+                                {
+                                    "Type" : "TrapBloon",
+                                    "RemovesBloon" : true
+                                },
+                                {
+                                    "Type" : "Effect",
+                                    "SpriteFile": "engineer_trap_pulsing_glow_compoundsprite.json",
+                                    "Scale": 1.0,
+                                    "DrawLayer" : "FullScreen",
+                                    "LoopForever" : false,
+                                    "Duration" : 0.2000000029802322
+                                },
+                                {
+                                    "Type" : "Effect",
+                                    "SpriteFile": "engineer_trap_open.json",
+                                    "Scale": 1.0,
+                                    "DrawLayer" : "FullScreen",
+                                    "LoopForever" : false,
+                                    "Duration" : 0.2
+                                },
+                                {
+                                    "Type":             "Collectable",
+                                    "SpriteFile":       "engineer_trap_full_compoundsprite.json",
+                                    "Duration":	15,
+                                    "MoneyRange": [ 0, 0 ],
+                                    "MoneyMultiplier": 1.0,
+                                    "CollectionRadius": 50,
+                                    "BonusMultiplierForManualCollection": 1.0,
+                                    "GivesCashWhenExpired": true,
+                                    "LoopAnimation": true,
+                                    
+                                    "Movement":
+                                    {
+                                        "Type": "Forward",
+                                        "Speed": 0,
+                                        "KeepOnScreen": true,
+                                        "SpeedDecay": 0.95
+                                    },
+                                    
+                                    "Tasks":
+                                    [
+                                        {
+                                            "Type": "TextEffect",
+                                            "Text": "",
+                                            "Font": "oetztype_24_black_stroke",
+                                            "Colour": [ 1.0, 1.0, 1.0 ],
+                                            
+                                            "Movement":
+                                            {
+                                                "Type": "Forward",
+                                                "Direction": [0, -1],
+                                                "Speed": 20,
+                                                "CutOffDistance": 30
+                                            }
+                                        },
+                                        {
+                                            "Type": "Effect",
+                                            "SpriteFile": "Explosion.json",
+											"Audio": "EXPLOSION",
+                                            "Scale": 0.635
+                                        },
+                                        {
+                                            "Type": "RestoreAmmo",
+                                            "SlotIndex" : 3,
+                                            "Amount": 1
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+
+}

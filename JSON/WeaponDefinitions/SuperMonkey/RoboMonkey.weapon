@@ -1,0 +1,42 @@
+{	
+    "Type":             "RoboMonkey",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.0571428571,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 0.0,
+    		"FireCount": 2, 
+            "Offsets" : [ [ -11, -4 ], [ 11, -4 ] ],  
+            "AimOffsetsAtTarget" : true,  
+            
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "dart_monkey_dart",
+					"NumPersists":      1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 700.0,
+						"CutOffDistance": 400
+					},
+					
+					"Tasks" :
+					[ 
+						{ "Type": "Damage", "DamageType": "Plasma", "Amount": 2 } 
+					]
+				}
+			]
+    	}
+	]
+}

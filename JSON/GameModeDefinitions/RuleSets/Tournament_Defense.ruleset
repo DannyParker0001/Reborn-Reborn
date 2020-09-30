@@ -1,0 +1,32 @@
+{
+    "name": "Tournament_Defense",
+    "rules": [
+        "FreePowerups",
+        "Defense",
+        "Tournament"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "",
+                "offsetY": 10
+            },
+            {
+                "Text": "2x Random Rolls",
+                "Icon": "ltd_random_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            },
+            {
+                "Text": "Powers do not cost energy",
+                "Icon": "ltd_energy_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            }
+        ],
+        "DisplayIcon": "rulesIcon_FreePowerups",
+        "DisplayInfo": "USE WISELY",
+        "DisplayName": "FREE POWERUPS",
+		"LobbyName" : ""
+    }
+}

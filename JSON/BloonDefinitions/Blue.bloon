@@ -1,0 +1,13 @@
+{
+	"Type" : "Blue",
+	"InitialHealth" : 1,
+	"SpriteFile" : "blue_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1.4,
+	"RBE" : 2,
+    "ChildBloons" : [ "Red.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+    "DamageImmunity" : ["Juggernaut", "MOABMauler", "Foam"],
+	"Scale" : 0.85,
+    "Radius" : 11.05
+}

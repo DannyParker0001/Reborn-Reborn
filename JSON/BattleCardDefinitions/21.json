@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 2800, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 70, 
+        "Interval": 0.06, 
+        "NumBloons": 100, 
+        "Type": "Yellow", 
+        "UnlockRound": 6
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "21", 
+    "NameOld": "NinjaMonkey13_RegenYellowTight100", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "forest", 
+        "Cost": 2800, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "NinjaMonkey", 
+        "Upgrades": [
+            1, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

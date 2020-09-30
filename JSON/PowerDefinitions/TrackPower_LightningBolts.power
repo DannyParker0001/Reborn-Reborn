@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_LightningBolts",
+    "Description"       : "Place a lightning tower to strike out at bloons on the screen. Three uses.",
+    "UnlockCost"        : 2500,
+    "RequiresUnlocked"  : ["TrackPower_ExplodingMegaPineapples"],
+    "Icon"              : "powers_lightning_bolt",
+    "HudIcon"           : "icon_lightning_bolt",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_LightningBolts",
+    "PlacementMode"     : "Tower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 4,
+    "MinCooldown"       : 1,
+    "Count"             : 3
+}

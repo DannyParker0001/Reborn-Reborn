@@ -1,0 +1,40 @@
+{
+    "name": "R3_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 13
+            },
+            {
+                "Text": "Both players receive same 3 random towers",
+                "offsetY": 18,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "x2 income from Bloon sends",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 14,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayNameFront": "   R3 PLAY WITH FIRE",
+        "DisplayName": "R3 PLAY WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_play_with_fire_small"
+    },
+    "version": "1.0"
+}

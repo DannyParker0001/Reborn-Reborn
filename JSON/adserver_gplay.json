@@ -1,0 +1,58 @@
+{
+    "medallions": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "SponsorPay",
+                        "appID": "19667",
+                        "adID": "5ffe69e442da6437af0c45a441c1cc20",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "providers": [
+                    {
+                        "name": "Flurry",
+                        "appID": "BTDBGGL",
+                        "adID": "BTDB_Medallions",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "energy": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "appfbd1034813db4d47ae6fa4",
+                        "adID": "vzf00c109cf3304732aad85b",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "interstitial": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "appfbd1034813db4d47ae6fa4",
+                        "adID": "vz258253fb36064e62a12f95",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    }
+}

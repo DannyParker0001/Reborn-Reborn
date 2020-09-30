@@ -1,0 +1,111 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 150,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "SniperMonkey.weapon"
+    ],
+    "Description" : "Pops 2 layers off of bloons, with unlimited range.",
+    "Icon" : "sniper_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 3,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "PlayAllAnimationsOnFire" : true,
+    "TypeName" : "SniperMonkey",
+    "Upgrades" : [
+        [
+            "Full Metal Jacket",
+            "Point Five Oh",
+            "Deadly Precision",
+            "Cripple MOAB"
+        ],
+        [
+            "Faster Firing",
+            "Night Vision Goggles",
+            "Semi Automatic Rifle",
+            "Supply Drop"
+        ]
+    ],
+    "ShortUpgradeDescriptions" :
+    [
+        [
+            "",
+            "",
+            "",
+            ""
+        ],
+        [
+            "",
+            "",
+            "",
+            ""
+        ]
+    ],
+    "UpgradeDescriptions" :
+    [
+        [
+            "Shots can pop through 4 layers of bloon. Can pop lead and frozen.",
+            "Shots can pop through 7 layers of bloon!",
+            "Erases 18 layers of bloon per shot - enough to destroy a ceramic.",
+            "Immobilizes MOAB class bloons for a short time."
+        ],
+        [
+            "Allows Sniper to shoot faster.",
+            "Allows Sniper to detect and shoot Camo bloons.",
+            "Allows Sniper to take multiple shots and attack 3x as fast.",
+            "Ability: Calls in support, taking out up to one Z.O.M.G."
+        ]
+    ],
+    "UpgradeGateway" :
+    [
+        [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 140, "XP" : 35 }, { "Rank" : 360, "XP" : 60 } ],
+        [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+    ],
+    "UpgradePrices" :
+    [
+        [ 250, 750, 1000, 1750 ],
+        [ 200, 250, 1750, 14000 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "sniper_avatar_full_metal_jacket_small",
+            "sniper_avatar_point_50_small",
+            "sniper_avatar_deadly_precision_small",
+            "sniper_avatar_cripple_moab_small"
+        ],
+        [
+            "sniper_avatar_faster_firing_small",
+            "sniper_avatar_nvg_small",
+            "sniper_avatar_semi_auto_small",
+            "sniper_avatar_supply_drop_small"
+        ]
+    ],
+   
+    "UpgradeIcons" : [
+        [
+            "sniper_full_metal_icon",
+            "sniper_point_50_icon",
+            "sniper_deadly_precision_icon",
+            "sniper_cripple_moab_icon"
+        ],
+        [
+            "sniper_faster_firing_icon",
+            "sniper_nvg_icon",
+            "sniper_semi_auto_icon",
+            "sniper_supply_drop_icon"
+        ]
+    ],
+       
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "SniperMonkey.json",
+    "UseDefaultRangeCircle" : true
+}

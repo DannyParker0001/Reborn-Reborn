@@ -1,0 +1,52 @@
+{
+	"Sprites":
+	{
+        "0" : "MonkeyVillage",
+        "1" : "MonkeyVillageMonkeyBeacon",
+        "2" : "MonkeyVillageMonkeyBeaconFort",
+        "3"	: "MonkeyVillageRadarBeacon",
+        "4" : "MonkeyVillageJungleDrums",
+        "5" : "MonkeyVillageMonkeyBeaconDrumsFort",
+        "6"	: "MonkeyVillageRadarBeaconDrums",
+        "7" : "MonkeyVillageMonkeyTown",
+        "8" : "MonkeyVillageMonkeyTownFort",
+        "9" : "MonkeyVillageMonkeyTownFortRadar",
+        "10" : "MonkeyVillageEnergyBeacon",
+        "11" : "MonkeyVillageEnergyBeaconFort",
+        "12" : "MonkeyVillageEnergyBeaconFortRadar",
+        "13" : "MonkeyVillageFort",
+        "14" : "MonkeyVillageRadar",
+        "15" : "MonkeyVillageGreyBuilding",
+        "16" : "MonkeyVillageGreyBuildingBeacon",
+        "17" : "MonkeyVillageGreyBuildingBeaconMusic"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 13,
+		"02"		: 14,
+		"03"		: 15,
+		"04"		: 15,
+		
+		"10"		: 1,
+		"11"		: 2,
+		"12"		: 3,
+		"13"		: 16,
+		"14"		: 16,
+		
+		"20"		: 4,
+		"21"		: 5,
+		"22"		: 6,
+		"23"		: 17,
+		"24"		: 17,
+		
+		"30"		: 7,
+		"31"		: 8,
+		"32"		: 9,
+		
+		"40"		: 10,
+		"41"		: 11,
+		"42"		: 12
+	}
+}

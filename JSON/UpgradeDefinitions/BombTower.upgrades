@@ -1,0 +1,223 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Extra Range",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 20
+                },
+                "TaskUpgrade" : 
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "CutOffDistance" : 20
+						}
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Frag Bombs",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 10
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 8
+                    },
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+                        	"CutOffDistance" : 10
+						}
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Cluster Bombs",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "ClusterBombs.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Bloon Impact",
+            "WeaponUpgrade" :
+            {            
+                "TaskUpgrade" :
+                [
+                    {
+						"Operation" : "SelectByLocation",
+						"Location" : [ 0, 0, 1 ]
+					},
+					
+					{
+						"Operation" : "Replace",
+						"Status" : "Stun"
+					},
+					{
+						"Operation" : "SelectByLocation",
+						"Location" : [ 0, 1, 0, 0, 1 ]
+					},
+					
+					{
+						"Operation" : "Replace",
+						"Status" : "Stun"
+					},
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0, 0]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 1, 0, 0, 0 ]
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Bigger Bombs",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 10,
+                        "Range" : 20
+                    },
+					{
+						"Operation": "SelectByType",
+						"Type": "Effect"
+					},
+					{
+						"Operation": "Replace",
+						"Scale": 0.835
+					}
+                ]
+            }
+        },
+        {
+            "Name" : "Missile Launcher",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 5,
+                    "CooldownTime" : -0.2285714286
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "MaxTargets" : 5
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "BombTowerMissile.json",
+						"Movement": 
+						{
+							"Type": "Forward",
+	                        "Speed" : 875
+						}
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "MOAB Mauler",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "MOABMauler.weapon"
+                }
+            },
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "BombTowerMaulerProjectile.json"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "MOAB Assassin",
+			
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "MOABAssassin.weapon"
+                }
+            },
+
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [                    
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "BombTowerAssassinProjectile.json"
+                    }
+                ]
+            }
+        }
+    ]
+}

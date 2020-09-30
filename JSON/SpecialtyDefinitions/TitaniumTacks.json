@@ -1,0 +1,48 @@
+{
+	"Name" : "Titanium Tacks",
+	"Icon" : "titanium_tacks",
+    "Rarity" : "Gold",
+    "Description" : "Tack shooter has +1 pierce",
+	"Effects" :
+	[
+		{
+            "TowerModifiers" :
+            [{
+                "WeaponSlotIndex": 0,
+                "Period" : 1,
+             
+                "TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+                "Modifier" :
+                {
+                    "PoppingPower" : [ 1, 1 ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+            [{
+                "WeaponSlotIndex": 0,
+                "Period" : 1,
+             
+                "TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+                "Modifier" :
+                {
+                    "PoppingPower" : [ 1, 1 ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+            [{
+                "WeaponSlotIndex": 0,
+                "Period" : 1,
+             
+                "TargetingFilter" : { "Include" : { "TowerType": [ "TackTower" ] } },
+                "Modifier" :
+                {
+                    "PoppingPower" : [ 1, 1 ]
+                }
+            }]
+		}
+	]
+}

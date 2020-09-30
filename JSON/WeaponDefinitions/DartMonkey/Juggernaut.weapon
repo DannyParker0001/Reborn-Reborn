@@ -1,0 +1,32 @@
+{	
+    "Type":             "Juggernaut",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0.9,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile":      "JuggernautProjectile.json",
+			"NumPersists":      250,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"Radius": 23,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 560.0,
+				"CutOffDistance": 440
+			},
+			
+			"Tasks" :
+			[
+                { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
+                { "Type": "Damage", "DamageType": "Juggernaut", "Amount": 4 }
+			]
+		}
+	]
+}

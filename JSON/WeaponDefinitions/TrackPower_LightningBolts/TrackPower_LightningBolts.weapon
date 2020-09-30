@@ -1,0 +1,46 @@
+{
+    "Type"                                      : "TrackPower_LightningBolts",
+    "TargetRange"                               : 10000.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+
+    "Tasks" :
+    [
+        {
+            "Type"      : "FireOverTime",
+            "Duration"  : 7,
+            "Tick"      : 0.5,
+            "Tasks"     :
+            [
+                {
+                    "Type":             "ChainTasks",
+                    "NumPersists":      4,
+                    "NumJumps":         3,
+                    "CutOffDistance":   240,
+
+                    "Tasks" :
+                    [
+                        {
+                            "Type": "Damage",
+                            "DamageType": "Plasma",
+                            "Amount": 2
+                        }
+                    ]
+                },
+				{
+					"Type": "Effect",
+					"Audio": "CHAIN_LIGHTNING"
+				}
+            ]
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "chain_lightning_rod.json",
+            "Scale": 1.0,
+            "UseDuration" : true,
+            "Duration": 7.5
+        }
+    ]
+}

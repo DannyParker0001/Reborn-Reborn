@@ -1,0 +1,119 @@
+{
+    "TypeName"				: "IceTower",
+    "Icon"					: "ice_avatar_small",
+    "Description"			: "Temporarily freezes nearby bloons. Frozen bloons are immune to sharp objects.",
+   	"BaseCost"				: 50,
+    "RankToUnlock"			: 8,
+    "DefaultWeapons"	    :
+    [
+        "IceTower.weapon",
+        "",
+        "",
+        "IceShards.weapon",
+        "ViralFrost.weapon"
+    ],
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        true,
+        false,
+        false
+    ],
+    
+    "TargetingMode"			: "AnyInRange",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+ 
+    "Upgrades" :
+    [
+    	[ "Enhanced Freeze", "Snap Freeze", "Arctic Wind", "Viral Frost" ],
+    	[ "Permafrost", "Deep Freeze", "Ice Shards", "Absolute Zero" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Larger freeze area that freezes bloons for longer.",
+			"Pops a layer off of each bloon frozen.",
+			"Super cold aura that slows all bloons in its larger radius.",
+			"Frozen bloons freeze other bloons that come in contact."
+		],
+		[
+			"Bloons move slowly even after thawing out.",
+			"Freezes 2 layers, extending the slow duration.",
+			"Razor sharp shards fly out when frozen bloons pop.",
+			"Ability: Freezes all Bloons and Blimps on screen temporarily."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 55, "XP" : 5 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 160, "XP" : 40 }, { "Rank" : 400, "XP" : 60 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 100, 400, 3000, 500 ],
+        [ 100, 150, 2000, 7500 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "ice_avatar_enhanced_freeze_small", 
+        "ice_avatar_snap_freeze_small", 
+        "ice_avatar_arctic_wind_small", 
+        "ice_avatar_viral_frost_small" 
+        ],
+    	[ 
+        "ice_avatar_permafrost_small", 
+        "ice_avatar_deep_freeze_small", 
+        "ice_avatar_ice_shards_small", 
+        "ice_avatar_absolute_zero_small" 
+        ]
+    ],
+ 
+    "UpgradeIcons" :
+    [
+    	[ 
+        "ice_enhanced_freeze_icon", 
+        "ice_snap_freeze_icon", 
+        "ice_arctic_wind_icon", 
+        "ice_viral_frost_icon" 
+        ],
+    	[ 
+        "ice_permafrost_icon", 
+        "ice_deep_freeze_icon", 
+        "ice_shards_icon", 
+        "ice_absolute_zero_icon" 
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,    
+    "PlacementRadius"		: 8.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    "SpriteUpgradeDefinition" : "IceTower.json"
+}

@@ -1,0 +1,22 @@
+{
+    "TypeName": "AcePlane",
+    "CanTargetCamo": false,
+    "DefaultWeapons": [
+        "MonkeyAce.weapon",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "MonkeyAceStrafe.weapon"
+    ],
+    "RotatesToTarget": false,
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "Close",
+    "TargetsManually": false,
+    "IsAircraft": true,
+    "AircraftRadius": 120,
+    "AircraftSpeed": 85,
+    "FiresWeaponsInSequence": false,
+    "SpriteUpgradeDefinition": "AcePlane.json"
+}

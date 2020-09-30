@@ -1,0 +1,30 @@
+{
+    "name": "Tournament_Assault_NoPowers",
+    "rules": [
+        "Tournament"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "",
+                "offsetY": 10
+            },
+            {
+                "Text": "2x Random Rolls",
+                "Icon": "ltd_random_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            },
+            {
+                "Text": "No Powers",
+                "Icon": "ltd_no_powers_icon",
+                "offsetX": 15,
+                "offsetY": 4
+            }
+        ],
+        "DisplayIcon": "rulesIcon_FreePowerups",
+        "DisplayName": "ASSAULT MODE",
+        "DisplayInfo": "",
+		"LobbyName" : ""
+    }
+}

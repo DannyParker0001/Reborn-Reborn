@@ -1,0 +1,48 @@
+{	
+    "Type":             "MonkeyAce",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     2.2857142857,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+	
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 22.5,
+    		"AngleIncrement": 30.0,
+    		"FireCount": 12,
+			"AimAtTarget": false,
+			
+    		"Tasks":
+            [
+				{
+					"Type": "Projectile",
+					"GraphicName": "dart_monkey_dart",
+					"NumPersists":      5,
+					"TerminateOnZeroPersists": true,
+					"CollisionType": "Once",
+					
+					"Radius": 3,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 280,
+						"CutOffDistance": 1000
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}
+

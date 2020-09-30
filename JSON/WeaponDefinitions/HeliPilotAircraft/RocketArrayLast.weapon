@@ -1,0 +1,61 @@
+{	
+    "Type":             "RocketArrayLast",    
+    "TargetRange":      415.0,
+	"CooldownTime":     0.5,
+    "FireDelayTime":    0.0,
+
+
+    "Tasks"	:
+    [
+        {
+            "Type": "MultiFire",
+            "InitialOffset": -10.0,
+            "AngleIncrement": 0.0,
+            "FireCount": 1,
+            
+            "Tasks" :
+            [{
+                "Type":             "Projectile",
+                "GraphicName":      "dartling_gun_rocket",
+                "NumPersists":      1,
+                "TerminateOnZeroPersists": true,
+                "CollisionType": "Once",
+                "Radius" : 14,
+                
+                "Movement":
+                {
+                    "Type": "Target",
+                    "Speed": 320,
+                    "TurnSpeed": 250,
+                    "TargetRange": 900,
+                    "SeekAngle": 90,
+                    "CutOffDistance": 500,
+                    "SeekNewTarget" : true,
+                    "TargetMode" : "Close"
+                },
+                
+                "Tasks" :
+                [
+                    {
+                        "Type": "AreaOfEffect",
+                        "Range": 60,
+                        "MaxTargets": 40,
+                        "Tasks" :
+                        [{
+                            "Type": "Damage",
+                            "DamageType": "Explosive",
+                            "Amount": 1
+                        }]
+                    },
+                    {
+                        "Type": "Effect",
+                        "SpriteFile": "Explosion.json",
+						"Audio": "EXPLOSION",
+                        "Scale": 0.635
+                    }
+                ]
+            }]
+        }
+    ]
+}
+

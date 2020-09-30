@@ -1,0 +1,33 @@
+{
+    "name": "Tournament_CardBattle_NoPowers",
+	"rules": [
+        "FreePowerups",
+        "Tournament"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "",
+                "offsetY": 10
+            },
+            {
+                "Text": "Drag cards from your hand to play them.",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Drag onto your side to place the tower.",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Drag onto your opponent's side to send the bloons.",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "You can spend $50 to trash a card and draw again.",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "CARD BATTLE",
+        "DisplayIcon": "card_battles_small"
+    }
+}

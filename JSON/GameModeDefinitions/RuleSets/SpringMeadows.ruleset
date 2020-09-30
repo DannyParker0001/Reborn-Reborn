@@ -1,0 +1,44 @@
+{
+   "name":"SpringMeadows",
+   "rules":[
+      "FreePowerups",
+      "SpringMeadowsMaps"
+   ],
+   "UI":{
+      "CardTextInfo":[
+         {
+            "Text":"Frolic through Bloon infested meadows!",
+            "offsetX":0,
+            "offsetY":0
+         },
+         {
+            "Text":"Spring Meadows features the following spring tracks:",
+            "offsetX":0,
+            "offsetY":0
+         },
+         {
+            "Text":"Water Hazard",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         },
+         {
+            "Text":"Park",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         },
+         {
+            "Text":"Temple",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         }
+      ],
+      "DisplayIcon":"rulesIcon_FreePowerups",
+      "DisplayInfo":"USE WISELY",
+      "DisplayName":"FREE POWERUPS",
+      "LobbyName":"",
+      "InGameRuleInfo": []
+   }
+}

@@ -1,0 +1,37 @@
+{	
+    "Type":             "PhoenixPlane",    
+    "TargetRange":      320,
+	"CooldownTime":     0.01,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [{
+        "Type":             "Projectile",
+        "GraphicName":      "monkey_apprentice_dragon_breath_01",
+        "NumPersists":      25,
+        "LoopAnimation":    false,
+        "HasLimitedDuration": true,
+        "LimitedDuration":  0.8,
+        
+        "TerminateOnZeroPersists": true,
+        "CollisionType": "Once",
+        
+        "Movement":
+        {
+            "Type": "Forward",
+            "Speed": 600.0,
+            "CutOffDistance": 320,
+            "TerminateOnCutOffEnd" : false
+        },
+
+        "TasksToProcessOnCollision" : [ 0, 1 ],
+        "TasksToProcessOnTerminate" : [ 1 ],
+
+        "Tasks" :
+        [ 
+            { "Type": "Damage", "DamageType": "Plasma", "Amount": 2 },
+            { "Type": "Effect", "UseDirection": true, "SpriteFile": "apprentice_dragon_breath.json", "DrawLayer" : "UnderTowers" }
+        ]
+    }]
+}
+

@@ -1,0 +1,29 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Zaps the screen with powerful lightning 6 times in a row. Each bloon hit loses 2 layers per strike. Pops Lead and Camo.", 
+    "DiscardCost": 1000, 
+    "Name": "90", 
+    "NameOld": "Power_ChainLightning", 
+    "PlatformProductID": "btdbattles_vet_power_chainlightning", 
+    "Power": {
+        "BackgroundSprite": "power_card_chain_lightning", 
+        "Cost": 900, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "ChainLightning"
+    }, 
+    "ProductID": "Vet_Power_ChainLightning", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

@@ -1,0 +1,48 @@
+{
+	"Name" : "Signal Flare",
+	"Icon" : "signal_flare",
+    "Rarity" : "Silver",
+    "Description" : "+20% range to Monkey Villages, Requires 5 Dart Monkeys",
+	"Effects" :
+	[
+		{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "DartMonkey", "NumRequired" : 5 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyVillage" ] } },
+     				"Modifier" :
+     				{
+						"TargetRange" : [ 1.2, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "DartMonkey", "NumRequired" : 5 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyVillage" ] } },
+     				"Modifier" :
+     				{
+						"TargetRange" : [ 1.2, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "DartMonkey", "NumRequired" : 5 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyVillage" ] } },
+     				"Modifier" :
+     				{
+						"TargetRange" : [ 1.2, 0 ]
+     				}
+     			}
+            ]
+		}
+	]
+}

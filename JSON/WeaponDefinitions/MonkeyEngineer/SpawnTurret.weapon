@@ -1,0 +1,105 @@
+{ 
+    "Type":             "SpawnTurret",    
+    "TargetRange":      1.0,
+ "CooldownTime":     10.0,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "DisabledTasks" : [ 0 ],
+    
+    "StartsOnCooldown" : true,
+
+    "Tasks" :
+    [
+  {
+   "Type": "RandomFire",
+   "Range": 130,
+            "MinimumRange" : 20,
+   "FireFullRange": false,
+   "OnlyTargetPlacementLocations": true,
+   "PlacementTowerType" : "MonkeyEngineerSentry",
+            "TargetIsWeaponTaskOrigin" : true,
+            
+            "Tasks" :
+   [
+                {
+                    "Type" : "Effect",
+                    "SpriteFile": "engineer_sentry_spawn.json",
+                    "Scale": 1.0,
+                    "DrawLayer" : "UnderTowers",
+                    "LoopForever" : false,
+                    "Duration" : 0.45,
+            
+                    "Tasks" :
+                    [
+                        {
+                            "Type" : "CreateTower",
+                            "TowerType" : "MonkeyEngineerSentry",
+                            "TowerColour" : [ 255, 255, 255, 255 ],
+                            "TowerLifetime" : 25,
+                            "HasParentTower" : true,
+                            "UseParentTowerUpgradeLevel": true,
+                            
+                            "Tasks" :
+                            [
+                                {
+                                    "Type" : "Effect",
+                                    "SpriteFile": "engineer_sentry_destruct.json",
+                                    "Scale": 1.0,
+                                    "DrawLayer" : "UnderTowers",
+                                    "LoopForever" : false,
+                                    "Duration" : 0.4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+  },
+        {
+   "Type": "RandomFire",
+   "Range": 130,
+            "MinimumRange" : 20,
+   "FireFullRange": false,
+   "OnlyTargetPlacementLocations": true,
+   "PlacementTowerType" : "MonkeyEngineerSentryTier4",
+            "TargetIsWeaponTaskOrigin" : true,
+            
+            "Tasks" :
+   [
+                {
+                    "Type" : "Effect",
+                    "SpriteFile": "engineer_sentry_spawn_red.json",
+                    "Scale": 1.0,
+                    "DrawLayer" : "UnderTowers",
+                    "LoopForever" : false,
+                    "Duration" : 0.45,
+            
+                    "Tasks" :
+                    [
+                        {
+                            "Type" : "CreateTower",
+                            "TowerType" : "MonkeyEngineerSentryTier4",
+                            "TowerColour" : [ 255, 255, 255, 255 ],
+                            "TowerLifetime" : 37.5,
+                            "HasParentTower" : true,
+                            "UseParentTowerUpgradeLevel": true,
+                            
+                            "Tasks" :
+                            [
+                                {
+                                    "Type" : "Effect",
+                                    "SpriteFile": "engineer_sentry_destruct_red.json",
+                                    "Scale": 1.0,
+                                    "DrawLayer" : "UnderTowers",
+                                    "LoopForever" : false,
+                                    "Duration" : 0.4
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+  }
+ ]
+}

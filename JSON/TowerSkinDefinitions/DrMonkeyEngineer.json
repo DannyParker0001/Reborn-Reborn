@@ -1,0 +1,133 @@
+{
+    "ID": "DrMonkeyEngineer",
+    "DisplayName": "Monkey Engineer Skin",
+    "DisplayDescription": "The Monkey Engineer is experimenting with some mad science! Visual change only.",
+    "DisplayIcon": "engineer_skin_store_icon.json",
+    "SmallIcon": "engineer_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MonkeyEngineerSkin",
+    "RequiresTower": "MonkeyEngineer",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "ProjectileMap": {
+        "engineer_foam_projectile.json": {
+            "Name" : "dr_monkey_engineer_foam_projectile.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_foam_puddle_spawn.json": {
+            "Name" : "dr_monkey_engineer_foam_puddle_spawn.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_foam_puddle_static.json": {
+            "Name" : "dr_monkey_engineer_foam_puddle_static.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_foam_puddle.json": {
+            "Name" : "dr_monkey_engineer_foam_puddle.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_sentry_destruct_red.json": {
+            "Name" : "dr_monkey_engineer_sentry_destruct_red.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_sentry_destruct.json": {
+            "Name" : "dr_monkey_engineer_sentry_destruct.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_sentry_spawn_red.json": {
+            "Name" : "dr_monkey_engineer_sentry_spawn_red.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_sentry_spawn.json": {
+            "Name" : "dr_monkey_engineer_sentry_spawn.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_closing.json": {
+            "Name" : "dr_monkey_engineer_trap_closing.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_trap_compoundsprite.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_full_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_trap_full_compoundsprite.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_glow_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_trap_glow_compoundsprite.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_open.json": {
+            "Name" : "dr_monkey_engineer_trap_open.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_opening.json": {
+            "Name" : "dr_monkey_engineer_trap_opening.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_pulsing_glow_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_trap_pulsing_glow_compoundsprite.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "engineer_trap_spawn.json": {
+            "Name" : "dr_monkey_engineer_trap_spawn.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    },
+
+    "TowerMap": {
+        "engineer_blue_hat.json": {
+            "Name" : "dr_monkey_engineer_blue_hat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_green_hat.json": {
+            "Name" : "dr_monkey_engineer_green_hat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_grey_hat_red.json": {
+            "Name" : "dr_monkey_engineer_grey_hat_red.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_grey_hat_yellow.json": {
+            "Name" : "dr_monkey_engineer_grey_hat_yellow.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_orange_hat.json": {
+            "Name" : "dr_monkey_engineer_orange_hat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_red_hat.json": {
+            "Name" : "dr_monkey_engineer_red_hat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_sentry_tripod_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_sentry_tripod_compoundsprite.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_sentry_tripod_red_compoundsprite.json": {
+            "Name" : "dr_monkey_engineer_sentry_tripod_red_compoundsprite.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_sentry_turret_red.json": {
+            "Name" : "dr_monkey_engineer_sentry_turret_red.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_sentry_turret.json": {
+            "Name" : "dr_monkey_engineer_sentry_turret.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_white_hat_red.json": {
+            "Name" : "dr_monkey_engineer_white_hat_red.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_white_hat_yellow.json": {
+            "Name" : "dr_monkey_engineer_white_hat_yellow.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "engineer_yellow_hat.json": {
+            "Name" : "dr_monkey_engineer_yellow_hat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

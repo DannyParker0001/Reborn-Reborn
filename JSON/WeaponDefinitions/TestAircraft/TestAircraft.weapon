@@ -1,0 +1,55 @@
+{	
+    "Type":             "DartMonkey",    
+    "TargetRange":      400.0,
+	"CooldownTime":     1,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "MultiFire",
+            "InitialOffset":  -15.0,
+            "AngleIncrement": 20.0,
+            "FireCount": 3,
+            "Tasks":
+            [{
+                "Type": "Projectile",
+                "GraphicName": "spikeopult_ball",
+                "Speed": 1005.0,
+                "TerminateOnZeroPersists": true,
+                "FollowTarget": false,
+                "StopAtEndOfCurves": false,
+                "TerminatePastCutoff": true,
+                "CollisionType": "Once",
+                "CutOffDistance" : 10,
+                "NumPersists" : 10,
+                
+                "Tasks" :
+                [
+                    {
+                        "Type": "MultiFire",
+                        "InitialOffset":  -15.0,
+                        "AngleIncrement": 20.0,
+                        "FireCount": 3,
+                        "Tasks":
+                        [{
+                            "Type": "Projectile",
+                            "GraphicName": "spikeopult_ball",
+                            "Speed": 1005.0,
+                            "TerminateOnZeroPersists": true,
+                            "FollowTarget": false,
+                            "StopAtEndOfCurves": false,
+                            "TerminatePastCutoff": true,
+                            "CollisionType": "Once",
+                            "CutOffDistance" : 10,
+                            "NumPersists" : 10,
+                            
+                            "Tasks" :
+                            [ { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } ]
+                        }]
+                    }
+                ]
+            }]
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+	"Sprites":
+	{
+		"0" : "SpikeFactory",
+		"1" : "SpikeFactoryRedFeet",
+		"2" : "SpikeFactoryPurpleFeet",
+		"3" : "SpikeFactoryRedBaseBlackFeet",
+        "4" : "SpikeFactoryRedBaseIris",
+		"5" : "SpikeFactoryRedBaseSkullDoors",
+        "6" : "SpikeFactoryBlueFeet",
+		"7" : "SpikeFactoryBlueBaseDoubleCogs",
+        "8" : "SpikeFactoryBlueBaseDoorsDoubleCogs",
+		"9" : "SpikeFactoryBlueBaseTackDoorsQuadCogs",
+		"10" : "SpikeFactoryGreenBaseDoorsDoubleCogs",
+		"11" : "SpikeFactoryGreenBaseTackDoorsQuadCogs",
+		"12" : "SpikeFactoryOrangeBaseIrisDoubleCogs",
+		"13" : "SpikeFactoryOrangeBaseSkullDoors",
+        "14" : "SpikeFactoryPurpleBaseBlackFeetDoubleCogs"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 6,
+		"02"		: 7,
+		"03"		: 8,
+		"04"		: 9,
+		"10"		: 1,
+		"11"		: 2,
+		"12"		: 7,
+		"13"		: 8,
+		"14"		: 9,
+		"20"		: 3,
+		"21"		: 2,
+		"22"		: 14,
+		"23"		: 10,
+		"24"		: 11,
+		"30"		: 4,
+		"31"		: 4,
+		"32"		: 12,
+		"40"		: 5,
+		"41"		: 5,
+		"42"		: 13
+	}
+}

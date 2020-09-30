@@ -1,0 +1,141 @@
+{
+	"Name" : "Spell Book",
+	"Icon" : "spell_book",
+    "Rarity" : "Silver",
+    "Description" : "+5% attack speed on all towers. 5% chance any shot will have double pierce. -5% cost of all towers and upgrades. -10% attack speed to Apprentice. +10% cost of Apprentice and upgrades. Requires Apprentice",
+	"Effects" :
+	[
+		{
+			"TowerModifiers" :
+			[
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+     				"Modifier" :
+     				{
+						"DoublePierceChance" : [ 0.05, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 1.10, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 1.10, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+			"TowerModifiers" :
+			[
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+     				"Modifier" :
+     				{
+						"DoublePierceChance" : [ 0.05, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 1.10, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 1.10, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+			"TowerModifiers" :
+			[
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+     				"Modifier" :
+     				{
+						"DoublePierceChance" : [ 0.05, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Exclude" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 0.95, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 1.10, 0 ]
+     				}
+     			},
+				{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyApprentice", "NumRequired" : 1 },
+             		"TargetingFilter" : { "Include" : { "TowerType": [ "MonkeyApprentice" ] } },
+     				"Modifier" :
+     				{
+						"Cost" : [ 1.10, 0 ]
+     				}
+     			}
+            ]
+		}
+	]
+}

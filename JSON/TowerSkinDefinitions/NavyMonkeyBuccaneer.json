@@ -1,0 +1,70 @@
+{
+    "ID": "NavyMonkeyBuccaneer",
+    "DisplayName": "Monkey Buccaneer Skin",
+    "DisplayDescription": "The Buccaneer and its upgrades join the Navy! Visual change only.",
+    "DisplayIcon": "buccaneer_skin_store_icon.json",
+    "SmallIcon": "buccaneer_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MonkeyBuccaneerSkin",
+    "RequiresTower": "MonkeyBuccaneer",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "MonkeyBuccaneer.json": {
+            "Name" : "Navy_MonkeyBuccaneer.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerAircraftCarrier.json": {
+            "Name" : "Navy_MonkeyBuccaneerAircraftCarrier.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerAircraftCarrierAce.json": {
+            "Name" : "Navy_MonkeyBuccaneerAircraftCarrierAce.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerAircraftCarrierAnimated.json": {
+            "Name" : "Navy_MonkeyBuccaneerAircraftCarrierAnimated.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerCannonShip.json": {
+            "Name" : "Navy_MonkeyBuccaneerCannonShip.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerDestroyer.json": {
+            "Name" : "Navy_MonkeyBuccaneerDestroyer.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerDestroyerAnimated.json": {
+            "Name" : "Navy_MonkeyBuccaneerDestroyerAnimated.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerGrapes.json": {
+            "Name" : "Navy_MonkeyBuccaneerGrapes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerJollyRoger.json": {
+            "Name" : "Navy_MonkeyBuccaneerJollyRoger.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerJollyRogerGrapes.json": {
+            "Name" : "Navy_MonkeyBuccaneerJollyRogerGrapes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerPirates.json": {
+            "Name" : "Navy_MonkeyBuccaneerPirates.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerSingleSail.json": {
+            "Name" : "Navy_MonkeyBuccaneerSingleSail.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyBuccaneerSingleSailCrowsNest.json": {
+            "Name" : "Navy_MonkeyBuccaneerSingleSailCrowsNest.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Radar.json": {
+            "Name" : "Navy_Radar.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

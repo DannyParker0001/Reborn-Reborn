@@ -1,0 +1,8 @@
+{
+   "ID" : "Icon_08_Bomb",
+   "SpriteName" : "clan_symbol_icon_08_bomb.json",
+   "DisplayName" : "Bomb",
+   "Layer" : 3,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

@@ -1,0 +1,70 @@
+{
+    "ID": "ChristmasDartMonkey",
+    "DisplayName": "Dart Monkey Skin",
+    "DisplayDescription": "The Dart Monkey and its upgrades are feeling festive! Visual change only.",
+    "DisplayIcon": "christmas_monkey_skin_santa_store_icon.json",
+    "SmallIcon": "christmas_skin_santa_icon_small",
+    "Type": "TowerSkin",
+    "Group": "DartMonkeySkin",
+    "RequiresTower": "DartMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE", "IAP" ],
+    
+    "ProjectileMap": {
+        "spikeopult_ball": {
+            "Name" : "pudding",
+            "Location" : "InGame"
+        },
+        
+        "SuperMonkey.json": {
+            "Name" : "Christmas_DartMonkeySuperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "JuggernautProjectile.json": {
+            "Name" : "Christmas_JuggernautProjectile.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    },
+    
+    "TowerMap": {
+        "DartMonkey.json": {
+            "Name" : "Christmas_DartMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyGreenBandana.json": {
+            "Name" : "Christmas_DartMonkeyGreenBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyJuggernautNew_present.json": {
+            "Name" : "Christmas_DartMonkeyJuggernautNew_present.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyJuggernautNew_wrapped.json": {
+            "Name" : "Christmas_DartMonkeyJuggernautNew_wrapped.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyJuggernautNew.json": {
+            "Name" : "Christmas_DartMonkeyJuggernautNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyQuiver.json": {
+            "Name" : "Christmas_DartMonkeyQuiver.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyRedBandana.json": {
+            "Name" : "Christmas_DartMonkeyRedBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySpikeopultNew_present.json": {
+            "Name" : "Christmas_DartMonkeySpikeopultNew_present.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySpikeopultNew.json": {
+            "Name" : "Christmas_DartMonkeySpikeopultNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySupermonkeyFanclub.json": {
+            "Name" : "Christmas_DartMonkeySupermonkeyFanclub.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

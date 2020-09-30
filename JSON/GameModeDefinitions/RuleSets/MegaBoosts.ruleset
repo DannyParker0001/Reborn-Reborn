@@ -1,0 +1,57 @@
+{
+    "name": "MegaBoosts",
+    "rules": [
+      "FreePowerups",
+      "MegaBoosts"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Super Awesome Upgrades!"
+        },
+        {
+          "Icon": "rulesIcon_MegaBoosts|CENTER_X",
+          "offsetY": 10,
+          "offsetX": 0
+        },
+        {
+          "Text": "Tower Boost upgrades all towers to next tier on one path!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 20
+        },
+        {
+          "Icon": "rulesIcon_Bloon_large|CENTER_X",
+          "offsetY": 5
+        },
+        {
+          "Text": "Bloon Boost upgrades all Bloons by 1!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 25
+        }
+      ],
+      "RestrictedTowersInfo": [
+        {
+          "Icon": "rulesIcon_MegaBoosts|CENTER_X",
+          "offsetY": 10
+        },
+        {
+          "Text": "Tower Boost upgrades all towers to next tier on one path!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 20
+        },
+        {
+          "Icon": "rulesIcon_Bloon_large|CENTER_X",
+          "offsetY": 8
+        },
+        {
+          "Text": "Bloon Boost upgrades all Bloons by 1!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 20
+        }
+      ],
+      "DisplayName": "MEGA BOOSTS",
+      "DisplayInfo": "BIG UPGRADES",
+      "DisplayIcon": "rulesIcon_MegaBoosts"
+    },
+    "version": "1.0"
+  }

@@ -1,0 +1,47 @@
+{
+    "name": "R3_Speed_Bananza",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Speed",
+        "Bananza"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 12
+            },
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 12
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayNameFront": "   R3 SPEED BANANZA",
+        "DisplayName": "R3 SPEED BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_speed_bananza_small"
+    },
+    "version": "1.0"
+}

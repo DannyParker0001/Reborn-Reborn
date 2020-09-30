@@ -1,0 +1,11 @@
+{	
+    "Type":                 "Redeploy",    
+    "TargetRange":          90,   
+    "CooldownTime":     	5,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+   
+    "Tasks" :
+    [{ "Type" : "RedeployTower" }]
+}

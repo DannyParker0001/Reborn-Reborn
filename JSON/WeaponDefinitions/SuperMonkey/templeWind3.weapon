@@ -1,0 +1,41 @@
+{	
+    "Type":             "templeWind3",    
+    "TargetRange":      240.0,
+	"CooldownTime":     1.25,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile":       "WhirlwindProjectile.json",
+			"NumPersists":      120,
+
+			"TerminateOnZeroPersists": true,
+
+			"CollisionType": "Once",
+            
+            "HasFixedAngle": true,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 500.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MoveToPath" 
+				} 
+			]
+		}
+	]
+}

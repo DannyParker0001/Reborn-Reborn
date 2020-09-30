@@ -1,0 +1,23 @@
+{
+    "name": "Powerup",
+    "rules": [
+      "FreePowerups",
+      "Powerup"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Players start with 6 Boosts but they have no cooldown and are stackable"
+        }
+      ],
+      "DisplayName": "Powerup",
+      "DisplayInfo": "",
+      "DisplayIcon": "",
+      "InGameRuleInfo": [
+        {
+          "Text": "Players start with 6 Boosts but they have no cooldown and are stackable"
+        }
+      ]
+    },
+    "version": "1.0"
+  }

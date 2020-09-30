@@ -1,0 +1,78 @@
+{
+    "name": "R3_Speed_MegaBoost",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Speed",
+        "MegaBoosts"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_SpeedBattle|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "DisplayName": "R3 SPEED MEGABOOSTS",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_speed_megaboosts"
+    },
+    "version": "1.0"
+}

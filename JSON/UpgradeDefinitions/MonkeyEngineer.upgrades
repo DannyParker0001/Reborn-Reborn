@@ -1,0 +1,191 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Sentry Gun",
+            "TowerUpgrade" :
+            {
+                "EnableSlot" : 0
+            }
+        },
+        
+        {
+            "Name" : "Fast Engineering",           
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "Adjust" :
+                {
+                    "CooldownTime" :    -4.0
+                }
+            }
+        },
+        
+        {
+            "Name" : "Cleansing Foam",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "CleansingFoam.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Bloon Trap",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3" : "BloonTrap.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "9-inch nails",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 1,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "NumPersists" : 5
+                        },
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Damage"
+                        },
+                        {
+                            "Operation" : "Replace",
+                            "DamageType" : "Fire"
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "Name" : "Larger Service Area",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "Adjust" :
+                    {
+                        "TargetRange": 65
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "Movement":
+                            {
+                                "Type" : "Forward",
+                                "CutOffDistance" : 65
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "TargetRange": 65
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "Projectile"
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "Movement":
+                            {
+                                "Type" : "Forward",
+                                "CutOffDistance" : 65
+                            }
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 2,
+                    "Adjust":
+                    {
+                        "TargetRange": 65
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "RandomFire"
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "Range" : 65
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 3,
+                    "Adjust":
+                    {
+                        "TargetRange": 65
+                    },
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "RandomFire"
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "Range" : 65
+                        }
+                    ]
+                }
+            ]
+        },
+    
+        {
+            "Name" : "Sprockets",
+            
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 1,
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.129
+                }
+            }
+        },
+        
+        {
+            "Name" : "Overclock",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "4" : "Overclock.weapon"
+                }
+            }
+        }
+    ]
+}

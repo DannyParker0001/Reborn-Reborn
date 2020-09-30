@@ -1,0 +1,16 @@
+{	
+    "Type":             "SentryLegs",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire":	false,
+    "MaxShots" :        1,
+    
+    "Tasks" :
+    [
+        {
+            "Type" : "AddChildSprite",
+            "SpriteName": "engineer_sentry_tripod_compoundsprite.json"
+        }
+	]
+}

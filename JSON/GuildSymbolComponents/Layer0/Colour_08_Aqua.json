@@ -1,0 +1,9 @@
+{
+   "ID" : "Colour_08_Aqua",
+   "SpriteName" : "clan_symbol_colour_08_aqua.json",
+   "SpriteName_Select" : "clan_symbol_colour_select_08_aqua.json",
+   "DisplayName" : "Aqua",
+   "Layer" : 1,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

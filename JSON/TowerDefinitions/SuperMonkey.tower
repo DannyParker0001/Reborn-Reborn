@@ -1,0 +1,144 @@
+{
+    "TypeName"				: "SuperMonkey",
+    "Icon"					: "supermonkey_avatar_small",
+    "Description"			: "Throws darts bloon-meltingly fast.",
+    "BaseCost"				: 1250,
+    "RankToUnlock"			: 13,
+    "DefaultWeapons"	    : [ "SuperMonkey.weapon" ],
+    "ActiveWeaponSlots": [
+		true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+	],
+
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ "Laser Blasts", "Plasma Blasts", "Sun God", "Temple Of The Monkey God" ],
+    	[ "Super Range", "Epic Range", "Robo Monkey", "Technological Terror" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			"Sacrifices enhance and modify the Temple's arsenal."
+		],
+		[
+			"",
+			"",
+			"",
+			"Ability: Damages all bloons within radius of tower!"
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Fast firing twin laser beams pop twice as much as before.",
+			"Plasma vaporizes everything it touches.",
+			"It is said that bloons dare not touch the sun.",
+			"Tower sacrifices enhance and modify the Temple's awesome arsenal."
+		],
+		[
+			"Super Monkey with camo detection = good!",
+			"Super Monkey with epic range = even better!",
+			"Half Super Monkey, half killer robot of death.",
+			"Ability: Damages all bloons within short radius of tower - be proud of your creation."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 85, "XP" : 20 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 220, "XP" : 60 }, { "Rank" : 550, "XP" : 90 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 1250, 2000, 12000, 40000 ],
+        [ 250, 500, 12000, 10000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "supermonkey_avatar_laser_vision_small", 
+        "supermonkey_avatar_plasma_vision_small", 
+        "supermonkey_avatar_sun_god_small", 
+        "supermonkey_avatar_monkey_temple_small" 
+        ],
+    	[ 
+        "supermonkey_avatar_super_range_small", 
+        "supermonkey_avatar_epic_range_small", 
+        "supermonkey_avatar_robomonkey_small", 
+        "supermonkey_avatar_tech_terror_small" 
+        ]
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+        "supermonkey_laser_vision_icon", 
+        "supermonkey_plasma_vision_icon", 
+        "supermonkey_sun_god_icon", 
+        "supermonkey_temple_icon" 
+        ],
+    	[ 
+        "supermonkey_super_range_icon", 
+        "supermonkey_epic_range_icon", 
+        "supermonkey_robomonkey_icon", 
+        "supermonkey_tech_terror_icon" 
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 12.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    
+    "SpriteUpgradeDefinition" : "SuperMonkey.json",
+    "SkipFirstFrameWhenFiring" : true,
+    "ConfirmLevel4FirstUpgrade" : true
+}

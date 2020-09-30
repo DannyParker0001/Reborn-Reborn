@@ -1,0 +1,42 @@
+{
+	"Sprites":
+	{
+		"0" : "SniperMonkey",
+		"1" : "SniperRedHat",
+		"2" : "SniperBlueHat",
+		"3" : "SniperPurpleHat",
+        "4" : "SniperBlueNVG",
+		"5" : "SniperBlackHatLaser",
+        "6" : "SniperBlackHatGogglesLaser",
+		"7" : "SniperCrippleMoab",
+        "8" : "SniperCrippleMoabGoggles",
+		"9" : "SniperHelmet",
+		"10" : "SniperSupplyDrop",
+		"11" : "SniperPurpleNVG"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 2,
+		"02"		: 4,
+		"03"		: 9,
+		"04"		: 10,
+		"10"		: 1,
+		"11"		: 2,
+		"12"		: 4,
+		"13"		: 9,
+		"14"		: 10,
+		"20"		: 3,
+		"21"		: 3,
+		"22"		: 11,
+		"23"		: 9,
+		"24"		: 10,
+		"30"		: 5,
+		"31"		: 5,
+		"32"		: 6,
+		"40"		: 7,
+		"41"		: 7,
+		"42"		: 8
+	}
+}

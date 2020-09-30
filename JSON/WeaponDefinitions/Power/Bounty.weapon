@@ -1,0 +1,26 @@
+{
+    "Type"                                      : "Bounty",
+    "TargetRange"                               : 10000.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+
+    "Tasks" :
+    [
+        {
+            "Type"      : "GrantCashPerPop",
+            "Amount"    : 1,
+            "Duration"  : 10.0
+        },
+        {
+            "Type":             "IncomeChange",
+            "MoneyRange":       [30, 30],
+            "MoneyMultiplier":  1.0
+        },
+		{
+			"Type": "Effect",
+			"Audio": "BOUNTY"
+		}
+    ]
+}

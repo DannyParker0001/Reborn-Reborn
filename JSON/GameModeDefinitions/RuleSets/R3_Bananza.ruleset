@@ -1,0 +1,34 @@
+{
+    "name": "R3_Bananza",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Bananza"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetY": 15
+            },
+            {
+                "Text": "Both players receive the same random towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_Bananza|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "DisplayName": "R3 BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_bananza_small"
+    },
+    "version": "1.0"
+}

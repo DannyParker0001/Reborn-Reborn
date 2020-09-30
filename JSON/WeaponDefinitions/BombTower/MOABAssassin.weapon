@@ -1,0 +1,80 @@
+{	
+    "Type":             	"MOABAssassin",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	30.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"TargetsIndependently": true,
+	"CanSelfTargetCamo": true,
+	"SelfTargetMode": "Strong",
+    
+    "Tasks" :
+    [
+		{
+			"Type": "Projectile",
+			"SpriteFile": "BombTowerGreenAssassin.json",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+            "CollidesOnlyWithTarget" : true,
+			
+			"Movement" :
+			{
+				"Type": "Target",
+				"Speed": 1000,
+				"CutOffDistance": 1000,
+				"TurnSpeed": 960,
+				"TargetRange": 1000,
+				"SeekAngle": 360,
+				"TerminateOnNoTarget": true
+			},
+			
+			"Tasks" :
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 2200
+				},
+				{
+					"Type" : "TimerFire",
+					"TimeDelay" : 0.1,
+
+					"Tasks" : 
+					[
+						{
+							"Type": "AreaOfEffect",
+							"Range": 60,
+							"MaxTargets": 40,
+							"Tasks" :
+							[
+								{ 
+									"Type": "Damage",
+									"DamageType": "Explosive",
+									"Amount": 3
+								},
+								{
+									"Type" : "StatusEffect",
+									"Status" : "MultiLayerDamage"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.5
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

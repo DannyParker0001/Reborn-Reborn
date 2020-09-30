@@ -1,0 +1,80 @@
+{
+    "name": "Speed_Bananza_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "Bananza",
+        "PlayWithFire",
+		"Bananza_WithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 12
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "4x income from Bloon Sends!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 8
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "4x income from Bloon Sends!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "SPEED BANANZA FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_speed_bananza_playwithfire"
+    },
+    "version": "1.0"
+}

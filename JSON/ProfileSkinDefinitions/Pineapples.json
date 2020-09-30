@@ -1,0 +1,8 @@
+{
+	"ID":					"Pineapples",
+	"DisplayName":			"Pineapples",
+	"DisplayDescription":	"Skin your lobby card with Pineapples!",
+	"DisplayIcon":			"player_profile_panel_pineapples_store.json",
+	"SkinSpriteName":		"player_profile_panel_pineapples.json",
+	"Hide":					true
+}

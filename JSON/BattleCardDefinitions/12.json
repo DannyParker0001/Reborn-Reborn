@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 1500, 
+        "Features": [
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.4, 
+        "NumBloons": 30, 
+        "Type": "White", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 400, 
+    "Name": "12", 
+    "NameOld": "MonkeyAce11_RegenWhiteSpaced30", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1500, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeyAce", 
+        "Upgrades": [
+            1, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

@@ -1,0 +1,82 @@
+{	
+    "Type":             	"PopAndAwe",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	45.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 1000,
+			"MaxTargets": -1,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Napalm",
+					"NumPersists" : -1,
+					"Duration" : 6,
+					"DamageRate" : 1,
+					"IgnoreImmunity" : true
+				},
+				{
+                    "TargetingFilter":
+                    {
+                        "Exclude" :
+                        {
+                            "BloonType" : [
+                                "BFB",
+                                "ZOMG"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "Stun",
+					"Duration": 5,
+					"IgnoreImmunity" : true
+				},
+				{
+                    "TargetingFilter":
+                    {
+                        "Include" :
+                        {
+                            "BloonType" : [
+                                "BFB"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "Stun",
+					"Duration": 4,
+					"IgnoreImmunity" : true
+				},
+				{
+                    "TargetingFilter":
+                    {
+                        "Include" :
+                        {
+                            "BloonType" : [
+                                "ZOMG"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "Stun",
+					"Duration": 2,
+					"IgnoreImmunity" : true
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "PopAndAweAbility.json",
+			"Position": [0.5, 0.5],
+			"LoopCount": 5,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

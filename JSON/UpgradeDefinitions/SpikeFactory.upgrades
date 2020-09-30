@@ -1,0 +1,178 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Bigger Stacks",
+            "WeaponUpgrade" :
+            {
+				"SlotIndices" : [ 0, 1, 3 ],
+				
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 5
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "White Hot Spikes",
+            "WeaponUpgrade" :
+            {
+				"SlotIndices" : [ 0, 1, 3 ],
+				
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "HotTacks.json"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Spiked Ball Factory",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "SpikeBall.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "SpikedBalls.json"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Spiked Mines",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "",
+                    "2" : "SpikeMines.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "SpikedMines.json"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Faster Production",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.861
+                    }
+                },
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.7
+                    }
+                },
+                {
+                    "SlotIndex" : 2,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.3
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Even Faster Production",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.569
+                    }
+                },
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.35
+                    }
+                },
+                {
+                    "SlotIndex" : 2,
+                    "Adjust" :
+                    {
+                        "CooldownTime" :    -0.2
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "MOAB-SHREDR Spikes",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "",
+                    "1" : "MOABSHREDR.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Spike Storm",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3": "SpikeStorm.weapon"
+                }
+            }
+        }
+    ]
+}

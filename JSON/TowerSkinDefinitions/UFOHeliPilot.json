@@ -1,0 +1,82 @@
+{
+    "ID": "UFOHeliPilot",
+    "DisplayName": "Heli Pilot Skin",
+    "DisplayDescription": "The Heli Pilot and its upgrades prepare for close encounters. Visual change only.",
+    "DisplayIcon": "heli_skin_store_icon.json",
+    "SmallIcon": "heli_pilot_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "HeliPilotSkin",
+    "RequiresTower": "HeliPilot",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "helicopter_apache_black.json": {
+            "Name" : "ufo_helicopter_apache_black.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_apache_red.json": {
+            "Name" : "ufo_helicopter_apache_red.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_chinook__01.json": {
+            "Name" : "ufo_helicopter_chinook__01.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_chinook__02.json": {
+            "Name" : "ufo_helicopter_chinook__02.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_green_basic.json": {
+            "Name" : "ufo_helicopter_green_basic.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_green_green.json": {
+            "Name" : "ufo_helicopter_green_green.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_green_yellow_stripes.json": {
+            "Name" : "ufo_helicopter_green_yellow_stripes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_green_yellow.json": {
+            "Name" : "ufo_helicopter_green_yellow.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_blue_stripes.json": {
+            "Name" : "ufo_helicopter_grey_blue_stripes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_blue.json": {
+            "Name" : "ufo_helicopter_grey_blue.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_grey_redrotors.json": {
+            "Name" : "ufo_helicopter_grey_grey_redrotors.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_grey.json": {
+            "Name" : "ufo_helicopter_grey_grey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_red_redrotors.json": {
+            "Name" : "ufo_helicopter_grey_red_redrotors.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_yellow_stripes.json": {
+            "Name" : "ufo_helicopter_grey_yellow_stripes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_grey_yellow.json": {
+            "Name" : "ufo_helicopter_grey_yellow.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_helipad.json": {
+            "Name" : "ufo_helicopter_helipad.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "helicopter_helipad_small.json": {
+            "Name" : "ufo_helicopter_helipad_small.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

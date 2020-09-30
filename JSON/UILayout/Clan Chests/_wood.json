@@ -1,0 +1,604 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263137154,
+         "Flip" : 0,
+         "Position" : [ -47.0, 32.0 ],
+         "Scale" : [ 8.199999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 42
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -49.0, 24.0 ],
+         "Scale" : [ 8.199999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 41
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263137154,
+         "Flip" : 0,
+         "Position" : [ -50.0, 16.0 ],
+         "Scale" : [ 8.449999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 40
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -51.0, 8.0 ],
+         "Scale" : [ 8.949999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 39
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263137154,
+         "Flip" : 0,
+         "Position" : [ -52.0, -18.0 ],
+         "Scale" : [ 9.199999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 36
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -51.0, -26.0 ],
+         "Scale" : [ 9.399999618530273, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 35
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263137154,
+         "Flip" : 0,
+         "Position" : [ -48.0, -34.0 ],
+         "Scale" : [ 9.600000381469727, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 34
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -54.0, -10.0 ],
+         "Scale" : [ 9.50, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 37
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4261617467,
+         "Flip" : 0,
+         "Position" : [ -45.250, 43.250 ],
+         "Scale" : [ 7.599999904632568, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 32
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -48.0, 40.0 ],
+         "Scale" : [ 7.849999904632568, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 43
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4261617467,
+         "Flip" : 0,
+         "Position" : [ -17.750, 0.250 ],
+         "Scale" : [ 8.600000381469727, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4261617467,
+         "Flip" : 0,
+         "Position" : [ -4.0, -43.250 ],
+         "Scale" : [ 9.300000190734863, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263863962,
+         "Flip" : 0,
+         "Position" : [ -44.0, -38.0 ],
+         "Scale" : [ 9.699999809265137, 0.8500000238418579 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 33
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4263137154,
+         "Flip" : 0,
+         "Position" : [ -54.0, -2.0 ],
+         "Scale" : [ 9.050000190734863, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 38
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -55.0, 16.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_bottom_left",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 40.0, 16.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_bottom_right",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -52.0, -22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_top_left",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 43.0, -22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_top_right",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -32.0, -2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_lock_left",
+         "type" : 1,
+         "uid" : 17
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -5.0, -2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_lock_right",
+         "type" : 1,
+         "uid" : 18
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -28.50, -2.0 ],
+         "Scale" : [ 4.900000095367432, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_lock_mid",
+         "type" : 1,
+         "uid" : 19
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -51.0, 41.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 20
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 19.0, 41.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 21
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 22.0, 12.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 22
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -58.0, 12.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 23
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 23.0, -4.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 26
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -61.0, -4.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 27
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 20.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 27.0, -27.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 28
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 20.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -57.0, -27.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_01",
+         "type" : 1,
+         "uid" : 29
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -45.0, -45.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_02",
+         "type" : 1,
+         "uid" : 30
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 39.0, -45.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "wood_rivet_02",
+         "type" : 1,
+         "uid" : 31
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -20.0, -1.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "two",
+         "type" : 1,
+         "uid" : 45
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "fill",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_bottom_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_bottom_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_top_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_top_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_lock_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_lock_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_lock_mid",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_rivet_01",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "wood_rivet_02",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "two",
+            "Texture" : "chests"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 22,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 23,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 21,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 20,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 26,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 27,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 28,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 31,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 30,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 29,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 45,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 17,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 18,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 19,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 40,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 43,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 33,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 38,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 42,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 36,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 37,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 32,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 41,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 35,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 34,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 39,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.05, 
+        "NumBloons": 40, 
+        "Type": "Pink", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "34", 
+    "NameOld": "MonkeyBuccaneer13_PinkTight40", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "tsunami", 
+        "Cost": 2000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeyBuccaneer", 
+        "Upgrades": [
+            1, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

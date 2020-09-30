@@ -1,0 +1,81 @@
+{
+    "name": "R3_MegaBoost_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "MegaBoosts",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 15
+            },
+            {
+                "Text": "x3 Random Towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 15,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 15,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "R3 MEGABOOST FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_megaboost_playwithfire"
+    },
+    "version": "1.0"
+}

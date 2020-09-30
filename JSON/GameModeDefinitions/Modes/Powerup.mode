@@ -1,0 +1,14 @@
+{
+    "Rules" : {
+        "TowerBoostEnergyCost":0,
+        "TowerBoostLimit":6,
+        "BloonBoostEnergyCost":0,
+        "BloonBoostLimit":6,
+        "RedHotSpikesEnergyCost":0,
+        "RedHotSpikesLimit":3,
+        "TowerBoostCooldownMin":0,
+        "TowerBoostCooldownMax":0,
+        "BloonBoostCooldownMin":0,
+        "BloonBoostCooldownMax":0
+    }
+}

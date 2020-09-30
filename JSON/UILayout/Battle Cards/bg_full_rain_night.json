@@ -1,0 +1,493 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.049999952316284 ],
+         "Shown" : true,
+         "sprite" : "bg_fill_night_rain.json",
+         "type" : 2,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -11.0, -11.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -14.0, 11.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -2.0, 3.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 3.0, 13.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 25.0, 12.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 12.0, -7.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 22.0, -8.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 5.0, -15.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.08235294371843338,
+         "Angle" : 45.0,
+         "Colour" : 369098751,
+         "Flip" : 0,
+         "Position" : [ -20.0, -8.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 11
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -22.0, -15.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 13
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 17.0, -17.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 15
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -23.0, 6.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 16
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 27.0, 4.0 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 17
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 14.0, 9.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 18
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4262592519,
+         "Flip" : 0,
+         "Position" : [ 0.0, -24.0 ],
+         "Scale" : [ 8.449999809265137, 3.250 ],
+         "Shown" : true,
+         "sprite" : "bg_colour",
+         "type" : 1,
+         "uid" : 19
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4269559643,
+         "Flip" : 0,
+         "Position" : [ 0.0, 24.0 ],
+         "Scale" : [ 8.449999809265137, 3.099999904632568 ],
+         "Shown" : true,
+         "sprite" : "bg_colour",
+         "type" : 1,
+         "uid" : 20
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -17.0, -34.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 21
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 8.0, -41.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 23
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.3372549116611481,
+         "Angle" : 45.0,
+         "Colour" : 1459617791,
+         "Flip" : 0,
+         "Position" : [ 19.0, -39.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 24
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.3372549116611481,
+         "Angle" : 45.0,
+         "Colour" : 1459617791,
+         "Flip" : 0,
+         "Position" : [ -1.0, -27.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 25
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4862745106220245,
+         "Angle" : 45.0,
+         "Colour" : 2097151999,
+         "Flip" : 0,
+         "Position" : [ -20.0, 29.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 26
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4862745106220245,
+         "Angle" : 45.0,
+         "Colour" : 2097151999,
+         "Flip" : 0,
+         "Position" : [ 7.0, 23.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 27
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ 18.0, 34.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 28
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4901960790157318,
+         "Angle" : 45.0,
+         "Colour" : 2113929215,
+         "Flip" : 0,
+         "Position" : [ -10.0, 31.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 29
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.5411764979362488,
+         "Angle" : 45.0,
+         "Colour" : 2332033023,
+         "Flip" : 0,
+         "Position" : [ 5.0, 35.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_rain_drop",
+         "type" : 1,
+         "uid" : 30
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "bg_fill_night_rain.json",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "bg_rain_drop",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "bg_colour",
+            "Texture" : "battle_cards"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 20,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 21,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 23,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 24,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 25,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 26,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 27,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 28,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 29,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 30,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 11,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 13,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 15,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 16,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 17,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 18,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 19,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.049999952316284 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      }
+   ]
+}

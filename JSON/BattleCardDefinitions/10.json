@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_trees", 
+        "Cost": 2000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -30, 
+        "Interval": 2.5, 
+        "NumBloons": 1, 
+        "Type": "MOAB", 
+        "UnlockRound": 15
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "10", 
+    "NameOld": "BombTower23_MOABSpaced1", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 2000, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite", 
+            "PopMOAB"
+        ], 
+        "Type": "BombTower", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

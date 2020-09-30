@@ -1,0 +1,44 @@
+{	
+    "Type"                                      : "BloonPower_EmpoweredMoabs",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "BloonBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ true, false ],
+            "FlipRight": [ false, false ],
+            "Duration": 15,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_BLOON_EMPOWERED_MOABS"
+        },
+
+        {
+            "Type": "ApplyBloonSpawnModifier",
+            "Duration": 15,
+            "HealthMultiplier": 1.3,
+            "SpeedMultiplier": 1.3,
+            "Affects": "PlayerSent",
+            "ParticleEffect": "bloon_boost_status.json",
+            "CompoundEffect": "{type}_trail.json",
+            "BonusHealthEffect": "armour_overlay_{type}.json",
+
+            "TargetingFilter": {
+                "Include" : {
+                    "BloonType" : [
+                        "MOAB",
+                        "BFB",
+                        "ZOMG"
+                    ]
+                }
+            }
+        }
+	]
+}

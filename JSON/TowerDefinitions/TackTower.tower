@@ -1,0 +1,110 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 250,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "TackTower.weapon"
+    ],
+    "Description" : "Shoots 8 tacks spread in all directions, each tack can pop 1 bloon.",
+    "Icon" : "tack_shooter_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 2,
+    "RotatesToTarget" : false,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "AnyInRange",
+    "TargetsManually" : false,
+    "TypeName" : "TackTower",
+    "Upgrades" : [
+        [
+            "Faster Shooting",
+            "Even Faster Shooting",
+            "Tack Sprayer",
+            "Ring Of Fire"
+        ],
+        [
+            "Extra Range Tacks",
+            "Super Range Tacks",
+            "Blade Shooter",
+            "Blade Maelstrom"
+        ]
+    ],  
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],  
+	"UpgradeDescriptions" :
+	[
+		[
+			"Shoots tacks faster.",
+			"Shoots tacks even faster!",
+			"Sprays out 16 tacks per volley instead of the usual 8.",
+			"Shoots a deadly ring of flame instead of tacks."
+		],
+		[
+			"Tacks fly out further than normal.",
+			"Tacks go much further than normal.",
+			"Shoots out big razor sharp blades.",
+			"Ability: covers the area in a storm of blades."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 80, "XP" : 35 }, { "Rank" : 310, "XP" : 55 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 250, 300, 500, 2500 ],
+        [ 100, 150, 500, 2000 ]
+    ],
+    "UpgradeAvatars" : 
+    [
+        [
+            "tack_shooter_avatar_faster_shooting_small",
+            "tack_shooter_avatar_even_faster_shooting_small",
+            "tack_shooter_avatar_sprayer_small",
+            "tack_shooter_avatar_rof_small"
+        ],
+        [
+            "tack_shooter_avatar_extra_range_small",
+            "tack_shooter_avatar_super_range_small",
+            "tack_shooter_avatar_blade_shooter_small",
+            "tack_shooter_avatar_blade_maelstrom_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "tack_shooter_faster_firing_icon",
+            "tack_shooter_even_faster_firing_icon",
+            "tack_shooter_sprayer_icon",
+            "tack_shooter_rof_icon"
+        ],
+        [
+            "tack_shooter_extra_range_icon",
+            "tack_shooter_super_range_icon",
+            "tack_shooter_blade_icon",
+            "tack_shooter_maelstrom_icon"
+        ]
+    ],
+        
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "TackTower.json"
+}

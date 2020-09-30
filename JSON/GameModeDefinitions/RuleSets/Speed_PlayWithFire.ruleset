@@ -1,0 +1,38 @@
+{
+    "name": "Speed_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "DisplayName": "SPEED WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_speed_play_with_fire_small"
+    },
+    "version": "1.0"
+}

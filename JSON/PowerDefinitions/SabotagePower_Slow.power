@@ -1,0 +1,22 @@
+{
+    "TypeName"          : "SabotagePower_Slow",
+    "Description"       : "Opponent's Towers attack 15% slower for 8s. Three uses.",
+    "Icon"              : "powers_slow",
+    "HudIcon"           : "icon_slow",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "SabotagePower_Slow.weapon"
+}

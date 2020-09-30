@@ -1,0 +1,66 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Sentry Gun",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "Fast Engineering",           
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "Cleansing Foam",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "Bloon Trap",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "9-inch nails",
+            "TowerUpgrade" :
+            {
+            }
+        },
+        
+        {
+            "Name" : "Larger Service Area",
+            "TowerUpgrade" :
+            {
+            }
+        },
+    
+        {
+            "Name" : "Sprockets",
+            
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.27
+                }
+            }
+        },
+        
+        {
+            "Name" : "Overclock",
+			"TowerUpgrade" :
+            {
+            }
+        }
+    ]
+}

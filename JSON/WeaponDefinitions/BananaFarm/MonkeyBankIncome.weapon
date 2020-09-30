@@ -1,0 +1,17 @@
+{	
+    "Type":             "MonkeyBankIncome",
+    "TargetRange":      120,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+	"FiresOnRoundEnd": true,
+
+    "Tasks" :
+    [
+        {
+            "Type":             "IncomeChange",
+            "MoneyRange":       [30, 30],
+            "MoneyMultiplier":  1.0
+        }
+	]
+}

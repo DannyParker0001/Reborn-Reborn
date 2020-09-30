@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 400, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 17, 
+        "Interval": 0.1, 
+        "NumBloons": 55, 
+        "Type": "Blue", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 400, 
+    "Name": "20", 
+    "NameOld": "NinjaMonkey11_BlueTight55", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "forest", 
+        "Cost": 800, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "NinjaMonkey", 
+        "Upgrades": [
+            1, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

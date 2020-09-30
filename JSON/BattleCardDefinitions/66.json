@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 700, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 30, 
+        "Interval": 0.1, 
+        "NumBloons": 25, 
+        "Type": "Pink", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "66", 
+    "NameOld": "BombTower21_PinkTight25", 
+    "PlatformProductID": "btdbattles_vet_bombtower21_pinktight25", 
+    "PlatformProductIDiOS": "btdbattles_vet_BombTower21_PinkTight25", 
+    "ProductID": "Vet_BombTower21_PinkTight25", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 1400, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "BombTower", 
+        "Upgrades": [
+            2, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 60, 
+        "SpotlightCount": 12, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

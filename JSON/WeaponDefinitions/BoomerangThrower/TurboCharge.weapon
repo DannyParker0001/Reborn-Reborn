@@ -1,0 +1,31 @@
+{	
+    "Type":             	"TurboCharge",    
+    "TargetRange":      	0,
+	"CooldownTime":     	30,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 0,
+			"PriorityLevel": 1,
+			"ApplyToUserTower": true,
+            "TerminateOnUserUpgrade" : false,
+			"Duration": 20,
+			"Modifier":
+			{
+				"Cooldown": [ 0.1, 0 ],
+                "FireDelay": [ 0.2, 0 ]
+			}
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"Scale": 1,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

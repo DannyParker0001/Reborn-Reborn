@@ -1,0 +1,46 @@
+{
+	"PackName"		:	"Pack2",
+	"MessageInfo"	:
+	[
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Eek!"
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Ha ha!"
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Unlucky!"
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Nice!"
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Cya!"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_cool"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_laugh"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_love"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_shocked"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_thumbsdown"
+		}
+	]
+}

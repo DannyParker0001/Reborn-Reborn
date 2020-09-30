@@ -1,0 +1,49 @@
+{
+    "ID": "FireworksMortarTower",
+    "DisplayName": "Mortar Tower Skin",
+    "DisplayDescription": "The Mortar and its upgrades light up the sky with fireworks. Visual change only.",
+    "DisplayIcon": "mortar_skin_store_icon.json",
+    "SmallIcon": "mortar_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MortarTowerSkin",
+    "RequiresTower": "MortarTower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "PopAndAweAbility.json": {
+            "Name" : "Fireworks_PopAndAweAbility.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        }
+    },
+    
+    "TowerMap": {
+        "MortarArtilleryBattery.json": {
+            "Name" : "Fireworks_MortarArtilleryBattery.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarBloonbuster.json": {
+            "Name" : "Fireworks_MortarBloonbuster.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarFlames.json": {
+            "Name" : "Fireworks_MortarFlames.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarFlamesTwoStripesStar.json": {
+            "Name" : "Fireworks_MortarFlamesTwoStripesStar.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarRedCircle.json": {
+            "Name" : "Fireworks_MortarRedCircle.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarTheBigOne.json": {
+            "Name" : "Fireworks_MortarTheBigOne.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MortarTower.json": {
+            "Name" : "Fireworks_MortarTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

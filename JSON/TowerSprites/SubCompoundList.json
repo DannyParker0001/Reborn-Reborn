@@ -1,0 +1,28 @@
+{
+    "files" : [
+        {
+            "file" : "Propellor.json"
+        },
+        {
+        	"file" : "MonkeyAceScarf.json"
+        },
+        {
+        	"file" : "TackTowerROFBase.json"
+        },
+        {
+        	"file" : "TackTowerROFFlame.json"
+        },
+	    {
+		    "file" : "snow_falling.json"
+	    },
+	    {
+	    	"file" : "Assassincompoundsprite.json"
+	    },
+	    {
+	    	"file" : "Moabcompoundsprite.json"
+	    },
+        {
+            "file" : "FirePit.json"
+        }
+    ]
+}

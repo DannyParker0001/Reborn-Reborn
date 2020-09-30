@@ -1,0 +1,113 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4254504598,
+         "Flip" : 0,
+         "Position" : [ -205.0, 0.0 ],
+         "Scale" : [ 102.50, 4.699999809265137 ],
+         "Shown" : true,
+         "sprite" : "clans_colour",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4257794248,
+         "Flip" : 0,
+         "Position" : [ -115.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_bar_light_01",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4257794248,
+         "Flip" : 0,
+         "Position" : [ -41.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_bar_light_02",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4257794248,
+         "Flip" : 0,
+         "Position" : [ 68.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_bar_light_01",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4257794248,
+         "Flip" : 0,
+         "Position" : [ 163.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_bar_light_02",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "clans_colour",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_bar_light_01",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_bar_light_02",
+            "Texture" : "clans_sheet"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,29 @@
+{	
+    "Type":             "EnergyBeacon",    
+    "TargetRange":      150,
+	"CooldownTime":     0.001,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+        {
+            "Type" : "ChainTasks",
+            "NumPersists":      1,
+            "NumJumps" :        0,
+        	"CutOffDistance":   240,
+		
+            "Tasks" :
+            [
+                {
+                    "Type" : "Damage",
+                    "DamageType" : "Plasma",
+                    "Amount" : 3
+                },
+                {
+                    "Type": "StatusEffect",
+                    "Status": "MultiLayerDamage"
+                }            
+            ]
+        }
+    ]
+}

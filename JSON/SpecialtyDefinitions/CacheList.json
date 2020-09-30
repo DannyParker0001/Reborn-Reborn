@@ -1,0 +1,29 @@
+{
+    "Files": [
+              "AmuletOfSacrifice.json",
+              "ArcaneStaff.json",
+              "BananaVacuum.json",
+              "Binoculars.json",
+              "CoolingFan.json",
+              "EnergyDrink.json",
+              "ExplosiveDarts.json",
+              "ExplosiveGel.json",
+              "FlamingCannon.json",
+              "GlueBucket.json",
+              "GoldenShuriken.json",
+              "InspiringFlag.json",
+              "IronGloves.json",
+              "Lunchbox.json",
+              "Monkarang.json",
+              "MountedDartlingGuns.json",
+              "OiledGears.json",
+              "ShardOfEverfrost.json",
+              "SignalFlare.json",
+              "SpellBook.json",
+              "Stinger.json",
+              "StrawFuse.json",
+              "TitaniumTacks.json",
+              "WoodenGavel.json",
+              "X-RayVisor.json"
+    ]
+}

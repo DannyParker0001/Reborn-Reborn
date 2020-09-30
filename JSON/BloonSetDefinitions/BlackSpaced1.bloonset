@@ -1,0 +1,9 @@
+{
+	"Type" : "BlackSpaced1",
+	"BloonType" : "Black",
+	"Quantity" : 3,
+	"Interval" : 0.6,
+	"Cost" : 60,
+	"IncomeChange" : 2.4,
+	"UnlockRound" : 4
+}

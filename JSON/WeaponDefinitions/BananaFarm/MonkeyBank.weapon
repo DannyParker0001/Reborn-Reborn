@@ -1,0 +1,22 @@
+{	
+    "Type":             "MonkeyBank",    
+    "TargetRange":      120,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+	"AllowFiringOnlyOnRoundStart": true,
+	"MaxShots": 45,
+	"MaxMoney": 5000,
+	"InterestMultiplier": 1.1,
+
+    "Tasks" :
+    [
+		{
+			"Type":             "Collectable",
+			"GraphicName":      "bananas",
+			"MoneyRange": [ 15, 15 ],
+			"MoneyMultiplier": 1.0,
+			"Bank": true
+		}
+	]
+}

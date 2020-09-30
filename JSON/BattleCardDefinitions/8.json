@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 500, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 20, 
+        "Interval": 0.6, 
+        "NumBloons": 25, 
+        "Type": "Black", 
+        "UnlockRound": 3
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 100, 
+    "Name": "8", 
+    "NameOld": "BombTower00_BlackSpaced25", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 500, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "BombTower", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

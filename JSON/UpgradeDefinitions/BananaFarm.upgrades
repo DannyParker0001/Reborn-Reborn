@@ -1,0 +1,160 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "More Bananas",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "Adjust" :
+                    {
+                        "MaxShots" : 1
+                    }
+                },
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "MaxShots" : 4
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Banana Plantation",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 0,
+                    "Adjust" :
+                    {
+                        "MaxShots" : 4
+                    }
+                },
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "MaxShots" : 14
+                    }
+                }
+            ]
+        },
+        {
+            "Name" : "Banana Republic",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "Adjust" :
+                {
+                    "MaxShots" : 6
+                }
+            }
+        },
+        {
+            "Name" : "Banana Research Facility",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+				"Replace":
+				{
+					"MaxShots": 6
+				},
+				
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Collectable"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "MoneyRange" : [ 600, 600 ],
+						"GraphicName": "banana_box"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Long Life Bananas",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+					{
+						"Operation": "SelectByType",
+						"Type": "Collectable"
+					},
+					{
+						"Operation": "Adjust",
+						"Duration": 10
+					}
+                ]
+            }
+
+        },
+        {
+            "Name" : "Valuable Bananas",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+					{
+						"Operation": "SelectByType",
+						"Type": "Collectable"
+					},
+					{
+						"Operation": "Replace",
+						"MoneyMultiplier": 1.5
+					}
+                ]
+            }
+
+        },
+        {
+            "Name" : "Monkey Bank",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "",
+                    "1" : "MonkeyBank.weapon",
+                    "2" : "MonkeyBankIncome.weapon"
+                }
+            }
+
+        },
+        {
+            "Name" : "Banana Investments Advisory",
+            "WeaponUpgrades" :
+            [
+                {
+                    "SlotIndex" : 1,
+                    "Adjust" :
+                    {
+                        "MaxShots" : 55,
+                        "MaxMoney": 15000,
+                        "InterestMultiplier": 0.1
+                    }
+                },
+                {
+                    "SlotIndex" : 2,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation": "SelectByType",
+                            "Type": "IncomeChange"
+                        },
+                        {
+                            "Operation": "Replace",
+                            "MoneyRange": [80, 80]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

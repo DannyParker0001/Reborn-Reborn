@@ -1,0 +1,124 @@
+{
+    "TypeName" : "MonkeyApprentice",
+    "Description" : "Throws magic bolts that can pop 2 bloons each.",
+    "AircraftList" : [
+    ],
+    "BaseCost" : 400,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "MonkeyApprentice.weapon",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "SeekingBolt.weapon"
+    ],
+    "ActiveWeaponSlots": [
+		true,
+        true,
+        true,
+        true,
+        true,
+        true,
+		false
+	],
+    "Icon" : "apprentice_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 14,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "Upgrades" : [
+        [
+            "Intense Magic",
+            "Lightning Bolt",
+            "Summon Whirlwind",
+            "Tempest Tornado"
+        ],
+        [
+            "Fireball",
+            "Monkey Sense",
+            "Dragon's Breath",
+            "Summon Phoenix"
+        ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			"Ability: Super powerful phoenix wreaks bloon havoc for 20s."
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Shoots larger and more powerful magical bolts.",
+			"Unleash the power of lightning removing all regrow from any bloons.",
+			"Whirlwind blows bloons off the path away from the exit.",
+			"Pops bloons and blows them faster, further and more often."
+		],
+		[
+			"The Apprentice adds a powerful fireball attack to its arsenal.",
+			"Allows the Monkey Apprentice to hit camo bloons.",
+			"Spews endless flames at nearby bloons.",
+			"Ability: super powerful phoenix wreaks bloon havoc for 20 seconds."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 20, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 170, "XP" : 45 }, { "Rank" : 420, "XP" : 65 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 350, 1200, 1500, 2500 ],
+        [ 250, 250, 2500, 6500 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "apprentice_avatar_intense_magic_small",
+            "apprentice_avatar_lightning_small",
+            "apprentice_avatar_whirlwind_small",
+            "apprentice_avatar_tornado_small"
+        ],
+        [
+            "apprentice_avatar_fireball_small",
+            "apprentice_avatar_sense_small",
+            "apprentice_avatar_dragon_breath_small",
+            "apprentice_avatar_phoenix_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "apprentice_intense_magic_icon",
+            "apprentice_lightning_icon",
+            "apprentice_whirlwind_icon",
+            "apprentice_tornado_icon"
+        ],
+        [
+            "apprentice_fireball_icon",
+            "apprentice_monkey_sense_icon",
+            "apprentice_dragon_breath_icon",
+            "apprentice_phoenix_icon"
+        ]
+    ],  
+      
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "MonkeyApprentice.json"
+}

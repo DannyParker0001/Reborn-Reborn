@@ -1,0 +1,89 @@
+{	
+    "Type":             	"BladeMaelstrom",    
+    "TargetRange":      	0,
+	"CooldownTime":     	20.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 0,
+			"AngleIncrement": 12,
+			"ShotDelay": 0.03333,
+			"FireCount": 60,
+			"AimAtTarget" : false,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "Projectile",
+					"GraphicName": "monkey_temple_supermonkey_projectile",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement": 
+					{
+						"Type": "Forward",
+						"Speed": 400.0,
+						"CutOffDistance": 1000
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+    			}
+			]
+		},
+		{
+			"Type": "MultiFire",
+			"InitialOffset": 180,
+			"AngleIncrement": 12,
+			"ShotDelay": 0.03333,
+			"FireCount": 60,
+			"AimAtTarget" : false,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "Projectile",
+					"GraphicName": "monkey_temple_supermonkey_projectile",
+					"NumPersists": -1,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement": 
+					{
+						"Type": "Forward",
+						"Speed": 400.0,
+						"CutOffDistance": 1000
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+    			}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "MaelstromAbility.json",
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

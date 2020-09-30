@@ -1,0 +1,8 @@
+{
+   "ID" : "Icon_02_Regen",
+   "SpriteName" : "clan_symbol_icon_02_regen.json",
+   "DisplayName" : "Regen",
+   "Layer" : 3,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

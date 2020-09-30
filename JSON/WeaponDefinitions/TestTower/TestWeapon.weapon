@@ -1,0 +1,15 @@
+{	
+    "Type" 		: "TestWeapon",
+    "Behaviour" : "Single",
+    "DamageType" : "Piercing",
+    
+    "ProjectileGraphic" : "spike_ball",
+    "PierceValue" : 1,    
+    "TargetRange" : 100.0,
+    "ProjectileRange" : 161.0,
+    "ProjectileSpeed" : 1005.0,
+	"CooldownTime" : 1,
+    "FireDelayTime" : 0.2,
+    "Tasks": [],
+    "CollisionType": "Once"
+}

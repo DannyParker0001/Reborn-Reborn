@@ -1,0 +1,47 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 3000, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 60, 
+        "Interval": 0.1, 
+        "NumBloons": 30, 
+        "Type": "Black", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "67", 
+    "NameOld": "MonkeyApprentice24_CamoBlackTight30", 
+    "PlatformProductID": "btdbattles_vet_monkeyapprentice24_camoblacktight30", 
+    "PlatformProductIDiOS": "btdbattles_vet_MonkeyApprentice24_CamoBlackTight30", 
+    "ProductID": "Vet_MonkeyApprentice24_CamoBlackTight30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fire", 
+        "Cost": 7500, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MonkeyApprentice", 
+        "Upgrades": [
+            2, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

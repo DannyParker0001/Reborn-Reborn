@@ -1,0 +1,36 @@
+{
+    "TypeName"				: "TestTower",
+    "Icon"					: "TestTowerIcon",
+    "Description"			: "Tower defined specifically for testing purposes",
+    "BaseCost"				: 9001,
+    "RankToUnlock"			: 1337,
+    "DefaultWeapons"	    : [ "TestWeapon.weapon" ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ "TestUpgradeA1", "TestUpgradeA2", "TestUpgradeA3", "TestUpgradeA4" ],
+    	[ "TestUpgradeB1", "TestUpgradeB2", "TestUpgradeB3", "TestUpgradeB4" ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"         : "Test.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 0.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0
+}

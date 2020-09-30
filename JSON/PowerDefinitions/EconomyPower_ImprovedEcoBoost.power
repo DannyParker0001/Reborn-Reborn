@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_ImprovedEcoBoost",
+    "UnlockCost"        : 2500,
+    "Description"       : "Boost your income by 8x the round number. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_CopyEco"],
+    "Icon"              : "powers_improved_eco_boost",
+    "HudIcon"           : "icon_improved_eco_boost",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_ImprovedEcoBoost.weapon"
+}

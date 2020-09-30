@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_TurboMoabs",
+    "UnlockCost"        : 5000,
+    "RequiresUnlocked"  : ["BloonPower_BeefyMoabs"],
+    "Icon"              : "powers_turbo_moabs",
+    "Description"       : "Speed up next 2 sent MOAB-Class Bloons by 60% for 20 seconds. Three uses.",
+    "HudIcon"           : "icon_turbo_moabs",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_TurboMoabs.weapon"
+}

@@ -1,0 +1,48 @@
+{	
+    "Type"                                      : "Juggerlanche",
+    "TargetRange"                               : 10000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "ShowRange"                                 : true,
+    
+    "Tasks" :
+    [
+		{
+            "Type"                      : "ScreenWipe",
+            "Count"                     : 15,
+            "Duration"                  : 0.5,
+            "SpeedMultiplierRange"      : [0.75, 1.25],
+
+            "Tasks" :
+            [
+                {
+                    "Type":            "Projectile",
+                    "SpriteFile":      "JuggernautProjectile.json",
+                    "NumPersists":      10000,
+                    "TerminateOnZeroPersists": true,
+
+                    "CollisionType": "Once",
+                    "Radius": 23,
+
+                    "Movement":
+                    {
+                        "Type": "Forward",
+                        "Speed": 560.0,
+                        "CutOffDistance": 500
+                    },
+
+                    "Tasks" :
+                    [
+                        { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 },
+                        { "Type": "Damage", "DamageType": "Juggernaut", "Amount": 4 }
+                    ]
+                }
+            ]
+        },
+		{
+			"Type": "Effect",
+			"Audio": "JUGGERLANCHE"
+		}
+	]
+}

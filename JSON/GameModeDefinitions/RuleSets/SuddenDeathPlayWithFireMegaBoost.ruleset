@@ -1,0 +1,52 @@
+{
+    "name": "SuddenDeathPlayWithFireMegaBoost",
+    "rules": [
+        "FreePowerups",
+        "MegaBoosts",
+        "PlayWithFire",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 20,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetX": 60,
+                "offsetY": -10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 100,
+                "offsetY": 5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "offsetY": 18,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 3
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": -1
+            }
+        ],
+        "DisplayNameFront": "    BOOSTY 1 LIFE WITH FIRE",
+        "DisplayName": "BOOSTY 1 LIFE WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_playwithfire_megaboost"
+    },
+    "version": "1.0"
+}

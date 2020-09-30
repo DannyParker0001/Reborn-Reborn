@@ -1,0 +1,9 @@
+{
+   "ID" : "Colour_11_Gold",
+   "SpriteName" : "clan_symbol_colour_11_gold.json",
+   "SpriteName_Select" : "clan_symbol_colour_select_11_gold.json",
+   "DisplayName" : "Gold",
+   "Layer" : 1,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

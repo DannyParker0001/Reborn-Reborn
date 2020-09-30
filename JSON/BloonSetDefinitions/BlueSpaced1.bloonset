@@ -1,0 +1,9 @@
+{
+	"Type" : "BlueSpaced1",
+	"BloonType" : "Blue",
+	"Quantity" : 6,
+	"Interval" : 0.33,
+	"Cost" : 35,
+	"IncomeChange" : 1.4,
+	"UnlockRound" : 0
+}

@@ -1,0 +1,13 @@
+{
+	"Type" : "Zebra",
+	"InitialHealth" : 1,
+	"SpriteFile" : "zebra_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1.8,
+	"RBE" : 23,
+    "ChildBloons" : [ "Black.bloon", "White.bloon" ],
+    "StatusImmunity" : [ "Ice", "Permafrost", "ViralFrost",  "IceShards", "CrippleMOAB" ],
+    "DamageImmunity" : [ "Ice", "Explosive", "Juggernaut", "MOABMauler", "Foam" ],
+    "Scale" : 0.9,
+    "Radius" : 10
+}

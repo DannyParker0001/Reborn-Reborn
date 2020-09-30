@@ -1,0 +1,129 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Full Metal Jacket",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Amount" : 4
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Point Five Oh",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Amount" : 7
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Deadly Precision",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Amount" : 18
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Cripple MOAB",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 2 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "CrippleMOAB"
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Faster Firing",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.6
+                }
+            }
+        },
+        
+        {
+            "Name" : "Night Vision Goggles",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+        
+        {
+            "Name" : "Semi Automatic Rifle",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.933
+                }
+            }
+        },
+        
+        {
+            "Name" : "Supply Drop",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "SupplyDrop.weapon"
+                }
+            }
+        }
+    ]
+}

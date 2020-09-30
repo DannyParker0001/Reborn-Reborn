@@ -1,0 +1,9 @@
+{
+	"Type" : "WhiteSpaced1",
+	"BloonType" : "White",
+	"Quantity" : 4,
+	"Interval" : 0.5,
+	"Cost" : 90,
+	"IncomeChange" : 3,
+	"UnlockRound" : 6
+}

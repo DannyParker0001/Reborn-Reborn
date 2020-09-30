@@ -1,0 +1,30 @@
+{
+	"Setup"	: {
+		"Health" : 100,
+		"RoundFiles" : [
+			"Difficulty/Hard.mode"
+		]
+	},
+
+	"Rules" : {
+		"TargetRound" : 85,
+		"PriceModifier" : 1.08,
+ 		"SpeedModifier" : 0.125
+	},
+	
+	"_Rounds" : [
+		{
+			"Round" : 0,
+			"Hint" : "Hard.mode intro hint text",
+			"Waves" : [
+			]
+		},
+		{
+			"Round" : 1,
+			"Hint" : "Hard.mode intro hint text",
+			"Waves" : [
+				{ "Bloon" : "Ceramic", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 20, "Count" : 50 }
+			]
+		}
+	]
+}

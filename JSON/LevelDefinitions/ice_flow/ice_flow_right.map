@@ -1,0 +1,7 @@
+{
+	"Music" : "main.mp3",
+    "BloonSendPath" : 1,
+    "Effects" : [
+    "Snowfall"
+    ]
+}

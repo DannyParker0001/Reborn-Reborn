@@ -1,0 +1,36 @@
+{	
+    "Type":             "NailGun",    
+    "TargetRange":      130.0,
+	"CooldownTime":     0.445,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "engineer_nail",
+			"NumPersists":      3,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 1050.0,
+				"CutOffDistance": 600
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

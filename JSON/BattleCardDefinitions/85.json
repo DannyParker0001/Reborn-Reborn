@@ -1,0 +1,29 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Calls in a wave of powerful Juggernaut spiked balls that do massive damage to all bloons on screen. Pops Lead and Camo.", 
+    "DiscardCost": 1000, 
+    "Name": "85", 
+    "NameOld": "Power_Juggerlanche", 
+    "PlatformProductID": "btdbattles_vet_power_juggerlanche", 
+    "Power": {
+        "BackgroundSprite": "power_card_juggerlanche", 
+        "Cost": 1200, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "Juggerlanche"
+    }, 
+    "ProductID": "Vet_Power_Juggerlanche", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

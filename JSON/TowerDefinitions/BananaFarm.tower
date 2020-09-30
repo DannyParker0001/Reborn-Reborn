@@ -1,0 +1,105 @@
+{
+    "TypeName"				: "BananaFarm",
+    "Icon"					: "banana_farm_avatar_small",
+    "Description"			: "Grows bananas that you can tap to collect for cash.",
+    "BaseCost"				: 850,
+    "RankToUnlock"			: 16,
+    "DefaultWeapons"	    : [ "BananaFarm.weapon" ],
+    "TargetingMode"			: "None",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    "CanSpotForTowers" : false,
+
+    "Upgrades" :
+    [
+    	[ "More Bananas", "Banana Plantation", "Banana Republic", "Banana Research Facility" ],
+    	[ "Long Life Bananas", "Valuable Bananas", "Monkey Bank", "Banana Investments Advisory" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"Generates stored cash that earns 10% a round. Holds up to $5000.",
+			""
+		]
+	],   
+	"UpgradeDescriptions" :
+	[
+		[
+			"Grows 3 big bunches of bananas.",
+			"Grows 7 big bunches each round.",
+			"Generates 13 big bunches of bananas every round.",
+			"Produces 6 boxes of bananas every round."
+		],
+		[
+			"Bananas last 25 seconds instead of the usual 15.",
+			"Each bunch or box of bananas is worth 50% more cash.",
+			"Generates stored cash that earns 10% each round and holds up to $5000.",
+			"20% interest each round instead of 10% and storage for $20,000."
+		]
+	],
+    "UpgradePrices" : 
+    [
+        [ 425, 1700, 2550, 16000 ],
+        [ 0, 4000, 3000, 5500 ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 75, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 200, "XP" : 40 }, { "Rank" : 500, "XP" : 70 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "banana_farm_avatar_more_bananas_small", 
+        "banana_farm_avatar_plantation_small", 
+        "banana_farm_avatar_republic_small", 
+        "banana_farm_avatar_brf_small" 
+        ],
+    	[ 
+        "banana_farm_avatar_long_life_small", 
+        "banana_farm_avatar_valuable_bananas_small", 
+        "banana_farm_avatar_bank_small", 
+        "banana_farm_avatar_investments_small" 
+        ]
+    ], 
+       
+    "UpgradeIcons" :
+    [
+    	[ 
+        "banana_farm_more_bananas_icon", 
+        "banana_farm_plantation_icon", 
+        "banana_farm_republic_icon", 
+        "banana_farm_brf_icon" 
+        ],
+    	[ 
+        "banana_farm_long_life_icon", 
+        "banana_farm_valuable_icon", 
+        "banana_farm_bank_icon", 
+        "banana_farm_investments_icon" 
+        ]
+    ],
+    
+    "AircraftList"			: [ ],
+    
+    "DefaultSprite"		: "BananaFarm.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 20.0,
+    "PlacementW"			: 39.9,
+    "PlacementH"			: 39.9,
+    "SpriteUpgradeDefinition" : "BananaFarm.json"
+}

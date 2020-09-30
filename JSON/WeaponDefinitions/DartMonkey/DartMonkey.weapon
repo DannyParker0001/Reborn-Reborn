@@ -1,0 +1,60 @@
+{	
+    "Type":             "DartMonkey",    
+    "TargetRange":      100.0,
+	"CooldownTime":     0.65,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+            "DisabledTasks" : [ 1, 2 ],
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1, 2 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				},
+                
+                {
+					"Type": "AreaOfEffect",
+					"Range": 36,
+					"MaxTargets": 2,
+					"Tasks" :
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						}
+					]
+                },
+                
+                {
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 0.32
+				}
+			]
+		}
+	]
+}

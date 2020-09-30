@@ -1,0 +1,48 @@
+{
+	"Name" : "Oiled Gears",
+	"Icon" : "oiled_gears",
+    "Rarity" : "Silver",
+    "Description" : "+20% attack speed to Spike Factory, Requires 2 Engineers",
+	"Effects" :
+	[
+		{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyEngineer", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.80, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyEngineer", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.80, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "MonkeyEngineer", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "SpikeFactory" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.80, 0 ]
+     				}
+     			}
+            ]
+		}
+	]
+}

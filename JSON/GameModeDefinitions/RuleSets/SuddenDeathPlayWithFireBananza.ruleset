@@ -1,0 +1,83 @@
+{
+    "name": "SuddenDeathPlayWithFireBananza",
+    "rules": [
+        "FreePowerups",
+        "Bananza",
+        "PlayWithFire",
+		"Bananza_WithFire",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetX": 20,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetX": 60,
+                "offsetY": -10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 100,
+                "offsetY": 5
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 30
+            },
+            {
+                "Text": "4x income from Bloon Sends!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetX": 20,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetX": 60,
+                "offsetY": -10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 100,
+                "offsetY": 5
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 30
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "DisplayNameFront": "   FIERY 1 LIFE BANANZA",
+        "DisplayName": "FIERY 1 LIFE BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_playwithfire_bananza"
+    },
+    "version": "1.0"
+}

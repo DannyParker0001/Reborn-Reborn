@@ -1,0 +1,36 @@
+{
+	"Name" : "Iron Gloves",
+	"Icon" : "iron_gloves",
+    "Rarity" : "Bronze",
+    "Description" : "5% chance any shot will have double pierce",
+	"Effects" :
+	[
+		{
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.05, 0 ]
+				}
+			}
+		},
+        {
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.05, 0 ]
+				}
+			}
+		},
+        {
+			"TowerModifier" :
+			{
+				"Modifier" :
+				{
+					"DoublePierceChance" : [ 0.05, 0 ]
+				}
+			}
+		}
+	]
+}

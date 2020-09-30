@@ -1,0 +1,147 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_corner",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 11.0, 0.0 ],
+         "Scale" : [ 12.35000038146973, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_edge",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4278190079,
+         "Flip" : 0,
+         "Position" : [ 0.0, -11.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 26.0, -11.0 ],
+         "Scale" : [ 1.149999976158142, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 56.0, -11.0 ],
+         "Scale" : [ 1.149999976158142, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 86.0, -11.0 ],
+         "Scale" : [ 1.149999976158142, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4278190079,
+         "Flip" : 0,
+         "Position" : [ 116.0, -11.0 ],
+         "Scale" : [ 1.149999976158142, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 10
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "panel_bg_fire_corner",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire_edge",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire",
+            "Texture" : "nk_open_ui_fire"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      }
+   ]
+}

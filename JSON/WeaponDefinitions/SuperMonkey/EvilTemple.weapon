@@ -1,0 +1,57 @@
+{	
+    "Type":             "EvilTemple",
+    "TargetRange":      0.0,
+	"CooldownTime":     60,
+    "FireDelayTime":    0.2,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 0,
+			"PriorityLevel": 1,
+			"ApplyToUserTower": true,
+			"TerminateOnUserUpgrade": false,
+
+			"Duration": 10,
+			"NumPersists": 10,
+
+			"TargetingFilter":
+			{
+				"Include" : { "TowerType": [ "SuperMonkey" ] }
+			},
+
+			"Modifier":
+			{
+				"TargetRange" : [ 1.5, 0 ],
+                "FireDelay" : [ 0.5, 0 ],
+                "Cooldown" : [ 0.5, 0 ],
+                "PoppingPower" : [ 2, 0 ],
+                "Display" : "SuperMonkeyTempleHeadEvil.json",
+                "BaseDisplay" : "SuperMonkeyTempleEvil.json",
+                "EnabledSubtasks" : [ [ 7, [ 1 ], true ], [ 7, [ 0 ], false ] ]
+			}
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SuperMonkeyFanclubLargeLightning.json",
+			"Position": [0.5, 0.5],
+			"DrawLayer": "FullScreen"
+		},
+        {
+			"Type": "Effect",
+			"SpriteFile": "EvilMonkeyTempleAbility.json",
+            "Duration" : 10,
+			"Position": [0.5, 0.5],
+			"DrawLayer": "FullScreen"
+		},
+        {
+            "Type": "Effect",
+            "SpriteFile": "GeneralShockwave.json",
+            "Scale": 1.0,
+            "DrawLayer": "FullScreen"
+        }
+    ]
+}

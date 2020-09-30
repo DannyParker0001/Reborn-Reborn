@@ -1,0 +1,44 @@
+{
+   "name":"ChocolateBox",
+   "rules":[
+      "FreePowerups",
+      "ChocolateBoxMaps"
+   ],
+   "UI":{
+      "CardTextInfo":[
+         {
+            "Text":"Eat chocolate, pop Bloons!",
+            "offsetX":0,
+            "offsetY":0
+         },
+         {
+            "Text":"Chocolate Box features the following spring tracks:",
+            "offsetX":0,
+            "offsetY":0
+         },
+         {
+            "Text":"Battle Park",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         },
+         {
+            "Text":"River",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         },
+         {
+            "Text":"Yellow Brick",
+            "Icon":"bullet_point_glow",
+            "offsetX":25,
+            "offsetY":0
+         }
+      ],
+      "DisplayIcon":"rulesIcon_FreePowerups",
+      "DisplayInfo":"USE WISELY",
+      "DisplayName":"FREE POWERUPS",
+      "LobbyName":"",
+      "InGameRuleInfo": []
+   }
+}

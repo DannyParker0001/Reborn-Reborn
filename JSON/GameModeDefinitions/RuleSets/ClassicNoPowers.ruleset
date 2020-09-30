@@ -1,0 +1,32 @@
+{
+    "name": "ClassicNoPowers",
+    "rules": [
+        "ClassicNoPowers"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "Only 3 Tower\nchoices",
+                "Icon": "Assets/JSON/UILayout/no_bonus_tower_icon.json",
+                "offsetX": 25,
+                "offsetY": 25
+            },
+            {
+                "Text": "No Powers",
+                "Icon": "Assets/JSON/UILayout/no_powers_icon.json",
+                "offsetX": 25,
+                "offsetY": 25
+            }
+        ],
+        "DisplayName": "OLD SCHOOL",
+        "DisplayIcon": "",
+        "DisplayInfo": "",
+		"LobbyName" : "",
+        "Card" : "level_card.json",
+        "IconBackgroundPath" : "Assets/JSON/UILayout/",
+        "IconBackground" : "parchment.json",
+        "IconBackgroundOffsetX" : 0,
+        "IconBackgroundOffsetY" : -55,
+        "ExtraIcon" : "assault_classic_icon_large"
+    }
+}

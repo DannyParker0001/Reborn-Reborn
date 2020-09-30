@@ -1,0 +1,39 @@
+{
+	"Sprites":
+	{
+        "0" : "engineer_yellow_hat",
+        "1" : "engineer_green_hat",
+        "2" : "engineer_blue_hat",
+        "3" : "engineer_white_hat_yellow",
+        "4" : "engineer_white_hat_red",
+        "5" : "engineer_orange_hat",
+        "6" : "engineer_grey_hat_yellow",
+        "7" : "engineer_red_hat",
+        "8" : "engineer_grey_hat_red"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 5,
+		"02"		: 6,
+		"03"		: 7,
+		"04"		: 8,
+		"10"		: 1,
+		"11"		: 5,
+		"12"		: 6,
+		"13"		: 7,
+		"14"		: 8,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 7,
+		"24"		: 8,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 3,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

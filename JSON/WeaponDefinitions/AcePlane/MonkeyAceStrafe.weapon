@@ -1,0 +1,36 @@
+{	
+    "Type":             "MonkeyAceStrafe",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.0571428571,
+    "FireDelayTime":    0.0,
+    "RequiresTargetToFire"	: true,
+    "TargetsIndependently": true,
+	"SelfTargetMode": "Arc",
+    "TargetingArc" : 1.1780972450625,
+    
+    "DisabledTasks" : [ 0 ],
+    
+    "Tasks"	:
+    [
+        {
+            "Type":             "Projectile",
+            "GraphicName":      "dart_monkey_dart",
+            "NumPersists":      1,
+            "TerminateOnZeroPersists": true,
+            
+            "CollisionType": "Once",
+            
+            "Movement":
+            {
+                "Type": "Forward",
+                "Speed": 700.0,
+                "CutOffDistance": 1000
+            },
+            
+            "Tasks" :
+            [ 
+                { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } 
+            ]
+        }
+	]
+}

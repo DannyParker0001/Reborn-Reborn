@@ -1,0 +1,1492 @@
+{
+    "Items": [
+              {
+              "Name": "Starter Pack",
+              "Tagline": "Bonus decal",
+              "Description": "%s value for %s%s!",
+              "Icon": "starter_pack.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "StarterPack",
+              "PurchaseLimit": 1,
+              "BattleScore": 40,
+              "TimeLimit": 7,
+              "IsLimitedEdition": true
+              },
+              {
+              "Name": "Club Starter Pack",
+              "Icon": "club_starter_pack.json",
+              "Cost": "14.99",
+              "CostInCents": 1499,
+              "ProductID": "ClubStarterPack",
+              "PurchaseLimit": 1,
+              "BattleScore": 40,
+              "IsLimitedEdition": true,
+              "Tags": [
+                       "IAP",
+                       "PACK",
+                       "CLUB"
+                       ]
+              },
+              {
+              "Name": "Club Starter Pack",
+              "Icon": "club_mobile_starter_pack.json",
+              "Cost": "14.99",
+              "CostInCents": 1499,
+              "ProductID": "ClubStarterPackMobile",
+              "PurchaseLimit": 1,
+              "BattleScore": 40,
+              "IsLimitedEdition": true,
+              "Tags": [
+                       "IAP",
+                       "PACK",
+                       "CLUB"
+                       ]
+              },
+              {
+              "Name": "Free Energy",
+              "Description": "",
+              "Icon": "free_energy_icon.json",
+              "Cost": "Watch Ad",
+              "CostInCents": 0,
+              "CostType": "Ad",
+              "ProductID": "FreeEnergy",
+              "Tags": [
+                       "AD",
+                       "ENERGY"
+                       ]
+              },
+              {
+              "Name": "Small Energy Potion",
+              "Description": "",
+              "Icon": "small_energy_potion_icon_complete.json",
+              "Cost": "1.99",
+              "CostInCents": 199,
+              "ProductID": "SmallEnergyPotion",
+              "Tags": [
+                       "IAP",
+                       "ENERGY"
+                       ]
+              },
+              {
+              "Name": "Large Energy Potion",
+              "Tagline": "+0.1 Hero bonus",
+              "Icon": "large_energy_potion_icon_complete.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "LargeEnergyPotion",
+              "Tags": [
+                       "IAP",
+                       "ENERGY"
+                       ]
+              },
+              {
+              "Name": "Tasty Energy Potion",
+              "Tagline": "+0.1 Hero bonus",
+              "Icon": "tasty_energy_potion_icon_complete.json",
+              "Cost": "5.99",
+              "CostInCents": 599,
+              "ProductID": "TastyEnergyPotion",
+              "Tags": [
+                       "IAP",
+                       "ENERGY"
+                       ]
+              },
+              {
+              "Name": "Powerful Energy Potion",
+              "Tagline": "+0.6 Hero bonus",
+              "Icon": "powerful_energy_potion_icon_complete.json",
+              "Cost": "19.99",
+              "CostInCents": 1999,
+              "ProductID": "PowerfulEnergyPotion",
+              "Tags": [
+                       "IAP",
+                       "ENERGY"
+                       ]
+              },
+              {
+              "Name": "War Chest Amplifier",
+              "Tagline": "+1.6 Hero bonus",
+              "Icon": "clan_amplifier.json",
+              "Cost": "19.99",
+              "CostInCents": 1999,
+              "RequireGuild": true,
+              "ProductID": "ClanWarChestAmplifier",
+              "Tags": [
+                       "IAP",
+                       "SPECIAL",
+                       "CLAN"
+                       ]
+              },
+              {
+              "Name": "Free Medallions",
+              "Description": "",
+              "Icon": "free_medallions_icon.json",
+              "Cost": "Watch Ad",
+              "CostInCents": 0,
+              "CostType": "Ad",
+              "ProductID": "FreeMedallions",
+              "Tags": [
+                       "AD",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Handful of Medallions",
+              "Description": "",
+              "Icon": "handful_of_medallions_icon.json",
+              "Cost": "1.99",
+              "CostInCents": 199,
+              "ProductID": "HandfulMedallions",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Unlimited Club Access",
+              "Description": "Doubles Medallions from Store!",
+              "Icon": "clubentry.json",
+              "Cost": "4.99",
+              "CostInCents": 499,
+              "ProductID": "ClubRoomEntry",
+              "HideIfPurchased": true,
+              "OverridenByItem": "ClubRoomEntrySale",
+              "Tags": [
+                       "IAP",
+                       "CLUB"
+                       ]
+              },
+              {
+              "Name": "Unlimited Club Access",
+              "Description": "Doubles Medallions from Store!",
+              "Icon": "clubentry.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "ClubRoomEntrySale",
+              "HideIfPurchased": true,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "SaleForOriginalItem": "ClubRoomEntry",
+              "Tags": [
+                       "IAP",
+                       "CLUB"
+                       ]
+              },
+              {
+              "Name": "Bag of Medallions",
+              "Tagline": "+0.1 Hero bonus",
+              "Icon": "bag_of_medallions_icon.json",
+              "Cost": "4.99",
+              "CostInCents": 499,
+              "ProductID": "BagMedallions",
+              "OverridenByItem": "BagMedallionsSale",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Bag of Medallions",
+              "Tagline": "+0.1 Hero bonus",
+              "Icon": "bag_of_medallions_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "BagMedallionsSale",
+              "CheckSKUForEnable": true,
+              "SaleForOriginalItem": "BagMedallions",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Chest of Medallions",
+              "Tagline": "+0.6 Hero bonus",
+              "Icon": "chest_of_medallions_icon.json",
+              "Cost": "19.99",
+              "CostInCents": 1999,
+              "ProductID": "ChestMedallions",
+              "OverridenByItem": "ChestMedallionsSale",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Chest of Medallions",
+              "Tagline": "+0.3 Hero bonus",
+              "Icon": "chest_of_medallions_icon.json",
+              "Cost": "11.99",
+              "CostInCents": 1199,
+              "ProductID": "ChestMedallionsSale",
+              "CheckSKUForEnable": true,
+              "SaleForOriginalItem": "ChestMedallions",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Battles Master Pack",
+              "Tagline": "+1.1 Hero bonus",
+              "Icon": "master_pack.json",
+              "Cost": "34.99",
+              "CostInCents": 3499,
+              "PurchaseLimit": 1,
+              "ProductID": "BattlesMaster",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS",
+                       "ENERGY",
+                       "PACK"
+                       ]
+              },
+              {
+              "Name": "Vault of Medallions",
+              "Tagline": "+1.6 Hero bonus",
+              "Icon": "pile_of_medallions_icon.json",
+              "Cost": "49.99",
+              "CostInCents": 4999,
+              "ProductID": "VaultMedallions",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Mountain of Medallions",
+              "Tagline": "+3.3 Hero bonus",
+              "Icon": "mountain_of_medallions_icon.json",
+              "Cost": "99.99",
+              "CostInCents": 9999,
+              "ProductID": "MountainMedallions",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS"
+                       ]
+              },
+              {
+              "Name": "Battles Champion Pack",
+              "Tagline": "+1.9 Hero bonus",
+              "Icon": "champion_pack.json",
+              "Cost": "59.99",
+              "CostInCents": 5999,
+              "PurchaseLimit": 1,
+              "ProductID": "BattlesChampion",
+              "Tags": [
+                       "IAP",
+                       "MEDALLIONS",
+                       "ENERGY",
+                       "PACK"
+                       ]
+              },
+              {
+              "Name": "Clean Slate",
+              "Description": "Resets your win/loss stats",
+              "Tagline": "+0.1 Hero bonus",
+              "Icon": "reset_win_loss_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "CleanSlate",
+              "Tags": [
+                       "IAP",
+                       "SPECIAL"
+                       ]
+              },
+              {
+              "Name": "Power Cell",
+              "Tagline": "+0.1 Hero bonus",
+              "Description": "Triples energy regeneration",
+              "Icon": "battery_icon.json",
+              "Cost": "4.99",
+              "CostInCents": 499,
+              "ProductID": "PowerCell",
+              "PurchaseLimit": 1,
+              "Tags": [
+                       "IAP",
+                       "SPECIAL"
+                       ]
+              },
+              {
+              "Name": "Monkey Farmer",
+              "Description": "Farmer will auto-gather all Bananas in his radius so you don't have to! You must have a Banana Farm to use him.",
+              "Icon": "shop_farmer.json",
+              "Cost": "100",
+              "CostInCents": 0,
+              "CostType": "Medallions",
+              "UnlockType": "OneUseTower",
+              "ProductID": "MonkeyFarmer",
+              "Tags": [
+                       "SPECIAL",
+                       "TOWER",
+                       "INVENTORY"
+                       ]
+              },
+              {
+              "Name": "Chat Pack",
+              "Description": "Laugh out loud or convey your dismay with 10 all new emotes and phrases!",
+              "Icon": "chat_pack_02.json",
+              "Cost": "1.99",
+              "CostInCents": 199,
+              "ProductID": "ChatPack_Pack2",
+              "PurchaseLimit": 1,
+              "Tags": [
+                       "IAP",
+                       "CHAT",
+                       "PACK"
+                       ]
+              },
+              {
+              "Name": "Charge",
+              "Description": "Charge Decal",
+              "Icon": "knight_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalCharge",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Gauntlet",
+              "Description": "Gauntlet Decal",
+              "Icon": "gauntlet_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalGauntlet",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Burning Love",
+              "Description": "Burning Love Decal",
+              "Icon": "burninglove_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalBurningLove",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Twisted Desire",
+              "Description": "Twisted Desire Decal",
+              "Icon": "twisteddesire_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalTwistedDesire",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Lucky Charm",
+              "Description": "Lucky Charm Decal",
+              "Icon": "luckycharm_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalLuckyCharm",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Poppin' Paddy",
+              "Description": "Poppin' Paddy Decal",
+              "Icon": "poppinpaddy_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalPoppinPaddy",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Easter Bunny",
+              "Description": "Easter Bunny Decal",
+              "Icon": "easterbunny_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalEasterBunny",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Eggcellent",
+              "Description": "Eggcellent Decal",
+              "Icon": "eggcellent_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalEggcellent",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Monkey of Liberty",
+              "Description": "Monkey of Liberty Decal",
+              "Icon": "monkey_of_liberty_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalMonkeyOfLiberty",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Feathered Freedom",
+              "Description": "Feathered Freedom Decal",
+              "Icon": "feathered_freedom_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalFeatheredFreedom",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Boo!",
+              "Description": "Boo Decal",
+              "Icon": "boo_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalBoo",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Count Dartula",
+              "Description": "Count Dartula Decal",
+              "Icon": "count_dartula_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalCountDartula",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Trick Or Treat",
+              "Description": "Trick Or Treat Decal",
+              "Icon": "trick_or_treat_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalTrickOrTreat",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Frankenmonkey",
+              "Description": "Frankenmonkey Decal",
+              "Icon": "frankenmonkey_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalFrankenmonkey",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Little Helper",
+              "Description": "Little Helper Decal",
+              "Icon": "elf_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalLittleHelper",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Reindeer Games",
+              "Description": "Reindeer Decal",
+              "Icon": "reindeer_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalReindeerGames",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Arctic Monkey",
+              "Description": "Arctic Monkey Decal",
+              "Icon": "jack_frost_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalArcticMonkey",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Ho Ho Ho 2",
+              "Description": "HoHoHo 2.0 Decal",
+              "Icon": "st_nick_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalHoHoHo2",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Festive Surprise",
+              "Description": "Festive Surprise Decal",
+              "Icon": "bomb_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalFestiveSurprise",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Ho Ho Ho!",
+              "Description": "HoHoHo Decal",
+              "Icon": "santahat_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalHoHoHo",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Stay Frosty",
+              "Description": "Stay Frosty Decal",
+              "Icon": "snowman_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalStayFrosty",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "Name": "Naughty or Nice",
+              "Description": "Naughty or Nice Decal",
+              "Icon": "skull_icon.json",
+              "Cost": "0.99",
+              "CostInCents": 99,
+              "ProductID": "DecalNaughtyOrNice",
+              "UnlockType": "Decal",
+              "PurchaseLimit": 1,
+              "IsLimitedEdition": true,
+              "CheckSKUForEnable": true,
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "BLOON"
+                       ]
+              },
+              {
+              "ProductID": "FullTowerUnlockCostDefault",
+              "CostInCents": 499,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "PartTowerUnlockCostDefault",
+              "CostInCents": 399,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Restore",
+              "CostInCents": 0,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "StarterPack",
+              "CostInCents": 299,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "ClanCreation",
+              "CostInCents": 499,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Merchandise",
+              "CostInCents": 0,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalScalper",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalHeartBreaker",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalKing",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalQueen",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalMockery",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalScrooge",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DecalBMCImposter",
+              "CostInCents": 99,
+              "Cost": "0.99",
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_DartMonkey12_BlueTight40",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_DartMonkey03_YellowTight48",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_BombTower21_PinkTight25",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MonkeyApprentice24_CamoBlackTight30",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_NinjaMonkey22_YellowTight90",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_BananaFarm23_MOABTight4",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MonkeySub23_CamoZebraTight24",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MonkeyEngineer04_ZOMGSpaced2",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MortarTower22_RegenRainbowSpaced10",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MortarTower31_BlueTight180",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_MortarTower04_YellowTight75",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Bloonchipper20_RedTight80",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Bloonchipper42_RegenZebraTight30",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_IceTower22_WhiteSpaced30",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_IceTower32_MOABTight10",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_GlueGunner20_RedTight40",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_GlueGunner22_CamoYellowTight35",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_GlueGunner42_CamoRegenPinkTight32",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_SniperMonkey21_RegenLeadSpaced6",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_SniperMonkey23_RegenBlackTight50",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_SniperMonkey41_BFBSpaced4",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_Juggerlanche",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_Bounty",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_Purge",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_Tax",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_Kidnap",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_ChainLightning",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "Vet_Power_MonkeyChill",
+              "CostInCents": 199,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DeckSlot4",
+              "CostInCents": 499,
+              "ShowInShop": false
+              },
+              {
+              "ProductID": "DeckSlot5",
+              "CostInCents": 499,
+              "ShowInShop": false
+              },
+              {
+              "Name": "Dart Monkey Skin",
+              "Description": "The Dart Monkey and its upgrades don full medieval armor. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "MedievalDartMonkey",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "MedievalDartMonkeySale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Dart Monkey Skin",
+              "Description": "The Dart Monkey and its upgrades don full medieval armor. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "MedievalDartMonkeySale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "MedievalDartMonkey",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Bomb Tower Skin",
+              "Description": "The Bomb Tower and its upgrades get military grade hardware. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "MilitaryBombTower",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "MilitaryBombTowerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Bomb Tower Skin",
+              "Description": "The Bomb Tower and its upgrades get military grade hardware. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "MilitaryBombTowerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "MilitaryBombTower",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": " Ninja Monkey Skin",
+              "Description": "The Ninja and its upgrades embrace the way of the samurai. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "SamuraiNinjaMonkey",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "SamuraiNinjaMonkeySale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": " Ninja Monkey Skin",
+              "Description": "The Ninja and its upgrades embrace the way of the samurai. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "SamuraiNinjaMonkeySale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "SamuraiNinjaMonkey",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Apprentice Skin",
+              "Description": "The Apprentice and its upgrades get a mystical makeover. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "SorcererMonkeyApprentice",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "SorcererMonkeyApprenticeSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Apprentice Skin",
+              "Description": "The Apprentice and its upgrades get a mystical makeover. Visual change only.",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "SorcererMonkeyApprenticeSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "SorcererMonkeyApprentice",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Sniper Monkey Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "HunterSniperMonkey",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "HunterSniperMonkeySale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Sniper Monkey Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "HunterSniperMonkeySale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "HunterSniperMonkey",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Boomerang Thrower Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "TribalBoomerangThrower",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "TribalBoomerangThrowerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Boomerang Thrower Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "TribalBoomerangThrowerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "TribalBoomerangThrower",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Banana Farm Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "CandyBananaFarm",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "CandyBananaFarmSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Banana Farm Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "CandyBananaFarmSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "CandyBananaFarm",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Monkey Ace Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "TopgunMonkeyAce",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "TopgunMonkeyAceSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Ace Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "TopgunMonkeyAceSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "TopgunMonkeyAce",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Heli Pilot Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "UFOHeliPilot",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "UFOHeliPilotSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Heli Pilot Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "UFOHeliPilotSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "UFOHeliPilot",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Mortar Tower Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "FireworksMortarTower",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "FireworksMortarTowerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Mortar Tower Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "FireworksMortarTowerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "FireworksMortarTower",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Monkey Buccaneer Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "NavyMonkeyBuccaneer",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "NavyMonkeyBuccaneerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Buccaneer Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "NavyMonkeyBuccaneerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "NavyMonkeyBuccaneer",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+
+              {
+              "Name": "Monkey Sub Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "SteampunkMonkeySub",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "SteampunkMonkeySubSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Sub Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "SteampunkMonkeySubSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "SteampunkMonkeySub",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Super Monkey Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "EvilSuperMonkey",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "EvilSuperMonkeySale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Super Monkey Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "EvilSuperMonkeySale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "EvilSuperMonkey",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Monkey Engineer Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "DrMonkeyEngineer",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "DrMonkeyEngineerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Monkey Engineer Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "DrMonkeyEngineerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "DrMonkeyEngineer",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Dartling Gun Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "BazookaDartlingGun",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "BazookaDartlingGunSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Dartling Gun Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "BazookaDartlingGunSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "BazookaDartlingGun",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              
+              {
+              "Name": "Tack Shooter Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "3.99",
+              "CostInCents": 399,
+              "ProductID": "MechanicalTackTower",
+              "UnlockType": "TowerSkin",
+              "Order": -1,
+              "PurchaseLimit": 1,
+              "OverridenByItem": "MechanicalTackTowerSale",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              },
+              {
+              "Name": "Tack Shooter Skin",
+              "Description": "",
+              "Icon": "dart_monkey_skin_store_icon.json",
+              "Cost": "2.99",
+              "CostInCents": 299,
+              "ProductID": "MechanicalTackTowerSale",
+              "UnlockType": "TowerSkin",
+              "Order": -2,
+              "PurchaseLimit": 1,
+              "SaleForOriginalItem": "MechanicalTackTower",
+              "Tags": [
+                       "IAP",
+                       "COSMETIC",
+                       "SKIN"
+                       ]
+              }
+        ]
+}

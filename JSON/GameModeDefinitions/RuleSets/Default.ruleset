@@ -1,0 +1,26 @@
+{
+    "name":"Default",
+
+    "rules":["FreePowerups"],
+
+    "UI":
+    {
+        "CardTextInfo":
+        [
+            {
+                "Text":"x3 Tower Boosts",
+                "Icon":"bullet_point_white"
+            },
+            {
+                "Text":"x3 Bloon Boosts",
+                "Icon":"bullet_point_white"
+            },
+            {
+                "Text":"x3 Red Hot Spikes",
+                "Icon":"bullet_point_white"
+            }
+        ],
+        "DisplayName":"FREE POWERUPS",
+        "DisplayIcon":"rulesIcon_FreePowerups"
+    }
+}

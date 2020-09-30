@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1000, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 20, 
+        "Interval": 0.1, 
+        "NumBloons": 35, 
+        "Type": "Yellow", 
+        "UnlockRound": 8
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "80", 
+    "NameOld": "GlueGunner22_CamoYellowTight35", 
+    "PlatformProductID": "btdbattles_vet_gluegunner22_camoyellowtight35", 
+    "PlatformProductIDiOS": "btdbattles_vet_GlueGunner22_CamoYellowTight35", 
+    "ProductID": "Vet_GlueGunner22_CamoYellowTight35", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 2000, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "GlueGunner", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

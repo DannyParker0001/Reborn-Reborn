@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_trees", 
+        "Cost": 10000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 0, 
+        "Interval": 0.5, 
+        "NumBloons": 6, 
+        "Type": "MOAB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "51", 
+    "NameOld": "SpikeFactory14_MOABTight6", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 10000, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite", 
+            "PopMOAB"
+        ], 
+        "Type": "SpikeFactory", 
+        "Upgrades": [
+            1, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,47 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 4000, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 75, 
+        "Interval": 0.2, 
+        "NumBloons": 30, 
+        "Type": "Zebra", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "76", 
+    "NameOld": "Bloonchipper42_RegenZebraTight30", 
+    "PlatformProductID": "btdbattles_vet_bloonchipper42_regenzebratight30", 
+    "PlatformProductIDiOS": "btdbattles_vet_Bloonchipper42_RegenZebraTight30", 
+    "ProductID": "Vet_Bloonchipper42_RegenZebraTight30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 8000, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite", 
+            "PopMOAB"
+        ], 
+        "Type": "Bloonchipper", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

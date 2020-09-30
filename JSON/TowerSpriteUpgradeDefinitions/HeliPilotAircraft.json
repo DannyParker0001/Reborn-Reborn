@@ -1,0 +1,49 @@
+{
+	"Sprites":
+	{
+        "0" : "helicopter_green_basic",
+        
+        "1" : "helicopter_green_green",
+        "2" : "helicopter_green_yellow",
+        "3" : "helicopter_green_yellow_stripes",
+        
+        "4" : "helicopter_grey_grey",
+        "5" : "helicopter_grey_yellow",
+        "6" : "helicopter_grey_yellow_stripes",
+        
+        "7" : "helicopter_grey_grey_redrotors",
+        "8" : "helicopter_grey_red_redrotors",
+        "9" : "helicopter_grey_blue",
+        "10" : "helicopter_grey_blue_stripes",
+        
+        "11" : "helicopter_apache_red",
+        "12" : "helicopter_apache_black",
+        "13" : "helicopter_chinook__02",
+        "14" : "helicopter_chinook__01"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 2,
+		"02"		: 5,
+		"03"		: 9,
+		"04"		: 14,
+		"10"		: 1,
+		"11"		: 3,
+		"12"		: 6,
+		"13"		: 10,
+		"14"		: 13,
+		"20"		: 4,
+		"21"		: 4,
+		"22"		: 6,
+		"23"		: 10,
+		"24"		: 13,
+		"30"		: 8,
+		"31"		: 8,
+		"32"		: 7,
+		"40"		: 11,
+		"41"		: 11,
+		"42"		: 12
+	}
+}

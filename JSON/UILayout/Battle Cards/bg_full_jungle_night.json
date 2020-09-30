@@ -1,0 +1,209 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_fill_thunderstorm.json",
+         "type" : 2,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4256366699,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bg_jungle_01",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4247978015,
+         "Flip" : 0,
+         "Position" : [ -0.0, 24.0 ],
+         "Scale" : [ 8.449999809265137, 3.250 ],
+         "Shown" : true,
+         "sprite" : "bg_colour",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 0.9843137264251709,
+         "Angle" : 0.0,
+         "Colour" : 4214423583,
+         "Flip" : 0,
+         "Position" : [ 0.0, -24.0 ],
+         "Scale" : [ 8.449999809265137, 3.099999904632568 ],
+         "Shown" : true,
+         "sprite" : "bg_colour",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9882352948188782,
+         "Angle" : 0.0,
+         "Colour" : 4231200799,
+         "Flip" : 0,
+         "Position" : [ -0.0, -24.0 ],
+         "Scale" : [ 8.449999809265137, 2.950000047683716 ],
+         "Shown" : true,
+         "sprite" : "bg_gradient",
+         "type" : 1,
+         "uid" : 6
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "bg_fill_thunderstorm.json",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "bg_jungle_01",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "bg_colour",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "bg_gradient",
+            "Texture" : "battle_cards"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.9921568632125855,
+               "Angle" : 0.0,
+               "Colour" : 4256366699,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.9960784316062927,
+               "Angle" : 0.0,
+               "Colour" : 4265794560,
+               "Flip" : 0,
+               "Position" : [ 0.0, 0.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 0.9921568632125855,
+               "Angle" : 0.0,
+               "Colour" : 4247978015,
+               "Flip" : 0,
+               "Position" : [ -0.0, 24.0 ],
+               "Scale" : [ 8.449999809265137, 3.250 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 0.9960784316062927,
+               "Angle" : 0.0,
+               "Colour" : 4262739713,
+               "Flip" : 0,
+               "Position" : [ -0.0, 24.0 ],
+               "Scale" : [ 8.449999809265137, 3.250 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 0.9843137264251709,
+               "Angle" : 0.0,
+               "Colour" : 4214423583,
+               "Flip" : 0,
+               "Position" : [ 0.0, -24.0 ],
+               "Scale" : [ 8.449999809265137, 3.099999904632568 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 4 ],
+               "Alpha" : 0.9882352948188782,
+               "Angle" : 0.0,
+               "Colour" : 4229119488,
+               "Flip" : 0,
+               "Position" : [ 0.0, -24.0 ],
+               "Scale" : [ 8.449999809265137, 3.099999904632568 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 0.9882352948188782,
+               "Angle" : 0.0,
+               "Colour" : 4231200799,
+               "Flip" : 0,
+               "Position" : [ -0.0, -24.0 ],
+               "Scale" : [ 8.449999809265137, 2.950000047683716 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 3 ],
+               "Alpha" : 0.9921568632125855,
+               "Angle" : 0.0,
+               "Colour" : 4245896704,
+               "Flip" : 0,
+               "Position" : [ -0.0, -24.0 ],
+               "Scale" : [ 8.449999809265137, 2.950000047683716 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      }
+   ]
+}

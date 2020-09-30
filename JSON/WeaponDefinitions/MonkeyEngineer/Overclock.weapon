@@ -1,0 +1,62 @@
+{	
+    "Type":                 "Overclock",    
+    "TargetRange":          195,   
+    "CooldownTime":     	45,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+   
+    "Tasks" :
+    [
+        {
+            "Type" : "OverclockTask",
+            "Tasks" :
+            [
+                {
+                    "Type": "TowerModifier",
+                    "Range": 20,
+                    "PriorityLevel": 3,
+                    "ReplacesPriorityLevel": true,
+                    "TerminateOnUserUpgrade": false,
+                    "ApplyToUserTower": false,
+                    "TargetIsWeaponTaskOrigin": true,
+                    "CanApplyToUserTower": true,
+                    "Duration": 60,
+                    "Modifier":
+                    {
+                        "Cooldown": [ 0.5, 0 ],
+                        "FireDelay": [ 0.5, 0 ]
+                    }
+                },
+                {
+                    "Type": "TowerModifier",
+                    "Range": 20,
+                    "PriorityLevel": 3,
+                    "ReplacesPriorityLevel": true,
+                    "TerminateOnUserUpgrade": false,
+                    "ApplyToUserTower": false,
+                    "TargetIsWeaponTaskOrigin": true,
+                    "CanApplyToUserTower": true,
+                    "Duration": 60,
+                    
+                    "TargetingFilter":
+                    {
+                        "Include" : { "TowerType": [ "MonkeyVillage" ] }
+                    },
+
+                    "Modifier":
+                    {
+                        "TargetRange": [ 1.25, 0 ]
+                    }
+                },
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "overclocked_tower.json",
+                    "Scale": 0.635,
+                    "LoopCount": 30,
+                    "AppliedToTower": true
+                }
+            ]
+        }
+    ]
+}

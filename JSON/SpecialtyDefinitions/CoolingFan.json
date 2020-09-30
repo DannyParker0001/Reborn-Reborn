@@ -1,0 +1,42 @@
+{
+	"Name" : "Cooling Fan",
+	"Icon" : "cooling_fan",
+    "Rarity" : "Bronze",
+    "Description" : "-5% ability cooldown",
+	"Effects" :
+	[
+		{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"Modifier" :
+     				{
+						"AbilityCooldown" : [ 0.95, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"Modifier" :
+     				{
+						"AbilityCooldown" : [ 0.95, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"Modifier" :
+     				{
+						"AbilityCooldown" : [ 0.95, 0 ]
+     				}
+     			}
+            ]
+		}
+	]
+}

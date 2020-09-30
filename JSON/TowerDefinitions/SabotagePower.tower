@@ -1,0 +1,34 @@
+{
+"IsAgent"               : true,
+"TypeName"				: "SabotagePower",
+"Icon"					: "mortar_avatar_small",
+"Description"			: "Power tower. Not for human consumption",
+"BaseCost"				: 0,
+"RankToUnlock"			: 0,
+"DefaultWeapons"	    : [ ],
+"TargetingMode"			: "First",
+"TargetsManually"		: false,
+"TargetIsWeaponOrigin"	: true,
+"CanTargetCamo" : true,
+
+"DefaultSprite": "RoadSpikes.json",
+
+
+"Upgrades" :
+[
+],
+
+"CanTargetCamo"			: true,
+"RotatesToTarget"		: true,
+
+"CanBePlacedInWater"	: true,
+"CanBePlacedOnLand"		: true,
+"CanBePlacedOnPath"		: true,
+
+"UseRadiusPlacement"	: false,
+"PlacementRadius"		: 20.0,
+"PlacementW"			: 40.0,
+"PlacementH"			: 20.0,
+"UseDefaultRangeCircle" : true,
+"DontResetAnimation" : false
+}

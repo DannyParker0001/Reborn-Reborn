@@ -1,0 +1,14 @@
+{
+    "TypeName"                  : "Bounty",
+    "Icon"                      : "power_card_banner_defend.json",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "Weapon"                    : "Bounty.weapon"
+}

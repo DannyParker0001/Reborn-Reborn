@@ -1,0 +1,44 @@
+{
+	"Name" : "Inspiring Flag",
+	"Icon" : "inspiring_flag",
+    "Rarity" : "Bronze",
+    "Description" : "+5% attack speed to all towers",
+	"Effects" :
+	[
+     	{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.95, 0 ]
+     				}
+     			}
+            ]
+		},
+     
+     	{
+     		"TowerModifiers" :
+     		[
+      			{
+      				"Modifier" :
+      				{
+						"Cooldown" : [ 0.90, 0 ]
+      				}
+      			}
+      		]
+     	},
+     
+     	{
+     		"TowerModifiers" :
+     		[
+      			{
+      				"Modifier" :
+      				{
+						"Cooldown" : [ 0.85, 0 ]
+      				}
+      			}
+      		]
+     	}
+	]
+}

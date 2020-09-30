@@ -1,0 +1,9 @@
+{
+	"Type" : "RedGroup1",
+	"BloonType" : "Red",
+	"Quantity" : 8,
+	"Interval" : 0.1,
+	"Cost" : 35,
+	"IncomeChange" : 1.4,
+	"UnlockRound" : 0
+}

@@ -1,0 +1,41 @@
+{
+    "name": "R3_MegaBoost",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "MegaBoosts"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 15
+            },
+            {
+                "Text": "x3 Random Towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "R3 MEGABOOSTS",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_megaboostsmall"
+    },
+    "version": "1.0"
+}

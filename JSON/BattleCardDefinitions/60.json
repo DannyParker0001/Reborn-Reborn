@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 2000, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.2, 
+        "NumBloons": 14, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 100, 
+    "Name": "60", 
+    "NameOld": "SuperMonkey00_CamoLeadTight14", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 2500, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "SuperMonkey", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,26 @@
+{	
+    "Type":             	"SupplyDrop",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	60,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	
+    "Tasks" :
+    [
+		{
+			"Type": "LaunchAircraft",
+			"Aircraft": "SupplyDropPlane.tower",
+			"Path":
+			[
+				[ [ -0.1, -0.1 ], [ 0, 1 ] ],
+				[ [ 1.1, 1.1 ], [ 0, 1 ] ]
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "SupplyDropAbility.json",
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

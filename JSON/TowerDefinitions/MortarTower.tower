@@ -1,0 +1,105 @@
+{
+    "TypeName"				: "MortarTower",
+    "Icon"					: "mortar_avatar_small",
+    "Description"			: "Launches explosive mortar shells to a single targeted spot.",
+    "BaseCost"				: 550,
+    "RankToUnlock"			: 17,
+    "DefaultWeapons"	    : [ "MortarTower.weapon" ],
+    "TargetingMode"			: "ManualActive",
+    "TargetsManually"		: true,
+    "TargetIsWeaponOrigin"	: true,
+
+    "Upgrades" :
+    [
+    	[ "Increased Accuracy", "Bigger Blast", "Bloon Buster", "The Big One" ],
+    	[ "Rapid Reload", "Burny Stuff", "Signal Flare", "Artillery Battery" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Makes your mortar shots more accurate.",
+			"Heavy ordinance delivers a bigger explosion radius.",
+			"Smash through 2 layers of bloons at once!",
+			"Devastating explosions each pop 5 layers of bloon."
+		],
+		[
+			"Increase the attack speed of the Mortar.",
+			"Pops additional bloons 2 seconds after impact.",
+			"Camo Bloons popped by flares permanently lose their camo.",
+			"Ability: Immobilizes and bombards the entire screen, affecting all types of bloons."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 65, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 195, "XP" : 35 }, { "Rank" : 480, "XP" : 60 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 150, 400, 500, 4500 ],
+        [ 200, 500, 750, 5000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "mortar_avatar_greater_accuracy_small", 
+            "mortar_avatar_bigger_blast_small", 
+            "mortar_avatar_bloon_buster_small", 
+            "mortar_avatar_big_one_small" 
+        ],
+    	[ 
+            "mortar_avatar_rapid_reload_small", 
+            "mortar_avatar_burny_stuff_small", 
+            "mortar_avatar_signal_flare_small", 
+            "mortar_avatar_artillery_small" 
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+        "mortar_accuracy_icon", 
+        "mortar_bigger_bombs_icon", 
+        "mortar_bloon_buster_icon", 
+        "mortar_big_one_icon" 
+        ],
+    	[ 
+        "mortar_rapid_reload_icon", 
+        "mortar_burny_icon", 
+        "mortar_signal_flare_icon", 
+        "mortar_artillery_icon" 
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 20.0,
+    "PlacementW"			: 40.0,
+    "PlacementH"			: 20.0,
+    "SpriteUpgradeDefinition" : "MortarTower.json",
+    "UseDefaultRangeCircle" : true,
+    "DontResetAnimation" : false
+}

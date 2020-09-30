@@ -1,0 +1,56 @@
+{
+    "name": "PlayWithFire",
+    "rules": [
+      "FreePowerups",
+      "PlayWithFire"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Don't get burned|CENTER_X"
+        },
+        {
+          "Icon": "rulesIcon_PlayWithFire_large|CENTER_X",
+          "offsetY": 15
+        },
+        {
+          "Text": "2x income from Bloon Sends!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 35
+        },
+        {
+          "Icon": "warning|CENTER_X",
+          "offsetY": 5
+        },
+        {
+          "Text": "Bloon sends go to both players!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 15
+        }
+      ],
+      "RestrictedTowersInfo": [
+        {
+          "Icon": "rulesIcon_PlayWithFire_large|CENTER_X",
+          "offsetY": 15
+        },
+        {
+          "Text": "2x income from Bloon Sends!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 35
+        },
+        {
+          "Icon": "warning|CENTER_X",
+          "offsetY": 5
+        },
+        {
+          "Text": "Bloon sends go to both players!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 15
+        }
+      ],
+      "DisplayName": "PLAY WITH FIRE",
+      "DisplayInfo": "RISK / REWARD",
+      "DisplayIcon": "rulesIcon_PlayWithFire"
+    },
+    "version": "1.0"
+  }

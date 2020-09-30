@@ -1,0 +1,14 @@
+{
+    "TypeName"                  : "TestPower",
+    "Icon"                      : "power_card_banner_defend.json",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "ManualActive",
+
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "Weapon"                    : "OrbitalStrike.weapon"
+}

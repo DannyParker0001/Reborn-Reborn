@@ -1,0 +1,45 @@
+{
+    "AircraftList": [],
+    "BaseCost": 1,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": false,
+    "CanBePlacedOnPath": true,
+    "CanTargetCamo": true,
+    "DefaultWeapons": [
+        "TrackPower_MonkeyGlue.weapon"
+    ],
+    "Description": "Placed directly on the track, each pack of spikes can pop 10 bloons.",
+    "FireWeaponAndDestroy": true,
+    "Icon": "",
+    "PlacementH": 0,
+    "PlacementRadius": 8,
+    "PlacementW": 0,
+    "RankToUnlock": 5,
+    "RotatesToTarget": false,
+    "DefaultSprite": "monkey_glue.json",
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "TrackPower_MonkeyGlue",
+    "Upgrades": [
+        [],
+        []
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "CanBePlacedMultipleTimes": false,
+    "LimitedAmount": 3
+}

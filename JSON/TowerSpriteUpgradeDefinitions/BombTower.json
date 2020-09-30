@@ -1,0 +1,41 @@
+{
+	"Sprites":
+	{
+        "0" : "BombTower",
+        "1" : "BombTowerRedCircle",
+        "2" : "BombTowerRedStar",
+        "3" : "BombTowerClusterBomb",
+    	"4" : "BombTowerBloonImpact",
+        "5" : "BombTowerMissileGreyBase",
+        "6" : "BombTowerMissileGreenBase",
+        "7" : "BombTowerMauler",
+        "8" : "BombTowerAssassin",
+        "9" : "BombTowerMissileBlackBase"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 5,
+		"03"		: 7,
+		"04"		: 8,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 5,
+		"13"		: 7,
+		"14"		: 8,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 5,
+		"23"		: 7,
+		"24"		: 8,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 6,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 9
+	}
+}
+

@@ -1,0 +1,27 @@
+{
+	"Name" : "Wooden Gavel",
+	"Icon" : "wooden_gavel",
+    "Rarity" : "Bronze",
+    "Description" : "+5% tower sell price",
+	"Effects" :
+	[
+		{
+			"Rules" :
+			{
+				"SellPriceModifier" : 0.05
+			}
+		},
+        {
+			"Rules" :
+			{
+				"SellPriceModifier" : 0.05
+			}
+		},
+        {
+			"Rules" :
+			{
+				"SellPriceModifier" : 0.05
+			}
+		}
+	]
+}

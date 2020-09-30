@@ -1,0 +1,29 @@
+{	
+    "Type":             "MonkeyApprentice",    
+    "TargetRange":      120.0,
+	"CooldownTime":     0.25,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [{
+        "Type":             "Projectile",
+        "SpriteFile":      "apprentice_projectile.json",
+        "NumPersists":      4,
+
+        "TerminateOnZeroPersists": true,
+        
+        "CollisionType": "Once",
+        
+        "Movement":
+        {
+            "Type": "Forward",
+            "Speed": 560.0,
+            "CutOffDistance": 240
+        },
+        
+        "Tasks" :
+        [ 
+            { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 }
+        ]
+    }]
+}

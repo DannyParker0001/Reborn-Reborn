@@ -1,0 +1,87 @@
+{
+	"PackName"		:	"Default",
+	"MessageInfo"	:
+	[
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Hi!",
+			"Location"		: 	[ "Lobby", "Game" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Oops!",
+			"Location"		: 	[ "Game", "Rematch" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Ted Cruz",
+			"Location"		: 	[ "Game" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Sorry!",
+			"Location"		: 	[ "Game", "Rematch" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Well done!",
+			"Location"		: 	[ "Game", "Rematch" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Good luck!",
+			"Location"		: 	[ "Lobby" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Early game!",
+			"Location"		: 	[ "Lobby" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Chris Harris",
+			"Location"		: 	[ "Lobby" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Get ready!",
+			"Location"		: 	[ "Lobby" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Thanks!",
+			"Location"		: 	[ "Rematch" ]
+		},
+		{
+			"Type"			:	"Text",
+			"MessageData" 	: 	"Chris Cruz?",
+			"Location"		: 	[ "Rematch" ]
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_facepalm",
+			"Location"		: 	[ "Game", "Rematch" ]
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_angry"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_cry"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_grin"
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_you",
+			"Location"		: 	[ "Lobby" ]
+		},
+		{
+			"Type"			:	"Face",
+			"MessageData" 	: 	"chat_happy"
+		}
+	]
+}

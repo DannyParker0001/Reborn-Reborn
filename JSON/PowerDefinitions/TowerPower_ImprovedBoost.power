@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_ImprovedBoost",
+    "UnlockCost"                : 500,
+    "RequiresUnlocked"          : ["TowerPower_Boost"],
+    "Description"               : "Boost your Towers attack speed by 100% for 10 seconds. Three uses.",
+    "Icon"                      : "powers_improved_tower_boost",
+    "HudIcon"                   : "icon_improved_tower_boost",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 30,
+    "MinCooldown"               : 15,
+    "Count"                     : 3,
+    "Weapon"                    : "TowerPower_ImprovedBoost.weapon"
+}

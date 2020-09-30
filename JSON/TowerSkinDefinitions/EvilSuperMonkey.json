@@ -1,0 +1,97 @@
+{
+    "ID": "EvilSuperMonkey",
+    "DisplayName": "Super Monkey Skin",
+    "DisplayDescription": "Super Monkey turns to the dark side and becomes a super villain! Visual change only.",
+    "DisplayIcon": "supermonkey_skin_store_icon.json",
+    "SmallIcon": "supermonkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "SuperMonkeySkin",
+    "RequiresTower": "SuperMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "ProjectileMap": {
+        "SuperMonkeyEvilTempleRedBall.json": {
+            "Name" : "Evil_SuperMonkeyEvilTempleRedBall.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyTemple.json": {
+            "Name" : "Evil_SuperMonkeyTemple.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyTempleHead.json": {
+            "Name" : "Evil_SuperMonkeyTempleHead.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        "SuperMonkeyTempleSpawn.json": {
+            "Name" : "Evil_SuperMonkeyTempleSpawn.json",
+            "Location" : "Assets/JSON/WeaponSprites/"
+        },
+        
+        "SuperMonkeyRoboMonkeyLeftArm.json": {
+            "Name" : "Evil_SuperMonkeyRoboMonkeyLeftArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyRoboMonkeyRightArm.json": {
+            "Name" : "Evil_SuperMonkeyRoboMonkeyRightArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        
+        "SuperMonkeyTechTerrorLeftArm.json": {
+            "Name" : "Evil_SuperMonkeyTechTerrorLeftArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTechTerrorRightArm.json": {
+            "Name" : "Evil_SuperMonkeyTechTerrorRightArm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    },
+
+    "TowerMap": {
+        "SunGod.json": {
+            "Name" : "Evil_SunGod.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkey.json": {
+            "Name" : "Evil_SuperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyGreenCapeGoggles.json": {
+            "Name" : "Evil_SuperMonkeyGreenCapeGoggles.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyLaserVision.json": {
+            "Name" : "Evil_SuperMonkeyLaserVision.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SupermonkeyPlasmaVision.json": {
+            "Name" : "Evil_SupermonkeyPlasmaVision.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyRoboMonkey.json": {
+            "Name" : "Evil_SuperMonkeyRoboMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        
+        "SuperMonkeyTechTerror.json": {
+            "Name" : "Evil_SuperMonkeyTechTerror.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        
+        "SuperMonkeyTemple.json": {
+            "Name" : "Evil_SuperMonkeyTemple.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTempleEvil.json": {
+            "Name" : "Evil_SuperMonkeyTempleEvil.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTempleHead.json": {
+            "Name" : "Evil_SuperMonkeyTempleHead.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SuperMonkeyTempleHeadEvil.json": {
+            "Name" : "Evil_SuperMonkeyTempleHeadEvil.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

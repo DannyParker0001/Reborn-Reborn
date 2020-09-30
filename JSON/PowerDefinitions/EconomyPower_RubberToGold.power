@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_RubberToGold",
+    "UnlockCost"        : 5000,
+    "Description"       : "Earn $3 per Bloon popped for 15 seconds. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_CashInjection"],
+    "Icon"              : "powers_rubber_to_gold",
+    "HudIcon"           : "icon_rubber_to_gold",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_RubberToGold.weapon"
+}

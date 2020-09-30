@@ -1,0 +1,9 @@
+{
+	"Type" : "RainbowSpaced1",
+	"BloonType" : "Rainbow",
+	"Quantity" : 1,
+	"Interval" : 1.0,
+	"Cost" : 150,
+	"IncomeChange" : 6,
+	"UnlockRound" : 10
+}

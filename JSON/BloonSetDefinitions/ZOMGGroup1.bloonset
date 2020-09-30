@@ -1,0 +1,9 @@
+{
+	"Type" : "ZOMGGroup1",
+	"BloonType" : "ZOMG",
+	"Quantity" : 1,
+	"Interval" : 1.0,
+	"Cost" : 16000,
+	"IncomeChange" : -200,
+	"UnlockRound" : 22
+}

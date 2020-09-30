@@ -1,0 +1,82 @@
+{	
+    "Type":             	"AbsoluteZero",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	45.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    "CanSelfTargetCamo": true,
+	"CanTargetUnderground" : true,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 1000,
+			"MaxTargets": -1,
+			
+			"Tasks" :
+			[
+				{
+                    "TargetingFilter":
+                    {
+                        "Exclude" :
+                        {
+                            "BloonType" : [
+                                "BFB",
+                                "ZOMG",
+								"MOAB"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "AbsoluteZero",
+					"Duration": 4,
+					"IgnoreImmunity" : true
+				},
+				{
+                    "TargetingFilter":
+                    {
+                        "Include" :
+                        {
+                            "BloonType" : [
+                                "MOAB"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "CrippleMOAB",
+					"Duration": 4,
+					"IgnoreImmunity" : true
+				},
+				{
+                    "TargetingFilter":
+                    {
+                        "Include" :
+                        {
+                            "BloonType" : [
+                                "BFB"
+                            ]
+                        }
+                    },
+					"Type": "StatusEffect",
+					"Status": "CrippleMOAB",
+					"Duration": 2.5,
+					"IgnoreImmunity" : true
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "AbsoluteZeroPermafrost",
+					"SpeedScale": 0.6,
+					"NumPersists": 3
+				}
+			]
+		},
+			{
+			"Type": "Effect",
+			"SpriteFile": "AbsoluteZeroAbility.json",
+			"Position": [ 0.5, 0.5 ],
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

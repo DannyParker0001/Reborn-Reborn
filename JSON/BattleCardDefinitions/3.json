@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_night", 
+        "Cost": 7500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -300, 
+        "Interval": 1.0, 
+        "NumBloons": 3, 
+        "Type": "BFB", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "3", 
+    "NameOld": "DartMonkey24_BFBTight3", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 7500, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "DartMonkey", 
+        "Upgrades": [
+            2, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 1300, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.2, 
+        "NumBloons": 20, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 400, 
+    "Name": "44", 
+    "NameOld": "DartlingGun11_LeadTight20", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1300, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "DartlingGun", 
+        "Upgrades": [
+            1, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

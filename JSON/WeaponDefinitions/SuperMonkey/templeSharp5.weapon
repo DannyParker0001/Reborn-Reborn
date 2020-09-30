@@ -1,0 +1,49 @@
+{	
+    "Type":             "templeSharp4",    
+    "TargetRange":      240.0,
+	"CooldownTime":     0.8,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 22.5,
+    		"FireCount": 16,
+			"AimAtTarget": false,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "monkey_temple_supermonkey_projectile",
+					"NumPersists":      40,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 600.0,
+						"CutOffDistance": 1000
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 4
+						}, 
+        
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

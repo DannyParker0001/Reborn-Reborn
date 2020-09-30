@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 800, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 32, 
+        "Interval": 0.6, 
+        "NumBloons": 30, 
+        "Type": "White", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "77", 
+    "NameOld": "IceTower22_WhiteSpaced30", 
+    "PlatformProductID": "btdbattles_vet_icetower22_whitespaced30", 
+    "PlatformProductIDiOS": "btdbattles_vet_IceTower22_WhiteSpaced30", 
+    "ProductID": "Vet_IceTower22_WhiteSpaced30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 800, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen"
+        ], 
+        "Type": "IceTower", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

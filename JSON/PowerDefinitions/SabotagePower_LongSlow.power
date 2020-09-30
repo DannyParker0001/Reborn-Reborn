@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_LongSlow",
+    "UnlockCost"        : 500,
+    "Description"       : "Opponent's Towers attack 15% slower for 12 seconds. Three uses.",
+    "RequiresUnlocked"  : ["SabotagePower_Slow"],
+    "Icon"              : "powers_long_slow",
+    "HudIcon"           : "icon_long_slow",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "SabotagePower_LongSlow.weapon"
+}

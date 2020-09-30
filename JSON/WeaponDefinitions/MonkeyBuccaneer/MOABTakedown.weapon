@@ -1,0 +1,62 @@
+{	
+    "Type":             	"MOABTakedown",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	60,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    "TargetsIndependently": true,
+    "SelfTargetMode": "Strong",
+
+	"TargetingFilter":
+	{
+		"Exclude":
+		{
+			"BloonType": [
+				"ZOMG"
+			]
+		}
+	},
+	
+    "Tasks" :
+    [
+		{
+			"Type": "Harpoon",
+			"GraphicName": "buccaneer_monkey_pirates_harpoon",
+			"NumPersists": -1,
+			"TerminateOnZeroPersists": false,
+			"CollisionType": "Once",
+			
+			"Movement": {
+				"Type": "ReturnToSender",
+				"Speed": 1000,
+				"ReturnSpeed": 500
+			},
+			
+			"Tasks": [
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 20000
+				}, 				
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage",
+					"Kill" : true
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "MOABTakedownAbility.json",
+					"Scale": 1,
+					"DrawLayer": "FullScreen"
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"Scale": 1,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

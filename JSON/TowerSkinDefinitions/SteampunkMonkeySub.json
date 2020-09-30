@@ -1,0 +1,125 @@
+{
+    "ID": "SteampunkMonkeySub",
+    "DisplayName": "Monkey Sub Skin",
+    "DisplayDescription": "The Sub and its upgrades switch to steam power. Visual change only.",
+    "DisplayIcon": "sub_skin_store_icon.json",
+    "SmallIcon": "monkey_sub_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MonkeySubSkin",
+    "RequiresTower": "MonkeySub",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "SubmarineBallisticGunA.json": {
+            "Name" : "Steampunk_SubmarineBallisticGunA.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBallisticGunB.json": {
+            "Name" : "Steampunk_SubmarineBallisticGunB.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBallisticMissileFire.json": {
+            "Name" : "Steampunk_SubmarineBallisticMissileFire.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBarrel.json": {
+            "Name" : "Steampunk_SubmarineBarrel.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBarrelA.json": {
+            "Name" : "Steampunk_SubmarineBarrelA.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBarrelB.json": {
+            "Name" : "Steampunk_SubmarineBarrelB.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineBarrelTwin.json": {
+            "Name" : "Steampunk_SubmarineBarrelTwin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineFirstStrikeBallisticMissileFire.json": {
+            "Name" : "Steampunk_SubmarineFirstStrikeBallisticMissileFire.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineNoBarrelA.json": {
+            "Name" : "Steampunk_SubmarineNoBarrelA.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SubmarineNoBarrelB.json": {
+            "Name" : "Steampunk_SubmarineNoBarrelB.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub30_Submerge_complete.json": {
+            "Name" : "Steampunk_Sub30_Submerge_complete.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub40_BloontoniumReactor_Submerge.json": {
+            "Name" : "Steampunk_Sub40_BloontoniumReactor_Submerge.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    },
+
+    "TowerMap": {
+        "Sub00_Base.json": {
+            "Name" : "Steampunk_Sub00_Base.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub01_YellowTwin.json": {
+            "Name" : "Steampunk_Sub01_YellowTwin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub02_BlueAirburst.json": {
+            "Name" : "Steampunk_Sub02_BlueAirburst.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub03_Ballistic.json": {
+            "Name" : "Steampunk_Sub03_Ballistic.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub04_FirstStrike.json": {
+            "Name" : "Steampunk_Sub04_FirstStrike.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub10_RedStripesBarbed.json": {
+            "Name" : "Steampunk_Sub10_RedStripesBarbed.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub11_RedStripesBarbedTwin.json": {
+            "Name" : "Steampunk_Sub11_RedStripesBarbedTwin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub12_BlueAirburstRed.json": {
+            "Name" : "Steampunk_Sub12_BlueAirburstRed.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub13_BallisticRange.json": {
+            "Name" : "Steampunk_Sub13_BallisticRange.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub20_GreenStripesRange.json": {
+            "Name" : "Steampunk_Sub20_GreenStripesRange.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub21_GreenStripesRangeTwin.json": {
+            "Name" : "Steampunk_Sub21_GreenStripesRangeTwin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub22_BlueAirburstGreen.json": {
+            "Name" : "Steampunk_Sub22_BlueAirburstGreen.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub30_Periscope.json": {
+            "Name" : "Steampunk_Sub30_Periscope.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub30_Submerge.json": {
+            "Name" : "Steampunk_Sub30_Submerge.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Sub40_BloontoniumReactor.json": {
+            "Name" : "Steampunk_Sub40_BloontoniumReactor.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

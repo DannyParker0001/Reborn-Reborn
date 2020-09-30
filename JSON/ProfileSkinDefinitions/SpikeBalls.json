@@ -1,0 +1,8 @@
+{
+	"ID":					"SpikeBalls",
+	"DisplayName":			"Spike Balls",
+	"DisplayDescription":	"Skin your lobby card with Spike Balls!",
+	"DisplayIcon":			"player_profile_panel_spikeballs_store.json",
+	"SkinSpriteName":		"player_profile_panel_spikeballs.json",
+	"Hide":					true
+}

@@ -1,0 +1,1066 @@
+{
+    "files": [
+        {
+            "file": "Assassincompoundsprite.json"
+        }, 
+        {
+            "file": "BananaFarm.json"
+        }, 
+        {
+            "file": "BananaFarmBank.json"
+        }, 
+        {
+            "file": "BananaFarmBRF.json"
+        }, 
+        {
+            "file": "BananaFarmInvestments.json"
+        }, 
+        {
+            "file": "BananaFarmMoreBananas.json"
+        }, 
+        {
+            "file": "BananaFarmPlantation.json"
+        }, 
+        {
+            "file": "BananaFarmRepublic.json"
+        }, 
+        {
+            "file": "Blizzard.json"
+        },
+        {
+            "file": "bloonchipper_blue.json"
+        }, 
+        {
+            "file": "bloonchipper_blue_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_green_greenstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_green_greenstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_green_orangestripes.json"
+        }, 
+        {
+            "file": "bloonchipper_green_orangestripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_orange.json"
+        }, 
+        {
+            "file": "bloonchipper_orange_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_orangestripes.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_orangestripes_blueexhausts.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_orangestripes_blueexhausts_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_orangestripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_yellowstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_yellowstripes_blueexhausts.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_yellowstripes_blueexhausts_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_purple_yellowstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_red_greenstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_red_greenstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_red_yellowstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_red_yellowstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_redwide_greenstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_redwide_greenstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_redwide_yellowstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_redwide_yellowstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_bluestripes.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_bluestripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_greenstripes.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_greenstripes_complete.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_orangestripes.json"
+        }, 
+        {
+            "file": "bloonchipper_yellow_orangestripes_complete.json"
+        }, 
+        {
+            "file": "BombTower.json"
+        }, 
+        {
+            "file": "BombTowerAssassin.json"
+        }, 
+        {
+            "file": "BombTowerBloonImpact.json"
+        }, 
+        {
+            "file": "BombTowerClusterBomb.json"
+        }, 
+        {
+            "file": "BombTowerMauler.json"
+        }, 
+        {
+            "file": "BombTowerMissileBlackBase.json"
+        }, 
+        {
+            "file": "BombTowerMissileGreenBase.json"
+        }, 
+        {
+            "file": "BombTowerMissileGreyBase.json"
+        }, 
+        {
+            "file": "BombTowerRedCircle.json"
+        }, 
+        {
+            "file": "BombTowerRedStar.json"
+        }, 
+        {
+            "file": "BoomerangTower.json"
+        }, 
+        {
+            "file": "BoomerangTowerBionicBoomerBoomerang.json"
+        }, 
+        {
+            "file": "BoomerangTowerBionicBoomerGlaive.json"
+        }, 
+        {
+            "file": "BoomerangTowerBionicBoomerGlaiveRed.json"
+        }, 
+        {
+            "file": "BoomerangTowerBionicBoomerRedBoomerang.json"
+        }, 
+        {
+            "file": "BoomerangTowerCross.json"
+        }, 
+        {
+            "file": "BoomerangTowerCurvedArrow.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveLord.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveLordRedWeapon.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveRiccochet.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveRiccochetRedWeapon.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveThrower.json"
+        }, 
+        {
+            "file": "BoomerangTowerGlaiveTowerRedWeapon.json"
+        }, 
+        {
+            "file": "BoomerangTowerThreeArrows.json"
+        }, 
+        {
+            "file": "BoomerangTowerThreeCurvedArrows.json"
+        }, 
+        {
+            "file": "BRFChimneys.json"
+        }, 
+        {
+            "file": "BRFWindows.json"
+        }, 
+        {
+            "file": "BuccaneerBlackSail.json"
+        }, 
+        {
+            "file": "BuccaneerJollyRoger.json"
+        }, 
+        {
+            "file": "BuccaneerWhiteSail.json"
+        }, 
+        {
+            "file": "Cobra_Attrition_Left.json"
+        }, 
+        {
+            "file": "Cobra_Attrition_Right.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_BloonAdjustment_Left.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_BloonAdjustment_Right.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_FinishHim_Left.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_FinishHim_Right.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_Left.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_MonkeyStim_Left.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_MonkeyStim_Right.json"
+        }, 
+        {
+            "file": "Cobra_DoubleTap_Right.json"
+        }, 
+        {
+            "file": "Cobra_OffensivePush_Left.json"
+        }, 
+        {
+            "file": "Cobra_OffensivePush_Right.json"
+        }, 
+        {
+            "file": "CobraMonkey.json"
+        }, 
+        {
+            "file": "CobraMonkey_Attrition.json"
+        }, 
+        {
+            "file": "CobraMonkey_BloonAdjustment.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap_Attrition.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap_BloonAdjustment.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap_FinishHim.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap_MonkeyStim.json"
+        }, 
+        {
+            "file": "CobraMonkey_DoubleTap_WiredFunds.json"
+        }, 
+        {
+            "file": "CobraMonkey_FinishHim.json"
+        }, 
+        {
+            "file": "CobraMonkey_Misdirection.json"
+        }, 
+        {
+            "file": "CobraMonkey_MonkeyStim.json"
+        }, 
+        {
+            "file": "CobraMonkey_OffensivePush.json"
+        }, 
+        {
+            "file": "CobraMonkey_WiredFunds.json"
+        }, 
+        {
+            "file": "CobraMonkey_WiredFunds_Attrition.json"
+        }, 
+        {
+            "file": "CobraMonkey_WiredFunds_FinishHim.json"
+        }, 
+        {
+            "file": "DartlingGun.json"
+        }, 
+        {
+            "file": "DartlingGunBADS.json"
+        }, 
+        {
+            "file": "DartlingGunBlue.json"
+        }, 
+        {
+            "file": "DartlingGunDoomRay.json"
+        }, 
+        {
+            "file": "DartlingGunHydraRockets.json"
+        }, 
+        {
+            "file": "DartlingGunLaserCannon.json"
+        }, 
+        {
+            "file": "DartlingGunPurple.json"
+        }, 
+        {
+            "file": "DartlingGunRedCircle.json"
+        }, 
+        {
+            "file": "DartMonkey.json"
+        }, 
+        {
+            "file": "DartMonkeyGreenBandana.json"
+        },
+        {
+            "file": "DartMonkeyJuggernautNew.json"
+        }, 
+        {
+            "file": "DartMonkeyQuiver.json"
+        }, 
+        {
+            "file": "DartMonkeyRedBandana.json"
+        },
+        {
+            "file": "DartMonkeySpikeopultNew.json"
+        }, 
+        {
+            "file": "DartMonkeySupermonkeyFanclub.json"
+        }, 
+        {
+            "file": "engineer_blue_hat.json"
+        }, 
+        {
+            "file": "engineer_green_hat.json"
+        }, 
+        {
+            "file": "engineer_grey_hat_red.json"
+        }, 
+        {
+            "file": "engineer_grey_hat_yellow.json"
+        }, 
+        {
+            "file": "engineer_orange_hat.json"
+        }, 
+        {
+            "file": "engineer_red_hat.json"
+        }, 
+        {
+            "file": "engineer_sentry_destruct.json"
+        }, 
+        {
+            "file": "engineer_sentry_spawn.json"
+        }, 
+        {
+            "file": "engineer_sentry_tripod_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_sentry_tripod_red_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_sentry_turret.json"
+        }, 
+        {
+            "file": "engineer_sentry_turret_red.json"
+        }, 
+        {
+            "file": "engineer_trap_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_white_hat_red.json"
+        }, 
+        {
+            "file": "engineer_white_hat_yellow.json"
+        }, 
+        {
+            "file": "engineer_yellow_hat.json"
+        }, 
+        {
+            "file": "FirePit.json"
+        }, 
+        {
+            "file": "GlueGunner.json"
+        }, 
+        {
+            "file": "GlueGunnerBloonDissolver.json"
+        }, 
+        {
+            "file": "GlueGunnerBloonLiquefier.json"
+        }, 
+        {
+            "file": "GlueGunnerCorrosiveGlue.json"
+        }, 
+        {
+            "file": "GlueGunnerGreyTank.json"
+        }, 
+        {
+            "file": "GlueGunnerHose.json"
+        }, 
+        {
+            "file": "GlueGunnerSplatter.json"
+        }, 
+        {
+            "file": "GlueGunnerStriker.json"
+        }, 
+        {
+            "file": "helicopter_apache_black.json"
+        }, 
+        {
+            "file": "helicopter_apache_red.json"
+        }, 
+        {
+            "file": "helicopter_blue_rotors.json"
+        }, 
+        {
+            "file": "helicopter_blue_rotors_compoundsprite.json"
+        }, 
+        {
+            "file": "helicopter_chinook__01.json"
+        }, 
+        {
+            "file": "helicopter_chinook__02.json"
+        }, 
+        {
+            "file": "helicopter_green_basic.json"
+        }, 
+        {
+            "file": "helicopter_green_green.json"
+        }, 
+        {
+            "file": "helicopter_green_yellow.json"
+        }, 
+        {
+            "file": "helicopter_green_yellow_stripes.json"
+        }, 
+        {
+            "file": "helicopter_grey_blue.json"
+        }, 
+        {
+            "file": "helicopter_grey_blue_stripes.json"
+        }, 
+        {
+            "file": "helicopter_grey_grey.json"
+        }, 
+        {
+            "file": "helicopter_grey_grey_redrotors.json"
+        }, 
+        {
+            "file": "helicopter_grey_red_redrotors.json"
+        }, 
+        {
+            "file": "helicopter_grey_yellow.json"
+        }, 
+        {
+            "file": "helicopter_grey_yellow_stripes.json"
+        }, 
+        {
+            "file": "helicopter_helipad.json"
+        }, 
+        {
+            "file": "helicopter_helipad_small.json"
+        }, 
+        {
+            "file": "helicopter_missiles.json"
+        }, 
+        {
+            "file": "helicopter_red_rotors.json"
+        }, 
+        {
+            "file": "helicopter_red_rotors_compoundsprite.json"
+        }, 
+        {
+            "file": "helicopter_yellow_rotors.json"
+        }, 
+        {
+            "file": "helicopter_yellow_rotors_compoundsprite.json"
+        }, 
+        {
+            "file": "helipad_compoundsprite.json"
+        }, 
+        {
+            "file": "helipad_small_compoundsprite.json"
+        }, 
+        {
+            "file": "IceTower.json"
+        }, 
+        {
+            "file": "IceTower2.json"
+        }, 
+        {
+            "file": "IceTowerAbsoluteZero.json"
+        }, 
+        {
+            "file": "IceTowerArcticWind.json"
+        }, 
+        {
+            "file": "IceTowerBlueBase.json"
+        }, 
+        {
+            "file": "IceTowerBlueBaseStar.json"
+        }, 
+        {
+            "file": "IceTowerIceShards.json"
+        }, 
+        {
+            "file": "IceTowerViralFreeze.json"
+        }, 
+        {
+            "file": "IceTowerViralFreezeSteam_compoundsprite.json"
+        }, 
+        {
+            "file": "Maulercompoundsprite.json"
+        }, 
+        {
+            "file": "Moabcompoundsprite.json"
+        }, 
+        {
+            "file": "MonkeyAce.json"
+        }, 
+        {
+            "file": "MonkeyAce2.json"
+        }, 
+        {
+            "file": "MonkeyAce_Runway.json"
+        }, 
+        {
+            "file": "MonkeyAce_Runway_compoundsprite.json"
+        }, 
+        {
+            "file": "MonkeyAceBlackPlaneRedStripes.json"
+        }, 
+        {
+            "file": "MonkeyAceGroundZero.json"
+        }, 
+        {
+            "file": "MonkeyAceODS.json"
+        }, 
+        {
+            "file": "MonkeyAceRedStripes.json"
+        }, 
+        {
+            "file": "MonkeyAceScarf.json"
+        }, 
+        {
+            "file": "MonkeyAceSpectre.json"
+        }, 
+        {
+            "file": "MonkeyAceTargeting.json"
+        }, 
+        {
+            "file": "MonkeyApprentice.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeDragonBreath.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeGlasses.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeGreyHatBrim.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeSummonPhoenix.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeSummonPhoenixEffect.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeSummonWhirlwind.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeTempestTornado.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneer.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerAircraftCarrier.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerAircraftCarrierAce.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerAircraftCarrierAnimated.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerCannonShip.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerDestroyer.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerDestroyerAnimated.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerGrapes.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerJollyRoger.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerJollyRogerGrapes.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerPirates.json"
+        }, 
+        {
+            "file": "MonkeyBuccaneerSingleSail.json"
+        },
+        {
+            "file": "MonkeyFarmer.json"
+        },
+        {
+            "file": "MonkeyVillage.json"
+        }, 
+        {
+            "file": "MonkeyVillageEnergyBeacon.json"
+        }, 
+        {
+            "file": "MonkeyVillageEnergyBeaconFort.json"
+        }, 
+        {
+            "file": "MonkeyVillageEnergyBeaconFortRadar.json"
+        }, 
+        {
+            "file": "MonkeyVillageEye.json"
+        }, 
+        {
+            "file": "MonkeyVillageFort.json"
+        }, 
+        {
+            "file": "MonkeyVillageGreyBuilding.json"
+        }, 
+        {
+            "file": "MonkeyVillageGreyBuildingBeacon.json"
+        }, 
+        {
+            "file": "MonkeyVillageGreyBuildingBeaconMusic.json"
+        }, 
+        {
+            "file": "MonkeyVillageJungleDrums.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyBeacon.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyBeaconDrumsFort.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyBeaconFort.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyTown.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyTownFort.json"
+        }, 
+        {
+            "file": "MonkeyVillageMonkeyTownFortRadar.json"
+        }, 
+        {
+            "file": "MonkeyVillageRadar.json"
+        }, 
+        {
+            "file": "MonkeyVillageRadarBeacon.json"
+        }, 
+        {
+            "file": "MonkeyVillageRadarBeaconDrums.json"
+        }, 
+        {
+            "file": "MortarArtilleryBattery.json"
+        }, 
+        {
+            "file": "MortarBloonbuster.json"
+        }, 
+        {
+            "file": "MortarFlames.json"
+        }, 
+        {
+            "file": "MortarFlamesTwoStripesStar.json"
+        }, 
+        {
+            "file": "MortarRedCircle.json"
+        }, 
+        {
+            "file": "MortarTheBigOne.json"
+        }, 
+        {
+            "file": "MortarTower.json"
+        }, 
+        {
+            "file": "MusicalNotes.json"
+        }, 
+        {
+            "file": "NinjaBlackBlueBandana.json"
+        }, 
+        {
+            "file": "NinjaBlackRedBandana.json"
+        }, 
+        {
+            "file": "NinjaBlackWhiteBandana.json"
+        }, 
+        {
+            "file": "NinjaBloonjitsu.json"
+        }, 
+        {
+            "file": "NinjaMonkey.json"
+        }, 
+        {
+            "file": "NinjaSabotageSupplyLines.json"
+        }, 
+        {
+            "file": "NinjaWhiteBlackBandana.json"
+        }, 
+        {
+            "file": "NinjaWhitePurpleBandana.json"
+        }, 
+        {
+            "file": "NinjaWhiteRedBandana.json"
+        }, 
+        {
+            "file": "Phoenix.json"
+        }, 
+        {
+            "file": "PineappleCountdown.json"
+        }, 
+        {
+            "file": "PineappleCountdownGrilled.json"
+        }, 
+        {
+            "file": "Propellor.json"
+        }, 
+        {
+            "file": "Radar.json"
+        }, 
+        {
+            "file": "RadarEffect.json"
+        }, 
+        {
+            "file": "RoadSpikes.json"
+        }, 
+        {
+            "file": "ROFcompoundsprite.json"
+        }, 
+        {
+            "file": "ROFEffect.json"
+        }, 
+        {
+            "file": "SniperBlackHatGogglesLaser.json"
+        }, 
+        {
+            "file": "SniperBlackHatGogglesLasercompound.json"
+        }, 
+        {
+            "file": "SniperBlackHatLaser.json"
+        }, 
+        {
+            "file": "SniperBlackHatLasercompound.json"
+        }, 
+        {
+            "file": "SniperBlueHat.json"
+        }, 
+        {
+            "file": "SniperBlueHatcompound.json"
+        }, 
+        {
+            "file": "SniperBlueNVG.json"
+        }, 
+        {
+            "file": "SniperBlueNVGcompound.json"
+        }, 
+        {
+            "file": "SniperCrippleMoab.json"
+        }, 
+        {
+            "file": "SniperCrippleMoabcompound.json"
+        }, 
+        {
+            "file": "SniperCrippleMoabGoggles.json"
+        }, 
+        {
+            "file": "SniperCrippleMoabGogglescompound.json"
+        }, 
+        {
+            "file": "SniperHelmet.json"
+        }, 
+        {
+            "file": "SniperHelmetcompound.json"
+        }, 
+        {
+            "file": "SniperMonkey.json"
+        }, 
+        {
+            "file": "SniperMonkeycompound.json"
+        }, 
+        {
+            "file": "SniperPurpleHat.json"
+        }, 
+        {
+            "file": "SniperPurpleHatcompound.json"
+        }, 
+        {
+            "file": "SniperPurpleNVG.json"
+        }, 
+        {
+            "file": "SniperPurpleNVGcompound.json"
+        }, 
+        {
+            "file": "SniperRedHat.json"
+        }, 
+        {
+            "file": "SniperRedHatcompound.json"
+        }, 
+        {
+            "file": "SniperSupplyDrop.json"
+        }, 
+        {
+            "file": "SniperSupplyDropcompound.json"
+        }, 
+        {
+            "file": "snow_falling.json"
+        }, 
+        {
+            "file": "SpikeFactory.json"
+        }, 
+        {
+            "file": "SpikeFactoryBlueBaseDoorsDoubleCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryBlueBaseDoubleCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryBlueBaseTackDoorsQuadCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryBlueFeet.json"
+        }, 
+        {
+            "file": "SpikeFactoryGreenBaseDoorsDoubleCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryGreenBaseTackDoorsQuadCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryOrangeBaseIrisDoubleCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryOrangeBaseSkullDoors.json"
+        }, 
+        {
+            "file": "SpikeFactoryPurpleBaseBlackFeetDoubleCogs.json"
+        }, 
+        {
+            "file": "SpikeFactoryPurpleFeet.json"
+        }, 
+        {
+            "file": "SpikeFactoryRedBaseBlackFeet.json"
+        }, 
+        {
+            "file": "SpikeFactoryRedBaseIris.json"
+        }, 
+        {
+            "file": "SpikeFactoryRedBaseSkullDoors.json"
+        }, 
+        {
+            "file": "SpikeFactoryRedFeet.json"
+        }, 
+        {
+            "file": "Sub00_Base.json"
+        }, 
+        {
+            "file": "Sub01_YellowTwin.json"
+        }, 
+        {
+            "file": "Sub02_BlueAirburst.json"
+        }, 
+        {
+            "file": "Sub03_Ballistic.json"
+        }, 
+        {
+            "file": "Sub04_FirstStrike.json"
+        }, 
+        {
+            "file": "Sub10_RedStripesBarbed.json"
+        }, 
+        {
+            "file": "Sub11_RedStripesBarbedTwin.json"
+        }, 
+        {
+            "file": "Sub12_BlueAirburstRed.json"
+        }, 
+        {
+            "file": "Sub13_BallisticRange.json"
+        }, 
+        {
+            "file": "Sub20_GreenStripesRange.json"
+        }, 
+        {
+            "file": "Sub21_GreenStripesRangeTwin.json"
+        }, 
+        {
+            "file": "Sub22_BlueAirburstGreen.json"
+        }, 
+        {
+            "file": "Sub30_Periscope.json"
+        }, 
+        {
+            "file": "Sub30_Submerge.json"
+        }, 
+        {
+            "file": "Sub30_Submerge_complete.json"
+        }, 
+        {
+            "file": "Sub30_Submerge_Compound.json"
+        }, 
+        {
+            "file": "Sub31_PeriscopeTwin.json"
+        }, 
+        {
+            "file": "Sub31_Submerge.json"
+        }, 
+        {
+            "file": "Sub31_Submerge_complete.json"
+        }, 
+        {
+            "file": "Sub31_Submerge_Compound.json"
+        }, 
+        {
+            "file": "Sub40_BloontoniumReactor.json"
+        }, 
+        {
+            "file": "Sub40_BloontoniumReactor_Submerge.json"
+        }, 
+        {
+            "file": "Sub40_BloontoniumReactorRadiationAnimation.json"
+        }, 
+        {
+            "file": "Sub40_BloontoniumReactorRadiationCompound.json"
+        }, 
+        {
+            "file": "Sub40_BloontoniumReactorRadiationScale.json"
+        }, 
+        {
+            "file": "SubCompoundList.json"
+        }, 
+        {
+            "file": "SubmarineBallisticGunA.json"
+        }, 
+        {
+            "file": "SubmarineBallisticGunB.json"
+        }, 
+        {
+            "file": "SubmarineBallisticMissileFire.json"
+        }, 
+        {
+            "file": "SubmarineBarrel.json"
+        }, 
+        {
+            "file": "SubmarineBarrelA.json"
+        }, 
+        {
+            "file": "SubmarineBarrelB.json"
+        }, 
+        {
+            "file": "SubmarineBarrelTwin.json"
+        }, 
+        {
+            "file": "SubmarineFirstStrikeBallisticMissileFire.json"
+        }, 
+        {
+            "file": "SubmarineNoBarrelA.json"
+        }, 
+        {
+            "file": "SubmarineNoBarrelB.json"
+        }, 
+        {
+            "file": "SubRippleCompound.json"
+        }, 
+        {
+            "file": "SubShipLight.json"
+        }, 
+        {
+            "file": "SummonPhoenixFire.json"
+        }, 
+        {
+            "file": "SunGod.json"
+        }, 
+        {
+            "file": "SuperMonkey.json"
+        }, 
+        {
+            "file": "SuperMonkeyGreenCapeGoggles.json"
+        }, 
+        {
+            "file": "SuperMonkeyLaserVision.json"
+        }, 
+        {
+            "file": "SupermonkeyPlasmaVision.json"
+        }, 
+        {
+            "file": "SuperMonkeyRoboMonkey.json"
+        }, 
+        {
+            "file": "SuperMonkeyRoboMonkeyLeftArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyRoboMonkeyRightArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyTechTerror.json"
+        }, 
+        {
+            "file": "SuperMonkeyTechTerrorLeftArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyTechTerrorRightArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyTemple.json"
+        }, 
+        {
+            "file": "SuperMonkeyTempleEvil.json"
+        }, 
+        {
+            "file": "SuperMonkeyTempleHead.json"
+        }, 
+        {
+            "file": "SuperMonkeyTempleHeadEvil.json"
+        }, 
+        {
+            "file": "TackTower.json"
+        }, 
+        {
+            "file": "TackTowerBladeShooter.json"
+        }, 
+        {
+            "file": "TackTowerLargerCannons.json"
+        }, 
+        {
+            "file": "TackTowerMaelstrom.json"
+        }, 
+        {
+            "file": "TackTowerROF.json"
+        }, 
+        {
+            "file": "TackTowerROFBase.json"
+        }, 
+        {
+            "file": "TackTowerROFFlame.json"
+        }, 
+        {
+            "file": "TackTowerSprayer.json"
+        }, 
+        {
+            "file": "TackTowerTripleTackLogo.json"
+        }
+    ]
+}

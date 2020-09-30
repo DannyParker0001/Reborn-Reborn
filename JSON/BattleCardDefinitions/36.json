@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 800, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.08, 
+        "NumBloons": 120, 
+        "Type": "Blue", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "36", 
+    "NameOld": "BoomerangThrower22_BlueTight120", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "forest", 
+        "Cost": 800, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "BoomerangThrower", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

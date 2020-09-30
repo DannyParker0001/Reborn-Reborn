@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 5250, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 220, 
+        "Interval": 0.05, 
+        "NumBloons": 180, 
+        "Type": "Pink", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "45", 
+    "NameOld": "DartlingGun31_PinkTight180", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_twilight", 
+        "Cost": 5250, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "DartlingGun", 
+        "Upgrades": [
+            3, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

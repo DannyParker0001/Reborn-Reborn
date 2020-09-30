@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_CopyEco",
+    "UnlockCost"        : 500,
+    "Description"       : "Replaces your income with your opponent's, to a maximum of $600. Two uses.",
+    "RequiresUnlocked"  : ["EconomyPower_EcoBoost"],
+    "Icon"              : "powers_copy_eco",
+    "HudIcon"           : "icon_copy_eco",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "EconomyPower_CopyEco.weapon"
+}

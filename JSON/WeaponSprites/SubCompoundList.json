@@ -1,0 +1,10 @@
+{
+    "files" : [
+        {
+            "file" : "ROFcompoundsprite.json"
+        },
+		{
+			"file" : "GeneralShockwavecompoundsprite.json"
+		}
+    ]
+}

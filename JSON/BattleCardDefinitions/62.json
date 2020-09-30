@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_night", 
+        "Cost": 15000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -500, 
+        "Interval": 0.6, 
+        "NumBloons": 5, 
+        "Type": "BFB", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 1600, 
+    "Name": "62", 
+    "NameOld": "SuperMonkey23_BFBTight5", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 15000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "SuperMonkey", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

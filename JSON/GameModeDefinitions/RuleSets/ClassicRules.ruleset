@@ -1,0 +1,53 @@
+{
+    "name": "ClassicRules",
+    "rules": [
+        "ClassicRules"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "Spend energy to gain boosts!",
+                "offsetY": 10
+
+            },
+            {
+                "Icon": "energy_icon|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "Map Skips",
+                "Icon": "ltd_skip_icon",
+                "offsetY": 25,
+                "offsetX": 25
+            },
+            {
+                "Text": "Random Rolls",
+                "Icon": "ltd_random_icon",
+                "offsetX": 25,
+                "offsetY": -4
+            },
+            {
+                "Text": "Tower Boosts",
+                "Icon": "ltd_tower_boost_icon",
+                "offsetX": 25,
+                "offsetY": -4
+            },
+            {
+                "Text": "Bloon Boosts",
+                "Icon": "ltd_bloon_boost_icon",
+                "offsetX": 25,
+                "offsetY": -4
+            },
+            {
+                "Text": "Red Hot Spikes",
+                "Icon": "ltd_rhs_icon",
+                "offsetX": 25,
+                "offsetY": -4
+            }
+        ],
+        "DisplayName": "CLASSIC RULES",
+        "DisplayIcon": "rulesIcon_ClassicRules",
+        "DisplayInfo": "ENERGY USE",
+		"LobbyName" : ""
+    }
+}

@@ -1,0 +1,201 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -76.0, -76.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_01",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 76.0, -76.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_03",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -76.0, 76.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_04",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 76.0, 76.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_06",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -76.0 ],
+         "Scale" : [ 17.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_02",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 1.0,
+         "Angle" : -90.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -76.0, -0.0 ],
+         "Scale" : [ 17.20000076293945, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_02",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 76.0 ],
+         "Scale" : [ 17.14999961853027, 1.0 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_05",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 76.0, 0.0 ],
+         "Scale" : [ 1.0, 17.04999923706055 ],
+         "Shown" : true,
+         "sprite" : "clans_reward_07",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4269165603,
+         "Flip" : 0,
+         "Position" : [ -68.0, -68.0 ],
+         "Scale" : [ 34.0, 33.95000076293945 ],
+         "Shown" : true,
+         "sprite" : "clans_colour",
+         "type" : 1,
+         "uid" : 9
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "clans_reward_01",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_03",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_04",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_06",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_02",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_05",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_reward_07",
+            "Texture" : "clans_sheet"
+         },
+         {
+            "SpriteInfo" : "clans_colour",
+            "Texture" : "clans_sheet"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      }
+   ]
+}

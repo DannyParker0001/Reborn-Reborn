@@ -1,0 +1,9 @@
+{
+	"Type" : "BlackGroup1",
+	"BloonType" : "Black",
+	"Quantity" : 3,
+	"Interval" : 0.1,
+	"Cost" : 150,
+	"IncomeChange" : 6,
+	"UnlockRound" : 10
+}

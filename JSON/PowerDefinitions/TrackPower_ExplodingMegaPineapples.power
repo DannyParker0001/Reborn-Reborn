@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_ExplodingMegaPineapples",
+    "Description"       : "Drop a large exploding pineapple on the track to deal with groups of bloons. Fifteen uses.",
+    "UnlockCost"        : 500,
+    "RequiresUnlocked"  : ["TrackPower_RedHotSpikes"],
+    "Icon"              : "powers_exploding_pineapple",
+    "HudIcon"           : "icon_exploding_pineapple",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_ExplodingMegaPineapples",
+    "PlacementMode"     : "Tower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 0,
+    "MinCooldown"       : 0,
+    "Count"             : 15
+}

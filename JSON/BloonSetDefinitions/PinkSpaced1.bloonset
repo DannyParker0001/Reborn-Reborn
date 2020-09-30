@@ -1,0 +1,9 @@
+{
+	"Type" : "PinkSpaced1",
+	"BloonType" : "Pink",
+	"Quantity" : 3,
+	"Interval" : 0.5,
+	"Cost" : 42,
+	"IncomeChange" : 1.7,
+	"UnlockRound" : 2
+}

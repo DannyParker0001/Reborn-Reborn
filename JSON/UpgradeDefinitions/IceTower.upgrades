@@ -1,0 +1,286 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Enhanced Freeze",
+            "WeaponUpgrades" : 
+			[
+				{
+					"SlotIndex" : 0,
+					"Adjust" :
+					{
+						"TargetRange" : 15
+					},
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByType",
+							"Type" :    "AreaOfEffect"
+						},
+						{
+							"Operation" : "Adjust",
+							"Range" : 15
+						},
+						{
+							"Operation" : "SelectByType",
+							"Type" : "StatusEffect"
+						},
+						{
+							"Operation" : "Adjust",
+							"Duration" : 0.57
+						},
+						{
+							"Operation" : "SelectByType",
+							"Type" : "Effect"
+						},
+						{
+							"Operation" : "Replace",
+							"Scale" : 0.543
+						}
+					]
+				},
+				{
+					"SlotIndex" : 1,
+					"Adjust" :
+					{
+						"TargetRange" : 15
+					},
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByType",
+							"Type" :    "AreaOfEffect"
+						},
+						{
+							"Operation" : "Adjust",
+							"Range" : 15
+						},
+						{
+							"Operation" : "SelectByType",
+							"Type" : "StatusEffect"
+						},
+						{
+							"Operation" : "Adjust",
+							"Duration" : 0.57
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Snap Freeze",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Damage"
+                    },
+
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 1
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 2 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+					
+					{
+						"Operation" : "SelectByLocation",
+						"Location" : [ 0, 3 ]
+					},
+					
+					{
+						"Operation" : "Adjust",
+						"NumPersists" : 1,
+						"ApplyDelay" : -1
+					}
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Arctic Wind",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "ArcticWind.weapon"
+                }
+            },
+            
+            "WeaponUpgrade" : 
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 30
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Range" : 30
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Viral Frost",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 3 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "ViralFrost"
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Permafrost",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 2 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "Permafrost"
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Deep Freeze",
+            "WeaponUpgrades" : [
+				{
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0, 1 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"NumPersists" : 1
+						},
+                        
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0, 2 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"NumPersists" : 1
+						},
+                        
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0, 3 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"NumPersists" : 1
+						}
+					]
+				},
+				{
+					"SlotIndex" : 4,
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"NumPersists" : 1
+						}
+					]
+				}
+			]
+        },
+    
+        {
+            "Name" : "Ice Shards",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                    [
+						{
+							"Operation" : "SelectByLocation",
+							"Location" : [ 0, 1 ]
+						},
+						
+						{
+							"Operation" : "Adjust",
+							"Duration" : 0.57
+						},
+
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0, 3 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "IceShards"
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Absolute Zero",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "AbsoluteZero.weapon"
+                }
+            }
+        }
+    ]
+}

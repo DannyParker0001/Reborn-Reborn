@@ -1,0 +1,9 @@
+{
+   "ID" : "Colour_06_DarkBlue",
+   "SpriteName" : "clan_symbol_colour_06_dark_blue.json",
+   "SpriteName_Select" : "clan_symbol_colour_select_06_dark_blue.json",
+   "DisplayName" : "Dark Blue",
+   "Layer" : 1,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

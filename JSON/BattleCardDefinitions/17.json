@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 750, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 35, 
+        "Interval": 1.2, 
+        "NumBloons": 6, 
+        "Type": "Lead", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "17", 
+    "NameOld": "MonkeyApprentice22_LeadSpaced6", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "thunderstorm", 
+        "Cost": 2400, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MonkeyApprentice", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

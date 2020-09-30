@@ -1,0 +1,88 @@
+{
+    "Type": "GlueGunnerStrong",
+    "TargetRange": 140.0,
+    "CooldownTime": 0.8,
+    "FireDelayTime": 0.2,
+
+    "TargetingFilter": {
+        "Exclude": {
+            "StatusEffect": ["StrongGlue"]
+        },
+        "Include": {
+            "BloonType": [
+                "Red",
+                "Blue",
+                "Green",
+                "Yellow",
+                "Pink",
+                "Black",
+                "White",
+                "Lead",
+                "Zebra",
+                "Rainbow",
+                "Ceramic",
+                "MOAB",
+                "BFB",
+                "ZOMG"
+            ]
+        }
+    },
+
+    "Tasks": [{
+        "Type": "Projectile",
+        "GraphicName": "glue_gunner_glue_yellow",
+        "NumPersists": 1,
+        "ForcePersists": true,
+        "TerminateOnZeroPersists": true,
+
+        "CollisionType": "Once",
+        "IgnoreStatusEffect": ["StrongGlue"],
+        "Radius": 12.5,
+
+        "Movement": {
+            "Type": "Forward",
+            "Speed": 630.0,
+            "CutOffDistance": 270
+        },
+
+        "TasksToProcessOnCollision": [0, 2],
+
+        "Tasks": [
+            {
+                "Type": "StatusEffect",
+                "Status": "StrongGlue",
+                "NumPersists": 1,
+                "Duration": 11.428,
+                "DamageRate": -1,
+                "SpeedScale": 0.5
+            },
+            {
+                "Type": "AreaOfEffect",
+                "Range": 70,
+                "MaxTargets": 5,
+                "Tasks": [
+                    {
+                        "Type": "StatusEffect",
+                        "Status": "StrongGlue",
+                        "NumPersists": 1,
+                        "Duration": 11.428,
+                        "DamageRate": -1,
+                        "SpeedScale": 0.5
+                    },
+                    {
+                        "Type": "Effect",
+                        "SpriteFile": "GlueSplatterEffect.json"
+                    },
+                    {
+                        "Type": "RemoveStatusEffect",
+                        "Status": "Glue"
+                    }
+                ]
+            },
+            {
+                "Type": "RemoveStatusEffect",
+                "Status": "Glue"
+            }
+        ]
+    }]
+}

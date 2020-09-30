@@ -1,0 +1,59 @@
+{
+	"Name" : "Amulet of Sacrifice",
+	"Icon" : "amulet_of_sacrifice",
+    "Rarity" : "Bronze",
+    "Description" : "-10% cost of all towers and upgrades, -5% attack speed on all towers",
+	"Effects" :
+	[
+     	{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 1.05, 0 ]
+     				}
+     			}, {
+					"Modifier" : 
+					{ 
+						"Cost": [ 0.90, 0 ] 
+					}
+     			}
+            ]
+		},
+     
+     	{
+     		"TowerModifiers" :
+     		[
+      			{
+      				"Modifier" :
+      				{
+						"Cooldown" : [ 1.05, 0 ]
+      				}
+     			}, {
+					"Modifier" : 
+					{ 
+						"Cost": [ 0.90, 0 ]
+					}
+      			}
+      		]
+     	},
+     
+     	{
+     		"TowerModifiers" :
+     		[
+      			{
+      				"Modifier" :
+      				{
+						"Cooldown" : [ 1.05, 0 ]
+      				}
+     			}, {
+					"Modifier" : 
+					{ 
+						"Cost": [ 0.90, 0 ] 
+					}
+      			}
+      		]
+     	}
+	]
+}

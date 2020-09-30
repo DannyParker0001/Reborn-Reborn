@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 1250, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 38, 
+        "Interval": 0.1, 
+        "NumBloons": 20, 
+        "Type": "Zebra", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 1600, 
+    "Name": "1", 
+    "NameOld": "DartMonkey23_ZebraTight20", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 1250, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "DartMonkey", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

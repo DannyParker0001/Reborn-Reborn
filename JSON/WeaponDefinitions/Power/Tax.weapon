@@ -1,0 +1,19 @@
+{
+    "Type"                                      : "Tax",
+    "TargetRange"                               : 10000.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+
+    "Tasks" :
+    [
+        {
+            "Type"      : "IncomeTax"
+        },
+		{
+			"Type": "Effect",
+			"Audio": "TAX"
+		}
+    ]
+}

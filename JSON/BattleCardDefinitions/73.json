@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1750, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 70, 
+        "Interval": 0.1, 
+        "NumBloons": 180, 
+        "Type": "Blue", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "73", 
+    "NameOld": "MortarTower31_BlueTight180", 
+    "PlatformProductID": "btdbattles_vet_mortartower31_bluetight180", 
+    "PlatformProductIDiOS": "btdbattles_vet_MortarTower31_BlueTight180", 
+    "ProductID": "Vet_MortarTower31_BlueTight180", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1750, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MortarTower", 
+        "Upgrades": [
+            3, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

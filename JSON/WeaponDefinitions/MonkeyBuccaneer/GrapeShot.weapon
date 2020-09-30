@@ -1,0 +1,76 @@
+{	
+    "Type":             "GrapeShot",    
+    "TargetRange":      180.0,
+	"CooldownTime":     0.7,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -45.0,
+    		"AngleIncrement": 22.5,
+    		"FireCount": 2,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      3,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 875.0,
+						"CutOffDistance": 350
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	},
+        {
+    		"Type": "MultiFire",
+    		"InitialOffset":  22.5,
+    		"AngleIncrement": 22.5,
+    		"FireCount": 2,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "grape",
+					"NumPersists":      3,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement": 
+					{
+						"Type": "Forward",
+						"Speed": 875.0,
+						"CutOffDistance": 350
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Piercing",
+							"Amount": 1
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

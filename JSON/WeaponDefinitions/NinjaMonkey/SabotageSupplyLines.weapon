@@ -1,0 +1,50 @@
+{	
+    "Type":             	"SabotageSupplyLines",    
+    "TargetRange":      	5,
+	"CooldownTime":     	60.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { "StatusEffect": [ "Sabotage" ] }
+    },
+    
+    "Tasks" :
+    [
+		{
+			"Type": "BloonSpawnedEvent",
+			"Duration": 15,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Sabotage",
+					"NumPersists": -1,
+					"Duration": -1,
+					"SpeedScale": 0.4
+				}
+			]
+		},
+		{
+			"Type" : "AreaOfEffect",
+			"Range" : 1000,
+			"MaxTargets" : -1,
+			
+			"Tasks" : 
+			[
+				{
+					"Type" : "StatusEffect",
+					"Status" : "Sabotage",
+					"NumPersists" : -1,
+					"Duration" : 15,
+					"SpeedScale" : 0.6,
+					"BloonLifetime" : 10
+				}
+			]
+		}
+	]
+}

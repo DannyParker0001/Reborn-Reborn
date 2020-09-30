@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "thunderstorm", 
+        "Cost": 11000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -2000, 
+        "Interval": 7.0, 
+        "NumBloons": 2, 
+        "Type": "ZOMG", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "71", 
+    "NameOld": "MonkeyEngineer04_ZOMGSpaced2", 
+    "PlatformProductID": "btdbattles_vet_monkeyengineer04_zomgspaced2", 
+    "PlatformProductIDiOS": "btdbattles_vet_MonkeyEngineer04_ZOMGSpaced2", 
+    "ProductID": "Vet_MonkeyEngineer04_ZOMGSpaced2", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 11000, 
+        "Features": [
+            "PopFrozen", 
+            "PopWhite", 
+            "PopBlack"
+        ], 
+        "Type": "MonkeyEngineer", 
+        "Upgrades": [
+            0, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

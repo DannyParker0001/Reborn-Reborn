@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 7500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -200, 
+        "Interval": 0.6, 
+        "NumBloons": 10, 
+        "Type": "MOAB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "78", 
+    "NameOld": "IceTower32_MOABTight10", 
+    "PlatformProductID": "btdbattles_vet_icetower32_moabtight10", 
+    "PlatformProductIDiOS": "btdbattles_vet_IceTower32_MOABTight10", 
+    "ProductID": "Vet_IceTower32_MOABTight10", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 7500, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen"
+        ], 
+        "Type": "IceTower", 
+        "Upgrades": [
+            3, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

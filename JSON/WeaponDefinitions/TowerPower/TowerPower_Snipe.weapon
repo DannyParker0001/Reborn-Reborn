@@ -1,0 +1,39 @@
+{	
+    "Type"                                      : "TowerPower_Snipe",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "RequiresTargetToFire"                      : true,
+    
+    "Tasks" :
+    [
+		{
+            "Type": "Effect",
+            "Audio": "POWERS_TOWER_BLOON_SNIPE",
+            "SpriteFile": "bloon_snipe.json",
+            "DrawLayer": "FullScreen",
+            "ApplyToTarget": true,
+            "FollowTarget": true,
+            "Duration": 0.3,
+            "UseDuration" : true,
+            "Tasks": [
+                {
+                    "Type": "Damage",
+                    "DamageType": "Plasma",
+                    "Amount": 1000000000
+                },
+                {
+                    "Type": "StatusEffect",
+                    "Status": "MultiLayerDamage",
+                    "Kill" : true
+                }
+            ]
+        },
+        {
+            "Type": "StatusEffect",
+            "Status": "HoldBloon",
+            "NumPersists" : 1,
+            "Duration" : 1.0
+        }
+	]
+}

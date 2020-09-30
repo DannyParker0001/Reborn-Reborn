@@ -1,0 +1,9 @@
+{
+	"Type" : "BlueGroup1",
+	"BloonType" : "Blue",
+	"Quantity" : 6,
+	"Interval" : 0.09,
+	"Cost" : 42,
+	"IncomeChange" : 1.7,
+	"UnlockRound" : 2
+}

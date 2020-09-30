@@ -1,0 +1,9 @@
+{
+	"Type" : "YellowGroup1",
+	"BloonType" : "Yellow",
+	"Quantity" : 5,
+	"Interval" : 0.06,
+	"Cost" : 75,
+	"IncomeChange" : 3,
+	"UnlockRound" : 6
+}

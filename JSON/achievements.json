@@ -1,0 +1,116 @@
+{
+	"Items" : [
+		{
+			   "Name" : "Winner",
+			   "Description" : "Win your first battle",
+			   "DescriptionComplete" : "Won your first battle",
+			   "Icon" : "winner_icon",
+			   "ID" : "BTDB_Winner"
+		},
+		{
+			   "Name" : "Popping Streak",
+			   "Description" : "Win 5 quick play battles in a row",
+			   "DescriptionComplete" : "Won 5 quick play battles in a row",
+			   "Icon" : "popping_streak_icon",
+			   "ID" : "BTDB_PoppingStreak"
+		},
+		{
+			   "Name" : "Unspoppable",
+			   "Description" : "Win 20 sequential quick play battles",
+			   "DescriptionComplete" : "Won 20 sequential quick play battles",
+			   "Icon" : "unspoppable_icon",
+			   "ID" : "BTDB_Unspoppable"
+		},
+		{
+			   "Name" : "What Did You Expect",
+			   "Description" : "Beat an opponent with a lower battle score",
+			   "DescriptionComplete" : "Beat an opponent with a lower battle score",
+			   "Icon" : "what_did_you_expect_icon",
+			   "ID" : "BTDB_WhatDidYouExpect"
+		},
+		{
+			   "Name" : "The Bigger They Are",
+			   "Description" : "Beat an opponent with a higher battle score",
+			   "DescriptionComplete" : "Beat an opponent with a higher battle score",
+			   "Icon" : "the_bigger_they_are_icon",
+			   "ID" : "BTDB_TheBiggerTheyAre"
+		},
+		{
+			   "Name" : "Open Season",
+			   "Description" : "Reach 125 battle score",
+			   "DescriptionComplete" : "Reached 125 battle score",
+			   "Icon" : "open_season_icon",
+			   "ID" : "BTDB_OpenSeason"
+		},
+		{
+			   "Name" : "Penultimate",
+			   "Description" : "Unlock tier 3 upgrades for all towers",
+			   "DescriptionComplete" : "Unlocked tier 3 upgrades for all towers",
+			   "Icon" : "spawner_icon",
+			   "ID" : "BTDB_Penultimate"
+		},
+		{
+			   "Name" : "Top Tier",
+			   "Description" : "Unlock tier 4 upgrades for all towers",
+			   "DescriptionComplete" : "Unlocked tier 4 upgrades for all towers",
+			   "Icon" : "top_tier_icon",
+			   "ID" : "BTDB_TopTier"
+		},
+		{
+			   "Name" : "War Paint",
+			   "Description" : "Win a battle using bloons with decals",
+			   "DescriptionComplete" : "Won a battle using bloons with decals",
+			   "Icon" : "war_paint_icon",
+			   "ID" : "BTDB_WarPaint"
+		},
+		{
+			   "Name" : "Tattoo You",
+			   "Description" : "Get 3 or more decals",
+			   "DescriptionComplete" : "Got 3 or more decals",
+			   "Icon" : "tattoo_you_icon",
+			   "ID" : "BTDB_TattooYou"
+		},
+		{
+			   "Name" : "Boosted",
+			   "Description" : "Use tower boost and/or bloon boost 100 times",
+			   "DescriptionComplete" : "Used tower boost and/or bloon boost 100 times",
+			   "Icon" : "boosted_icon",
+			   "ID" : "BTDB_Boosted"
+		},
+		{
+			   "Name" : "Heavy Assault",
+			   "Description" : "Win 100 quick play battles on assault mode",
+			   "DescriptionComplete" : "Won 100 quick play battles on assault mode",
+			   "Icon" : "heavy_assault_icon",
+			   "ID" : "BTDB_HeavyAssault"
+		},
+		{
+			   "Name" : "Getting Defensive",
+			   "Description" : "Win 100 quick play battles on defensive mode",
+			   "DescriptionComplete" : "Won 100 quick play battles on defensive mode",
+			   "Icon" : "getting_defensive_icon",
+			   "ID" : "BTDB_GettingDefensive"
+		},
+		{
+			   "Name" : "Jack Of All Towers",
+			   "Description" : "Beat an opponent by using a random loadout",
+			   "DescriptionComplete" : "Beat an opponent by using a random loadout",
+			   "Icon" : "jack_of_all_towers_icon",
+			   "ID" : "BTDB_JackOfAllTowers"
+		},
+		{
+			   "Name" : "Spawner",
+			   "Description" : "Spawn 100,000 bloons during your battles",
+			   "DescriptionComplete" : "Spawned 100,000 bloons during your battles",
+			   "Icon" : "spawner_icon",
+			   "ID" : "BTDB_Spawner"
+		},
+		{
+			   "Name" : "Uber Popper",
+			   "Description" : "Pop 1,000,000 bloons during your battles",
+			   "DescriptionComplete" : "Popped 1,000,000 bloons during your battles",
+			   "Icon" : "uber_popper_icon",
+			   "ID" : "BTDB_UberPopper"
+		}
+	]
+}

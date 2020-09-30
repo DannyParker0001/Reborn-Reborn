@@ -1,0 +1,46 @@
+{
+    "name": "R3_MegaBoost_Bananza",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "MegaBoosts",
+        "Bananza"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_Bananza|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayNameFront": "     R3 BOOSTY BANANZA",
+        "DisplayName": "R3 BOOSTY BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_boosty_bananza_small"
+    },
+    "version": "1.0"
+}

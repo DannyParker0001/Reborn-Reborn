@@ -1,0 +1,40 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 2350, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 60, 
+        "Interval": 0.08, 
+        "NumBloons": 27, 
+        "Type": "Black", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "58", 
+    "NameOld": "MonkeyEngineer32_RegenBlackTight27", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 2350, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopRegen"
+        ], 
+        "Type": "MonkeyEngineer", 
+        "Upgrades": [
+            3, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

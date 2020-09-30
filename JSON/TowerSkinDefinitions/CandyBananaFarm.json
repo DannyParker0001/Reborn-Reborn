@@ -1,0 +1,53 @@
+{
+    "ID": "CandyBananaFarm",
+    "DisplayName": "Banana Farm Skin",
+    "DisplayDescription": "The Banana Farm and its upgrades get a massive calorie increase. Visual change only.",
+    "DisplayIcon": "banana_farm_skin_store_icon.json",
+    "SmallIcon": "banana_farm_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "BananaFarmSkin",
+    "RequiresTower": "BananaFarm",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "bananas": {
+            "Name" : "candy",
+            "Location" : "InGame"
+        },
+        "banana_box": {
+            "Name" : "candy_box",
+            "Location" : "InGame"
+        }
+    },
+    
+    "TowerMap": {
+        "BananaFarm.json": {
+            "Name" : "Candy_BananaFarm.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmBank.json": {
+            "Name" : "Candy_BananaFarmBank.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmBRF.json": {
+            "Name" : "Candy_BananaFarmBRF.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmInvestments.json": {
+            "Name" : "Candy_BananaFarmInvestments.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmMoreBananas.json": {
+            "Name" : "Candy_BananaFarmMoreBananas.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmPlantation.json": {
+            "Name" : "Candy_BananaFarmPlantation.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BananaFarmRepublic.json": {
+            "Name" : "Candy_BananaFarmRepublic.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

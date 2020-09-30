@@ -1,0 +1,24 @@
+{	
+    "Type":             "templeFreeze5",    
+    "TargetRange":      240.0,
+	"CooldownTime":     0.5,
+    "FireDelayTime":    0.0,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": false,
+    
+    "Tasks" :
+    [{
+        "Type": "AreaOfEffect",
+        "Range": 60,
+        "MaxTargets": 40,
+        "Tasks" :
+        [
+			{
+				"Type": "StatusEffect",
+				"Status": "Slow",
+                "Duration" :  2,
+                "SpeedScale" : 0.5
+			}
+        ]
+    }]
+}

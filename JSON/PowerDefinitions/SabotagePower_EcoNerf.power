@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_EcoNerf",
+    "UnlockCost"        : 2500,
+    "Description"       : "Opponent gets 50% income from all sources including selling for 12s. Two uses.",
+    "RequiresUnlocked"  : ["SabotagePower_SellFreeze"],
+    "Icon"              : "powers_eco_nerf",
+    "HudIcon"           : "icon_eco_nerf",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "SabotagePower_EcoNerf.weapon"
+}

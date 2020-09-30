@@ -1,0 +1,69 @@
+{	
+    "Type":             "Whirlwind",    
+    "TargetRange":      120.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile":       "WhirlwindProjectile.json",
+			"NumPersists":      30,
+            "Radius": 30,
+
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+            "HasFixedAngle": true,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 560.0,
+				"CutOffDistance": 240
+			},
+			
+            "TasksToProcessOnCollision" : [ 0, 1 ],
+            "TasksToProcessOnTerminate" : [ 2 ],
+            
+            "DisabledTasks" : [ 2 ],
+            
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 0
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "MoveToPath" 
+				},
+                {
+                    "Type": "MultiFire",
+                    "InitialOffset": 0,
+                    "AngleIncrement": 120,
+                    "FireCount": 3,
+                    "AimAtTarget": false,
+                    "Tasks":
+                    [{                
+                        "Type":             "Projectile",
+                        "SpriteFile":       "WhirlwindProjectile.json",
+                        "NumPersists":      20,
+
+                        "TerminateOnZeroPersists": true,
+                        "CollisionType": "Once",
+                        "HasFixedAngle": true,
+                        
+                        "Movement":
+                        {
+                            "Type": "Forward",
+                            "Speed": 560.0,
+                            "CutOffDistance": 240
+                        }
+                    }]
+                }
+			]
+		}
+	]
+}

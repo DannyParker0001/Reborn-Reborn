@@ -1,0 +1,39 @@
+{
+    "name": "SuddenDeathSpeed",
+    "rules": [
+      "FreePowerups",
+      "Speed",
+      "SuddenDeath"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Icon": "rulesIcon_SpeedBattle",
+          "offsetY": 10,
+          "offsetX": 60
+        },
+        {
+          "Text": "Send faster bloons 2 rounds earlier!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 25
+        },
+        {
+          "Text": "Income generates quicker!",
+          "Icon": "bullet_point_glow"
+        },
+        {
+          "Icon": "sudden_death_icon|CENTER_X",
+          "offsetY": 10
+        },
+        {
+          "Text": "Both players begin with only one life",
+          "Icon": "bullet_point_glow",
+          "offsetY": 15
+        }
+      ],
+      "DisplayName": "SPEEDY 1 LIFE",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_suddendeath_speed"
+    },
+    "version": "1.0"
+}

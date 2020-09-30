@@ -1,0 +1,48 @@
+{
+    "Type"                                      : "MonkeyChill",
+    "TargetRange"                               : 10000.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "ShowRange"                                 : true,
+
+    "Tasks" :
+    [
+        {
+            "Type" : "TowerModifier",
+            "Range":  10000,
+            "PriorityLevel" : 1,
+            "RequiresEmptyPriorityLevel" : false,
+            "TerminateOnUserUpgrade" : false,
+            "TaskPersistsWithDuration" : true,
+            "ModifyNewlySpawnedTowers": false,
+            "Duration": 15,
+            "NumPersists": -1,
+            "Modifier" :
+            {
+                "Cooldown"  : [ 1.333, 0 ],
+                "FireDelay" : [ 1.333, 0 ]
+            },
+            "Tasks" :
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "snow_falling.json",
+                    "DrawLayer": "FullScreen",
+                    "LoopForever": true,
+                    "Duration": 15,
+                    "AppliedToTower": true
+                }
+            ]
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "AbsoluteZeroAbility.json",
+            "Position": [ 0.5, 0.5 ],
+            "DrawLayer": "FullScreen",
+            "ShowOnOpponentSide": true,
+            "FlipBySide": true,
+			"Audio": "MONKEY_CHILL"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "ap": [
+    "/Applications/Cydia.app",
+    "/Applications/limera1n.app",
+    "/Applications/greenpois0n.app",
+    "/Applications/blackra1n.app",
+    "/Applications/blacksn0w.app",
+    "/Applications/redsn0w.app"
+  ],
+  "pr": [
+  	"cydia://package"
+  ],
+  "bn": [
+  	"/mobilesubstrate"
+  ],
+  "bp": [
+  	";SignerIdentity"
+  ]
+}

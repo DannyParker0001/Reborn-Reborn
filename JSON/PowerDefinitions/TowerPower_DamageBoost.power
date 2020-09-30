@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_DamageBoost",
+    "UnlockCost"                : 7500,
+    "RequiresUnlocked"          : ["TowerPower_PopBoost"],
+    "Description"               : "Pop two layers for the price of one. All towers get +1 damage and slight attack speed boost for 18 seconds. Three uses.",
+    "Icon"                      : "powers_damage_boost",
+    "HudIcon"                   : "icon_damage_boost",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 33,
+    "MinCooldown"               : 18,
+    "Count"                     : 3,
+    "Weapon"                    : "TowerPower_DamageBoost.weapon"
+}

@@ -1,0 +1,35 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 150, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 8, 
+        "Interval": 0.1, 
+        "NumBloons": 50, 
+        "Type": "Red", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 100, 
+    "Name": "0", 
+    "NameOld": "DartMonkey00_RedTight50", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 150, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "DartMonkey", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

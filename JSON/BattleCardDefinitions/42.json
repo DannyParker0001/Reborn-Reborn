@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 5000, 
+        "Features": [
+            "Camo", 
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 0, 
+        "Interval": 0.2, 
+        "NumBloons": 4, 
+        "Type": "Ceramic", 
+        "UnlockRound": 14
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 900, 
+    "Name": "42", 
+    "NameOld": "MonkeyVillage22_CamoRegenCeramicTight4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 5000, 
+        "Features": [
+            "PopCamo"
+        ], 
+        "Type": "MonkeyVillage", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

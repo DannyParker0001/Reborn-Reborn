@@ -1,0 +1,12 @@
+{
+	"Rules" : {
+        "HealthLimit": 1,
+        "UseSingleLife": true
+	},
+    "LobbyRules": {
+        "BannedPowers" : [
+            "EconomyPower_SaltedWounds",
+            "TrackPower_Shield"
+        ]
+    }
+}

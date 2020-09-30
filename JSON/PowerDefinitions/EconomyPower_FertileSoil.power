@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_FertileSoil",
+    "UnlockCost"        : 2500,
+    "Description"       : "All Farms earn 40% more for two rounds. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_BetterSoil"],
+    "Icon"              : "powers_fertile_soil",
+    "HudIcon"           : "icon_fertile_soil",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_FertileSoil.weapon"
+}

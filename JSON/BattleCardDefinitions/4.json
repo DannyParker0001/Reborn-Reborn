@@ -1,0 +1,35 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 250, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 12, 
+        "Interval": 0.25, 
+        "NumBloons": 50, 
+        "Type": "Blue", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 100, 
+    "Name": "4", 
+    "NameOld": "TackTower00_BlueSpaced50", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 250, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "TackTower", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

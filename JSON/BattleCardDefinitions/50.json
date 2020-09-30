@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 2000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 30, 
+        "Interval": 0.1, 
+        "NumBloons": 55, 
+        "Type": "Zebra", 
+        "UnlockRound": 10
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "50", 
+    "NameOld": "SpikeFactory31_ZebraTight55", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 4000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "SpikeFactory", 
+        "Upgrades": [
+            3, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 700, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.1, 
+        "NumBloons": 100, 
+        "Type": "Red", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 100, 
+    "Name": "48", 
+    "NameOld": "SpikeFactory00_RedTight100", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 700, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "SpikeFactory", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

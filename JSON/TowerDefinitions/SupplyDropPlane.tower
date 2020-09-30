@@ -1,0 +1,37 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 0,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [ "SupplyDropPlane.weapon" ],
+    "Description" : "",
+    "Icon" : "dart_monkey_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "MonkeyAceODS.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "Any",
+    "TargetsManually" : false,
+    "TypeName" : "SupplyDropPlane",
+    "Upgrades" :
+    [
+    	[  ],
+    	[  ]
+    ],
+    "UpgradePrices" : 
+    [
+        [  ],
+        [  ]
+    ],
+    "UseRadiusPlacement" : false,
+    "IsAircraft" : true,
+    "AircraftRadius" : 1,
+    "AircraftSpeed" : 96,
+	"TerminateAtEndOfPath": true
+}

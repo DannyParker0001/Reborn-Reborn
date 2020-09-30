@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_DualEcoBoost",
+    "UnlockCost"        : 7500,
+    "Description"       : "All Farms earn 25% more for three rounds, and income boosted by 5x the round number. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_GeneticallyEnhancedCrops"],
+    "Icon"              : "powers_dual_eco_boost",
+    "HudIcon"           : "icon_dual_eco_boost",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_DualEcoBoost.weapon"
+}

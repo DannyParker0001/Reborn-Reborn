@@ -1,0 +1,9 @@
+{
+	"Type" : "CeramicGroup1",
+	"BloonType" : "Ceramic",
+	"Quantity" : 1,
+	"Interval" : 0.2,
+	"Cost" : 350,
+	"IncomeChange" : -5,
+	"UnlockRound" : 16
+}

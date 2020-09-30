@@ -1,0 +1,45 @@
+{
+	"Sprites":
+	{
+        "0" : "bloonchipper_blue_complete",
+        "1" : "bloonchipper_yellow_greenstripes_complete",
+        "2" : "bloonchipper_green_greenstripes_complete",
+        "3" : "bloonchipper_purple_yellowstripes_complete",
+        "4" : "bloonchipper_purple_yellowstripes_blueexhausts_complete",
+        "5" : "bloonchipper_yellow_orangestripes_complete",
+        "6" : "bloonchipper_orange_complete",
+        "7" : "bloonchipper_red_yellowstripes_complete",
+        "8" : "bloonchipper_redwide_yellowstripes_complete",
+        "9" : "bloonchipper_yellow_bluestripes_complete",
+        "10" : "bloonchipper_green_orangestripes_complete",
+        "11" : "bloonchipper_purple_orangestripes_complete",
+        "12" : "bloonchipper_purple_orangestripes_blueexhausts_complete",
+        "13" : "bloonchipper_red_greenstripes_complete",
+        "14" : "bloonchipper_redwide_greenstripes_complete"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 2,
+		"03"		: 3,
+		"04"		: 4,
+		"10"		: 5,
+		"11"		: 9,
+		"12"		: 10,
+		"13"		: 3,
+		"14"		: 4,
+		"20"		: 6,
+		"21"		: 6,
+		"22"		: 10,
+		"23"		: 11,
+		"24"		: 12,
+		"30"		: 7,
+		"31"		: 7,
+		"32"		: 13,
+		"40"		: 8,
+		"41"		: 8,
+		"42"		: 14
+	}
+}

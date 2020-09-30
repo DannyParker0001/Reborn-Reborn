@@ -1,0 +1,236 @@
+{
+    "Upgrades": [
+        {
+            "Name": "Barbed Darts",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    0,
+                    1
+                ],
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "NumPersists": 2,
+                        "Operation": "Adjust"
+                    },
+					{
+						"Operation" : "Replace",
+                        "SpriteFile" : "barbed_dart.json"
+					}
+                ]
+            }
+        },
+        {
+            "Name": "Advanced Intel",
+            "WeaponUpgrades": [
+				{
+					"SlotIndices": [
+						0,
+						1,
+						2
+					],
+					"Replace": {
+						"CanSpotFromOtherTowers": true
+					}
+				}
+			]
+        },
+        {
+            "Name": "Submerge and Support",
+			"TowerUpgrade": {
+                "Replace": {
+					"DrawWeaponsOnTop" : false,
+                    "AvailableTargetModes": [
+                        "First",
+                        "Last",
+                        "Close",
+                        "Strong",
+                        "Submerged"
+                    ],
+                    "PlacementFiringSequence" : [ 7 ]
+                },
+				"Weapons" : {
+					"4" : "MonkeySubPulse.weapon",
+					"7" : "MonkeySubSubmerge.weapon"
+				}
+            },
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineNoBarrelA.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 1 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineNoBarrelB.json"
+					}
+				}
+			]
+        },
+        {
+            "Name": "Reactor",
+			"TowerUpgrade" : {
+				"Replace" : {
+                    "PlacementFiringSequence" : [ 5, 7 ],
+					"TargetingMode" : "Submerged"
+				},
+				"Weapons" : {
+					"5" : "MonkeySubSupport.weapon",
+					"6" : "MonkeySubRadioactive.weapon"
+				}
+			},
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 7 ],
+					"TaskUpgrade" : [
+						{
+							"Operation" : "SelectByType",
+							"Type" : "TowerModifier"
+						},
+						{
+							"Operation" : "Replace",
+							"Modifier" : {
+								"Display" : "Sub40_BloontoniumReactor_Submerge.json"
+							}
+						}
+					]
+				}
+			]
+        },
+        {
+            "Name": "Twin Guns",
+            "TowerUpgrade": {
+                "Weapons": {
+                    "1": "MonkeySub.weapon"
+                },
+                "Replace": {
+                    "FiresWeaponsInSequence": true
+                }
+            },
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineBarrelA.json",
+						"CooldownTime" : 0.38
+					}
+				},
+				{
+					"SlotIndices" : [ 1 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineBarrelB.json",
+						"CooldownTime" : 0.38
+					}
+				},
+                {
+					"SlotIndices" : [ 0 ],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [3,0],
+						"DefaultSprite" : "SubmarineNoBarrelA.json",
+						"CooldownTime" : 0.38
+					}
+				},
+				{
+					"SlotIndices" : [ 1 ],
+					"Replace" : {
+                        "RequiresMinUpgradeCounters" : [3,0],
+						"DefaultSprite" : "SubmarineNoBarrelB.json",
+						"CooldownTime" : 0.38
+					}
+				}
+			]
+        },
+        {
+            "Name": "Airburst Darts",
+            "WeaponUpgrade": {
+                "SlotIndices": [
+                    0,
+                    1
+                ],
+                "TaskUpgrade": [
+                    {
+                        "Operation": "SelectByType",
+                        "Type": "Projectile"
+                    },
+                    {
+                        "Operation": "Replace",
+                        "NumPersists": 1,
+                        "ForcePersists": true,
+						"DisabledTasks" : [ ],
+						"TasksToProcessOnTerminate" : [ 1, 2 ]
+                    },
+					{
+						"Operation" : "Adjust",
+						"Movement" : {
+							"Type" : "Target",
+							"CutOffDistance" : -235
+						}
+					},
+					{
+						"Operation" : "SelectByType",
+						"Type" : "Effect"
+					},
+					{
+						"Operation" : "Replace",
+						"SpriteFile" : ""
+					}
+                ]
+            }
+        },
+        {
+            "Name": "Ballistic Missile",
+            "TowerUpgrade": {
+                "Weapons": {
+                    "2": "MonkeySubBallistic.weapon"
+                }
+            },
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineBallisticGunA.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 1 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineBallisticGunB.json"
+					}
+				}
+			]
+        },
+        {
+            "Name": "First Strike Capability",
+            "TowerUpgrade": {
+                "Weapons": {
+                    "3": "MonkeySubFirstStrike.weapon"
+                }
+            },
+			"WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineNoBarrelA.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 1 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineNoBarrelB.json"
+					}
+				},
+				{
+					"SlotIndices" : [ 2 ],
+					"Replace" : {
+						"DefaultSprite" : "SubmarineFirstStrikeBallisticMissileFire.json"
+					}
+				}
+			]
+        }
+    ]
+}

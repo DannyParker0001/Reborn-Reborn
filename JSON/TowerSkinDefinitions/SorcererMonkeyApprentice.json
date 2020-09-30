@@ -1,0 +1,46 @@
+{
+    "ID": "SorcererMonkeyApprentice",
+    "DisplayName": "Monkey Apprentice Skin",
+    "DisplayDescription": "The Apprentice and its upgrades get a mystical makeover. Visual change only.",
+    "DisplayIcon": "apprentice_monkey_skin_store_icon.json",
+    "SmallIcon": "apprentice_monkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MonkeyApprenticeSkin",
+    "RequiresTower": "MonkeyApprentice",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "MonkeyApprentice.json": {
+            "Name" : "Wizard_MonkeyApprentice.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeDragonBreath.json": {
+            "Name" : "Wizard_MonkeyApprenticeDragonBreath.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeGlasses.json": {
+            "Name" : "Wizard_MonkeyApprenticeGlasses.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeGreyHatBrim.json": {
+            "Name" : "Wizard_MonkeyApprenticeGreyHatBrim.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeSummonPhoenix.json": {
+            "Name" : "Wizard_MonkeyApprenticeSummonPhoenix.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeSummonWhirlwind.json": {
+            "Name" : "Wizard_MonkeyApprenticeSummonWhirlwind.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeTempestTornado.json": {
+            "Name" : "Wizard_MonkeyApprenticeTempestTornado.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyApprenticeSummonPhoenixEffect.json": {
+            "Name" : "Wizard_MonkeyApprenticeSummonPhoenixEffect.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

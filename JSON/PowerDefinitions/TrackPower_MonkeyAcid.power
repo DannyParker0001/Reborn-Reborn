@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_MonkeyAcid",
+    "UnlockCost"        : 5000,
+    "RequiresUnlocked"  : ["TrackPower_LotsOfGlue"],
+    "Description"       : "Place a blob of bloon dissolver glue on the track. Three uses.",
+    "Icon"              : "powers_monkey_acid",
+    "HudIcon"           : "icon_monkey_acid",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_MonkeyAcid",
+    "PlacementMode"     : "Tower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 0,
+    "MinCooldown"       : 0,
+    "Count"             : 3
+}

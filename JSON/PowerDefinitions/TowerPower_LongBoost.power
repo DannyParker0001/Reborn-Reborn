@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_LongBoost",
+    "UnlockCost"                : 2500,
+    "RequiresUnlocked"          : ["TowerPower_ImprovedBoost"],
+    "Description"               : "Boost your Towers attack speed by 60% for 20 seconds. Three uses.",
+    "Icon"                      : "powers_long_tower_boost",
+    "HudIcon"                   : "icon_long_tower_boost",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 30,
+    "MinCooldown"               : 15,
+    "Count"                     : 3,
+    "Weapon"                    : "TowerPower_LongBoost.weapon"
+}

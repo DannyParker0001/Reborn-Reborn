@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 2000, 
+        "Features": [
+            "Camo", 
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 18, 
+        "Interval": 0.1, 
+        "NumBloons": 9, 
+        "Type": "Zebra", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "7", 
+    "NameOld": "TackTower24_CamoRegenZebraTight9", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_sunset", 
+        "Cost": 4000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "TackTower", 
+        "Upgrades": [
+            2, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

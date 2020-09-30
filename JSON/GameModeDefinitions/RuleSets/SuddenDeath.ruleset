@@ -1,0 +1,26 @@
+  {
+      "name": "SuddenDeath",
+      "rules": [
+          "FreePowerups",
+          "SuddenDeath"
+      ],
+      "UI": {
+          "CardTextInfo": [{
+                  "Icon": "sudden_death_icon",
+                  "offsetY": 10,
+                  "offsetX": 60
+              },
+              {
+                  "Text": "Both players begin with only one life",
+                  "Icon": "bullet_point_glow",
+                  "offsetY": 30
+              }
+          ],
+          "DisplayName": "1 LIFE",
+          "DisplayIcon": "sudden_death_icon",
+          "InGameRuleInfo": [{
+              "Text": "Both players start with only one life"
+          }]
+      },
+      "version": "1.0"
+  }

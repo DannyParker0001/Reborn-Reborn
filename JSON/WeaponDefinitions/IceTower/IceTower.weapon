@@ -1,0 +1,68 @@
+{	
+    "Type":             "IceTower",    
+    "TargetRange":      60.0,
+	"CooldownTime":     2.23,
+    "FireDelayTime":    0.2,
+    "TerminateOnZeroPersists": true,
+    "FollowTarget": false,
+    
+    "_TargetingFilter":
+    {
+        "Exclude" :
+        { "StatusEffect": [ "Ice" ] }
+    },
+	
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 60,
+			"MaxTargets": -1,
+            "UseRangeModifier" : true,
+			
+            "DisabledTasks" : [ 4 ],
+            
+			"Tasks" :
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Ice",
+					"Amount": 0
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "Ice",
+					"Duration" : 1.43,
+					"NumPersists" : 1,
+					"DiminishingReturnsDur" : 1.5,
+					"DiminishingReturnsMult" : 0.5,
+					"DiminishingReturnsMax" : 3
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "",
+					"SpeedScale" : 0.5,
+					"NumPersists" : 1
+				},
+				{
+					"Type": "StatusEffect",
+					"Status": "",
+					"Duration" : 1.428,
+					"ViralDepth" : 50,
+                    "FireMode" : [ "FireOnApply", "RemoveOnLastApply" ],
+					"NumPersists" : 2,
+					"ApplyDelay" : 1
+				},
+                {
+                    "Type": "RemoveStatusEffect",
+                    "Status": "Camo"
+                }
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ice_shockwave.json",
+			"Scale": 0.4348
+		}
+	]
+}

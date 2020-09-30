@@ -1,0 +1,382 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Multi-Target",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 7
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Glaive Thrower",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.085714285
+                },
+            
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0 ]
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 10
+                    },				
+					{
+						"Operation" : "Replace",
+						"GraphicName": "glaive"
+					},
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1 ]
+                    },
+					{
+						"Operation" : "Replace",
+						"GraphicName": "glaive"
+					}
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Glaive Riccochet",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "GlaiveRiccochet.weapon"
+                }
+            },
+			"WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" :    [ 0 ]
+                    },
+                    
+					{
+						"Operation" : "Replace",
+						"NumPersists" : 1
+					},
+					
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "GraphicName" : "glaive_red"
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0 ]
+                    },
+
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "GraphicName" : "glaive_red"
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" :    [ 1 ]
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "GraphicName" : "glaive_red"
+                    },
+                    
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0 ]
+                    },
+
+                    {
+                        "Operation" : "Replace",
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
+                        "GraphicName" : "glaive_red"
+                    },
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"DamageType" : "Fire"
+					},
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 0, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
+						"DamageType" : "Plasma"
+					},
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"DamageType" : "Fire"
+					},
+					
+                    {
+                        "Operation" : "SelectByLocation",
+                        "Location" : [ 1, 0, 0 ]
+                    },
+					
+					{
+						"Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
+						"DamageType" : "Plasma"
+					}
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Glaive Lord",
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                },
+				
+                "Weapons" :
+                {
+                    "1": "GlaiveLord.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sonic Boom",
+            "WeaponUpgrades" : [
+				{
+					"SlotIndex" : 0,
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						}
+					]
+				},
+				{
+					"SlotIndex" : 1,
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						},
+						
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Fire"
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Red Hot Rangs",
+            "WeaponUpgrades" : [
+				{
+				"SlotIndex" : 0,
+					"TaskUpgrade" :
+						[
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 0, 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"DamageType" : "Plasma"
+							},
+							
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"GraphicName" : "boomerang_red"
+							},
+							
+							{
+								"Operation" : "Replace",
+								"RequiresMinUpgradeCounters" : [ 2, 0 ],
+								"GraphicName" : "glaive_red"
+							},
+
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 1, 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"DamageType" : "Plasma"
+							},
+							
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 1 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"GraphicName" : "boomerang_red"
+							},
+							
+							{
+								"Operation" : "Replace",
+								"RequiresMinUpgradeCounters" : [ 2, 0 ],
+                                "GraphicName" : "glaive_red"
+							}
+						]
+				},
+				{
+					"SlotIndex" : 1,
+					"TaskUpgrade" : [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 0 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "GraphicName" : "glaive_red"
+                        },
+                        
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" : [ 1 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "GraphicName" : "glaive_red"
+                        },
+
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 0, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Plasma"
+						},
+
+						{
+							"Operation" : "SelectByLocation",
+							"Location" :    [ 1, 0 ]
+						},
+						
+						{
+							"Operation" : "Replace",
+							"DamageType" : "Plasma",
+                            "GraphicName" : "glaive_red"
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Bionic Boomer",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.2,
+                    "FireDelayTime" : -0.2
+                }
+            }
+        },
+        
+        {
+            "Name" : "Turbo Charge",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "TurboCharge.weapon"
+                }
+            }
+        }
+    ]
+}

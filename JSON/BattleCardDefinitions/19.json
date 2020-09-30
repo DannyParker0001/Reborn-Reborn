@@ -1,0 +1,40 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 4000, 
+        "Features": [
+            "Camo", 
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 0, 
+        "Interval": 1.0, 
+        "NumBloons": 6, 
+        "Type": "Ceramic", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "19", 
+    "NameOld": "MonkeyApprentice13_CamoRegenCeramicSpaced6", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fire", 
+        "Cost": 4000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MonkeyApprentice", 
+        "Upgrades": [
+            1, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

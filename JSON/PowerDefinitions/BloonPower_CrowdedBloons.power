@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_CrowdedBloons",
+    "UnlockCost"        : 500,
+    "RequiresUnlocked"  : ["BloonPower_Boost"],
+    "Icon"              : "powers_crowded_bloons",
+    "Description"       : "Increase the spawn rate of bloons by 50% for 15 seconds. Three uses.",
+    "HudIcon"           : "icon_crowded_bloons",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 20,
+    "MinCooldown"       : 10,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_CrowdedBloons.weapon"
+}

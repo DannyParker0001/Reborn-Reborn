@@ -1,0 +1,215 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "bloonarius_left",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -20.0, -68.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_01.json",
+         "type" : 2,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4392156898975372,
+         "Angle" : 0.0,
+         "Colour" : 1895825407,
+         "Flip" : 0,
+         "Position" : [ -8.0, -50.0 ],
+         "Scale" : [ 0.6499999761581421, 0.6499999761581421 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_02.json",
+         "type" : 2,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1677721599,
+         "Flip" : 0,
+         "Position" : [ 49.0, -66.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_01.json",
+         "type" : 2,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.5411764979362488,
+         "Angle" : 0.0,
+         "Colour" : 2332033023,
+         "Flip" : 0,
+         "Position" : [ 34.0, -86.0 ],
+         "Scale" : [ 0.6999999880790710, 0.750 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_02.json",
+         "type" : 2,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1677721599,
+         "Flip" : 0,
+         "Position" : [ 28.0, -48.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_01.json",
+         "type" : 2,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.4392156898975372,
+         "Angle" : 0.0,
+         "Colour" : 1895825407,
+         "Flip" : 0,
+         "Position" : [ 24.0, -58.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_02.json",
+         "type" : 2,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1677721599,
+         "Flip" : 0,
+         "Position" : [ -2.0, -91.0 ],
+         "Scale" : [ 0.6499999761581421, 0.6499999761581421 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_01.json",
+         "type" : 2,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.2352941185235977,
+         "Angle" : 0.0,
+         "Colour" : 1023410175,
+         "Flip" : 0,
+         "Position" : [ 61.0, -65.0 ],
+         "Scale" : [ 0.5500000119209290, 0.5500000119209290 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_02.json",
+         "type" : 2,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.5411764979362488,
+         "Angle" : 0.0,
+         "Colour" : 2332033023,
+         "Flip" : 0,
+         "Position" : [ 22.0, -96.0 ],
+         "Scale" : [ 0.6999999880790710, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_01.json",
+         "type" : 2,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.6431372761726379,
+         "Angle" : 0.0,
+         "Colour" : 2768240639,
+         "Flip" : 0,
+         "Position" : [ 4.0, -70.0 ],
+         "Scale" : [ 0.5500000119209290, 0.6000000238418579 ],
+         "Shown" : true,
+         "sprite" : "_bloonarius_ripple_02.json",
+         "type" : 2,
+         "uid" : 11
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "bloonarius_left",
+            "Texture" : "bloonarius"
+         },
+         {
+            "SpriteInfo" : "_bloonarius_ripple_01.json",
+            "Texture" : "bloonarius"
+         },
+         {
+            "SpriteInfo" : "_bloonarius_ripple_02.json",
+            "Texture" : "bloonarius"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 11,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

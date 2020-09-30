@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_EcoChoke",
+    "UnlockCost"        : 5000,
+    "Description"       : "Opponent gets no income from any source except selling and Battle Powers for 7s. Two uses.",
+    "RequiresUnlocked"  : ["SabotagePower_EcoNerf"],
+    "Icon"              : "powers_eco_choke",
+    "HudIcon"           : "icon_eco_choke",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "SabotagePower_EcoChoke.weapon"
+}

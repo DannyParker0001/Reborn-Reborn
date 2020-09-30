@@ -1,0 +1,39 @@
+{
+	"Name" : "Banana Vacuum",
+	"Icon" : "banana_vacuum",
+    "Rarity" : "Silver",
+    "Description" : "Bloonchipper collects nearby bananas automatically",
+	"Effects" :
+	[
+		{
+			"TowerModifiers" :
+			[{
+                 "TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+                 "Modifier" :
+                 {
+                    "ActiveWeapon": [ [ 1, true ] ]
+                 }
+             }]
+		},
+        {
+			"TowerModifiers" :
+			[{
+                 "TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+                 "Modifier" :
+                 {
+                    "ActiveWeapon": [ [ 1, true ] ]
+                 }
+             }]
+		},
+        {
+			"TowerModifiers" :
+			[{
+                 "TargetingFilter" : { "Include" : { "TowerType": [ "Bloonchipper" ] } },
+                 "Modifier" :
+                 {
+                    "ActiveWeapon": [ [ 1, true ] ]
+                 }
+             }]
+		}
+	]
+}

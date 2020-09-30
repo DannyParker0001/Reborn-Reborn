@@ -1,0 +1,147 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.0,
+         "Angle" : 0.0,
+         "Colour" : 16777215,
+         "Flip" : 0,
+         "Position" : [ 0.0, -4.0 ],
+         "Scale" : [ 2.0, 2.049999952316284 ],
+         "Shown" : true,
+         "sprite" : "notification_burst",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.7450980544090271,
+         "Angle" : 0.0,
+         "Colour" : 3204448255,
+         "Flip" : 0,
+         "Position" : [ -1.0, -3.0 ],
+         "Scale" : [ 1.700000047683716, 3.700000047683716 ],
+         "Shown" : true,
+         "sprite" : "tower_bg_glow",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "club_mobile_starter_pack.json",
+         "type" : 2,
+         "uid" : 8
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "notification_burst",
+            "Texture" : "lobby_screen"
+         },
+         {
+            "SpriteInfo" : "tower_bg_glow",
+            "Texture" : "lobby_screen"
+         },
+         {
+            "SpriteInfo" : "club_starter_pack.json",
+            "Texture" : "starter_pack_sheet"
+         }
+      ],
+      "StageLength" : 2.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 0.0,
+               "Colour" : 16777215,
+               "Flip" : 0,
+               "Position" : [ 0.0, -4.0 ],
+               "Scale" : [ 2.0, 2.049999952316284 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.0,
+               "Angle" : 360.0,
+               "Colour" : 16777215,
+               "Flip" : 0,
+               "Position" : [ 0.0, -4.0 ],
+               "Scale" : [ 2.0, 2.0 ],
+               "Shown" : true,
+               "Time" : 2.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 180.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 0.0, -4.0 ],
+               "Scale" : [ 3.0, 3.0 ],
+               "Shown" : true,
+               "Time" : 1.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.7450980544090271,
+               "Angle" : 0.0,
+               "Colour" : 3204448255,
+               "Flip" : 0,
+               "Position" : [ -1.0, -3.0 ],
+               "Scale" : [ 1.700000047683716, 3.700000047683716 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.9882352948188782,
+               "Angle" : 0.0,
+               "Colour" : 4244635647,
+               "Flip" : 0,
+               "Position" : [ -1.0, -3.0 ],
+               "Scale" : [ 2.0, 4.0 ],
+               "Shown" : true,
+               "Time" : 1.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 0.7411764860153198,
+               "Angle" : 0.0,
+               "Colour" : 3187671039,
+               "Flip" : 0,
+               "Position" : [ -1.0, -3.0 ],
+               "Scale" : [ 1.700000047683716, 3.700000047683716 ],
+               "Shown" : true,
+               "Time" : 2.0
+            }
+         ]
+      }
+   ]
+}

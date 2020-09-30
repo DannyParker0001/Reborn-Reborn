@@ -1,0 +1,35 @@
+{
+	"Items" : {
+		"GlueGunner" : [ { "Type" : "GlueStrike", "Icon" : "glue_striker_icon" } ],
+		"IceTower" : [ { "Type" : "AbsoluteZero", "Icon" : "absolute_zero_icon" } ],
+		"NinjaMonkey" : [
+                         { "Type" : "SabotageSupplyLines", "Icon" : "sabotage_icon" }
+                         ],
+		"TackTower" : [ { "Type" : "BladeMaelstrom", "Icon" : "blade_maelstrom_icon" } ],
+		"BombTower" : [
+                       { "Type" : "MOABAssassin", "Icon" : "moab_assassin_icon" }
+                       ],
+		"MonkeyAce" : [ { "Type" : "GroundZero", "Icon" : "ground_zero_icon" } ],
+		"SuperMonkey" : [
+                         { "Type" : "BloonAnnihilation", "Icon" : "tech_terror_icon" }
+                         ],
+		"DartlingGun" : [ { "Type" : "RocketStorm", "Icon" : "bads_icon" } ],
+		"SpikeFactory" : [ { "Type" : "SpikeStorm", "Icon" : "spike_storm_icon" } ],
+	    "MonkeyApprentice" : [ { "Type" : "SummonPhoenix", "Icon" : "phoenix_icon" } ],
+		"SniperMonkey" : [ { "Type" : "SupplyDrop", "Icon" : "supply_drop_icon" } ],
+		"BoomerangThrower" : [ { "Type" : "TurboCharge", "Icon" : "turbo_charge_icon" } ],
+		"MonkeyVillage" : [ { "Type" : "CallToArms", "Icon" : "call_to_arms_icon" } ],
+		"DartMonkey" : [ { "Type" : "SuperMonkeyFanClub", "Icon" : "supermonkey_fanclub_icon" } ],
+		"MonkeyBuccaneer" : [ { "Type" : "MOABTakedown", "Icon" : "pirates_icon" } ],
+		"MortarTower" : [ { "Type" : "PopAndAwe", "Icon" : "artillery_icon" } ],
+        "HeliPilot" : [
+                       { "Type" : "Redeploy", "Icon" : "tower_transport_icon" },
+                       { "Type" : "VitalSupplies", "Icon" : "care_package_icon" }
+                       ],
+		"MonkeyEngineer" : [ { "Type" : "Overclock", "Icon" : "overclock_icon" } ],
+		"Bloonchipper" : [ {"Type" : "BloonchipperSupaVac", "Icon" : "super_vac_icon"} ],
+		"MonkeySub" : [ {"Type" : "MonkeySubFirstStrike", "Icon" : "first_strike_icon"} ],
+		"CobraMonkey" : [ {"Type" : "CobraMonkeyMisdirection", "Icon" : "misdirection_icon"} ],
+        "BananaFarm" : [ {"Type" : "MonkeyFarmer", "Icon" : "farmer_icon", "IsTower" : true} ]
+	}
+}

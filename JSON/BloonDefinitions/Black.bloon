@@ -1,0 +1,13 @@
+{
+	"Type" : "Black",
+	"InitialHealth" : 1,
+	"SpriteFile" : "black_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1.8,
+	"RBE" : 11,
+    "ChildBloons" : [ "Pink.bloon", "Pink.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB"],
+    "DamageImmunity" : [ "Explosive", "Juggernaut", "MOABMauler", "Foam" ],
+	"Scale" : 0.75,
+    "Radius" : 9.75
+}

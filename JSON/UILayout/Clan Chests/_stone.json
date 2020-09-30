@@ -1,0 +1,894 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4271216021,
+         "Flip" : 0,
+         "Position" : [ -63.0, -37.0 ],
+         "Scale" : [ 12.0, 1.600000023841858 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 48
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.9843137264251709,
+         "Angle" : 0.0,
+         "Colour" : 4218384239,
+         "Flip" : 0,
+         "Position" : [ -16.44913482666016, 17.53027343750 ],
+         "Scale" : [ 9.050000190734863, 3.750 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9764705896377564,
+         "Angle" : 0.0,
+         "Colour" : 4180882228,
+         "Flip" : 0,
+         "Position" : [ -40.250, -42.50 ],
+         "Scale" : [ 10.44999980926514, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 0.9725490212440491,
+         "Angle" : 0.0,
+         "Colour" : 4169368451,
+         "Flip" : 0,
+         "Position" : [ -60.0, -43.50 ],
+         "Scale" : [ 13.250, 0.8500000238418579 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -54.0, 16.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_bottom_left",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4264768308,
+         "Flip" : 0,
+         "Position" : [ -56.21776962280273, -0.3186627626419067 ],
+         "Scale" : [ 9.199999809265137, 1.0 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 50
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4274834636,
+         "Flip" : 0,
+         "Position" : [ -55.0, -37.0 ],
+         "Scale" : [ 10.94999980926514, 0.1000000014901161 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 49
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 39.0, 16.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_bottom_right",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -16.0, 16.0 ],
+         "Scale" : [ 13.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_bottom_mid",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 1, 3 ],
+         "Alpha" : 0.9921568632125855,
+         "Angle" : 0.0,
+         "Colour" : 4251938671,
+         "Flip" : 0,
+         "Position" : [ -59.43106460571289, -24.40518379211426 ],
+         "Scale" : [ 10.05000019073486, 3.150000095367432 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 34
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4274834636,
+         "Flip" : 0,
+         "Position" : [ -59.84485626220703, -24.12932205200195 ],
+         "Scale" : [ 10.10000038146973, 0.1500000059604645 ],
+         "Shown" : true,
+         "sprite" : "fill",
+         "type" : 1,
+         "uid" : 33
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -55.0, -22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_top_left",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 45.0, -22.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_top_right",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -44.19357299804688, -7.738021850585938 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_crack",
+         "type" : 1,
+         "uid" : 51
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 1.774194598197937, 24.52006149291992 ],
+         "Scale" : [ 0.8500000238418579, 0.8500000238418579 ],
+         "Shown" : true,
+         "sprite" : "stone_crack",
+         "type" : 1,
+         "uid" : 52
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -105.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 40.91937637329102, -12.88316345214844 ],
+         "Scale" : [ 0.6999999880790710, 0.6499999761581421 ],
+         "Shown" : true,
+         "sprite" : "stone_crack",
+         "type" : 1,
+         "uid" : 53
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -25.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 53.06454467773438, 23.39102745056152 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_crack",
+         "type" : 1,
+         "uid" : 54
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 25.0,
+         "Colour" : 4294967295,
+         "Flip" : 2,
+         "Position" : [ -28.17743682861328, -42.43159103393555 ],
+         "Scale" : [ 0.750, 0.750 ],
+         "Shown" : true,
+         "sprite" : "stone_crack",
+         "type" : 1,
+         "uid" : 55
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -37.09679412841797, 36.70555114746094 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_chip",
+         "type" : 1,
+         "uid" : 56
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 7.096778392791748, 6.616825103759766 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 57
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 10.32258605957031, 8.229729652404785 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 58
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 8.225811004638672, 9.842633247375488 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 59
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 10.32258605957031, 26.45554542541504 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 60
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 8.225811004638672, 28.06845092773438 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 61
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -40.64518356323242, 27.90715980529785 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 66
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -37.04840850830078, 28.52006340026856 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 67
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -38.56453704833984, 24.97167396545410 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 68
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 10.16129589080811, -20.47996520996094 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 69
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 13.38710403442383, -17.41544723510742 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 70
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 10.64516735076904, -15.31867122650147 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 71
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -52.58067321777344, -3.060599803924561 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 72
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -54.03228759765625, -20.15738296508789 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 73
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -50.64519119262695, -21.28641700744629 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 74
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -4.354854583740234, -28.41545295715332 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 75
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -7.362918853759766, -27.46383857727051 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 76
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 29.67743682861328, -41.77029800415039 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 77
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 26.29033660888672, -41.28642654418945 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 78
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -25.00001335144043, 6.778115272521973 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_grit",
+         "type" : 1,
+         "uid" : 79
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 25.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -35.63709640502930, -24.02835273742676 ],
+         "Scale" : [ 1.250, 1.200000047683716 ],
+         "Shown" : true,
+         "sprite" : "stone_small_chip",
+         "type" : 1,
+         "uid" : 80
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 3.379018783569336, -4.117054939270020 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_small_chip",
+         "type" : 1,
+         "uid" : 81
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -11.12903881072998, 17.42328262329102 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_small_chip",
+         "type" : 1,
+         "uid" : 82
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : -125.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -9.088709831237793, -40.47997665405273 ],
+         "Scale" : [ 0.8999999761581421, 0.8999999761581421 ],
+         "Shown" : true,
+         "sprite" : "stone_small_chip",
+         "type" : 1,
+         "uid" : 83
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -62.56455230712891, -26.69771003723145 ],
+         "Scale" : [ 1.100000023841858, 1.100000023841858 ],
+         "Shown" : true,
+         "sprite" : "stone_small_chip",
+         "type" : 1,
+         "uid" : 84
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -32.0, -2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_lock_left",
+         "type" : 1,
+         "uid" : 88
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -5.0, -2.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_lock_right",
+         "type" : 1,
+         "uid" : 89
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -19.0, -2.0 ],
+         "Scale" : [ 4.900000095367432, 1.0 ],
+         "Shown" : true,
+         "sprite" : "stone_lock_mid",
+         "type" : 1,
+         "uid" : 90
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -21.0, -1.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "one",
+         "type" : 1,
+         "uid" : 86
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "fill",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_bottom_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_bottom_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_bottom_mid",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_top_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_top_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_crack",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_chip",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_grit",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_small_chip",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_lock_left",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_lock_right",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "stone_lock_mid",
+            "Texture" : "chests"
+         },
+         {
+            "SpriteInfo" : "one",
+            "Texture" : "chests"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 89,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 88,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 90,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 77,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 82,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 84,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 78,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 80,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 81,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 83,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 79,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 86,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -21.0, -1.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ -20.0, -8.0 ],
+               "Scale" : [ 1.0, 1.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 52,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 53,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 51,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 58,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 59,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 71,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 70,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 55,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 72,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 61,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 73,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 57,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 66,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 69,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 75,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 56,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 76,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 67,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 60,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 68,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 74,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 54,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 34,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 33,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 49,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 48,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 50,
+         "stage" : null
+      }
+   ]
+}

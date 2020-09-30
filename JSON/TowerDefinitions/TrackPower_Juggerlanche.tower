@@ -1,0 +1,45 @@
+{
+    "AircraftList": [],
+    "BaseCost": 1,
+    "CanBePlacedInWater": true,
+    "CanBePlacedOnLand": true,
+    "CanBePlacedOnPath": true,
+    "CanTargetCamo": true,
+    "DefaultWeapons": [
+        "TrackPower_Juggerlanche.weapon"
+    ],
+    "Description": "Placed directly on the track, each pack of spikes can pop 10 bloons.",
+    "FireWeaponAndDestroy": true,
+    "Icon": "",
+    "PlacementH": 0,
+    "PlacementRadius": 0,
+    "PlacementW": 0,
+    "RankToUnlock": 5,
+    "RotatesToTarget": false,
+    "DefaultSprite": "juggerlanche.json",
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "TrackPower_Juggerlanche",
+    "Upgrades": [
+        [],
+        []
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "CanBePlacedMultipleTimes": false,
+    "LimitedAmount": 1
+}

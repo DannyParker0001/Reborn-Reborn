@@ -1,0 +1,31 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "thunderstorm", 
+        "Cost": 9000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -500, 
+        "Interval": 6.0, 
+        "NumBloons": 1, 
+        "Type": "ZOMG", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "27", 
+    "NameOld": "BananaFarm40_ZOMGSpaced1", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_sunset", 
+        "Cost": 18000, 
+        "Type": "BananaFarm", 
+        "Upgrades": [
+            4, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "BloonPower_Boost",
+    "Icon"              : "powers_bloon_boost",
+    "Description"       : "Speed up spawned bloons by 30% for 12 seconds. Three uses.",
+    "UnlockCost"        : 0,
+    "HudIcon"           : "icon_bloon_boost",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 10,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_Boost.weapon"
+}

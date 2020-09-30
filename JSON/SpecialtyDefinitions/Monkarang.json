@@ -1,0 +1,42 @@
+{
+	"Name" : "Monkarang",
+	"Icon" : "monkarang",
+    "Rarity" : "Gold",
+    "Description" : "Boomerang Monkey fires 2 boomerangs instead of 1",
+	"Effects" :
+	[
+		{
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [ [ 0, [ 1 ], true ] ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [ [ 0, [ 1 ], true ] ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "BoomerangThrower" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [ [ 0, [ 1 ], true ] ]
+                }
+            }]
+		}
+	]
+}

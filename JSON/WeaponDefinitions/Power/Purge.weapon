@@ -1,0 +1,46 @@
+{
+    "Type"                                      : "Purge",
+    "TargetRange"                               : 10000.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+
+    "Tasks" :
+    [
+        {
+            "Type"      : "TargetAlLBloonsInRange",
+            "Range"     : 10000.0,
+            "Tasks"     :
+            [
+                {
+                    "Type": "StatusEffect",
+                    "Status": "Foam",
+                    "NumPersists": -1
+                }
+            ]
+        },
+        {
+            "Type"      : "BloonSpawnedEvent",
+            "Duration"  : 3.0,
+            "Tasks"     :
+            [
+                {
+                    "Type": "StatusEffect",
+                    "Status": "Foam",
+                    "NumPersists": -1
+                }
+            ]
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "purge_wave_animation.json",
+            "Position": [ 0.5, 0.5 ],
+            "LoopCount": 1,
+            "DrawLayer": "FullScreen",
+            "PlaySpeed": 1.5,
+            "ApplyLinearDodge": true,
+			"Audio": "PURGE"
+        }
+    ]
+}

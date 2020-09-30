@@ -1,0 +1,45 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.1, 
+        "NumBloons": 40, 
+        "Type": "Red", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "red", 
+    "DiscardCost": 900, 
+    "Name": "79", 
+    "NameOld": "GlueGunner20_RedTight40", 
+    "PlatformProductID": "btdbattles_vet_gluegunner20_redtight40", 
+    "PlatformProductIDiOS": "btdbattles_vet_GlueGunner20_RedTight40", 
+    "ProductID": "Vet_GlueGunner20_RedTight40", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 500, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "GlueGunner", 
+        "Upgrades": [
+            2, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

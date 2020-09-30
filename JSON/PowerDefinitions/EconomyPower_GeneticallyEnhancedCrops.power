@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_GeneticallyEnhancedCrops",
+    "UnlockCost"        : 5000,
+    "Description"       : "All Farms instantly generate two rounds worth of income. One use.",
+    "RequiresUnlocked"  : ["EconomyPower_FertileSoil"],
+    "Icon"              : "powers_genetically_enhanced_crops",
+    "HudIcon"           : "icon_genetically_enhanced_crops",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 1,
+    "Weapon"            : "EconomyPower_GeneticallyEnhancedCrops.weapon"
+}

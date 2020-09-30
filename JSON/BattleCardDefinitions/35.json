@@ -1,0 +1,40 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_trees", 
+        "Cost": 6000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -175, 
+        "Interval": 0.5, 
+        "NumBloons": 4, 
+        "Type": "MOAB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "35", 
+    "NameOld": "MonkeyBuccaneer24_MOABTight4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lagoon_moonlight", 
+        "Cost": 6000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite", 
+            "Water", 
+            "PopMOAB"
+        ], 
+        "Type": "MonkeyBuccaneer", 
+        "Upgrades": [
+            2, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

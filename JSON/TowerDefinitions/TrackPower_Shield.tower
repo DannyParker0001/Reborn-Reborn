@@ -1,0 +1,45 @@
+{
+    "AircraftList": [],
+    "BaseCost": 1,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": false,
+    "CanBePlacedOnPath": true,
+    "CanTargetCamo": true,
+    "DefaultWeapons": [
+        "TrackPower_Shield.weapon"
+    ],
+    "Description": "Placed directly on the track, each pack of spikes can pop 10 bloons.",
+    "FireWeaponAndDestroy": true,
+    "Icon": "",
+    "PlacementH": 0,
+    "PlacementRadius": 0,
+    "PlacementW": 0,
+    "RankToUnlock": 5,
+    "RotatesToTarget": false,
+    "DefaultSprite": "shield.json",
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "TrackPower_Shield",
+    "Upgrades": [
+        [],
+        []
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "CanBePlacedMultipleTimes": false,
+    "LimitedAmount": 1
+}

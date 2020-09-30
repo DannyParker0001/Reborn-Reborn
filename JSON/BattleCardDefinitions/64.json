@@ -1,0 +1,43 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "fields", 
+        "Cost": 275, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 18, 
+        "Interval": 0.1, 
+        "NumBloons": 40, 
+        "Type": "Blue", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "red", 
+    "DiscardCost": 900, 
+    "Name": "64", 
+    "NameOld": "DartMonkey12_BlueTight40", 
+    "PlatformProductID": "btdbattles_vet_dartmonkey12_bluetight40", 
+    "PlatformProductIDiOS": "btdbattles_vet_DartMonkey12_BlueTight40", 
+    "ProductID": "Vet_DartMonkey12_BlueTight40", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 275, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "DartMonkey", 
+        "Upgrades": [
+            1, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

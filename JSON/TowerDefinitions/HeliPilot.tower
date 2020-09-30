@@ -1,0 +1,104 @@
+{
+    "TypeName"				: "HeliPilot",
+    "Icon"					: "heli_avatar_basic_small",
+    "Description"			: "Powerful attack helicopter armed with twin dart shooters and multiple patrol options.",
+    "BaseCost"				: 600,
+    "RankToUnlock"			: 20,
+    "DefaultWeapons"	    : [],
+    "TargetingMode"			: "Any",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Quad Darts", "Pursuit", "Razor Rotors", "Apache Dartship" ],
+    	[ "Bigger Jets", "Enhanced IFR Instruments", "Downdraft", "Support Chinook" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"Computers enable a new targeting option to pursue bloons.",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			"Abilities: Drops med or cash crates. Can pick up and move towers."
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Shoots 4 darts per volley instead of 2.",
+			"Superior targeting computers enable a powerful new targeting option to pursue bloons across the track.",
+			"Rotor blades rip up bloons on contact, including frozen and lead.",
+			"Adds a large missile array and a powerful machine gun."
+		],
+		[
+			"More powerful jets enable the Heli to move much faster.",
+			"Allows Heli Pilot to detect and shoot Camo bloons.",
+			"Blows bloons away from the Heli.",
+			"Abilities: drops med and cash crates, or can pick up and reposition most towers."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 115, "XP" : 15 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 260, "XP" : 45 }, { "Rank" : 650, "XP" : 75 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 200, 100, 250, 11000 ],
+        [ 150, 250, 1500, 2650 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "heli_avatar_quad_darts_small",
+            "heli_avatar_longer_range_small", 
+            "heli_avatar_razor_rotors_small",
+            "heli_avatar_apache_small" 
+        ],
+    	[ 
+            "heli_avatar_bigger_jets_small", 
+            "heli_avatar_ifr_small", 
+            "heli_avatar_downdraft_small", 
+            "heli_avatar_chinook_small" 
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+            "heli_quad_darts_icon", 
+            "heli_longer_range_icon", 
+            "heli_razor_rotors_icon",
+            "heli_apache_icon" 
+        ],
+    	[ 
+            "heli_bigger_jets_icon", 
+            "heli_enhanced_ifr_icon", 
+            "heli_downdraft_icon",
+            "heli_chinook_icon" 
+        ]
+    ],
+    
+    "AircraftList"			: [ "HeliPilotAircraft.tower" ],
+    
+    "DefaultSprite"         : "helicopter_helipad.json",
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: false,
+    "PlacementRadius"		: 0.0,
+    "PlacementW"			: 38.0,
+    "PlacementH"			: 38.0,
+    "UseDefaultRangeCircle" : true
+}

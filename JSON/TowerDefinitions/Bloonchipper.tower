@@ -1,0 +1,114 @@
+{
+    "PlayAllAnimationsOnFire" : true,
+    "DontResetAnimation"    : true,
+    "AnimationWeaponSlotIndex": 0,
+    "AircraftList" : [ ],
+    "BaseCost" : 450,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "Bloonchipper.weapon",
+        "BloonchipperCollect.weapon"
+    ],
+	"ActiveWeaponSlots": [
+        true,
+		false
+	],
+    "Icon" : "bloonchipper_avatar_small",
+    "Description" : "Rapidly sucks up and shreds bloons, spitting what's left out the back.",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 0,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "Bloonchipper",
+    "Upgrades" : [
+        [
+            "Suckier",
+            "Heavy Duty Suction",
+            "Dual Layer Blades",
+            "Super Wide Funnel"
+        ],
+        [
+            "Long Range Suck",
+            "Faster Shred",
+            "Triple Barrel",
+            "Supa-Vac"
+        ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 135, "XP" : 15 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 275, "XP" : 50 }, { "Rank" : 700, "XP" : 80 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 100, 600, 500, 7500 ],
+        [ 250, 500, 750, 14000 ]
+    ],
+    "UpgradeIcons" : [
+        [
+            "bloonchipper_suckier_icon",
+            "bloonchipper_heavy_duty_suck_icon",
+            "bloonchipper_dual_layer_blades_icon",
+            "bloonchipper_super_wide_funnel_icon"
+        ],
+        [
+            "bloonchipper_long_range_suck_icon",
+            "bloonchipper_faster_shred_icon",
+            "bloonchipper_triple_barrel_icon",
+            "bloonchipper_super_vac_icon"
+        ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "bloonchipper_avatar_suckier_small",
+            "bloonchipper_avatar_heavy_duty_suction_small",
+            "bloonchipper_avatar_dual_layer_blades_small",
+            "bloonchipper_avatar_super_wide_funnel_small"
+        ],
+        [
+            "bloonchipper_avatar_long_range_suck_small",
+            "bloonchipper_avatar_faster_shred_small",
+            "bloonchipper_avatar_triple_barrel_small",
+            "bloonchipper_avatar_super_vac_small"
+        ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Increased suction sucks bloons in faster.",
+			"Higher wattage motor allows for sucking in Lead and Ceramic bloons.",
+			"Dual layer blade array doubly shreds bloons, taking off 2 layers instead of 1.",
+			"Wide funnel can suck in MOAB class bloons, which will shred for up to 3 seconds."
+		],
+		[
+			"Increases suction range.",
+			"More efficient componentry decreases the time bloons take to shred.",
+			"Triple barrels provide the most effecient bloon shredding possible.",
+			"Supa-vac pulls in everything nearby and stalls it for up to 8 seconds."
+		]
+	],
+    "UseRadiusPlacement" : true,
+    "SpriteUpgradeDefinition" : "Bloonchipper.json"
+}

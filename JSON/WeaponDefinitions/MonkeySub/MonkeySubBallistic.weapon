@@ -1,0 +1,50 @@
+{
+    "Type": "MonkeySubBallistic",
+    "FireDelayTime": 0.3,
+    "CooldownTime": 0.6,
+    "TargetRange": 1000,
+    "ShowRange": false,
+	"DisabledOnTargetModes" : [ "Submerged" ],
+    "RotatesToTarget": true,
+	"DefaultSprite" : "SubmarineBallisticMissileFire.json",
+	"TargetsIndependently" : true,
+
+    "Tasks": [
+        {
+            "Type": "Projectile",
+            "ForcePersists": true,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpriteFile": "SubmarineBallisticMissile.json",
+            "NumPersists": 1,
+            "Movement": {
+                "Type": "Target",
+                "SeekAngle": 144,
+                "TurnSpeed": 360,
+                "CutOffDistance": 800,
+                "TargetRange": 1000,
+                "Speed": 445
+            },
+            "Tasks": [
+                {
+                    "Type": "AreaOfEffect",
+                    "MaxTargets": 100,
+                    "Range": 90,
+                    "Tasks": [
+                        {
+                            "Type": "Damage",
+                            "DamageType": "Explosive",
+                            "Amount": 5
+                        }
+                    ]
+                },
+                {
+                    "Type": "Effect",
+                    "Scale": 1.00199997,
+                    "SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION"
+                }
+            ]
+        }
+    ]
+}

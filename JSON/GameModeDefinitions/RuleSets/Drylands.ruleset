@@ -1,0 +1,23 @@
+{
+    "name": "Drylands",
+    "rules": [
+      "FreePowerups",
+      "NoWaterMaps"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "No water maps"
+        }
+      ],
+      "DisplayName": "Drylands",
+      "DisplayInfo": "",
+      "DisplayIcon": "",
+      "InGameRuleInfo": [
+        {
+          "Text": "No water maps"
+        }
+      ]
+    },
+    "version": "1.0"
+  }

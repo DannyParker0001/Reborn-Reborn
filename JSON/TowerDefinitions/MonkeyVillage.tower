@@ -1,0 +1,105 @@
+{
+    "TypeName"				: "MonkeyVillage",
+    "Icon"					: "village_avatar_small",
+    "Description"			: "Reduces cost of all towers and upgrades in radius by 10%.",
+    "BaseCost"				: 1200,
+    "RankToUnlock"			: 15,
+    "DefaultWeapons"	    : [ "MonkeyVillage.weapon" ],
+    "TargetingMode"			: "None",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+    
+    "Upgrades" :
+    [
+    	[ "Monkey Beacon", "Jungle Drums", "Monkey Town", "Energy Beacon" ],
+    	[ "Monkey Fort", "Radar Scanner", "Monkey Intelligence Bureau", "MIB Call To Arms" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"All bloon groups sent will give 50% more income change.",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			"Ability: 15s boost to attack speed, pierce, range for towers in radius."
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Increases attack range by 15% of all towers in its radius.",
+			"Jungle drums inspire nearby towers to attack 15% faster.",
+			"All bloon groups sent against your opponent will give 50% more income change.",
+			"Nearby ability cooldowns reduced by 20%."
+		],
+		[
+			"Increases the popping power of all nearby towers by 1.",
+			"Allows all towers within its radius to hit camo bloons.",
+			"Allows all nearby towers to pop all bloon types.",
+			"Ability: increases attack speed, pierce, and range for towers in radius for 15 seconds."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 95, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 230, "XP" : 40 }, { "Rank" : 575, "XP" : 65 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 250, 500, 12000, 1750 ],
+        [ 500, 750, 1250, 18000 ]
+    ],  
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "village_avatar_beacon_small", 
+        "village_avatar_drums_small", 
+        "village_avatar_town_small",
+        "village_avatar_high_energy_beacon_small"
+        ],
+    	[ 
+        "village_avatar_fort_small", 
+        "village_avatar_radar_small", 
+        "village_avatar_intelligence_small", 
+        "village_avatar_call_to_arms_small" 
+        ]
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+        "village_beacon_icon", 
+        "village_jungle_drums_icon", 
+        "village_monkey_town_icon",
+        "village_high_energy_beacon_icon"
+        ],
+    	[ 
+        "village_fort_icon", 
+        "village_radar_icon", 
+        "village_mib_icon", 
+        "village_call_to_arms_icon" 
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,    
+    "PlacementRadius"		: 13.0,
+    "PlacementW"			: 28.0,
+    "PlacementH"			: 24.0,
+    
+    "SpriteUpgradeDefinition" : "MonkeyVillage.json",
+    "PlacementFiringSequence" : [ 0 ]
+}

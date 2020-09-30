@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "thunderstorm", 
+        "Cost": 100000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -3500, 
+        "Interval": 6.0, 
+        "NumBloons": 12, 
+        "Type": "ZOMG", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "63", 
+    "NameOld": "SuperMonkey42_ZOMGSpaced12", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 100000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopCamo"
+        ], 
+        "Type": "SuperMonkey", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

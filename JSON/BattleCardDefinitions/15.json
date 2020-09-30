@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 16500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 650, 
+        "Interval": 0.05, 
+        "NumBloons": 500, 
+        "Type": "Pink", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "15", 
+    "NameOld": "MonkeyAce04_PinkTight500", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 16500, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopMOAB", 
+            "PopCamo"
+        ], 
+        "Type": "MonkeyAce", 
+        "Upgrades": [
+            0, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

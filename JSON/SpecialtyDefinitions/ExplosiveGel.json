@@ -1,0 +1,15 @@
+{
+	"Name" : "Explosive Gel",
+	"Icon" : "explosive_gel",
+    "Rarity" : "Silver",
+    "Description" : "Bombs tower projectiles move faster, Requires Mortar",
+	"Effects" :
+	[
+		{
+		},
+        {
+		},
+        {
+		}
+	]
+}

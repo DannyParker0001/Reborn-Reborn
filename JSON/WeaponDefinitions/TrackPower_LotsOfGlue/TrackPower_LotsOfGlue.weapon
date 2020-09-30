@@ -1,0 +1,39 @@
+{	
+    "Type":             "TrackPower_LotsOfGlue",    
+    "TargetRange":      20,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [	
+        {
+            "Type":"Effect",
+            "Audio":"POWERS_TRACK_MONKEY_GLUE"
+        },	
+        {
+            "Type": "Projectile",
+            "GraphicName": "track_glue",
+            "DrawLayer": "UnderBloons",
+            
+            "NumPersists":      80,
+            "TerminateOnZeroPersists": true,
+            "RemoveOnRoundEnd" : false,
+
+            "HasLimitedDuration" : false,
+            "LimitedDuration" : 70,
+            
+            "CollisionType": "Continual",
+			"IgnoreStatusEffect" : [ "Glue" ],
+                    
+            "Tasks" :
+            [{
+                "Type": "StatusEffect",
+                "Status": "Glue",
+                "NumPersists" : 1,
+                "Duration" : 11.428,
+                "DamageRate" : -1,
+                "SpeedScale" : 0.3
+            }]
+        }
+    ]
+}

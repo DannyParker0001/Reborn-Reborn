@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_CamoRegrowEfficiency",
+    "UnlockCost"        : 7500,
+    "RequiresUnlocked"  : ["BloonPower_UpgradeBloons"],
+    "Icon"              : "powers_camo_regrow_efficiency",
+    "Description"       : "The cost of Camo and Regrow upgrades are reduced by 25% for 15 seconds. Three uses.",
+    "HudIcon"           : "icon_camo_regrow_efficiency",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 20,
+    "MinCooldown"       : 10,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_CamoRegrowEfficiency.weapon"
+}

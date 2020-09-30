@@ -1,0 +1,148 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Ninja Discipline",
+            "WeaponUpgrade" : 
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 20,
+                    "CooldownTime" : -0.125
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sharp Shurikens",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 3
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Double Shot",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "DoubleShot.weapon"
+                }
+            }
+        },
+        
+         {
+            "Name" : "Bloonjitsu",
+            "WeaponUpgrade" :
+            {
+				"Adjust" :
+				{
+					"CooldownTime" : -0.1
+				},
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 5,
+                        "InitialOffset" : -28,
+                        "AngleIncrement" : 11,
+                        "Offsets" : [ [ -5, 0 ], [ -2.5, 0 ], [ 0, 0 ], [ 2.5, 0 ], [ 5, 0 ] ]
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Seeking Shuriken",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Movement":
+                        {
+                            "Type": "Target",
+                            "Speed": 630.0,
+                            "TurnSpeed": 1440,
+                            "TargetRange": 180,
+                            "SeekAngle": 144,
+                            "CutOffDistance": 500
+                        }
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Distraction",
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByType",
+                            "Type" :    "StatusEffect"
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "MoveToPath",
+                            "PercentageChance" : 0.1
+                        }
+                    ]
+            }
+        },
+        
+        {
+            "Name" : "Flash Bomb",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "FlashBomb.weapon"
+                },
+                "Replace" :
+                {
+                    "FiresWeaponsInSequence" : true
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sabotage Supply Lines",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "SabotageSupplyLines.weapon"
+                }
+            }
+        }
+    ]
+}

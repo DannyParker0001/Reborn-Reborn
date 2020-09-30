@@ -1,0 +1,35 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 24, 
+        "Interval": 0.08, 
+        "NumBloons": 50, 
+        "Type": "Green", 
+        "UnlockRound": 3
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 1600, 
+    "Name": "5", 
+    "NameOld": "TackTower30_GreenTight50", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "TackTower", 
+        "Upgrades": [
+            3, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

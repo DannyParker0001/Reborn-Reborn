@@ -1,0 +1,15 @@
+{
+    "SFX": [
+		[ "SCHWING", 0.5, [ "schwing.wav" ] ],
+		[ "TICK", 0, [ "tick.wav" ] ],
+		[ "TIMED_OUT", 0, [ "timeOut.wav" ] ],
+		[ "PLAYER_FOUND", 0, [ "playerFound.wav" ] ],
+		[ "TOWER_LEVEL_UP", 0.1, [ "tower_level_up.wav" ]],
+		[ "PLAYER_READY", 0, [ "playerReady.wav" ] ],
+        [ "CUP_MEDALLIONS", 0, [ "collectMedallions.wav" ] ],
+            [ "SPIN_COLLECT_PRIZE", 0, [ "DailySpin/PrizeCollect.wav" ] ],
+            [ "SPIN_SHOW_PRIZE", 0, [ "DailySpin/PrizeShow.wav" ] ],
+            [ "SPIN_SPIN_SPIN", 0, [ "DailySpin/Wheel.wav" ] ]
+       
+	]
+}

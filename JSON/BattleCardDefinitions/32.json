@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 300, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 10, 
+        "Interval": 0.3, 
+        "NumBloons": 30, 
+        "Type": "Green", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 400, 
+    "Name": "32", 
+    "NameOld": "MonkeyBuccaneer11_GreenSpaced30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lagoon", 
+        "Cost": 1000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeyBuccaneer", 
+        "Upgrades": [
+            1, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

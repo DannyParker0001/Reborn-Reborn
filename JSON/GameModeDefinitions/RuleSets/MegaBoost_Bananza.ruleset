@@ -1,0 +1,40 @@
+{
+    "name": "MegaBoost_Bananza",
+    "rules": [
+        "FreePowerups",
+        "MegaBoosts",
+        "Bananza"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_Bananza|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "BOOSTY BANANZA",
+        "DisplayInfo": "Mega Bananzas",
+        "DisplayIcon": "combo_megaboost_bananza"
+    },
+    "version": "1.0"
+}

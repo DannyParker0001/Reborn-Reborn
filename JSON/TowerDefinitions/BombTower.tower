@@ -1,0 +1,117 @@
+{
+    "TypeName"				: "BombTower",
+    "Icon"					: "bomb_avatar_small",
+    "Description"			: "Shoots a single bomb that explodes in a radius burst. Can pop lead bloons.",
+    "BaseCost"				: 450,
+    "RankToUnlock"			: 7,
+    "DefaultWeapons"	    :
+    [
+        "BombTower.weapon",
+        "",
+        "DoubleRange.weapon"
+    ],
+    
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        false
+    ],
+    
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Extra Range", "Frag Bombs", "Cluster Bombs", "Bloon Impact" ],
+    	[ "Bigger Bombs", "Missile Launcher", "MOAB Mauler", "MOAB Assassin" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Gives tower longer attack range.",
+			"Each explosion throws out 8 sharp fragments for more popping.",
+			"Throws out secondary bombs instead of frags.",
+			"Bloons become stunned for a short time when they are hit."
+		],
+		[
+			"Larger blast area and more popping power.",
+			"More velocity and range, more damage, and faster firing.",
+			"Inflicts x10 damage on MOAB class bloons.",
+			"Ability: deadly missile seeks the nearest MOAB and destroys it."
+		]
+	],
+    "UpgradePrices" : 
+    [
+        [ 50, 200, 650, 3000 ],
+        [ 100, 250, 1200, 6500 ]
+    ],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 100, "XP" : 40 }, { "Rank" : 340, "XP" : 70 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "bomb_avatar_extra_range_small",
+            "bomb_avatar_frag_bombs_small", 
+            "bomb_avatar_cluster_bombs_small", 
+            "bomb_avatar_bloon_impact_small"
+        ],
+    	[ 
+            "bomb_avatar_bigger_bombs_small", 
+            "bomb_avatar_missile_launcher_small", 
+            "bomb_avatar_moab_mauler_small", 
+            "bomb_avatar_moab_assassin_small"
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+            "bomb_extra_range_icon", 
+            "bomb_frag_icon", 
+            "bomb_cluster_icon", 
+            "bomb_impact_icon" 
+        ],
+    	[ 
+            "bomb_bigger_icon", 
+            "bomb_missile_icon", 
+            "bomb_mauler_icon", 
+            "bomb_assassin_icon"
+        ]
+    ],
+            
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 10.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    "SpriteUpgradeDefinition" : "BombTower.json",
+    "Specialty" : "BombingRange.json"
+}

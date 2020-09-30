@@ -1,0 +1,65 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ -20.0, -8.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "evil_supermonkey_tech_terror_arm",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "_evil_tech_terror_arm_glow.json",
+         "type" : 2,
+         "uid" : 8
+      }
+   ],
+    "customvariables" : [
+        {
+            "Name" : "FirePosition",
+            "Type"    : 4,
+            "Value"        : [-22.0, -17.0]
+        }
+    ],
+   "events" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "evil_supermonkey_tech_terror_arm",
+            "Texture" : "InGame"
+         },
+         {
+            "SpriteInfo" : "_evil_tech_terror_arm_glow.json",
+            "Texture" : "InGame"
+         }
+      ],
+      "StageLength" : 0.21093750,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      }
+   ]
+}

@@ -1,0 +1,97 @@
+{	
+    "Type":             "TrackPower_Shield",    
+    "TargetRange":      1,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+    
+    "Tasks":[
+        {
+            "Type": "CreateAtPathPoint",
+            "Tasks" :
+            [ 
+                {
+                    "Type" : "ParticleEffect",
+                    "SpriteFile": "sparkle_shared"
+                },
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "TrackBoostAbility.json",
+                    "PositionLeft": [ 1.0, 0.0 ],
+                    "PositionRight": [ 0.0, 0.0 ],
+                    "FlipLeft": [ false, false ],
+                    "FlipRight": [ true, false ],
+                    "Duration": 12,
+                    "DrawLayer": "FullScreen",
+                    "Audio": "POWERS_TRACK_SHIELD_PLACE"
+                },
+                {
+                    "Type": "RBEProjectile",
+                    "SpriteFile": "shield.json",
+                    "MaxRBE":      150,
+                    "NumPersists": -1,
+                    "TerminateOnZeroPersists": true,
+                    "RemoveOnRoundEnd" : false,
+                    "DrawLayer" : "UnderBloons",
+
+                    "CollisionType": "Once",
+
+                    "GraphicsAtPierceLevels" : [
+                        [ 0,   60],
+                        [ 1.0, 40],
+                        [ 2.0, 20],
+                        [ 3.0, 0]
+                    ],
+
+                    "TasksToProcessOnCollision" : [ 0, 1],
+                    "TasksToProcessOnTerminate" : [ 2 ],
+
+                    "TargetingFilter":
+                    {
+                        "Include" :
+                        {
+                            "BloonType" : [
+                                "Red",
+                                "Blue",
+                                "Green",
+                                "Yellow",
+                                "Pink",
+                                "Black",
+                                "White",
+                                "Lead",
+                                "Zebra",
+                                "Rainbow",
+                                "Ceramic",
+                                "MOAB",
+                                "BFB",
+                                "ZOMG"
+                            ]
+                        }
+                    },
+
+                    "Tasks" :
+                    [ 
+                        { 
+                            "Type": "Damage", 
+                            "DamageType": "Plasma",
+                            "Amount": 1,
+                            "InformDamageFromParentTask": true
+                        },
+                        {
+                            "Type": "StatusEffect",
+                            "Status": "RBEDamage"
+                        },
+                        {
+                            "Type" : "Effect",
+                            "SpriteFile": "shield_break.json",
+                            "Scale": 1.0,
+                            "DrawLayer" : "FullScreen",
+                            "LoopForever" : false,
+                            "Duration" : 0.2000000029802322,
+                            "Audio": "POWERS_TRACK_SHIELD_BREAK"
+                        }
+                    ]                            
+                }
+            ]
+        }
+    ]
+}

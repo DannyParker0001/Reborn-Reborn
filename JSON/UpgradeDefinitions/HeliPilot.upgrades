@@ -1,0 +1,156 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Quad Darts",
+            "IsAircraftUpgrade": true,
+            
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 4,
+                        "Offsets" :
+                        [
+                            [ -23, -10 ],
+                            [ -10, -30 ],
+                            [ 10, -30  ],
+                            [ 23, -10  ]
+                        ]
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Pursuit",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+					"FlightMode" : "Pursuit"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Razor Rotors",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1" : "RazorRotors.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Apache Dartship",
+			"IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "RocketArrayFirst.weapon",
+                    "3" : "RocketArrayLast.weapon",
+                    "4" : "RocketArrayClosest.weapon",
+                    "5" : "RocketArrayStrongest.weapon",
+                    "6" : "MachineGun.weapon"
+                }
+            },
+            
+            "WeaponUpgrade" :            
+            {
+                "SlotIndex" : 0,
+                "Adjust" :
+                {
+                    "CooldownTime": -0.25
+                },
+                
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "Offsets" :
+                        [
+                            [ -20, -10 ],
+                            [ -10, -30 ],
+                            [ 10, -30  ],
+                            [ 20, -10  ]
+                        ]
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Bigger Jets",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "AircraftSpeed" : 120
+                }
+            }
+        },
+        
+        {
+            "Name" : "Enhanced IFR Instruments",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+        
+        {
+            "Name" : "Downdraft",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "6" : "Downdraft.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Support Chinook",
+            "IsAircraftUpgrade": true,
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "7" : "Redeploy.weapon",
+                    "8" : "VitalSupplies.weapon"
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+	"Name" : "Shard of Everfrost",
+	"Icon" : "shard_of_everfrost",
+    "Rarity" : "Bronze",
+    "Description" : "+10% duration to freeze effect",
+	"Effects" :
+	[
+		{
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+				"Modifier" : { "StatusDuration": [ 1.1, 0 ] }
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+				"Modifier" : { "StatusDuration": [ 1.1, 0 ] }
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "IceTower" ] } },
+				"Modifier" : { "StatusDuration": [ 1.1, 0 ] }
+			}]
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"ID":					"Skulls",
+	"DisplayName":			"Skulls",
+	"DisplayDescription":	"Skin your lobby card with Skulls!",
+	"DisplayIcon":			"player_profile_panel_skulls_store.json",
+	"SkinSpriteName":		"player_profile_panel_skulls.json",
+	"Hide":					true
+}

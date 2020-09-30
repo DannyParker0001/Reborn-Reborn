@@ -1,0 +1,120 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 50,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "GlueGunner.weapon",
+        "",
+        "GlueOnTrack.weapon"
+    ],
+    
+    "ActiveWeaponSlots" :
+    [
+        true,
+        true,
+        false
+    ],
+    
+    "Description" : "Shoots a glob of monkey glue that slows a single bloon.",
+    "Icon" : "glue_gunner_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 9,
+    "RotatesToTarget" : true,
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "GlueGunner",
+    "Upgrades" : [
+        [
+            "Glue Soak",
+            "Corrosive Glue",
+            "Bloon Dissolver",
+            "Bloon Liquefier"
+        ],
+        [
+            "Undercover",
+            "Glue Splatter",
+            "Glue Hose",
+            "Glue Striker"
+        ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			"Pops once instantly and liquifies bloons 2x every second."
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	"UpgradeDescriptions" :
+	[
+		[
+			"Glue soaks through all layers of bloon.",
+			"Glued bloons pop one layer every few seconds.",
+			"Extreme solvents melt two layers every second.",
+			"Pops once instantly and liquifies bloons twice every second."
+		],
+		[
+			"Goes undercover to be able to spot camo bloons.",
+			"Splatters glue across 10 bloons at a time.",
+			"Shoots glue more than 3x as fast!",
+			"Ability: glues everything on the screen temporarily."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 50, "XP" : 5 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 150, "XP" : 40 }, { "Rank" : 380, "XP" : 60 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 150, 400, 2500, 2500 ],
+        [ 500, 1000, 1000, 500 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "glue_gunner_avatar_glue_soak_small",
+            "glue_gunner_avatar_corrosive_small",
+            "glue_gunner_avatar_dissolver_small",
+            "glue_gunner_avatar_liquefier_small"
+        ],
+        [
+            "glue_gunner_avatar_stickier_glue_small",
+            "glue_gunner_avatar_splatter_small",
+            "glue_gunner_avatar_hose_small",
+            "glue_gunner_avatar_striker_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "glue_soak_icon",
+            "glue_corrosive_icon",
+            "glue_dissolver_icon",
+            "glue_liquefier_icon"
+        ],
+        [
+            "glue_stickier_glue_icon",
+            "glue_splatter_icon",
+            "glue_hose_icon",
+            "glue_striker_icon"
+        ]
+    ],
+        
+    "UseRadiusPlacement" : true,
+    
+    "SpriteUpgradeDefinition" : "GlueGunner.json"
+}

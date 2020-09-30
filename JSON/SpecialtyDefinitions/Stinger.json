@@ -1,0 +1,15 @@
+{
+	"Name" : "Stinger",
+	"Icon" : "stinger",
+    "Rarity" : "Silver",
+    "Description" : "Road spikes pop 50% more bloons",
+	"Effects" :
+	[
+		{
+		},
+        {
+		},
+        {
+		}
+	]
+}

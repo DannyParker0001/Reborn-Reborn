@@ -1,0 +1,10 @@
+{
+    "LobbyRules": {
+        "CanSkipMap": true,
+        "CanChooseMap": false,
+        "CanRandomiseTowers": true,
+        "CanRollLottery": true,
+        "ShouldAddRoadSpikes": true,
+        "ShouldForceSameLastTower": false
+    }
+}

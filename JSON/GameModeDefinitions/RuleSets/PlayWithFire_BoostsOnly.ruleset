@@ -1,0 +1,47 @@
+{
+    "name": "PlayWithFire_BoostsOnly",
+    "rules": [
+      "FreePowerups",
+      "BoostsOnly"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "2x income from Bloon Sends!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+          "Icon": "warning|CENTER_X",
+          "offsetY": 5
+        },
+        {
+          "Text": "Bloon sends go to both players!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 15
+        },
+        {
+            "Text": "3x Tower Boosts",
+            "Icon": "ltd_tower_boost_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        },
+        {
+        	"Text": "3x Bloon Boosts",
+        	"Icon": "ltd_bloon_boost_icon",
+        	"offsetX": 15,
+        	"offsetY": -4
+        },
+        {
+            "Text": "3x Red Hot Spikes",
+            "Icon": "ltd_rhs_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        }
+      ],
+      "DisplayName": "BOOSTS ONLY FIRE",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_playwithfire_boostsonly"
+    },
+    "version": "1.0"
+  }

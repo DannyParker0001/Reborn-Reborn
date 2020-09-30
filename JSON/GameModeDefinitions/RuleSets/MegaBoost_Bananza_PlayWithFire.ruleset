@@ -1,0 +1,72 @@
+{
+    "name": "MegaBoost_Bananza_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "MegaBoosts",
+        "Bananza",
+		"PlayWithFire",
+		"Bananza_WithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 0
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 12
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "BOOSTY BANANZA FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_megaboost_bananza_playwithfire"
+    },
+    "version": "1.0"
+}

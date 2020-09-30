@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.1, 
+        "NumBloons": 100, 
+        "Type": "Red", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 400, 
+    "Name": "28", 
+    "NameOld": "MonkeySub10_RedTight100", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "underwater", 
+        "Cost": 500, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeySub", 
+        "Upgrades": [
+            1, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

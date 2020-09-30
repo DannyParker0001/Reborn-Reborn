@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 2500, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 50, 
+        "Interval": 0.1, 
+        "NumBloons": 30, 
+        "Type": "White", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "39", 
+    "NameOld": "BoomerangThrower42_CamoWhiteTight30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "jungle", 
+        "Cost": 6500, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopCamo"
+        ], 
+        "Type": "BoomerangThrower", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

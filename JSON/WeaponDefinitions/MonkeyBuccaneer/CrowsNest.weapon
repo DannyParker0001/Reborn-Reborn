@@ -1,0 +1,20 @@
+{	
+    "Type":             "CrowsNest",
+    "TargetRange":      180.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+    "MaxShots" : 1,
+
+    "DisabledTasks" : [ 0 ],
+    
+	"Tasks" :
+	[
+		{
+			"Type" : "TowerModifier",
+			"Range":  180.0,
+			"PriorityLevel" : 2,
+			"TerminateOnUserUpgrade" : true,
+			"Modifier" : { "CanTargetCamo": [ true, true ] }
+		}
+	]
+}

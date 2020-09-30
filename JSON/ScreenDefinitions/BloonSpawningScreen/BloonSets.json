@@ -1,0 +1,31 @@
+{	
+	"Top" : [
+		"RedGroup1",
+		"BlueGroup1",
+		"GreenGroup1",
+		"YellowGroup1",
+		"PinkGroup1",
+		"WhiteGroup1",
+		"BlackGroup1",
+		"ZebraGroup1",
+		"LeadGroup1",
+		"CeramicGroup1",
+		"MOABGroup1",
+		"BFBGroup1",
+		"ZOMGGroup1"
+	],
+	"Bottom" : [
+		"BlueSpaced1",
+		"PinkSpaced1",
+		"BlackSpaced1",
+		"WhiteSpaced1",
+		"LeadSpaced1",
+		"ZebraSpaced1",
+		"RainbowSpaced1",
+		"RainbowGroup1",
+		"CeramicSpaced1",
+		"MOABSpaced1",
+		"BFBSpaced1",
+		"ZOMGSpaced1"
+	]
+}

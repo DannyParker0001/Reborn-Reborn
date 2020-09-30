@@ -1,0 +1,37 @@
+{	
+    "Type":             "SeekingBolt",    
+    "TargetRange":      120.0,
+    "CooldownTime":     1.0,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [{
+        "Type":             "Projectile",
+        "SpriteFile":      "apprentice_seeking_bolt.json",
+        "NumPersists":      5,
+		"Radius" : 10,
+
+        "TerminateOnZeroPersists": true,
+        
+        "CollisionType": "Once",
+        
+		"Movement":
+		{
+			"Type": "Target",
+			"Speed": 460,
+			"TurnSpeed": 960,
+			"TargetRange": 180,
+			"SeekAngle": 97,
+			"CutOffDistance": 340
+		},
+
+        "Tasks" : 
+		[
+			{
+				"Type": "Damage",
+				"DamageType": "Plasma", 
+				"Amount": 1 
+			}
+		]
+    }]
+}

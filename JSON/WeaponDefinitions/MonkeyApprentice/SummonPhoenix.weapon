@@ -1,0 +1,30 @@
+{	
+    "Type":             	"SummonPhoenix",    
+    "TargetRange":      	1000,
+	"CooldownTime":     	60,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	
+    "Tasks" :
+    [
+		{
+			"Type": "LaunchAircraft",
+			"Aircraft": "PhoenixPlane.tower",
+			"PathOrigin": [ 0.5, 0.5 ],
+			"PathIndex": 2
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ROFEffect.json",
+			"Scale": 2,
+			"DrawLayer": "FullScreen"
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"Scale": 1,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

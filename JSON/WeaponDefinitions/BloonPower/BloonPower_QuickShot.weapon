@@ -1,0 +1,50 @@
+{	
+    "Type"                                      : "BloonPower_QuickShot",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "BloonBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ true, false ],
+            "FlipRight": [ false, false ],
+            "Duration": 4,
+            "DrawLayer": "FullScreen",
+            "Audio": "POWERS_BLOON_ONE_SHOT"
+        },
+
+        {
+            "Type": "ApplyBloonSpawnModifier",
+            "Duration": 40,
+            "Persists": 8,
+            "SpeedMultiplier": 2.0,
+            "Affects": "PlayerSent",
+            "ParticleEffect": "bloon_boost_status.json",
+
+            "TargetingFilter": {
+                "Include" : {
+                    "BloonType" : [
+                        "Red",
+                        "Blue",
+                        "Green",
+                        "Yellow",
+                        "Pink",
+                        "Black",
+                        "White",
+                        "Lead",
+                        "Zebra",
+                        "Rainbow",
+                        "Ceramic"
+                    ]
+                }
+            }
+        }
+	]
+}

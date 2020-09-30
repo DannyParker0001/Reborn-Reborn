@@ -1,0 +1,114 @@
+{
+    "ID": "HunterSniperMonkey",
+    "DisplayName": "Sniper Monkey Skin",
+    "DisplayDescription": "The Sniper and its upgrades are hunting big game bloons! Visual change only.",
+    "DisplayIcon": "sniper_skin_store_icon.json",
+    "SmallIcon": "sniper_monkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "SniperMonkeySkin",
+    "RequiresTower": "SniperMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "TowerMap": {
+        "SniperBlackHatGogglesLaser.json": {
+            "Name" : "Hunter_SniperBlackHatGogglesLaser.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlackHatGogglesLasercompound.json": {
+            "Name" : "Hunter_SniperBlackHatGogglesLasercompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlackHatLaser.json": {
+            "Name" : "Hunter_SniperBlackHatLaser.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlackHatLasercompound.json": {
+            "Name" : "Hunter_SniperBlackHatLasercompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlueHat.json": {
+            "Name" : "Hunter_SniperBlueHat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlueHatcompound.json": {
+            "Name" : "Hunter_SniperBlueHatcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlueNVG.json": {
+            "Name" : "Hunter_SniperBlueNVG.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperBlueNVGcompound.json": {
+            "Name" : "Hunter_SniperBlueNVGcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperCrippleMoab.json": {
+            "Name" : "Hunter_SniperCrippleMoab.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperCrippleMoabcompound.json": {
+            "Name" : "Hunter_SniperCrippleMoabcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperCrippleMoabGoggles.json": {
+            "Name" : "Hunter_SniperCrippleMoabGoggles.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperCrippleMoabGogglescompound.json": {
+            "Name" : "Hunter_SniperCrippleMoabGogglescompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperHelmet.json": {
+            "Name" : "Hunter_SniperHelmet.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperHelmetcompound.json": {
+            "Name" : "Hunter_SniperHelmetcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperMonkey.json": {
+            "Name" : "Hunter_SniperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperMonkeycompound.json": {
+            "Name" : "Hunter_SniperMonkeycompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperPurpleHat.json": {
+            "Name" : "Hunter_SniperPurpleHat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperPurpleHatcompound.json": {
+            "Name" : "Hunter_SniperPurpleHatcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperPurpleNVG.json": {
+            "Name" : "Hunter_SniperPurpleNVG.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperPurpleNVGcompound.json": {
+            "Name" : "Hunter_SniperPurpleNVGcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperRedHat.json": {
+            "Name" : "Hunter_SniperRedHat.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperRedHatcompound.json": {
+            "Name" : "Hunter_SniperRedHatcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperSupplyDrop.json": {
+            "Name" : "Hunter_SniperSupplyDrop.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "SniperSupplyDropcompound.json": {
+            "Name" : "Hunter_SniperSupplyDropcompound.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "supply_drop_plane.json": {
+            "Name" : "Hunter_supply_drop_plane.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

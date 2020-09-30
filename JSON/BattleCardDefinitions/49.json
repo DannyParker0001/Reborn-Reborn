@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 2500, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 30, 
+        "Interval": 0.3, 
+        "NumBloons": 20, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "49", 
+    "NameOld": "SpikeFactory21_RegenLeadTight20", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 2500, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "SpikeFactory", 
+        "Upgrades": [
+            2, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

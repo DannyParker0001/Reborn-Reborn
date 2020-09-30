@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_trees", 
+        "Cost": 10000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -175, 
+        "Interval": 0.5, 
+        "NumBloons": 10, 
+        "Type": "MOAB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 900, 
+    "Name": "61", 
+    "NameOld": "SuperMonkey22_MOABTight10", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "mirage", 
+        "Cost": 10000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "SuperMonkey", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

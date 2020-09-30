@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 600, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.5, 
+        "NumBloons": 40, 
+        "Type": "Pink", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "9", 
+    "NameOld": "BombTower30_PinkSpaced40", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 1900, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "BombTower", 
+        "Upgrades": [
+            3, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

@@ -1,0 +1,18 @@
+{	
+    "Type":             "RoboFarmer",
+    "TargetRange":      100000,
+	"CooldownTime":     0.0,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire" : false,
+   
+    "Tasks" :
+    [
+        {
+            "Type" : "CollectCollectables",
+            "Range":  100000,
+			"Speed" : 900,
+			"CollectionDelay" : 0.5,
+			"AnimateOnCollection" : true
+        }
+	]
+}

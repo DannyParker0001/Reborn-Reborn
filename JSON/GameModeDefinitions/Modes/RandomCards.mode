@@ -1,0 +1,10 @@
+{
+	 "LobbyRules" : {
+        "ForceRandomiseTowers": true,
+        "ForceRandomiseTowersSame": true,
+        "AllowEditDeck": false
+    },
+    "Rules" : {
+        "UseCustomDeck" : true
+    }
+}

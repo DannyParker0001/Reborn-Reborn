@@ -1,0 +1,8 @@
+{
+    "TypeName"          : "BLANK",
+    "Icon"              : "no_powers",
+    "HudIcon"           : "no_powers",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None"
+}

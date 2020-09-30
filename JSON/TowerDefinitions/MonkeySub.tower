@@ -1,0 +1,169 @@
+{
+    "DefaultWeapons": [
+        "MonkeySub.weapon"
+    ],
+    "FiringSequence": [
+        [
+            0,
+            1
+        ],
+        [
+            2
+        ],
+		[
+			4
+		],
+		[
+			6
+		]
+    ],
+    "CanBePlacedInWater": true,
+    "RotatesToTarget": true,
+    "TargetIsWeaponOrigin": false,
+	"HideWhenLocked" : true,
+	"UnlocksInGame" : false,
+    "CanTargetCamo": false,
+    "UpgradeIcons": [
+        [
+            "submarine_barbed_darts_icon",
+            "submarine_improved_range_icon",
+            "submarine_submerge_support_icon",
+            "submarine_bloontonium_reactor_icon"
+        ],
+        [
+            "submarine_twin_guns_icon",
+            "submarine_airburst_darts_icon",
+            "submarine_ballistic_missile_icon",
+            "submarine_first_strike_icon"
+        ]
+    ],
+    "TypeName": "MonkeySub",
+    "TargetsManually": false,
+    "SpriteUpgradeDefinition": "MonkeySub.json",
+    "Description" : "Submarine tower that shoots homing darts. Has many powerful upgrades incuding the ability to submerge and become a support tower.",
+    "Icon": "monkeysub_avatar_small",
+    "RankToUnlock": 1,
+	"PopsToUnlock": 2000000,
+    "FiresWeaponsInSequence": false,
+    "BaseCost": 100,
+    "CanBePlacedOnPath": false,
+    "AircraftList": [],
+    "PlacementH": 0,
+    "ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"Long range targeting of bloons that are in the radius of your other towers.",
+			"Activate using targeting option to reveal camo bloons in its radius.",
+			"When submerged, removes camo, pops bloons, and reduces water tower cooldowns by 15%."
+		],
+		[
+			"",
+			"Airburst darts split into 3 on impact for increased popping power.",
+			"Seeks its target over any distance and does extra damage to Ceramic and MOAB class.",
+			"Missile Strike on largest bloon. Destroys up to a ZOMG in one go."
+		]
+	],
+    "UpgradeDescriptions" :
+	[
+		[
+			"Allows the Submarine's darts pop up to 3 bloons each.",
+			"Allows long range targeting of bloons that are in the radius of your other towers.",
+			"Activate using targeting option to reveal camo bloons in its radius.",
+			"When submerged, removes camo, pops bloons, and reduces water tower cooldowns by 15%."
+		],
+		[
+			"Added twin gun doubles attack speed.",
+			"Airburst darts split into 3 on impact for massively increased popping power.",
+			"Seeks its target over any distance and does extra damage to Ceramic and MOAB class.",
+			"Missile Strike on largest bloon. Destroys up to a ZOMG in one go."
+		]
+	],
+
+    "UpgradePrices": [
+        [
+            100,
+            350,
+            750,
+            2500
+        ],
+        [
+            400,
+            850,
+            1250,
+            18000
+        ]
+    ],
+    "UpgradeGateway": [
+        [
+            {
+                "XP": 15,
+                "Rank": 150
+            },
+            {
+                "XP": 0,
+                "Rank": 0
+            },
+            {
+                "XP": 50,
+                "Rank": 285
+            },
+            {
+                "XP": 80,
+                "Rank": 725
+            }
+        ],
+        [
+            {
+                "XP": 0,
+                "Rank": 0
+            },
+            {
+                "XP": 0,
+                "Rank": 0
+            },
+            {
+                "XP": 0,
+                "Rank": 0
+            },
+            {
+                "XP": 0,
+                "Rank": 0
+            }
+        ]
+    ],
+    "TargetingMode": "First",
+    "CanBePlacedOnLand": false,
+    "UpgradeAvatars": [
+        [
+            "monkeysub_avatar_barbed_darts_small",
+            "monkeysub_avatar_improved_range_small",
+            "monkeysub_avatar_submerge_support_small",
+            "monkeysub_avatar_bloontonium_reactor_small"
+        ],
+        [
+            "monkeysub_avatar_twin_guns_small",
+            "monkeysub_avatar_airburst_darts_small",
+            "monkeysub_avatar_ballistic_missile_small",
+            "monkeysub_avatar_first_strike_small"
+        ]
+    ],
+    "Upgrades": [
+        [
+            "Barbed Darts",
+            "Advanced Intel",
+            "Submerge and Support",
+            "Reactor"
+        ],
+        [
+            "Twin Guns",
+            "Airburst Darts",
+            "Ballistic Missile",
+            "First Strike Capability"
+        ]
+    ],
+    "PlacementRadius": 10.0,
+    "PlacementW": 0,
+    "UseRadiusPlacement": true,
+	"DrawWeaponsOnTop" : true
+}

@@ -1,0 +1,46 @@
+{
+    "AircraftList": [],
+    "BaseCost": 1,
+    "CanBePlacedInWater": false,
+    "CanBePlacedOnLand": true,
+    "CanBePlacedOnPath": false,
+    "CanBePlacedAnywhere": true,
+    "CanTargetCamo": true,
+    "DefaultWeapons": [
+        "TrackPower_LightningBolts.weapon"
+    ],
+    "Description": "",
+    "FireWeaponAndDestroy": true,
+    "Icon": "",
+    "PlacementH": 0,
+    "PlacementRadius": 0,
+    "PlacementW": 0,
+    "RankToUnlock": 5,
+    "RotatesToTarget": false,
+    "DefaultSprite": "lightning_rod.json",
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "TypeName": "TrackPower_LightningBolts",
+    "Upgrades": [
+        [],
+        []
+    ],
+    "UpgradePrices": [
+        [
+            0,
+            0,
+            0,
+            0
+        ],
+        [
+            0,
+            0,
+            0,
+            0
+        ]
+    ],
+    "UseRadiusPlacement": true,
+    "CanBePlacedMultipleTimes": false,
+    "LimitedAmount": 2
+}

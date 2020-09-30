@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 800, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.4, 
+        "NumBloons": 50, 
+        "Type": "Pink", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "57", 
+    "NameOld": "MonkeyEngineer21_PinkSpaced50", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 1400, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeyEngineer", 
+        "Upgrades": [
+            2, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

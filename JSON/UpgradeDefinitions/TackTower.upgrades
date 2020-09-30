@@ -1,0 +1,217 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.5
+                }
+            }
+        },
+        
+        {
+            "Name" : "Even Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.7
+                }
+            }
+        },
+        
+        {
+            "Name" : "Tack Sprayer",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "MultiFire"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 16,
+                        "AngleIncrement" : 22.5,
+                        "Offsets" : [
+                            [ 0, -21 ],
+                            [ 8, -19.4 ],
+                            [ 14.85, -14.85 ],
+                            [ 19.4, -8 ],
+                            [ 21, 0 ],
+                            [ 19.4, 8 ],
+                            [ 14.85, 14.85 ],
+                            [ 8, 19.4 ],
+                            [ 0, 21 ],
+                            [ -8, 19.4 ],
+                            [ -14.85, 14.85 ],
+                            [ -19.4, 8 ],
+                            [ -21, 0 ],
+                            [ -19.4, -8 ],
+                            [ -14.85, -14.85 ],
+                            [ -8, -19.4 ]
+                        ]
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Ring Of Fire",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "RingOfFire.weapon"
+                }
+            },
+            "WeaponUpgrade" : 
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"RequiresMinUpgradeCounters" : [0, 1],
+						"Range" : 10
+                    },
+					
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "AreaOfEffect"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"RequiresMinUpgradeCounters" : [0, 2],
+						"Range" : 8
+                    },
+					
+					{
+                        "Operation" : "SelectByType",
+                        "Type" :    "Effect"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [0, 1],
+						"Scale" : 1.425
+                    },
+					
+					{
+                        "Operation" : "SelectByType",
+                        "Type" :    "Effect"
+                    },
+                    
+                    {
+                        "Operation" : "Replace",
+						"RequiresMinUpgradeCounters" : [0, 2],
+						"Scale" : 1.525
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Extra Range Tacks",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 10
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "Speed": 70.0,
+    	                    "CutOffDistance" : 10
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Super Range Tacks",
+            "WeaponUpgrade" : 
+            {
+                "Adjust" :
+                {
+                    "TargetRange" : 12
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "Speed": 70.0,
+    	                    "CutOffDistance" : 12
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Blade Shooter",
+            "WeaponUpgrade" : 
+            {            
+				"Adjust":
+				{
+					"CooldownTime": -0.05
+				},
+				
+                "TaskUpgrade":
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "monkey_temple_supermonkey_projectile",
+						"Radius": 7,
+						"NumPersists": 2
+					}
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Blade Maelstrom",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "BladeMaelstrom.weapon"
+                }
+            }
+        }
+    ]
+}

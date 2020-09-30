@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_Shield",
+    "UnlockCost"        : 7500,
+    "RequiresUnlocked"  : ["TrackPower_Juggerlanche"],
+    "Description"       : "A shield blocks the exit, stopping 150 red bloons, or equivalent, from leaking. One use.",
+    "Icon"              : "powers_shield",
+    "HudIcon"           : "icon_shield",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_Shield",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 0,
+    "MinCooldown"       : 0,
+    "Count"             : 1
+}

@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_EcoAmplifier",
+    "UnlockCost"        : 5000,
+    "Description"       : "Next income earned is doubled. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_ImprovedEcoBoost"],
+    "Icon"              : "powers_eco_doubler",
+    "HudIcon"           : "icon_eco_doubler",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_EcoAmplifier.weapon"
+}

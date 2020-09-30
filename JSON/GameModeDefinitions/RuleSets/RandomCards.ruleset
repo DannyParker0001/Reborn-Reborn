@@ -1,0 +1,29 @@
+  {
+    "name": "RandomCards",
+    "rules": [
+      "FreePowerups",
+      "RandomCards"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Let's level the playing field"
+        },
+        {
+          "Icon": "rulesIcon_RandomTrio_large",
+          "offsetY": 10,
+          "offsetX": 60
+        },
+        {
+          "Text": "Both players receive the same random cards",
+          "Icon": "bullet_point_glow",
+          "offsetY": 30
+        }
+      ],
+      "DisplayName": "RANDOM CARDS!",
+      "DisplayInfo": "???",
+      "DisplayIcon": "rulesIcon_RandomTrio",
+      "InGameRuleInfo": []
+    },
+    "version": "1.0"
+  }

@@ -1,0 +1,37 @@
+{
+	"Sprites":
+	{
+        "0" : "MonkeyApprentice",
+        "1" : "MonkeyApprenticeDragonBreath",
+        "2" : "MonkeyApprenticeGlasses",
+        "3" : "MonkeyApprenticeGreyHatBrim",
+        "4" : "MonkeyApprenticeSummonPhoenix",
+        "5" : "MonkeyApprenticeSummonWhirlwind",
+        "6" : "MonkeyApprenticeTempestTornado"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 2,
+		"02"		: 3,
+		"03"		: 1,
+		"04"		: 4,
+		"10"		: 2,
+		"11"		: 2,
+		"12"		: 3,
+		"13"		: 1,
+		"14"		: 4,
+		"20"		: 3,
+		"21"		: 3,
+		"22"		: 3,
+		"23"		: 1,
+		"24"		: 4,
+		"30"		: 5,
+		"31"		: 5,
+		"32"		: 5,
+		"40"		: 6,
+		"41"		: 6,
+		"42"		: 6
+	}
+}

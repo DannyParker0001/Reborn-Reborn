@@ -1,0 +1,30 @@
+{	
+    "Type"                                      : "EconomyPower_BudgetBloons",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "EcoBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "Duration": 20,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_BLOON_BEEFY_MOAB"
+        },
+        {
+            "Type": "ApplyBloonSpawnModifier",
+            "Duration": 15,
+            "BloonCostMultiplier": 0.5,
+            "IncomeNegativeMultiplier": 0.5,
+            "Affects": "PlayerSent"
+        }
+	]
+}

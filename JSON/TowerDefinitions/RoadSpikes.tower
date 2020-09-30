@@ -1,0 +1,39 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 1,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : false,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : true,
+    "DefaultWeapons" : [
+        "RoadSpikes.weapon"
+    ],
+    "Description" : "Placed directly on the track, each pack of spikes can pop 10 bloons.",
+    "FireWeaponAndDestroy" : true,
+    "Icon" : "dart_monkey_icon_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 8.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 5,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "HotTacks.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "RoadSpikes",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradePrices" : 
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UseRadiusPlacement" : true,
+    "CanBePlacedMultipleTimes" : false,
+	"LimitedAmount" : 10
+}

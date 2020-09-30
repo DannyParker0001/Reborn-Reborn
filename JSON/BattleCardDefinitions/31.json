@@ -1,0 +1,41 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 3000, 
+        "Features": [
+            "Camo", 
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.2, 
+        "NumBloons": 16, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "31", 
+    "NameOld": "MonkeySub40_CamoRegenLeadTight16", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "underwater", 
+        "Cost": 4000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water", 
+            "PopLead", 
+            "PopCamo", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeySub", 
+        "Upgrades": [
+            4, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

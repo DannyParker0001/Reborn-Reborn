@@ -1,0 +1,104 @@
+{
+    "TypeName"    : "MonkeyAce",
+    "Icon"     : "monkey_ace_avatar_small",
+    "Description"   : "Patrols the skies above the action, blasting the area with 12 powerful darts.",
+    "BaseCost"    : 350,
+    "RankToUnlock"   : 12,
+    "DefaultWeapons"     : [],
+    "TargetingMode"   : "Any",
+    "TargetsManually"  : false,
+    "TargetIsWeaponOrigin" : false,
+
+    "Upgrades" :
+    [
+     [ "Rapid Fire", "Sharper Darts", "Neva-Miss Targeting", "Spectre" ],
+     [ "Pineapple Present", "Spy Plane", "Operation: Dart Storm", "Ground Zero" ]
+    ],
+ "ShortUpgradeDescriptions" :
+ [
+  [
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "",
+   "",
+   "",
+   "Ability: drops a bomb destroying Bloons and damaging MOABs."
+  ]
+ ], 
+ "UpgradeDescriptions" :
+ [
+  [
+   "Shoots darts more often.",
+   "Monkey Ace darts can pop 8 bloons each!",
+   "Darts seek out and pop bloons intelligently.",
+   "Flying fortress of bloon doom."
+  ],
+  [
+   "Drops an exploding pineapple every 3 seconds.",
+   "Allows the Monkey Ace to hit camo bloons.",
+   "More darts = win.",
+   "Ability: drops a devastating bomb that destroys all bloons and damages MOAB class."
+  ]
+ ],
+ "UpgradeGateway" :
+ [
+  [ { "Rank" : 60, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 190, "XP" : 35 }, { "Rank" : 460, "XP" : 75 } ],
+  [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+ ],
+    "UpgradePrices" : 
+    [
+        [ 200, 300, 850, 16000 ],
+        [ 50, 200, 2000, 16000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+     [ 
+            "monkey_ace_avatar_rapid_fire_small", 
+            "monkey_ace_avatar_sharper_darts_small", 
+            "monkey_ace_avatar_nmt_small",
+            "monkey_ace_avatar_spectre_small" 
+        ],
+     [ 
+            "monkey_ace_avatar_pineapple_small", 
+            "monkey_ace_avatar_spyplane_small", 
+            "monkey_ace_avatar_ods_small", 
+            "monkey_ace_avatar_ground_zero_small" 
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+     [ 
+            "monkey_ace_rapid_fire_icon", 
+            "monkey_ace_sharper_darts_icon", 
+            "monkey_ace_targeting_icon",
+            "monkey_ace_spectre_icon" 
+        ],
+     [ 
+            "monkey_ace_pineapple_icon", 
+            "monkey_ace_spyplane_icon", 
+            "monkey_ace_ods_icon", 
+            "monkey_ace_ground_zero_icon" 
+        ]
+    ],
+    
+    "AircraftList"   : [ "AcePlane.tower" ],
+    
+    "DefaultSprite"         : "MonkeyAce_Runway.json",
+    "CanTargetCamo"   : false,
+    "RotatesToTarget"  : false,
+    
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand"  : true,
+    "CanBePlacedOnPath"  : false,
+    
+    "UseRadiusPlacement" : false,
+    "PlacementRadius"  : 0.0,
+    "PlacementW"   : 41.0,
+    "PlacementH"   : 17.0,
+    "UseDefaultRangeCircle" : true
+}

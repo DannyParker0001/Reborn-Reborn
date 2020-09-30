@@ -1,0 +1,47 @@
+{
+    "name": "SuddenDeathBananzaSpeed",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "Bananza",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetY": 15,
+                "offsetX": 20
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 60
+            },
+            {
+              "Icon": "sudden_death_icon",
+              "offsetY": -5,
+              "offsetX": 90
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            }
+        ],
+        "DisplayNameFront": "    SPEEDY 1 LIFE BANANZA",
+        "DisplayName": "SPEEDY 1 LIFE BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_bananza_speed"
+    },
+    "version": "1.0"
+}

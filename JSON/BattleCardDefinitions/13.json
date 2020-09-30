@@ -1,0 +1,35 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 1500, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 0, 
+        "Interval": 1.0, 
+        "NumBloons": 4, 
+        "Type": "Ceramic", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "13", 
+    "NameOld": "MonkeyAce30_CeramicSpaced4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 2600, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "MonkeyAce", 
+        "Upgrades": [
+            3, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_BigBloonBeatdown",
+    "UnlockCost"                : 500,
+    "RequiresUnlocked"          : ["TowerPower_Boost"],
+    "Description"               : "Towers do double damage to MOAB-Class Bloons for 22 seconds. Four uses.", 
+    "Icon"                      : "powers_big_bloon_beatdown",
+    "HudIcon"                   : "icon_big_bloon_beatdown",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 30,
+    "MinCooldown"               : 15,
+    "Count"                     : 4,
+    "Weapon"                    : "TowerPower_BigBloonBeatdown.weapon"
+}

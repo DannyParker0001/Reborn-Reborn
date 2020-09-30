@@ -1,0 +1,30 @@
+{	
+    "Type":             "RingOfFire",    
+    "TargetRange":      80.0,
+	"CooldownTime":     1.6,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 80,
+			"MaxTargets": 100000,
+			"UseRangeModifier" : true,
+			
+			"Tasks" :
+			[
+				{
+					"Type": "Damage", 
+					"DamageType": "Plasma", 
+					"Amount": 1
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "ROFEffect.json",
+			"Scale": 1.3
+		}
+	]
+}

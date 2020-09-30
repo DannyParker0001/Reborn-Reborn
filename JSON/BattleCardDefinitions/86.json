@@ -1,0 +1,23 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Increases income by 30 and also grants 1 cash for each bloon popped for the next 10 seconds.", 
+    "DiscardCost": 1000, 
+    "Name": "86", 
+    "NameOld": "Power_Bounty", 
+    "PlatformProductID": "btdbattles_vet_power_bounty", 
+    "Power": {
+        "BackgroundSprite": "power_card_bounty", 
+        "Cost": 1000, 
+        "Type": "Bounty"
+    }, 
+    "ProductID": "Vet_Power_Bounty", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

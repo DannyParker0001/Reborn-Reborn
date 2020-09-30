@@ -1,0 +1,94 @@
+{
+    "ID": "MilitaryBombTower",
+    "DisplayName": "Bomb Tower Skin",
+    "DisplayDescription": "The Bomb Tower and its upgrades get military grade hardware. Visual change only.",
+    "DisplayIcon": "bomb_tower_skin_store_icon.json",
+    "SmallIcon": "bomb_tower_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "BombTowerSkin",
+    "RequiresTower": "BombTower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "Gold_BombTowerAssassin.json": {
+            "Name" : "Gold_Military_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMauler.json": {
+            "Name" : "Gold_Military_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileBlackBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileGreenBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Gold_BombTowerMissileGreyBase.json": {
+            "Name" : "Gold_Military_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTower.json": {
+            "Name" : "Military_BombTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerAssassin.json": {
+            "Name" : "Military_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerBloonImpact.json": {
+            "Name" : "Military_BombTowerBloonImpact.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerClusterBomb.json": {
+            "Name" : "Military_BombTowerClusterBomb.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMauler.json": {
+            "Name" : "Military_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileBlackBase.json": {
+            "Name" : "Military_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileGreenBase.json": {
+            "Name" : "Military_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerMissileGreyBase.json": {
+            "Name" : "Military_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerRedCircle.json": {
+            "Name" : "Military_BombTowerRedCircle.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BombTowerRedStar.json": {
+            "Name" : "Military_BombTowerRedStar.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerAssassin.json": {
+            "Name" : "Silver_Military_BombTowerAssassin.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMauler.json": {
+            "Name" : "Silver_Military_BombTowerMauler.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileBlackBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileBlackBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileGreenBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileGreenBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "Silver_BombTowerMissileGreyBase.json": {
+            "Name" : "Silver_Military_BombTowerMissileGreyBase.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

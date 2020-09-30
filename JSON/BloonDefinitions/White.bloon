@@ -1,0 +1,13 @@
+{
+	"Type" : "White",
+	"InitialHealth" : 1,
+	"SpriteFile" : "white_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 2.0,
+	"RBE" : 11,
+    "ChildBloons" : [ "Pink.bloon", "Pink.bloon" ],
+    "StatusImmunity" : [ "Ice", "Permafrost", "ViralFrost", "IceShards", "CrippleMOAB" ],
+    "DamageImmunity" : [ "Ice", "Juggernaut", "MOABMauler", "Foam" ],
+	"Scale" : 0.75,
+    "Radius" : 9.75
+}

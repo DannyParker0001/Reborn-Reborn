@@ -1,0 +1,42 @@
+{
+    "ID": "TopgunMonkeyAce",
+    "DisplayName": "Monkey Ace Skin",
+    "DisplayDescription": "The Ace and its upgrades feel the need... the need for speed! Visual change only.",
+    "DisplayIcon": "monkey_ace_skin_store_icon.json",
+    "SmallIcon": "monkey_ace_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "MonkeyAceSkin",
+    "RequiresTower": "MonkeyAce",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "MonkeyAce.json": {
+            "Name" : "Topgun_MonkeyAce.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceBlackPlaneRedStripes.json": {
+            "Name" : "Topgun_MonkeyAceBlackPlaneRedStripes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceGroundZero.json": {
+            "Name" : "Topgun_MonkeyAceGroundZero.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceODS.json": {
+            "Name" : "Topgun_MonkeyAceODS.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceRedStripes.json": {
+            "Name" : "Topgun_MonkeyAceRedStripes.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceSpectre.json": {
+            "Name" : "Topgun_MonkeyAceSpectre.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "MonkeyAceTargeting.json": {
+            "Name" : "Topgun_MonkeyAceTargeting.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

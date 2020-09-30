@@ -1,0 +1,88 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1660944384,
+         "Flip" : 0,
+         "Position" : [ 0.0, -40.0 ],
+         "Scale" : [ 10.0, 5.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1660944384,
+         "Flip" : 0,
+         "Position" : [ 0.0, 40.0 ],
+         "Scale" : [ 10.0, 5.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1660944384,
+         "Flip" : 0,
+         "Position" : [ 40.0, 0.0 ],
+         "Scale" : [ 5.0, 10.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.3882353007793427,
+         "Angle" : 0.0,
+         "Colour" : 1660944384,
+         "Flip" : 0,
+         "Position" : [ -40.0, 0.0 ],
+         "Scale" : [ 5.0, 10.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 5
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "symbol_colour",
+            "Texture" : "clan_symbol"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      }
+   ]
+}

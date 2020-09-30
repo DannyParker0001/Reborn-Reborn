@@ -1,0 +1,23 @@
+{
+    "name": "ChosenPath2",
+    "rules": [
+      "FreePowerups",
+      "ChosenPath_Path2"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "CHOSEN PATH"
+        }
+      ],
+      "DisplayName": "Chosen Path",
+      "DisplayInfo": "Path 2 unlocked only",
+      "DisplayIcon": "",
+      "InGameRuleInfo": [
+        {
+          "Text": "CHOSEN PATH"
+        }
+      ]
+    },
+    "version": "1.0"
+  }

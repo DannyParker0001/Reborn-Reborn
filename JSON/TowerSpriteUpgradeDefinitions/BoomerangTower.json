@@ -1,0 +1,47 @@
+{
+	"Sprites":
+	{
+        "0" : "BoomerangTower",
+        "1" : "BoomerangTowerThreeArrows",
+        "2" : "BoomerangTowerGlaiveThrower",
+        "3" : "BoomerangTowerGlaiveRiccochet",
+        "4" : "BoomerangTowerGlaiveLord",
+        "5" : "BoomerangTowerCurvedArrow",
+        "6" : "BoomerangTowerCross",
+        "7" : "BoomerangTowerBionicBoomerBoomerang",
+        "8" : "BoomerangTowerThreeCurvedArrows",
+        "9" : "BoomerangTowerGlaiveRiccochetRedWeapon",
+        "10" : "BoomerangTowerGlaiveLordRedWeapon",
+        "11" : "BoomerangTowerBionicBoomerGlaive",
+        "12" : "BoomerangTowerBionicBoomerGlaiveRed",
+		"13" : "BoomerangTowerBionicBoomerRedBoomerang",
+		"14" : "BoomerangTowerGlaiveTowerRedWeapon",
+        "15" : "BoomerangTowerBionicBoomerTurboRedBoomerang",
+        "16" : "BoomerangTowerBionicBoomerTurboGlaiveRed"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 5,
+		"02"		: 6,
+		"03"		: 13,
+		"04"		: 15,
+		"10"		: 1,
+		"11"		: 8,
+		"12"		: 6,
+		"13"		: 13,
+		"14"		: 15,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 14,
+		"23"		: 12,
+		"24"		: 16,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 9,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 10
+	}
+}

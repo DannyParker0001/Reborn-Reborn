@@ -1,0 +1,33 @@
+{	
+    "Type":             "RoboMonkeyLeft",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.04,
+    "FireDelayTime":    0.0,
+    "DefaultSprite":    "SuperMonkeyRoboMonkeyLeftArm.json",
+    "TargetsIndependently": true,
+       
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      3,
+            "Radius": 5,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 720.0,
+				"CutOffDistance": 400
+			},
+			
+			"Tasks" :
+			[ 
+				{ "Type": "Damage", "DamageType": "Plasma", "Amount": 2 } 
+			]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_ImprovedBoost",
+    "UnlockCost"        : 500,
+    "RequiresUnlocked"  : ["BloonPower_Boost"],
+    "Icon"              : "powers_improved_bloon_boost",
+    "Description"       : "Speed up sent bloons by 40% for 12 seconds. Three uses.",  
+    "HudIcon"           : "icon_improved_bloon_boost",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 10,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_ImprovedBoost.weapon"
+}

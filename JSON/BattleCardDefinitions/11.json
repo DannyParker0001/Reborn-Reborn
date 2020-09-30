@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 3500, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 12, 
+        "Interval": 0.2, 
+        "NumBloons": 12, 
+        "Type": "Rainbow", 
+        "UnlockRound": 10
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "11", 
+    "NameOld": "BombTower42_RegenRainbowTight12", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 6000, 
+        "Features": [
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "BombTower", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,40 @@
+{	
+    "Type":             "PineapplePresent",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     3,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+
+    "Tasks" :
+        [{
+            "Type" : "TimerFire",
+            "TimeDelay" : 3.0,
+            "CompoundSprite" : "PineappleCountdown.json",
+            "SpriteList": 
+            [
+                "pineapple"
+            ],
+
+            
+            "Tasks" :
+            [
+                {
+                    "Type": "AreaOfEffect",
+                    "Range": 50,
+                    "MaxTargets": 40,
+                    "Tasks" :
+                    [{
+                        "Type": "Damage",
+                        "DamageType": "Explosive",
+                        "Amount": 1
+                    }]
+                },
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+                    "Scale": 0.735
+                }
+            ]
+        }]  
+}

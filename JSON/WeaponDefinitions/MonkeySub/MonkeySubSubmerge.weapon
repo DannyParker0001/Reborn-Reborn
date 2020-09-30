@@ -1,0 +1,26 @@
+{
+    "Type": "MonkeySubSubmerge",
+	"TargetRange": 125,
+	"CooldownTime": 0.05,
+	"FireDelayTime": 0.0,
+	"TargetsIndependently": true,
+	"SelfTargetMode": "None",
+	"DisabledOnTargetModes" : [ "First", "Last", "Close", "Strong" ],
+
+    "Tasks": [
+		{
+			"Type": "TowerModifier",
+			"Range": 0,
+			"PriorityLevel": 6,
+			"ApplyToUserTower": true,
+			"RequiresEmptyPriorityLevel" : true,
+			"TerminateOnUserUpgrade" : true,
+			"TerminateOnUserTargetChange" : true,
+
+			"Modifier":
+			{
+				"Display": "Sub30_Submerge_complete.json"
+			}
+		}
+    ]
+}

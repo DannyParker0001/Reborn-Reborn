@@ -1,0 +1,105 @@
+{
+    "TypeName"				: "SpikeFactory",
+    "Icon"					: "spike_factory_avatar_small",
+    "Description"			: "Each round generates piles of road spikes that can pop 5 bloons each.",
+    "BaseCost"				: 350,
+    "RankToUnlock"			: 19,
+    "DefaultWeapons"	    : [ "SpikeFactory.weapon" ],
+    "TargetingMode"			: "Any",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Bigger Stacks", "White Hot Spikes", "Spiked Ball Factory", "Spiked Mines" ],
+    	[ "Faster Production", "Even Faster Production", "MOAB-SHREDR Spikes", "Spike Storm" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Generates larger piles of Spikes per shot.",
+			"Cuts through lead like a hot spike through... lead.",
+			"Produces sharp spiked balls that do extra damage to ceramics.",
+			"Spiked balls explode when they lose all their spikes."
+		],
+		[
+			"Increases the rate of Spike production.",
+			"Rate of spike production increases even more.",
+			"Super-Hard-Rending-Engine-Driven-Razors shred MOAB class bloons.",
+			"Ability: Lays down a thick carpet of Spikes over the whole track."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 40, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 240, "XP" : 55 }, { "Rank" : 600, "XP" : 75 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 300, 250, 800, 3500 ],
+        [ 250, 500, 2500, 5000 ]
+    ],
+
+    "UpgradeAvatars" :
+    [
+    	[ 
+        "spike_factory_avatar_bigger_stacks_small", 
+        "spike_factory_avatar_white_hot_small", 
+        "spike_factory_avatar_spike_balls_small", 
+        "spike_factory_avatar_mines_small" 
+        ],
+    	[ 
+        "spike_factory_avatar_faster_production_small", 
+        "spike_factory_avatar_even_faster_production_small", 
+        "spike_factory_avatar_moab_shredr_small", 
+        "spike_factory_avatar_spike_storm_small" 
+        ]
+    ],
+
+    "UpgradeIcons" :
+    [
+    	[ 
+        "spike_factory_bigger_stacks_icon", 
+        "spike_factory_white_hot_icon", 
+        "spike_factory_spiked_balls_icon", 
+        "spike_factory_spiked_mines_icon" 
+        ],
+    	[ 
+        "spike_factory_faster_production_icon", 
+        "spike_factory_even_faster_production_icon", 
+        "spike_factory_moab_shredr_icon", 
+        "spike_factory_spike_storm_icon" 
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: true,
+    "RotatesToTarget"		: false,
+    
+    "CanBePlacedInWater"	: false,
+    "CanBePlacedOnLand"		: true,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 12.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    
+    "SpriteUpgradeDefinition" : "SpikeFactory.json"
+}

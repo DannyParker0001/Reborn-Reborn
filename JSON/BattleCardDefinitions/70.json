@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 3200, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 50, 
+        "Interval": 0.2, 
+        "NumBloons": 24, 
+        "Type": "Zebra", 
+        "UnlockRound": 10
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "70", 
+    "NameOld": "MonkeySub23_CamoZebraTight24", 
+    "PlatformProductID": "btdbattles_vet_monkeysub23_camozebratight24", 
+    "PlatformProductIDiOS": "btdbattles_vet_MonkeySub23_CamoZebraTight24", 
+    "ProductID": "Vet_MonkeySub23_CamoZebraTight24", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "underwater", 
+        "Cost": 3200, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeySub", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

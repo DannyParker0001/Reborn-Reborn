@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 700, 
+        "Features": [
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 15, 
+        "Interval": 1.2, 
+        "NumBloons": 6, 
+        "Type": "Lead", 
+        "UnlockRound": 8
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "82", 
+    "NameOld": "SniperMonkey21_RegenLeadSpaced6", 
+    "PlatformProductID": "btdbattles_vet_snipermonkey21_regenleadspaced6", 
+    "PlatformProductIDiOS": "btdbattles_vet_SniperMonkey21_RegenLeadSpaced6", 
+    "ProductID": "Vet_SniperMonkey21_RegenLeadSpaced6", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1400, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "SniperMonkey", 
+        "Upgrades": [
+            2, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

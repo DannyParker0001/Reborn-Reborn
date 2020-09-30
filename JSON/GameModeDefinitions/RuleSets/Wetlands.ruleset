@@ -1,0 +1,23 @@
+{
+    "name": "Wetlands",
+    "rules": [
+      "FreePowerups",
+      "WaterMaps"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Only water maps"
+        }
+      ],
+      "DisplayName": "Wetlands",
+      "DisplayInfo": "",
+      "DisplayIcon": "",
+      "InGameRuleInfo": [
+        {
+          "Text": "Only water maps"
+        }
+      ]
+    },
+    "version": "1.0"
+  }

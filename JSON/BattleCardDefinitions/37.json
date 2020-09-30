@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 2400, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 100, 
+        "Interval": 0.06, 
+        "NumBloons": 200, 
+        "Type": "Green", 
+        "UnlockRound": 3
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "37", 
+    "NameOld": "BoomerangThrower23_GreenTight200", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "forest", 
+        "Cost": 2400, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "BoomerangThrower", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

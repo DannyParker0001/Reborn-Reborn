@@ -1,0 +1,193 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Long Range Darts",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+                        	"CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Enhanced Eyesight",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+            
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "Adjust" :
+                {
+                    "TargetRange": 25
+                },
+                
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "CutOffDistance" : 25
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Spike-O-Pult",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "SpikeOPult.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Juggernaut",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "Juggernaut.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Sharp Shots",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Razor Sharp Shots",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2
+                    }
+                ]
+            }
+        },
+    
+        {
+            "Name" : "Triple Darts",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "TripleDarts.weapon"
+                }
+            },
+			
+			"WeaponUpgrade" : 
+			{
+				"SlotIndex" : 0,
+				
+				"TaskUpgrade" :
+				[
+					{
+						"Operation" : "SelectByLocation",
+						"Location" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Replace",
+						"NumPersists" : 4
+					},
+											
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type" : "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 1, 0 ]
+					},
+					
+					{
+						"Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+							"CutOffDistance" : 25
+						},
+						"RequiresMinUpgradeCounters" : [ 2, 0 ]
+					}
+				]
+			}
+        },
+        
+        {
+            "Name" : "Super Monkey Fan Club",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2" : "SuperMonkeyFanClub.weapon"
+                }
+            }
+        }
+    ]
+}

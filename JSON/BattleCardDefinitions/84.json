@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_night", 
+        "Cost": 9000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -100, 
+        "Interval": 5.0, 
+        "NumBloons": 4, 
+        "Type": "BFB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "84", 
+    "NameOld": "SniperMonkey41_BFBSpaced4", 
+    "PlatformProductID": "btdbattles_vet_snipermonkey41_bfbspaced4", 
+    "PlatformProductIDiOS": "btdbattles_vet_SniperMonkey41_BFBSpaced4", 
+    "ProductID": "Vet_SniperMonkey41_BFBSpaced4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_sunset", 
+        "Cost": 9000, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite", 
+            "PopMOAB"
+        ], 
+        "Type": "SniperMonkey", 
+        "Upgrades": [
+            4, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 75, 
+        "SpotlightCount": 15, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

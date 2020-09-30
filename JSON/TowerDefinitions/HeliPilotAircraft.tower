@@ -1,0 +1,25 @@
+{
+    "TypeName": "HeliPilotAircraft",
+    
+    "AircraftList": [],
+    "AvailableFlightModes" : [ "FollowPlayer", "LockInPlace", "Patrol" ],
+    "IsAircraft": true,
+    "InitialFlightMode" : "FollowPlayer",
+    "DefaultFlightPath" : 0,
+    "CanTargetCamo": false,
+    "DefaultWeapons": [
+        "HeliPilot.weapon"
+    ],
+    
+    "RotatesToTarget": true,
+    "TargetIsWeaponOrigin": false,
+    "TargetingMode": "First",
+    "TargetsManually": false,
+    "UseRadiusPlacement": true,
+    
+    "AircraftRadius": 120,
+    "AircraftSpeed": 85,
+    "FiresWeaponsInSequence": false,
+    
+    "SpriteUpgradeDefinition": "HeliPilotAircraft.json"
+}

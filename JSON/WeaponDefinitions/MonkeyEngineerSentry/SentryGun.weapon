@@ -1,0 +1,36 @@
+{	
+    "Type":             "SentryGun",    
+    "TargetRange":      161.0,
+	"CooldownTime":     0.66,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "engineer_nail",
+			"NumPersists":      2,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement" :
+			{
+				"Type": "Forward",
+				"Speed": 805.0,
+				"CutOffDistance": 161
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+            
+			"Tasks" :
+			[
+				{ 
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				}
+			]
+		}
+	]
+}

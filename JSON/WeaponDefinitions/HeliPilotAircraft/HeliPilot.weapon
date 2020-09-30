@@ -1,0 +1,44 @@
+{	
+    "Type":             "HeliPilot",    
+    "TargetRange":      125.0,
+	"CooldownTime":     0.35,
+    "FireDelayTime":    0.0,
+    "ForwardFiring" : true,
+
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 0.0,
+    		"FireCount": 2,
+            "Offsets" : [ [ -10, 0 ], [ 10, 0 ] ],
+            
+            "Tasks" :
+            [
+				{
+					"Type":             "Projectile",
+					"GraphicName":      "dart_monkey_dart",
+					"NumPersists":      2,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 700.0,
+						"CutOffDistance": 400
+					},
+					
+					"Tasks" :
+					[ 
+						{ "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } 
+					]
+				}
+			]
+    	}
+	]
+}
+

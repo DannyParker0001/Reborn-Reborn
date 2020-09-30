@@ -1,0 +1,46 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 40, 
+        "Interval": 0.1, 
+        "NumBloons": 75, 
+        "Type": "Yellow", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "74", 
+    "NameOld": "MortarTower04_YellowTight75", 
+    "PlatformProductID": "btdbattles_vet_mortartower04_yellowtight75", 
+    "PlatformProductIDiOS": "btdbattles_vet_MortarTower04_YellowTight75", 
+    "ProductID": "Vet_MortarTower04_YellowTight75", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_sunset", 
+        "Cost": 7000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopWhite", 
+            "PopBlack"
+        ], 
+        "Type": "MortarTower", 
+        "Upgrades": [
+            0, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

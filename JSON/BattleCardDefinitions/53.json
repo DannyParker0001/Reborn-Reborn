@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 2600, 
+        "Features": [
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 0, 
+        "Interval": 1.0, 
+        "NumBloons": 4, 
+        "Type": "Ceramic", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "53", 
+    "NameOld": "HeliPilot22_RegenCeramicSpaced4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 2600, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopCamo"
+        ], 
+        "Type": "HeliPilot", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

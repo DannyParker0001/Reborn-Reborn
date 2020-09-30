@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 600, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 18, 
+        "Interval": 0.2, 
+        "NumBloons": 12, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "30", 
+    "NameOld": "MonkeySub12_LeadTight12", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "underwater", 
+        "Cost": 2000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeySub", 
+        "Upgrades": [
+            1, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

@@ -1,0 +1,94 @@
+{
+    "ID": "TribalBoomerangThrower",
+    "DisplayName": "Boomerang Thrower Skin",
+    "DisplayDescription": "The Boomerang Thrower and its upgrades are going native! Visual change only.",
+    "DisplayIcon": "boomerang_skin_store_icon.json",
+    "SmallIcon": "boomerang_monkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "BoomerangThrowerSkin",
+    "RequiresTower": "BoomerangThrower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "TowerMap": {
+        "BoomerangTower.json": {
+            "Name" : "Tribal_BoomerangTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerBoomerang.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerBoomerang.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerGlaive.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerGlaive.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerGlaiveRed.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerGlaiveRed.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerRedBoomerang.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerRedBoomerang.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboBoomerang.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerTurboBoomerang.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboBoomerangRed.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerTurboBoomerangRed.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboGlaive.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerTurboGlaive.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboGlaiveRed.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerTurboGlaiveRed.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerCross.json": {
+            "Name" : "Tribal_BoomerangTowerCross.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerCurvedArrow.json": {
+            "Name" : "Tribal_BoomerangTowerCurvedArrow.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveLord.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveLord.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveLordRedWeapon.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveLordRedWeapon.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveRiccochet.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveRiccochet.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveRiccochetRedWeapon.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveRiccochetRedWeapon.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveThrower.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveThrower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerGlaiveTowerRedWeapon.json": {
+            "Name" : "Tribal_BoomerangTowerGlaiveTowerRedWeapon.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerThreeArrows.json": {
+            "Name" : "Tribal_BoomerangTowerThreeArrows.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerThreeCurvedArrows.json": {
+            "Name" : "Tribal_BoomerangTowerThreeCurvedArrows.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "BoomerangTowerBionicBoomerTurboRedBoomerang.json": {
+            "Name" : "Tribal_BoomerangTowerBionicBoomerTurboRedBoomerang.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }        
+    }
+}

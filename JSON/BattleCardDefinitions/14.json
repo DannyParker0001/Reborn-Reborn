@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 2500, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 12, 
+        "Interval": 0.25, 
+        "NumBloons": 8, 
+        "Type": "Rainbow", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "14", 
+    "NameOld": "MonkeyAce40_CamoRainbowTight8", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 14000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeyAce", 
+        "Upgrades": [
+            4, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

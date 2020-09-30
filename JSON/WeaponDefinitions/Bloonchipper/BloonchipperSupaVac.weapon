@@ -1,0 +1,53 @@
+{	
+    "Type":             	"BloonchipperSupaVac",    
+    "TargetRange":      	140,
+	"CooldownTime":     	50.0,
+    "FireDelayTime":    	0.0,
+    "ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	"CanSelfTargetCamo": true,
+
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { 
+			"StatusEffect": [ "BloonChipperSuck", "VacStatus", "ShredBloon" ]
+		}
+    },
+    
+    "Tasks" : 
+    [
+        {
+            "Type": "Effect",
+			"SpriteFile": "SuperVacAbility.json",
+			"LoopCount": 10,
+            "AppliedToTower": true,
+			"Position" : [0, 0]
+        },
+		{
+			"Type" : "TimerFire",
+			"TimeDelay" : 0.2,
+			"InitialTime" : 0,
+			"Loops" : true,
+			"NumLoops" : 40,
+			
+			"Tasks" : [
+				{
+					"Type": "AreaOfEffect",
+					"Range": 140,
+					"MaxTargets": -1,
+					
+					"Tasks":
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "VacStatus",
+							"Duration" : 8.0,
+							"NumPersists" : -1
+						}
+					]
+				}
+			]
+		}
+	]
+}

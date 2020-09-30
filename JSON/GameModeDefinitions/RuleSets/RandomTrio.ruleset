@@ -1,0 +1,33 @@
+  {
+    "name": "RandomTrio",
+    "rules": [
+      "FreePowerups",
+      "RandomTrio"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Let's level the playing field"
+        },
+        {
+          "Icon": "rulesIcon_RandomTrio_large",
+          "offsetY": 10,
+          "offsetX": 60
+        },
+        {
+          "Text": "Both players receive the same random towers",
+          "Icon": "bullet_point_glow",
+          "offsetY": 30
+        },
+        {
+          "Text": "No bonus tower",
+          "Icon": "cross"
+        }
+      ],
+      "DisplayName": "RANDOM TRIO!",
+      "DisplayInfo": "???",
+      "DisplayIcon": "rulesIcon_RandomTrio",
+      "InGameRuleInfo": []
+    },
+    "version": "1.0"
+  }

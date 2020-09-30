@@ -1,0 +1,24 @@
+{
+	"Buttons" : [
+		{
+			"Cost" : 50,
+			"Boost" : 2,
+			"Cooldown" : 3
+		},
+		{
+			"Cost" : 300,
+			"Boost" : 15,
+			"Cooldown" : 12
+		},
+		{
+			"Cost" : 1000,
+			"Boost" : 70,
+			"Cooldown" : 60
+		},
+		{
+			"Cost" : 7500,
+			"Boost" : 700,
+			"Cooldown" : 180
+		}
+	]
+}

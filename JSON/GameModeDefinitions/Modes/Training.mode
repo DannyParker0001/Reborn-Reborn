@@ -1,0 +1,42 @@
+{
+    "Rules" : {
+        "TowerBoostEnergyCost" : 0,
+        "TowerBoostLimit" : -1,
+        "BloonBoostEnergyCost" : 0,
+        "BloonBoostLimit" : -1,
+        "RedHotSpikesEnergyCost" : 0,
+		"RedHotSpikesLimit" : -1,
+		"Reward" : {
+            "WinBattleScore" : 0,
+            "WinMedallions" : 0,
+            "WinMedallionsNoLivesLost" : 0,
+            "LossBattleScore" : 0,
+            "LossMedallions" : 0
+		},
+		"AllowPause" : true,
+		"ReturnToLobbyAfterGame" : false
+    },
+    "LobbyRules": {
+        "CanSpy": false,
+        "CanSkipMap": false,
+        "CanChooseMap": true,
+        "CanRandomiseTowers": true,
+        "CanRollLottery": true,
+        "ShouldShowMedallions": false,
+        "ShouldAddRoadSpikes": true,
+		"ShouldForceSameLastTower": false,
+		"AwardLossOnQuit" :		false,
+		"AwardWinOnOpponentQuit" :	false,
+        "CostToQuit": 0,
+        "CostToSpy": 0,
+        "CostToSkipMap": 0,
+        "CostToRollLottery": 0,
+        "CostToRerollLottery": 0,
+        "Countdown": -1,
+        "MaxMapSkips": -1,
+        "MaxLotteryRolls": -1,
+		"HasLiveOpponent" : false,
+		"UseTimer" : false,
+		"AllowRematch" : false
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 600, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 30, 
+        "Interval": 1.0, 
+        "NumBloons": 6, 
+        "Type": "Lead", 
+        "UnlockRound": 7
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 2500, 
+    "Name": "2", 
+    "NameOld": "DartMonkey40_LeadSpaced6", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 2300, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "DartMonkey", 
+        "Upgrades": [
+            4, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

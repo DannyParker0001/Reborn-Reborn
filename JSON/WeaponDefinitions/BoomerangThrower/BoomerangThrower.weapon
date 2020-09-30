@@ -1,0 +1,74 @@
+{	
+    "Type":             "BoomerangThrower",    
+    "TargetRange":      130.0,
+	"CooldownTime":     0.5,
+    "FireDelayTime":    0.2,
+    
+    "DisabledTasks" : [ 1 ],
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "boomerang",
+			"NumPersists":      5,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			"SpinRate" : 1080,
+			
+			"Movement":
+			{
+				"Type": "MotionCurve",
+				"Curves":
+				[
+					[ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
+					[ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
+				],
+				"Speed": 360,
+                "AngleOffset" : -0.13,
+				"TerminateAtEndOfCurve": true,
+				"ScaleCurvesByDirection": false
+			},
+			
+			"Tasks" :
+			[ 
+				{ 
+					"Type": "Damage", 
+					"DamageType": "Piercing", 
+					"Amount": 1 
+				} 
+			]
+		},
+        {
+            "Type":             "Projectile",
+            "GraphicName":      "boomerang",
+            "NumPersists":      1,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpinRate" : 1080,
+            
+            "Movement":
+            {
+                "Type": "MotionCurve",
+                "Curves":
+                [
+                    [ [0, 0], [0, 0], [71.68, 35.2], [83.84, -17.28] ],
+                    [ [83.84, -17.28], [96.64, -69.76], [28.8, -101.76], [-8.32, -7.04] ]
+                ],
+                "Speed": 360,
+                "AngleOffset" : -0.63,
+                "TerminateAtEndOfCurve": true,
+                "ScaleCurvesByDirection": false
+            },
+            
+            "Tasks" :
+            [ 
+                { 
+                    "Type": "Damage", 
+                    "DamageType": "Piercing", 
+                    "Amount": 1 
+                } 
+            ]
+        }
+	]
+}

@@ -1,0 +1,35 @@
+{
+    "name": "Speed_Bananza",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "Bananza"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetY": -3,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "SPEED BANANZA",
+        "DisplayInfo": "Faster Bananza",
+        "DisplayIcon": "combo_speed_bananza"
+    },
+    "version": "1.0"
+}

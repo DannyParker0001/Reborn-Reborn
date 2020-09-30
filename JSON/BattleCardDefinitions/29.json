@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 22, 
+        "Interval": 0.1, 
+        "NumBloons": 70, 
+        "Type": "Blue", 
+        "UnlockRound": 1
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "29", 
+    "NameOld": "MonkeySub21_BlueTight70", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "underwater", 
+        "Cost": 1000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeySub", 
+        "Upgrades": [
+            2, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

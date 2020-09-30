@@ -1,0 +1,50 @@
+{	
+    "Type":             "SupplyDropPlane",    
+    "TargetRange":      320,
+	"CooldownTime":     60,
+    "FireDelayTime":    0.0,
+	"RequiresTargetToFire": false,
+
+    "Tasks"	:
+    [
+		{
+            "Type": "Projectile",
+            "ForcePersists": true,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpriteFile": "SubmarineFirstStrikeMissile.json",
+            "NumPersists": 1,
+            "Movement": {
+                "SeekAngle": 360,
+                "TurnSpeed": 960,
+                "CutOffDistance": 1000,
+                "Type": "Target",
+                "TerminateOnNoTarget": false,
+                "TargetRange": 1000,
+                "Speed": 500,
+			 	"TargetMode": "Strong"
+            },
+            "Tasks": [
+                {
+                    "Type": "DamageSpread",
+                    "DamageType": "Plasma",
+                    "Range": 320,
+                    "Amount": 6000,
+                    "MaxTargets": -1
+                },
+                {
+                    "Type": "Effect",
+                    "Scale": 1.555,
+					"Audio": "EXPLOSION",
+                    "SpriteFile": "Explosion.json"
+                }
+            ]
+        },
+        {
+            "Type": "Effect",
+            "DrawLayer": "FullScreen",
+            "SpriteFile": "GeneralShockwave.json"
+        }
+    ]
+}
+

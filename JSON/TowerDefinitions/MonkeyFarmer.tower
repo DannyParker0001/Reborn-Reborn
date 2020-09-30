@@ -1,0 +1,50 @@
+{
+    "AircraftList" : [
+    ],
+    "BaseCost" : 1,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [
+        "MonkeyFarmer.weapon",
+        "MonkeyFarmer.weapon"
+    ],
+    "ActiveWeaponSlots": [
+        true,
+        false
+    ],
+    "Description" : "Farmer will auto-gather all Bananas in his radius so you don't have to! You must have a Banana Farm to use him.",
+    "FireWeaponAndDestroy" : false,
+    "Icon" : "farmer_avatar_small",
+    "PlacementH" : 0.0,
+    "PlacementRadius" : 10.0,
+    "PlacementW" : 0.0,
+    "RankToUnlock" : 1,
+    "RotatesToTarget" : false,
+    "DefaultSprite" : "MonkeyFarmer.json",
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "None",
+    "TargetsManually" : false,
+    "TypeName" : "MonkeyFarmer",
+    "Upgrades" : [
+        [
+        ],
+        [
+        ]
+    ],
+    "UpgradeGateway" :
+    [
+        [ { "Rank" : 0, "XP" : 100 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ],
+        [ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+    ],
+    "UpgradePrices" :
+    [
+        [ 0, 0, 0, 0 ],
+        [ 0, 0, 0, 0 ]
+    ],
+    "UseRadiusPlacement" : true,
+    "CanBePlacedMultipleTimes" : false,
+    "AnimationWeaponSlotIndex": 1,
+    "CanUpgradeInMenu" : false
+}

@@ -1,0 +1,9 @@
+{
+   "ID" : "Colour_10_Lime",
+   "SpriteName" : "clan_symbol_colour_10_lime.json",
+   "SpriteName_Select" : "clan_symbol_colour_select_10_lime.json",
+   "DisplayName" : "Lime",
+   "Layer" : 1,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

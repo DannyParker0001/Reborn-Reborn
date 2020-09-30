@@ -1,0 +1,23 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "green", 
+    "Description": "Opponent's next income packet comes to you instead!", 
+    "DiscardCost": 1000, 
+    "Name": "88", 
+    "NameOld": "Power_Tax", 
+    "PlatformProductID": "btdbattles_vet_power_tax", 
+    "Power": {
+        "BackgroundSprite": "power_card_tax", 
+        "Cost": 750, 
+        "Type": "Tax"
+    }, 
+    "ProductID": "Vet_Power_Tax", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

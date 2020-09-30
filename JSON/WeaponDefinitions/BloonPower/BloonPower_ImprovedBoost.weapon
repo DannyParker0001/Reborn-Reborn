@@ -1,0 +1,31 @@
+{	
+    "Type"                                      : "BloonPower_Boost",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "BloonBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ true, false ],
+            "FlipRight": [ false, false ],
+            "Duration": 12,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_BLOON_IMPROVED_BOOST"
+        },
+
+        {
+            "Type": "ApplyBloonSpawnModifier",
+            "Duration": 12,
+            "SpeedMultiplier": 1.4,
+            "ParticleEffect": "bloon_boost_status.json",
+            "Affects": "PlayerSent"
+        }
+	]
+}

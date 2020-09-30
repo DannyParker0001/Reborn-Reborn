@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_Juggerlanche",
+    "Description"       : "An avalanche of Juggernauts roll down the screen wiping out any bloons. Two uses.",
+    "UnlockCost"        : 5000,
+    "RequiresUnlocked"  : ["TrackPower_LightningBolts"],
+    "Icon"              : "powers_juggerlanche",
+    "HudIcon"           : "icon_juggerlanche",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_Juggerlanche",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 8,
+    "MinCooldown"       : 4,
+    "Count"             : 2
+}

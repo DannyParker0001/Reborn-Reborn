@@ -1,0 +1,58 @@
+{
+    "medallions": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "SponsorPay",
+                        "appID": "15148",
+                        "adID": "3a7a3ab5d7f388d5f13fd63028d7a663",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "energy": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "app964ced498f84464a88e6db",
+                        "adID": "vzea1a09f8a29148a79eb9ec",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            },
+            {
+                "providers": [
+                    {
+                        "name": "SponsorPay",
+                        "appID": "15145",
+                        "adID": "7baf91472f89e17d92585635ac52b636",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "interstitial": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "app964ced498f84464a88e6db",
+                        "adID": "vza1195553c69d456385d9b5",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    }
+}

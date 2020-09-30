@@ -1,0 +1,82 @@
+{
+    "name": "SuddenDeathMegaBoostBananza",
+    "rules": [
+        "FreePowerups",
+        "MegaBoosts",
+        "Bananza",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_Bananza|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "sudden_death_icon|CENTER_X",
+                "offsetY": 0
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "sudden_death_icon|CENTER_X",
+                "offsetY": 0
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "DisplayNameFront": "      1 LIFE BOOSTY BANANZA",
+        "DisplayName": "1 LIFE BOOSTY BANANZA",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_megaboost_bananza"
+    },
+    "version": "1.0"
+}

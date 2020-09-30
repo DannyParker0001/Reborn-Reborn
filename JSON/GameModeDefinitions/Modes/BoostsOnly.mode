@@ -1,0 +1,10 @@
+{
+    "Rules" : {
+        "PowerGlobalCooldown": 0.0
+    },
+    "LobbyRules" : {
+        "MaximumPowers": 3,
+        "BannedPowers": [],
+        "ForcedPowers" : ["TowerPower_Boost", "BloonPower_Boost", "TrackPower_RedHotSpikes"]
+    }
+}

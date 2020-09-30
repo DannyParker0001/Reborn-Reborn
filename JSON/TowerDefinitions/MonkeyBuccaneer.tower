@@ -1,0 +1,105 @@
+{
+    "TypeName"				: "MonkeyBuccaneer",
+    "Icon"					: "buccaneer_avatar_small",
+    "Description"			: "Shoots a single, heavy dart that can pop up to 5 bloons each. Water only.",
+    "BaseCost"				: 400,
+	"InitialAngle"			: 90,
+    "RankToUnlock"			: 11,
+    "DefaultWeapons"	    : [ "MonkeyBuccaneer.weapon" ],
+    "TargetingMode"			: "First",
+    "TargetsManually"		: false,
+    "TargetIsWeaponOrigin"	: false,
+
+    "Upgrades" :
+    [
+    	[ "Faster Shooting", "Longer Cannons", "Destroyer", "Aircraft Carrier" ],
+    	[ "Grape Shot", "Crows Nest", "Cannon Ship", "Monkey Pirates" ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	],
+	"UpgradeDescriptions" :
+	[
+		[
+			"Shoots its big darts faster.",
+			"Much longer range.",
+			"Attacks super duper fast!",
+			"Launches fast strafing Monkey Ace pilots."
+		],
+		[
+			"Adds a spray of 4 sharp grapes.",
+			"Allows the Buccaneer to hit camo bloons.",
+			"Adds a powerful, independently firing cannon to the Buccaneer.",
+			"Ability: grapples the nearest MOAB and brings it down."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 25, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 180, "XP" : 30 }, { "Rank" : 440, "XP" : 70 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 250, 100, 1400, 6000 ],
+        [ 400, 250, 900, 4000 ]
+    ],
+    "UpgradeAvatars" :
+    [
+    	[ 
+            "buccaneer_avatar_faster_shooting_small", 
+            "buccaneer_avatar_longer_cannons_small", 
+            "buccaneer_avatar_destroyer_small", 
+            "buccaneer_avatar_aircraft_carrier_small" 
+        ],
+    	[ 
+            "buccaneer_avatar_grape_shot_small", 
+            "buccaneer_avatar_crows_nest_small", 
+            "buccaneer_avatar_cannon_ship_small", 
+            "buccaneer_avatar_monkey_pirates_small" 
+        ]
+    ],
+    
+    "UpgradeIcons" :
+    [
+    	[ 
+            "buccaneer_faster_shooting_icon", 
+            "buccaneer_longer_cannons_icon", 
+            "buccaneer_destroyer_icon", 
+            "buccaneer_aircraft_carrier_icon" 
+        ],
+    	[ 
+            "buccaneer_grape_icon", 
+            "buccaneer_crows_nest_icon", 
+            "buccaneer_cannon_ship_icon", 
+            "buccaneer_pirates_icon"
+        ]
+    ],
+        
+    "AircraftList"			: [ ],
+    
+    "CanTargetCamo"			: false,
+    "RotatesToTarget"		: true,
+    
+    "CanBePlacedInWater"	: true,
+    "CanBePlacedOnLand"		: false,
+    "CanBePlacedOnPath"		: false,
+    
+    "UseRadiusPlacement"	: true,
+    "PlacementRadius"		: 10.0,
+    "PlacementW"			: 20.0,
+    "PlacementH"			: 20.0,
+    
+    "SpriteUpgradeDefinition" : "MonkeyBuccaneer.json"
+}

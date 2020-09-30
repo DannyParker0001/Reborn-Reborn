@@ -1,0 +1,18 @@
+{
+    "name": "Nightmare",
+    "rules": [
+      "FreePowerups",
+      "RoundPriceIncrease"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Towers cost 10% more each round"
+        }
+      ],
+      "DisplayName": "Round Price Increase",
+      "DisplayInfo": "",
+      "DisplayIcon": ""
+    },
+    "version": "1.0"
+  }

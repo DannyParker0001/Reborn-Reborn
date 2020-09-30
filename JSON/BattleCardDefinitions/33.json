@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 1500, 
+        "Features": [
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 7, 
+        "Interval": 0.1, 
+        "NumBloons": 5, 
+        "Type": "Rainbow", 
+        "UnlockRound": 10
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "33", 
+    "NameOld": "MonkeyBuccaneer31_RegenRainbowTight5", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "waves", 
+        "Cost": 3000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite", 
+            "Water"
+        ], 
+        "Type": "MonkeyBuccaneer", 
+        "Upgrades": [
+            3, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

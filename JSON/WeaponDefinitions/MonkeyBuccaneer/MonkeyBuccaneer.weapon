@@ -1,0 +1,62 @@
+{	
+    "Type":             "MonkeyBuccaneer",    
+    "TargetRange":      180.0,
+	"CooldownTime":     0.9,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "MultiFire",
+            "AngleIncrement" : 0,
+            "InitialOffset" : 0,
+    		"FireCount": 1,
+            "AimAtTarget" : true,
+            "Offsets" : [ [ 0, -21 ] ],
+            
+            "DisabledTasks" : [ 1 ],
+
+            "Tasks" :
+            [
+                {
+                    "Type":             "Projectile",
+                    "GraphicName":      "dart_monkey_dart",
+                    "NumPersists":      5,
+                    "TerminateOnZeroPersists": true,
+                    "CollisionType": "Once",
+                                
+                    "Movement":
+                    {
+                        "Type": "Forward",
+                        "Speed": 600.0,
+                        "CutOffDistance": 300
+                    },
+                    
+                    "Tasks" :
+                    [
+                        { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 }
+                    ]
+                },
+                {
+                    "Type":             "Projectile",
+                    "SpriteFile":      "MonkeyApprenticeFireballProjectile.json",
+                    "NumPersists":      7,
+                    "TerminateOnZeroPersists": true,
+                    "CollisionType": "Once",
+                    
+                    "Movement":
+                    {
+                        "Type": "Forward",
+                        "Speed": 600.0,
+                        "CutOffDistance": 300
+                    },
+                    
+                    "Tasks" :
+                    [
+                        { "Type": "Damage", "DamageType": "Plasma", "Amount": 1 }
+                    ]
+                }
+            ]
+        }
+    ]
+}

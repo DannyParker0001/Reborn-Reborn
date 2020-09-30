@@ -1,0 +1,9 @@
+{
+	"Type" : "MOABSpaced1",
+	"BloonType" : "MOAB",
+	"Quantity" : 1,
+	"Interval" : 5.0,
+	"Cost" : 1000,
+	"IncomeChange" : -25,
+	"UnlockRound" : 16
+}

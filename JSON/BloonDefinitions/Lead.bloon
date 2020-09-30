@@ -1,0 +1,13 @@
+{
+	"Type" : "Lead",
+	"InitialHealth" : 1,
+	"SpriteFile" : "lead_bloon",
+	"BaseSpeed" : 70,
+	"SpeedMultiplier" : 1,
+	"RBE" : 23,
+    "ChildBloons" : [ "Black.bloon", "Black.bloon" ],
+    "StatusImmunity" : ["CrippleMOAB", "MoveToPath"],
+    "DamageImmunity" : [ "Piercing", "Fire", "Juggernaut", "MOABMauler" ],
+    "Scale" : 0.9,
+    "Radius" : 10
+}

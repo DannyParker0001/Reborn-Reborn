@@ -1,0 +1,127 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Intense Magic",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 0,
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 5
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "MonkeyApprenticeIntenseMagicProjectile.json"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Lightning Bolt",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "ChainLightning.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Summon Whirlwind",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "Whirlwind.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Tempest Tornado",
+            "WeaponUpgrade" :
+            {
+                "SlotIndex" : 2,
+                "Replace":
+                {
+                    "CooldownTime": 0.6
+                },
+
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 70,
+                        "Radius" : 40
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "SpriteFile" : "TempestTornadoProjectile.json"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "Amount" : 1
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Fireball",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3": "Fireball.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Monkey Sense",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+        {
+            "Name" : "Dragon's Breath",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "4": "Dragonbreath.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Summon Phoenix",
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "5": "SummonPhoenix.weapon"
+                }
+            }
+        }
+    ]
+}

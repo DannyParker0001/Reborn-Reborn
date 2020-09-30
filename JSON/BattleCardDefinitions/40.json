@@ -1,0 +1,31 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1500, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 60, 
+        "Interval": 0.06, 
+        "NumBloons": 100, 
+        "Type": "Yellow", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "blue", 
+    "DiscardCost": 100, 
+    "Name": "40", 
+    "NameOld": "MonkeyVillage00_YellowTight100", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky_trees", 
+        "Cost": 1500, 
+        "Type": "MonkeyVillage", 
+        "Upgrades": [
+            0, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

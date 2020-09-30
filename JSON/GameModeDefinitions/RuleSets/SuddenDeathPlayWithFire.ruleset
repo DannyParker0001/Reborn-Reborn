@@ -1,0 +1,39 @@
+{
+    "name": "SuddenDeathPlayWithFire",
+    "rules": [
+      "FreePowerups",
+      "PlayWithFire",
+      "SuddenDeath"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "2x income from Bloon Sends!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+          "Icon": "warning|CENTER_X",
+          "offsetY": 5
+        },
+        {
+          "Text": "Bloon sends go to both players!",
+          "Icon": "bullet_point_glow",
+          "offsetY": 15
+        },
+        {
+            "Icon": "sudden_death_icon|CENTER_X",
+            "offsetY": 5
+        },
+        {
+          "Text": "Both players begin with only one life",
+          "Icon": "bullet_point_glow",
+          "offsetY": 20
+        }
+      ],
+      "DisplayName": "1 LIFE WITH FIRE",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_suddendeath_playwithfire"
+    },
+    "version": "1.0"
+}

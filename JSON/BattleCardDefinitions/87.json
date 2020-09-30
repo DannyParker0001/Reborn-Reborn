@@ -1,0 +1,27 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Removes camo and regrow off all bloons on your side, and for the next 3 seconds from new bloons.", 
+    "DiscardCost": 1000, 
+    "Name": "87", 
+    "NameOld": "Power_Purge", 
+    "PlatformProductID": "btdbattles_vet_power_purge", 
+    "Power": {
+        "BackgroundSprite": "power_card_purge", 
+        "Cost": 800, 
+        "Features": [
+            "PopCamo", 
+            "PopRegen"
+        ], 
+        "Type": "Purge"
+    }, 
+    "ProductID": "Vet_Power_Purge", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

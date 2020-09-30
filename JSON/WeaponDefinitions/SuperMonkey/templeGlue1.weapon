@@ -1,0 +1,65 @@
+{	
+    "Type":             "templeGlue1",    
+    "TargetRange":      240.0,
+	"CooldownTime":     0.5,
+    "FireDelayTime":    0.0,
+    
+    "TargetingFilter":
+    {
+        "Exclude" :
+        { "StatusEffect": [ "Glue" ] }
+    },
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_glue_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			"IgnoreStatusEffect" : [ "Glue" ],
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[
+				{
+					"Type": "StatusEffect",
+					"Status": "Glue",
+					"NumPersists" : -1,
+					"Duration" : 22.86,
+					"DamageRate" : -1,
+					"SpeedScale" : 0.5
+				},
+				{
+					"Type": "AreaOfEffect",
+					"Range": 30,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{
+							"Type": "StatusEffect",
+							"Status": "Glue",
+							"NumPersists" : -1,
+							"Duration" : 22.86,
+							"DamageRate" : -1,
+							"SpeedScale" : 0.5
+						}
+					]
+				},                
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "GlueSplatterEffect.json",
+                    "Scale": 1.2
+                }
+			]
+		}
+	]
+}

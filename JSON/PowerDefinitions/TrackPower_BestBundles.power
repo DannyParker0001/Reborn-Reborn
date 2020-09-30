@@ -1,0 +1,23 @@
+{
+    "TypeName"          : "TrackPower_BestBundles",
+    "UnlockCost"        : 5000,
+    "RequiresUnlocked"  : ["TrackPower_EvenBetterBundles"],
+    "Description"       : "Place a bundle of 30 red hot spikes. Three uses.",
+    "Icon"              : "powers_even_better_bundles",
+    "HudIcon"           : "icon_even_better_bundles",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_BestBundles",
+    "PlacementMode"     : "Tower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 0,
+    "MinCooldown"       : 0,
+    "Count"             : 3
+}

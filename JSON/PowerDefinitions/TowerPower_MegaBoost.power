@@ -1,0 +1,22 @@
+{
+    "TypeName"                  : "TowerPower_MegaBoost",
+    "Description"               : "3x Tower Mega Boost", 
+    "Icon"                      : "powers_tower_boost",
+    "HudIcon"                   : "icon_tower_boost",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 30,
+    "MinCooldown"               : 15,
+    "Count"                     : 3,
+    "Weapon"                    : "TowerPower_MegaBoost.weapon"
+}

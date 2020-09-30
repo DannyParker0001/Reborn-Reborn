@@ -1,0 +1,47 @@
+{
+    "medallions": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "app62482df35afe4478b3432c",
+                        "adID": "vz976874175df747979f7ebb",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "energy": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "app62482df35afe4478b3432c",
+                        "adID": "vzc004f5f77fd8414d8ddc7b",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    },
+    "interstitial": {
+        "providerList": [
+            {
+                "providers": [
+                    {
+                        "name": "AdColony",
+                        "appID": "app62482df35afe4478b3432c",
+                        "adID": "vz2d111e16f6114436905cc9",
+                        "weight": 100,
+                        "isDefault": false
+                    }
+                ]
+            }
+        ]
+    }
+}

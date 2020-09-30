@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_SuperBoost",
+    "UnlockCost"        : 7500,
+    "RequiresUnlocked"  : ["BloonPower_LongBoost"],
+    "Icon"              : "powers_super_bloon_boost",
+    "Description"       : "Bloons reach super speed. Sent Bloons move 50% faster for 10 seconds. Three uses.",
+    "HudIcon"           : "icon_super_bloon_boost",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 10,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_SuperBoost.weapon"
+}

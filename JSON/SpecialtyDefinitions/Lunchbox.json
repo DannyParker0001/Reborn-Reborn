@@ -1,0 +1,15 @@
+{
+	"Name" : "Lunchbox",
+	"Icon" : "lunchbox",
+    "Rarity" : "Bronze",
+    "Description" : "Banannas from farms take twice as long to disappear",
+	"Effects" :
+	[
+		{
+		},
+        {
+		},
+        {
+		}
+	]
+}

@@ -1,0 +1,27 @@
+{	
+    "Type":             "ChainLightning",    
+    "TargetRange":      120.0,
+	"CooldownTime":     1.4,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [{
+        "Type":             "ChainTasks",
+        "NumPersists":      4,
+        "NumJumps":         4,
+        "CutOffDistance":   240,
+        
+        "Tasks" :
+        [ 
+                {
+                    "Type": "RemoveStatusEffect",
+                    "Status": "Regen"
+                },
+	{ 
+            "Type": "Damage",
+            "DamageType": "",
+            "Amount": 1
+        } 
+		]
+    }]
+}

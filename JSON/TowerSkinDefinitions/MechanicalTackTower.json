@@ -1,0 +1,42 @@
+{
+    "ID": "MechanicalTackTower",
+    "DisplayName": "Tack Tower Skin",
+    "DisplayDescription": "Lift the lid on the tack tower and see the wheels turn. Visual change only.",
+    "DisplayIcon": "tack_tower_skin_store_icon.json",
+    "SmallIcon": "tack_tower_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "TackTowerSkin",
+    "RequiresTower": "TackTower",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "TowerMap": {
+        "TackTower.json": {
+            "Name" : "Mechanical_TackTower.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerBladeShooter.json": {
+            "Name" : "Mechanical_TackTowerBladeShooter.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerLargerCannons.json": {
+            "Name" : "Mechanical_TackTowerLargerCannons.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerMaelstrom.json": {
+            "Name" : "Mechanical_TackTowerMaelstrom.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerROF.json": {
+            "Name" : "Mechanical_TackTowerROF.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerSprayer.json": {
+            "Name" : "Mechanical_TackTowerSprayer.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "TackTowerTripleTackLogo.json": {
+            "Name" : "Mechanical_TackTowerTripleTackLogo.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

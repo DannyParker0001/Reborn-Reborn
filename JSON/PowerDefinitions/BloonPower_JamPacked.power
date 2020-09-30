@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_JamPacked",
+    "UnlockCost"        : 2500,
+    "RequiresUnlocked"  : ["BloonPower_CrowdedBloons"],
+    "Icon"              : "powers_jam_packed",
+    "Description"       : "Bloons move 15% faster and spawn twice as fast for 10 seconds. Two uses.",
+    "HudIcon"           : "icon_jam_packed",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 20,
+    "MinCooldown"       : 10,
+    "Count"             : 2,
+    "Weapon"            : "BloonPower_JamPacked.weapon"
+}

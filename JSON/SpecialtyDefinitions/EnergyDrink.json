@@ -1,0 +1,15 @@
+{
+	"Name" : "Energy Drink",
+	"Icon" : "energy_drink",
+    "Rarity" : "Silver",
+    "Description" : "+5 seconds to tower boost",
+	"Effects" :
+	[
+		{
+		},
+        {
+		},
+        {
+		}
+	]
+}

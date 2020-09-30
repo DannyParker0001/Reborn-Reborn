@@ -1,0 +1,37 @@
+{	
+    "Type":             	"BloonAnnihilation",    
+    "TargetRange":      	90,
+	"CooldownTime":     	60.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+	
+    "Tasks" :
+    [
+		{
+			"Type": "AreaOfEffect",
+			"Range": 90,
+			"MaxTargets": -1,
+			
+			"Tasks":
+			[
+				{
+					"Type": "Damage",
+					"DamageType": "Plasma",
+					"Amount": 1200
+				}, 				
+				{
+					"Type": "StatusEffect",
+					"Status": "MultiLayerDamage",
+					"Kill" : true
+				}
+			]
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "BloonAnnihilationAbility.json",
+			"Scale": 1,
+			"DrawLayer": "FullScreen"
+		}
+	]
+}

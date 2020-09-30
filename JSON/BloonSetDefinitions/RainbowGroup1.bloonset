@@ -1,0 +1,9 @@
+{
+	"Type" : "RainbowGroup1",
+	"BloonType" : "Rainbow",
+	"Quantity" : 4,
+	"Interval" : 0.075,
+	"Cost" : 450,
+	"IncomeChange" : 3,
+	"UnlockRound" : 11
+}

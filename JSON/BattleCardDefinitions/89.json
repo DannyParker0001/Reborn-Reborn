@@ -1,0 +1,23 @@
+{
+    "CardSet": "Power", 
+    "CardSprite": "blue", 
+    "Description": "Removes an opponent's tower completely, but refunds them its full value.", 
+    "DiscardCost": 1000, 
+    "Name": "89", 
+    "NameOld": "Power_Kidnap", 
+    "PlatformProductID": "btdbattles_vet_power_kidnap", 
+    "Power": {
+        "BackgroundSprite": "power_card_kidnap", 
+        "Cost": 1000, 
+        "Type": "Kidnap"
+    }, 
+    "ProductID": "Vet_Power_Kidnap", 
+    "StartingCard": false, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 100, 
+        "SpotlightCount": 20, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

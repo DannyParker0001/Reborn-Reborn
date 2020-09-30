@@ -1,0 +1,49 @@
+{
+    "ID": "MedievalDartMonkey",
+    "DisplayName": "Dart Monkey Skin",
+    "DisplayDescription": "The Dart Monkey and its upgrades don full medieval armor. Visual change only.",
+    "DisplayIcon": "dart_monkey_skin_store_icon.json",
+    "SmallIcon": "dart_monkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "DartMonkeySkin",
+    "RequiresTower": "DartMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "ProjectileMap": {
+        "SuperMonkey.json": {
+            "Name" : "Medieval_DartMonkeySuperMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    },
+    
+    "TowerMap": {
+        "DartMonkey.json": {
+            "Name" : "Medieval_DartMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyGreenBandana.json": {
+            "Name" : "Medieval_DartMonkeyGreenBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyJuggernautNew.json": {
+            "Name" : "Medieval_DartMonkeyJuggernautNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyQuiver.json": {
+            "Name" : "Medieval_DartMonkeyQuiver.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeyRedBandana.json": {
+            "Name" : "Medieval_DartMonkeyRedBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySpikeopultNew.json": {
+            "Name" : "Medieval_DartMonkeySpikeopultNew.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartMonkeySupermonkeyFanclub.json": {
+            "Name" : "Medieval_DartMonkeySupermonkeyFanclub.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

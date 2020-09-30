@@ -1,0 +1,108 @@
+{
+    "AircraftList" : [],
+    "BaseCost" : 500,
+    "CanBePlacedInWater" : false,
+    "CanBePlacedOnLand" : true,
+    "CanBePlacedOnPath" : false,
+    "CanTargetCamo" : false,
+    "DefaultWeapons" : [ "BoomerangThrower.weapon" ],
+    "Description" : "Throws a single boomerang in an arc, can pop 3 bloons.",
+    "Icon" : "boomerang_avatar_small",
+    "RankToUnlock" : 4,
+    "RotatesToTarget" : true,    
+    "TargetIsWeaponOrigin" : false,
+    "TargetingMode" : "First",
+    "TargetsManually" : false,
+    "TypeName" : "BoomerangThrower",
+    
+    "Upgrades" : [
+        [
+            "Multi-Target",
+            "Glaive Thrower",
+            "Glaive Riccochet",
+            "Glaive Lord"
+        ],
+        [
+            "Sonic Boom",
+            "Red Hot Rangs",
+            "Bionic Boomer",
+            "Turbo Charge"
+        ]
+    ],
+	"ShortUpgradeDescriptions" :
+	[
+		[
+			"",
+			"",
+			"",
+			""
+		],
+		[
+			"",
+			"",
+			"",
+			""
+		]
+	], 
+	"UpgradeDescriptions" :
+	[
+		[
+			"Boomerangs can now pop 7 bloons each.",
+			"Throws sharper, faster, bigger glaives instead of boomerangs.",
+			"Glaives now automatically bounce from bloon to bloon.",
+			"Two permanent glaives orbit the tower."
+		],
+		[
+			"Sonic boomerangs can smash through frozen bloons.",
+			"Red hot boomerangs can melt through lead bloons.",
+			"Throws boomerangs twice as fast.",
+			"Ability: attacks incredibly fast for 20 seconds."
+		]
+	],
+	"UpgradeGateway" :
+	[
+		[ { "Rank" : 10, "XP" : 10 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 210, "XP" : 50 }, { "Rank" : 525, "XP" : 70 } ],
+		[ { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 }, { "Rank" : 0, "XP" : 0 } ]
+	],
+    "UpgradePrices" : 
+    [
+        [ 300, 250, 1100, 4000 ],
+        [ 50, 50, 1300, 3000 ]
+    ],
+    "UpgradeAvatars" : [
+        [
+            "boomerang_avatar_multi_target_small",
+            "boomerang_avatar_glaive_thrower_small",
+            "boomerang_avatar_glaive_riccochet_small",
+            "boomerang_avatar_glaive_lord_small"
+        ],
+        [
+            "boomerang_avatar_sonic_boom_small",
+            "boomerang_avatar_red_hot_rangs_small",
+            "boomerang_avatar_bionic_boomer_small",
+            "boomerang_avatar_turbo_charge_small"
+        ]
+    ],
+    
+    "UpgradeIcons" : [
+        [
+            "boomerang_multi_target_icon",
+            "boomerang_glaive_thrower_icon",
+            "boomerang_glaive_riccochet_icon",
+            "boomerang_glaive_lord_icon"
+        ],
+        [
+            "boomerang_sonic_boom_icon",
+            "boomerang_red_hot_icon",
+            "boomerang_bionic_boomer_icon",
+            "boomerang_turbo_charge_icon"
+        ]
+    ],
+    
+    "UseRadiusPlacement"    : true,
+    "PlacementRadius"       : 10.0,
+    "PlacementH"            : 0.0,
+    "PlacementW"            : 0.0,
+    "SpriteUpgradeDefinition" : "BoomerangTower.json",
+    "AnimationWeaponSlotIndex" : 0
+}

@@ -1,0 +1,10 @@
+{
+    "LobbyRules" : {
+        "SelectableTrackList" : [
+          "battle_park",
+          "battle_river",
+          "yellow_brick"
+        ]
+    }
+
+}

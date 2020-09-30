@@ -1,0 +1,367 @@
+{
+    "files": [
+        {
+            "file": "AbsoluteZeroAbility.json"
+        }, 
+        {
+            "file": "apprentice_dragon_breath.json"
+        }, 
+        {
+            "file": "apprentice_dragon_breath_flicker.json"
+        }, 
+        {
+            "file": "apprentice_dragon_breath_flicker_compoundsprite.json"
+        }, 
+        {
+            "file": "apprentice_intense_magic_projectile_blue.json"
+        }, 
+        {
+            "file": "apprentice_intense_magic_projectile_yellow.json"
+        }, 
+        {
+            "file": "apprentice_projectile.json"
+        }, 
+        {
+            "file": "apprentice_projectile_tail.json"
+        }, 
+        {
+            "file": "apprentice_seeking_bolt.json"
+        }, 
+        {
+            "file": "barbed_dart.json"
+        }, 
+        {
+            "file": "bfb_destruction.json"
+        }, 
+        {
+            "file": "black_smoke.json"
+        }, 
+        {
+            "file": "BloonAnnihilationAbility.json"
+        }, 
+        {
+            "file": "BloonBoostAbility.json"
+        }, 
+        {
+            "file": "bloonchipper_chippings_compoundsprite.json"
+        }, 
+        {
+            "file": "bloonchipper_glow_compoundsprite.json"
+        }, 
+        {
+            "file": "bloonchipper_vent_flare_compoundsprite.json"
+        }, 
+        {
+            "file": "bluepropellentcompoundsprite.json"
+        }, 
+        {
+            "file": "BombProjectile.json"
+        }, 
+        {
+            "file": "BombProjectileRed.json"
+        }, 
+        {
+            "file": "BombProjectileSmall.json"
+        }, 
+        {
+            "file": "BombTowerAssassinAnimated.json"
+        }, 
+        {
+            "file": "BombTowerAssassinProjectile.json"
+        }, 
+        {
+            "file": "BombTowerGreenAssassin.json"
+        }, 
+        {
+            "file": "BombTowerGreenAssassinAnimated.json"
+        }, 
+        {
+            "file": "BombTowerMaulerAnimated.json"
+        }, 
+        {
+            "file": "BombTowerMaulerProjectile.json"
+        }, 
+        {
+            "file": "BombTowerMissile.json"
+        }, 
+        {
+            "file": "BombTowerMissileAnimated.json"
+        }, 
+        {
+            "file": "DartlingGunDoomRay.json"
+        }, 
+        {
+            "file": "DartlingGunRayOfDoom.json"
+        }, 
+        {
+            "file": "DoomRaySegmentcompoundsprite.json"
+        }, 
+        {
+            "file": "DoomRaySourcecompoundsprite.json"
+        }, 
+        {
+            "file": "engineer_foam_projectile.json"
+        }, 
+        {
+            "file": "engineer_foam_puddle.json"
+        }, 
+        {
+            "file": "engineer_foam_puddle_spawn.json"
+        }, 
+        {
+            "file": "engineer_foam_puddle_static.json"
+        }, 
+        {
+            "file": "engineer_sentry_destruct.json"
+        }, 
+        {
+            "file": "engineer_sentry_destruct_red.json"
+        }, 
+        {
+            "file": "engineer_sentry_spawn.json"
+        }, 
+        {
+            "file": "engineer_sentry_spawn_red.json"
+        }, 
+        {
+            "file": "engineer_trap_closing.json"
+        }, 
+        {
+            "file": "engineer_trap_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_trap_full_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_trap_glow_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_trap_open.json"
+        }, 
+        {
+            "file": "engineer_trap_opening.json"
+        }, 
+        {
+            "file": "engineer_trap_pulsing_glow_compoundsprite.json"
+        }, 
+        {
+            "file": "engineer_trap_spawn.json"
+        }, 
+        {
+            "file": "evil_temple_projectile.json"
+        }, 
+        {
+            "file": "EvilMonkeyTempleAbility.json"
+        }, 
+        {
+            "file": "Explosion.json"
+        }, 
+        {
+            "file": "ExplosionNapalm.json"
+        }, 
+        {
+            "file": "FlareEffect.json"
+        }, 
+        {
+            "file": "FrostedCornerscompoundsprite.json"
+        }, 
+        {
+            "file": "GeneralShockwave.json"
+        }, 
+        {
+            "file": "GeneralShockwavecompoundsprite.json"
+        }, 
+        {
+            "file": "glue_strike.json"
+        }, 
+        {
+            "file": "GlueSplatterEffect.json"
+        }, 
+        {
+            "file": "GlueSplatterEffectTemple.json"
+        }, 
+        {
+            "file": "GlueStrikeAbility.json"
+        }, 
+        {
+            "file": "GreenGlueSplatterEffect.json"
+        }, 
+        {
+            "file": "GroundZeroAbility.json"
+        }, 
+        {
+            "file": "GroundZeroShockwave.json"
+        }, 
+        {
+            "file": "HotTacks.json"
+        }, 
+        {
+            "file": "ice_explosion.json"
+        }, 
+        {
+            "file": "ice_explosion_snowflakes.json"
+        }, 
+        {
+            "file": "ice_shockwave.json"
+        }, 
+        {
+            "file": "ice_shockwave_compoundsprite.json"
+        }, 
+        {
+            "file": "JuggernautProjectile.json"
+        }, 
+        {
+            "file": "MaelstromAbility.json"
+        }, 
+        {
+            "file": "moab_destruction.json"
+        }, 
+        {
+            "file": "MOABTakedownAbility.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeFireballProjectile.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeIntenseMagicBlueProjectile.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeIntenseMagicProjectile.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeIntenseMagicYellowProjectile.json"
+        }, 
+        {
+            "file": "MonkeyApprenticeProjectile.json"
+        }, 
+        {
+            "file": "overclocked_tower.json"
+        }, 
+        {
+            "file": "PirateShipcompoundsprite.json"
+        }, 
+        {
+            "file": "PopAndAweAbility.json"
+        }, 
+        {
+            "file": "purplepropellentcompoundsprite.json"
+        }, 
+        {
+            "file": "RoadTacks.json"
+        }, 
+        {
+            "file": "ROFcompoundsprite.json"
+        }, 
+        {
+            "file": "ROFEffect.json"
+        }, 
+        {
+            "file": "SnowStorm2compoundsprite.json"
+        }, 
+        {
+            "file": "SnowStormcompoundsprite.json"
+        }, 
+        {
+            "file": "SpikedBalls.json"
+        }, 
+        {
+            "file": "SpikedMines.json"
+        }, 
+        {
+            "file": "splodey_darts.json"
+        }, 
+        {
+            "file": "splodey_darts_compoundsprite.json"
+        }, 
+        {
+            "file": "SubCompoundList.json"
+        }, 
+        {
+            "file": "submarine_dart.json"
+        }, 
+        {
+            "file": "submarine_dart_light.json"
+        }, 
+        {
+            "file": "submarineAirBurst.json"
+        }, 
+        {
+            "file": "SubmarineBallisticMissile.json"
+        }, 
+        {
+            "file": "SubmarineFirstStrikeFire.json"
+        }, 
+        {
+            "file": "SubmarineFirstStrikeMissile.json"
+        }, 
+        {
+            "file": "SubmarineFirstStrikeMissileCompound.json"
+        }, 
+        {
+            "file": "SubmarineRadar.json"
+        },
+        {
+            "file": "SuperMonkeyEvilTempleRedBall.json"
+        }, 
+        {
+            "file": "SuperMonkeyFanclubLargeLightning.json"
+        }, 
+        {
+            "file": "SuperMonkeyFanclubSmallLightning.json"
+        },
+        {
+            "file": "SuperMonkeyTechTerrorLeftArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyTechTerrorRightArm.json"
+        }, 
+        {
+            "file": "SuperMonkeyTemple.json"
+        }, 
+        {
+            "file": "SuperMonkeyTempleSpawn.json"
+        }, 
+        {
+            "file": "SuperVacAbility.json"
+        }, 
+        {
+            "file": "SupplyDropAbility.json"
+        }, 
+        {
+            "file": "TechTerrorEnergyBallcompoundsprite.json"
+        }, 
+        {
+            "file": "TechTerrorLightningcompoundsprite.json"
+        }, 
+        {
+            "file": "TempestLightningcoumpoundsprite.json"
+        }, 
+        {
+            "file": "TempestTornadocompoundsprite.json"
+        }, 
+        {
+            "file": "TempestTornadoProjectile.json"
+        }, 
+        {
+            "file": "temple_projectile.json"
+        }, 
+        {
+            "file": "tower_boost_effect.json"
+        }, 
+        {
+            "file": "TowerBoostAbility.json"
+        }, 
+        {
+            "file": "Whirlwindcompoundsprite.json"
+        }, 
+        {
+            "file": "WhirlwindProjectile.json"
+        }, 
+        {
+            "file": "white_smoke.json"
+        },
+        {
+            "file": "zomg_destruction.json"
+        }
+    ]
+}

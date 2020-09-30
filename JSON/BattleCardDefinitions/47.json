@@ -1,0 +1,38 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "thunderstorm", 
+        "Cost": 30000, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": -1800, 
+        "Interval": 5.0, 
+        "NumBloons": 5, 
+        "Type": "ZOMG", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "47", 
+    "NameOld": "DartlingGun42_ZOMGSpaced5", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_sunset", 
+        "Cost": 30000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "DartlingGun", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

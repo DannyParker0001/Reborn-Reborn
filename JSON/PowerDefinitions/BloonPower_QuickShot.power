@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_QuickShot",
+    "UnlockCost"        : 2500,
+    "RequiresUnlocked"  : ["BloonPower_ImprovedBoost"],
+    "Icon"              : "powers_one_shot",
+    "Description"       : "Speed up next 8 sent non-MOAB-Class Bloons by 100%. Three uses.", 
+    "HudIcon"           : "icon_one_shot",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 20,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_QuickShot.weapon"
+}

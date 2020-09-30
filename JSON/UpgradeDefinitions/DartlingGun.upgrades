@@ -1,0 +1,180 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Focused Firing",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+						"SpreadAngle" : 8
+                    }
+				]
+            }
+        },
+        {
+            "Name" : "Faster Barrel Spin",
+            "WeaponUpgrade" :
+            {
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.08571428
+                }
+            }
+        },
+        {
+            "Name" : "Laser Cannon",
+            "WeaponUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CooldownTime" : 0.086
+                },
+
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 12
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "dartling_gun_laser",
+                        "Radius" : 5,
+                        "SpreadAngle": 8
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Fire"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Ray Of Doom",
+            
+            "TowerUpgrade" :
+            {
+                "Replace":
+                {
+                    "SkipFirstFrameWhenFiring" : true
+                },
+                "Weapons" :
+                {
+                    "0": "RayOfDoom.weapon"
+                }
+            },
+            "WeaponUpgrade" :
+            {
+                "Replace": 
+                {
+                    "CooldownTime": 0.033333
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Powerful Darts",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 2,
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "Speed" : 350
+						}
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Depleted Bloontonium",
+            "WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Hydra Rocket Pods",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "HydraRocketPods.weapon"
+                }
+            },
+			"WeaponUpgrade" :
+            {
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "NumPersists" : 1
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Bloon Area Denial System",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0": "BloonAreaDenialSystem.weapon",
+                    "1": "RocketStorm.weapon",
+                    "2": "RocketStormRockets.weapon"
+                }
+            }
+        }
+    ]
+}

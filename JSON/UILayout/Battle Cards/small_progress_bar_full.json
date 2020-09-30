@@ -1,0 +1,75 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.3333333432674408,
+         "Angle" : 0.0,
+         "Colour" : 1431896370,
+         "Flip" : 0,
+         "Position" : [ -0.0, 3.0 ],
+         "Scale" : [ 15.60000038146973, 0.6999999880790710 ],
+         "Shown" : true,
+         "sprite" : "fill_bar_colour",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "small_fill_bar_full",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 0.2862745225429535,
+         "Angle" : 0.0,
+         "Colour" : 1241513983,
+         "Flip" : 0,
+         "Position" : [ -0.0, -1.0 ],
+         "Scale" : [ 15.55000019073486, 0.5500000119209290 ],
+         "Shown" : true,
+         "sprite" : "fill_bar_colour",
+         "type" : 1,
+         "uid" : 3
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "fill_bar_colour",
+            "Texture" : "battle_cards"
+         },
+         {
+            "SpriteInfo" : "small_fill_bar_full",
+            "Texture" : "battle_cards"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      }
+   ]
+}

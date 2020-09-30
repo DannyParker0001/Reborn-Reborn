@@ -1,0 +1,9 @@
+{
+   "ID" : "Shield_01",
+   "SpriteName" : "clan_symbol_shield_01_light_background.json",
+   "SpriteName_Dark" : "clan_symbol_shield_01.json",
+   "DisplayName" : "Shield 01",
+   "Layer" : 2,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

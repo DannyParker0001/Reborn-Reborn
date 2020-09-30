@@ -1,0 +1,23 @@
+{
+	"Files" :
+	[
+		"BananaFarm.upgrades",
+		"BombTower.upgrades",
+		"BoomerangThrower.upgrades",
+		"DartlingGun.upgrades",
+		"DartMonkey.upgrades",
+		"GlueGunner.upgrades",
+		"IceTower.upgrades",
+		"MonkeyAce.upgrades",
+		"MonkeyApprentice.upgrades",
+		"MonkeyBuccaneer.upgrades",
+		"MonkeyVillage.upgrades",
+		"MortarTower.upgrades",
+		"NinjaMonkey.upgrades",
+		"SniperMonkey.upgrades",
+		"SpikeFactory.upgrades",
+		"SuperMonkey.upgrades",
+		"TackTower.upgrades",
+        "MonkeyEngineer.upgrades"
+	]
+}

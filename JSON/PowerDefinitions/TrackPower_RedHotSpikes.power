@@ -1,0 +1,21 @@
+{
+    "TypeName"          : "TrackPower_RedHotSpikes",
+    "Description"       : "Place a bundle of 20 red hot spikes on the track. Three uses.",
+    "Icon"              : "powers_red_hot_spikes",
+    "HudIcon"           : "icon_red_hot_spikes",
+    "Category"          : "Track",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "TrackPower_RedHotSpikes",
+    "PlacementMode"     : "Tower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 0,
+    "MinCooldown"       : 0,
+    "Count"             : 3
+}

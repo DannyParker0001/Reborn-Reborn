@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_MoabBoost",
+    "UnlockCost"        : 500,
+    "RequiresUnlocked"  : ["BloonPower_Boost"],
+    "Icon"              : "powers_moab_boost",
+    "Description"       : "Speed up sent MOAB-Class Bloons by 50% for 15 seconds. Three uses.", 
+    "HudIcon"           : "icon_moab_boost",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_MoabBoost.weapon"
+}

@@ -1,0 +1,39 @@
+{
+	"Name" : "Flaming Cannon",
+	"Icon" : "flaming_cannon",
+    "Rarity" : "Gold",
+    "Description" : "Replaces Bucanneers dart attack with flaming cannon",
+	"Effects" :
+	[
+		{
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType" : [ "MonkeyBuccaneer" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" : [ [ 0, [ 0, 0 ], false ], [ 0, [ 0, 1 ], true ] ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType" : [ "MonkeyBuccaneer" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" : [ [ 0, [ 0, 0 ], false ], [ 0, [ 0, 1 ], true ] ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType" : [ "MonkeyBuccaneer" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" : [ [ 0, [ 0, 0 ], false ], [ 0, [ 0, 1 ], true ] ]
+                }
+            }]
+		}
+	]
+}

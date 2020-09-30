@@ -1,0 +1,443 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 32.0, -77.0 ],
+         "Scale" : [ 2.50, 2.50 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_02",
+         "type" : 1,
+         "uid" : 26
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 5.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 185.0, -42.0 ],
+         "Scale" : [ 2.799999952316284, 2.799999952316284 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_02",
+         "type" : 1,
+         "uid" : 25
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 163.0, -49.0 ],
+         "Scale" : [ 2.299999952316284, 2.299999952316284 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_02",
+         "type" : 1,
+         "uid" : 22
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 147.0, -53.0 ],
+         "Scale" : [ 2.299999952316284, 2.299999952316284 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_01",
+         "type" : 1,
+         "uid" : 21
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 206.0, -36.0 ],
+         "Scale" : [ 2.0, 2.150000095367432 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_01",
+         "type" : 1,
+         "uid" : 20
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 72.0, -69.0 ],
+         "Scale" : [ 2.950000047683716, 3.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_02",
+         "type" : 1,
+         "uid" : 18
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 117.0, -58.0 ],
+         "Scale" : [ 2.0, 2.599999904632568 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_02",
+         "type" : 1,
+         "uid" : 17
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 17.0, -81.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_flame_01",
+         "type" : 1,
+         "uid" : 16
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -81.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 75.0, -69.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 118.0, -60.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_corner",
+         "type" : 1,
+         "uid" : 2
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 11.0, 0.0 ],
+         "Scale" : [ 20.14999961853027, 1.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_edge",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 169.0, -37.0 ],
+         "Scale" : [ 2.349999904632568, 2.0 ],
+         "Shown" : false,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 160.0, -51.0 ],
+         "Scale" : [ 1.649999976158142, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, -11.0 ],
+         "Scale" : [ 14.250, 13.250 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_fill",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 57.0, -11.0 ],
+         "Scale" : [ 14.0, 10.35000038146973 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_fill",
+         "type" : 1,
+         "uid" : 11
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 113.0, -11.0 ],
+         "Scale" : [ 8.149999618530273, 8.050000190734863 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_fill",
+         "type" : 1,
+         "uid" : 12
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 145.0, -11.0 ],
+         "Scale" : [ 9.750, 6.699999809265137 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_fill",
+         "type" : 1,
+         "uid" : 13
+      },
+      {
+         "Alignment" : [ 1, 4 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 184.0, -11.0 ],
+         "Scale" : [ 12.10000038146973, 2.450000047683716 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire_fill",
+         "type" : 1,
+         "uid" : 15
+      },
+      {
+         "Alignment" : [ 0, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 199.0, -37.0 ],
+         "Scale" : [ 2.599999904632568, 2.0 ],
+         "Shown" : true,
+         "sprite" : "panel_bg_fire",
+         "type" : 1,
+         "uid" : 27
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "panel_bg_flame_02",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_flame_01",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire_corner",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire_edge",
+            "Texture" : "nk_open_ui_fire"
+         },
+         {
+            "SpriteInfo" : "panel_bg_fire_fill",
+            "Texture" : "nk_open_ui_fire"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 13,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 16,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 15,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 17,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 11,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 12,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 21,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 20,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 18,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 25,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 22,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 27,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : [
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 160.0, -51.0 ],
+               "Scale" : [ 1.649999976158142, 2.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 0, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 0,
+               "Position" : [ 160.0, -51.0 ],
+               "Scale" : [ 1.649999976158142, 1.850000023841858 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : [
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 169.0, -37.0 ],
+               "Scale" : [ 2.349999904632568, 2.0 ],
+               "Shown" : false,
+               "Time" : 0.0
+            },
+            {
+               "Alignment" : [ 2, 0 ],
+               "Alpha" : 1.0,
+               "Angle" : 0.0,
+               "Colour" : 4294967295,
+               "Flip" : 1,
+               "Position" : [ 169.0, -37.0 ],
+               "Scale" : [ 2.349999904632568, 2.0 ],
+               "Shown" : true,
+               "Time" : 0.0
+            }
+         ]
+      },
+      {
+         "spriteuid" : 26,
+         "stage" : null
+      }
+   ]
+}

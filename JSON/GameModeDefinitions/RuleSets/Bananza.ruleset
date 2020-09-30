@@ -1,0 +1,57 @@
+{
+    "name": "Bananza",
+    "rules": [
+      "FreePowerups",
+      "Bananza"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "DOUBLE Starting Cash & DOUBLE Income from :"
+        },
+        {
+          "Icon": "dbl_Farm",
+          "Text": "Farms",
+          "offsetX": 25,
+          "offsetY": 10
+        },
+        {
+          "Icon": "dbl_Bloon",
+          "Text": "Bloon Attacks",
+          "offsetX": 25,
+          "offsetY": -4
+        },
+        {
+          "Icon": "dbl_Crate",
+          "Text": "Supply Drop",
+          "offsetX": 25,
+          "offsetY": -4,
+          "ignore_modes": ["CardBattle"]
+        },
+        {
+          "Icon": "dbl_Wired",
+          "Text": "Wired Funds",
+          "offsetX": 25,
+          "offsetY": -4,
+          "ignore_modes": ["CardBattle"]
+        },
+        {
+          "Icon": "dbl_Chinook",
+          "Text": "Support Chinook",
+          "offsetX": 25,
+          "offsetY": -4,
+          "ignore_modes": ["CardBattle"]
+        },
+        {
+          "Icon": "dbl_Trap",
+          "Text": "Bloon Traps",
+          "offsetX": 25,
+          "offsetY": -4
+        }
+      ],
+      "DisplayName": "BANANZA!",
+      "DisplayInfo": "MEGA CASH",
+      "DisplayIcon": "rulesIcon_Bananza"
+    },
+    "version": "1.1"
+  }

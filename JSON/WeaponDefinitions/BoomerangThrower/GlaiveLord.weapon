@@ -1,0 +1,83 @@
+{	
+    "Type":             "GlaiveLord",    
+    "TargetRange":      32,
+	"CooldownTime":     0,
+    "FireDelayTime":    0,
+	"RequiresTargetToFire": false,
+ 	"TotalAmmo" : 1,
+	"RemainingAmmo" : 1,
+   
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "glaive",
+			"NumPersists":      -1,
+			"TerminateOnZeroPersists": false,
+            "TerminateOnTowerRemoved" : true,
+			"CollisionType": "Once",
+						
+			"Movement":
+			{
+				"Type": "RotateAroundTower",
+				"Speed": 450,
+				"Offset": 32,
+				"InitialAngle": 0,
+				"TerminateOnCompletedRevolution" : true
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1 ],
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				},
+				{
+					"Type" : "RestoreAmmo",
+					"Proxied" : false,
+					"Amount" : 2,
+					"RoundRobin" : true
+				}
+			]
+		},
+		{
+			"Type": "Projectile",
+			"GraphicName": "glaive",
+			"NumPersists": -1,
+			"TerminateOnZeroPersists": false,
+            "TerminateOnTowerRemoved" : true,
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "RotateAroundTower",
+				"Speed": 450,
+				"Offset": 32,
+				"InitialAngle": 180,
+				"TerminateOnCompletedRevolution" : true
+			},
+			
+			"TasksToProcessOnCollision" : [ 0 ],
+			"TasksToProcessOnTerminate" : [ 1 ],
+
+			"Tasks" :
+			[ 
+				{
+					"Type": "Damage",
+					"DamageType": "Piercing",
+					"Amount": 1 
+				},
+				{
+					"Type" : "RestoreAmmo",
+					"Proxied" : false,
+					"Amount" : 2,
+					"RoundRobin" : true
+				}
+			]
+		}
+	]
+}

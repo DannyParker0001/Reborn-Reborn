@@ -1,0 +1,76 @@
+{
+    "SFX": [
+		[ "EXPLOSION", 0.1, [
+			"explosion_small.wav"
+		]],
+		[ "FROZEN_HIT", 0.1, [
+			"frozen_bloon_hit_mastered.wav"
+		]],
+		[ "CERAMIC_HIT", 0.1, [
+			"ceramic_bloon_hit.wav"
+		]],
+		[ "METAL_HIT", 0.1, [
+			"metal_bloon_hit.wav"
+		]],
+		[ "MOAB_HIT", 0.1, [
+			"moab_damage_quieter.wav"
+		]],
+		[ "MOAB_DESTROY", 0.5, [
+			"moab_destroyed_short.wav"
+		]],
+		[ "TOWER_PLACE", 0.5, [
+            "tower_place.wav"
+        ]],
+        [ "TOWER_SELL", 0.2, [
+            "sell_tower.wav"
+        ]],
+		[ "TOWER_UPGRADE", 0.1, [
+			"upgrade.wav"
+		]],
+		[ "TOWER_UNLOCK", 0.1, [
+			"unlocked_stuff.wav"
+		]],
+        [ "TOWER_LEVEL_UP", 0.1, [
+            "tower_level_up.wav"
+        ]],
+		[ "GAME_OVER", 0.1, [
+			"game_over.wav"
+		]],
+		[ "GAME_WIN", 0.1, [
+			"game_win.wav"
+		]],
+		[ "NEW_ROUND", 0.1, [
+			"newRound.wav"
+		]],
+		[ "TOWER_BOOST", 0.1, [
+			"tower_power.wav"
+		]],
+		[ "BLOON_BOOST", 0.1, [
+			"bloon_boost.wav"
+		]],
+		[ "BOUNTY", 0.1, [
+			"bounty.wav"
+		]],
+		[ "CHAIN_LIGHTNING", 0.1, [
+			"chainLightning.wav"
+		]],
+		[ "JUGGERLANCHE", 0.1, [
+			"juggerlanche.wav"
+		]],
+		[ "KIDNAP", 0.1, [
+			"kidnap.wav"
+		]],
+		[ "MONKEY_CHILL", 0.1, [
+			"monkeyChill.wav"
+		]],
+		[ "PLAY_CARD", 0.1, [
+			"playCard.wav"
+		]],
+		[ "PURGE", 0.1, [
+			"purge.wav"
+		]],
+		[ "TAX", 0.1, [
+			"tax.wav"
+        ]]
+	]
+}

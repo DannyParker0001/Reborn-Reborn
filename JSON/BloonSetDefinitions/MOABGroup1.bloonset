@@ -1,0 +1,9 @@
+{
+	"Type" : "MOABGroup1",
+	"BloonType" : "MOAB",
+	"Quantity" : 1,
+	"Interval" : 0.5,
+	"Cost" : 1500,
+	"IncomeChange" : -50,
+	"UnlockRound" : 18
+}

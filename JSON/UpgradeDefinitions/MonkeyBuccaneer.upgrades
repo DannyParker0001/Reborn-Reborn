@@ -1,0 +1,139 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Faster Shooting",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2 ],
+                "Adjust" :
+                {
+                    "CooldownTime" :    -0.30
+                }
+            }
+        },
+        
+        {
+            "Name" : "Longer Cannons",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 30
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+                        	"CutOffDistance" : 30
+						}
+                    }
+                ]
+            }
+        },
+        
+        {
+            "Name" : "Destroyer",
+            "WeaponUpgrades" : [
+				{
+					"SlotIndices" : [ 0 ],
+					"Adjust" :
+					{
+						"CooldownTime" :    -0.3
+					},
+					"TaskUpgrade" :
+					[
+						{
+							"Operation" : "SelectByType",
+							"Type" :    "MultiFire"
+						},
+						
+						{
+							"Operation" : "Replace",
+							"Offsets" : [ [ 0, -32 ] ]
+						}
+					]
+				}
+			]
+        },
+        
+        {
+            "Name" : "Aircraft Carrier",
+            "TowerUpgrade" : 
+            { 
+                "Replace" : 
+                { 
+					"InitialAngle" : 180,
+                    "RotatesToTarget" : false,
+				    "UseDefaultRangeCircle" : true
+                },
+                "Weapons" :
+                {
+                    "0" : "",
+                    "5" : "MonkeyBuccaneerAircraft.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Grape Shot",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1": "GrapeShot.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Crows Nest",
+            "TowerUpgrade" :
+            {            
+                "Weapons" :
+                {
+                    "4" : "CrowsNest.weapon"
+                },
+                
+                "Replace" :
+                {
+                    "PlacementFiringSequence" : [ 4 ],
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+    
+        {
+            "Name" : "Cannon Ship",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "2": "CannonShip.weapon"
+                }
+            }
+        },
+        
+        {
+            "Name" : "Monkey Pirates",
+			"TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3": "MOABTakedown.weapon"
+                }
+            }
+        }
+    ]
+}

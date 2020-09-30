@@ -1,0 +1,37 @@
+{
+    "Type": "MonkeySubPulse",
+    "TargetRange": 125,
+    "FireDelayTime": 0,
+    "CooldownTime": 1.5,
+	"CanSelfTargetCamo" : true,
+	"RequiresTargetToFire" : false,
+	"RotatesToTarget" : false,
+    "TargetsIndependently": true,
+	"DisabledOnTargetModes" : [ "First", "Last", "Close", "Strong" ],
+
+    "Tasks": [
+        {
+			"Type" : "AreaOfEffect",
+			"Range" : 125,
+			"MaxTargets" : -1,
+			"DisabledTasks" : [ 1 ],
+
+			"Tasks" : [
+				{
+                    "Type": "RemoveStatusEffect",
+                    "Status": "Camo"
+				},
+				{
+					"Type" : "RemoveStatusEffect",
+					"Status" : "Regen"
+				}
+			]
+        },
+		{
+			"Type" : "Effect",
+			"Scale": 3.18965513,
+			"Type": "Effect",
+			"SpriteFile": "SubmarineRadar.json"
+		}
+    ]
+}

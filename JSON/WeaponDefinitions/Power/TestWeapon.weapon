@@ -1,0 +1,36 @@
+{
+    "Type"                                      : "TestWeapon",
+    "TargetRange"                               : 80.0,
+    "CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "ShowRange"                                 : true,
+
+    "Tasks" :
+    [
+        {
+            "Type"          : "AreaOfEffect",
+            "Range"         : 80,
+            "MaxTargets"    : 100,
+
+            "Tasks" :
+            [
+                {
+                    "Type"          : "Damage",
+                    "DamageType"    : "Plasma",
+                    "Amount"        : 3
+                },
+                {
+                    "Type"          : "StatusEffect",
+                    "Status"        : "MultiLayerDamage"
+                }
+            ]
+        },
+        {
+            "Type"          : "Effect",
+            "SpriteFile"    : "Explosion.json",
+			"Audio": "EXPLOSION",
+            "Scale"         : 0.835
+        }
+    ]
+}

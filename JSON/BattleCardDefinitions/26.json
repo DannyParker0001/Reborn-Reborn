@@ -1,0 +1,31 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "moonlight", 
+        "Cost": 3000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -10, 
+        "Interval": 0.2, 
+        "NumBloons": 10, 
+        "Type": "Ceramic", 
+        "UnlockRound": 14
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 1600, 
+    "Name": "26", 
+    "NameOld": "BananaFarm30_CeramicTight10", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_twilight", 
+        "Cost": 5000, 
+        "Type": "BananaFarm", 
+        "Upgrades": [
+            3, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

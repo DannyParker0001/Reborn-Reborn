@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_CashInjection",
+    "UnlockCost"        : 2500,
+    "Description"       : "Instant cash equal to $50 x round number. Three uses.",
+    "RequiresUnlocked"  : ["EconomyPower_SaltedWounds"],
+    "Icon"              : "powers_cash_injection",
+    "HudIcon"           : "icon_cash_injection",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Self",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_CashInjection.weapon"
+}

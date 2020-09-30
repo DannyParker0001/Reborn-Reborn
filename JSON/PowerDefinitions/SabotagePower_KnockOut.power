@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_KnockOut",
+    "UnlockCost"        : 2500,
+    "Description"       : "Choose one opponent tower to disable for 8 seconds. Three uses.",
+    "RequiresUnlocked"  : ["SabotagePower_DeactivatedAbilities"],
+    "Icon"              : "powers_knock_out",
+    "HudIcon"           : "icon_knock_out",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "ManualActive",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "TargetTower",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "SabotagePower_KnockOut.weapon"
+}

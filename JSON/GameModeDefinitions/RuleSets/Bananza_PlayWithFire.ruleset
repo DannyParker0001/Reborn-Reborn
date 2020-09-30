@@ -1,0 +1,40 @@
+{
+    "name": "Bananza_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "Bananza",
+        "PlayWithFire",
+		"Bananza_WithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_Bananza",
+                "offsetX": 40,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetY": -10,
+                "offsetX": 100
+            },
+            {
+                "Text": "DOUBLE Starting Cash & DOUBLE Income",
+                "Icon": "bullet_point_glow",
+                "offsetY": 30
+            },
+            {
+                "Text": "4x income from Bloon Sends!",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayName": "BANANZA WITH FIRE",
+        "DisplayInfo": "Bananza Fire",
+        "DisplayIcon": "combo_bananza_playwithfire"
+    },
+    "version": "1.0"
+}

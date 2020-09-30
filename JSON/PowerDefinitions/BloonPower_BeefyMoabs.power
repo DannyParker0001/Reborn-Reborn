@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "BloonPower_BeefyMoabs",
+    "UnlockCost"        : 2500,
+    "RequiresUnlocked"  : ["BloonPower_MoabBoost"],
+    "Icon"              : "powers_beefy_moab",
+    "Description"       : "Increase health of sent MOAB-Class Bloons by 50% for 20 seconds. Three uses.",
+    "HudIcon"           : "icon_beefy_moab",
+    "Category"          : "Bloon",
+    
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "BloonPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 8,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": true,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "BloonPower_BeefyMoabs.weapon"
+}

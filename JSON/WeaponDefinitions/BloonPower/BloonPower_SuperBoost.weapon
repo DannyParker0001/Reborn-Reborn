@@ -1,0 +1,33 @@
+{	
+    "Type"                                      : "BloonPower_SuperBoost",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Effect",
+            "SpriteFile": "BloonBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ true, false ],
+            "FlipRight": [ false, false ],
+            "Duration": 10,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_BLOON_SUPER_BLOON_BOOST"
+        },
+
+
+        {
+            "Type": "ApplyBloonSpawnModifier",
+            "Duration": 10,
+            "SpeedMultiplier": 1.50,
+            "Affects": "PlayerSent",
+            "ParticleEffect": "bloon_boost_status.json"
+        }
+        
+	]
+}

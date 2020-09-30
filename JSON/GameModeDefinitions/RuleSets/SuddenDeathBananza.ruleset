@@ -1,0 +1,35 @@
+{
+    "name": "SuddenDeathBananza",
+    "rules": [
+      "FreePowerups",
+      "Bananza",
+      "SuddenDeath"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Icon": "rulesIcon_Bananza|CENTER_X",
+          "offsetY": 10
+        },
+        {
+          "Text": "DOUBLE Starting Cash & DOUBLE Income",
+          "Icon": "bullet_point_glow",
+          "offsetY": 20
+        },
+        {
+          "Icon": "sudden_death_icon",
+          "offsetY": 10,
+          "offsetX": 60
+        },
+        {
+          "Text": "Both players begin with only one life",
+          "Icon": "bullet_point_glow",
+          "offsetY": 18
+        }
+      ],
+      "DisplayName": "1 LIFE BANANZA",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_suddendeath_bananza"
+    },
+    "version": "1.1"
+}

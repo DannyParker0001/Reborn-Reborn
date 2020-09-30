@@ -1,0 +1,9 @@
+{
+   "ID" : "Colour_01_White",
+   "SpriteName" : "clan_symbol_colour_01_white.json",
+   "SpriteName_Select" : "clan_symbol_colour_select_01_white.json",
+   "DisplayName" : "White",
+   "Layer" : 1,
+   "Locked" : false,
+   "LockedDescription" : ""
+}

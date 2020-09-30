@@ -1,0 +1,32 @@
+{	
+    "Type":             "TechTerrorRight",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.012,
+    "FireDelayTime":    0.0,
+    "DefaultSprite":    "SuperMonkeyTechTerrorRightArm.json",
+    "TargetsIndependently": true,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "dart_monkey_dart",
+			"NumPersists":      5,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 500.0,
+				"CutOffDistance": 210
+			},
+			
+			"Tasks" :
+			[ 
+				{ "Type": "Damage", "DamageType": "Plasma", "Amount": 2 }
+			]
+		}
+	]
+}

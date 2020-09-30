@@ -1,0 +1,53 @@
+{	
+    "Type":             "templeFreeze3",    
+    "TargetRange":      240.0,
+	"CooldownTime":     2.0,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_ice_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			
+			"CollisionType": "Once",
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[
+				{
+					"Type": "AreaOfEffect",
+					"Range": 250,
+					"MaxTargets": 999,
+					"Tasks" :
+					[
+                        {
+                            "Type": "Damage",
+                            "DamageType": "Plasma",
+                            "Amount": 1
+                        },
+                        {
+                            "Type": "StatusEffect",
+                            "Status": "Ice",
+                            "Duration" : 2.0,
+                            "NumPersists" : 2
+                        }
+					]
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "ice_explosion.json",
+                    "Scale": 1.2
+				}
+			]
+		}
+	]
+}

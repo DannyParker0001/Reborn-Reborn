@@ -1,0 +1,32 @@
+{
+    "Rules" : {
+        "TowerBoostEnergyCost" : 0,
+        "TowerBoostLimit" : 3,
+        "BloonBoostEnergyCost" : 0,
+        "BloonBoostLimit" :3,
+        "RedHotSpikesEnergyCost" : 0,
+		"RedHotSpikesLimit" : -1,
+		"Reward" : {
+            "WinBattleScore" : 0,
+            "WinMedallions" : 0,
+            "WinMedallionsNoLivesLost" : 0,
+            "LossBattleScore" : 0,
+            "LossMedallions" : 0
+		},
+		"BloonUnlockRoundOffset": -5,
+		"AllowPause" : false,
+		"ReturnToLobbyAfterGame" : false,
+		"GiveCashAmount" : 250,
+		"MinGiveCashAmount" : 0,
+		"OpponentInitialHealth" : 50,
+		"ApplyAchievementProgress" : false,
+		"InitialRoundDelay" : 0,
+		"InitialRoundDelay" : 999999,
+		"StartMatchAfterGame" : true,
+		"AutoResume" : false,
+		"TipsScreen" : "CardBattleTutorial",
+		"LoadTutorialScreens" : true,
+		"UseDefaultDeck" : true,
+		"UseCustomInGameHUD" : false
+    }
+}

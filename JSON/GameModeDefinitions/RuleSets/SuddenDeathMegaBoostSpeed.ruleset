@@ -1,0 +1,87 @@
+{
+    "name": "SuddenDeathMegaBoostSpeed",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "MegaBoosts",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 80,
+                "offsetY": 0
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "DisplayNameFront": "    SPEEDY 1 LIFE BOOST",
+        "DisplayName": "SPEEDY 1 LIFE BOOST",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_megaboost_speed"
+    },
+    "version": "1.0"
+}

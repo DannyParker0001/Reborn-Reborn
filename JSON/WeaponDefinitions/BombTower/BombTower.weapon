@@ -1,0 +1,86 @@
+{	
+    "Type":             "BombTower",    
+    "TargetRange":      125.0,
+	"CooldownTime":     1.3428571429,
+    "FireDelayTime":    0.17,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"SpriteFile":      "BombProjectile.json",
+			"NumPersists":      1,
+			"ForcePersists":	true,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+            "Radius" : 5,
+			
+			"Movement":
+			{
+				"Type": "Forward",
+				"Speed": 445,
+				"CutOffDistance": 234
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 60,
+					"MaxTargets": 40,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 1
+						}				
+					]
+				},
+				{
+					"Type": "MultiFire",
+					"InitialOffset": 0.0,
+					"AngleIncrement": 45.0,
+					"FireCount": 0,
+					"AimAtTarget": false,
+					"MarkIDForProjectiles": true,
+					
+					"Tasks":
+					[
+						{
+							"Type": "Projectile",
+							"GraphicName": "frag_shrapnel",
+							"NumPersists":      1,
+							"TerminateOnZeroPersists": true,
+							
+							"CollisionType": "Once",
+							"Radius": 5,
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Speed": 500,
+								"CutOffDistance": 100
+							},
+							
+							"Tasks":
+							[
+								{
+									"Type": "Damage",
+									"DamageType": "Piercing",
+									"Amount": 1
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 0.635
+				}
+			]
+		}
+	]
+}

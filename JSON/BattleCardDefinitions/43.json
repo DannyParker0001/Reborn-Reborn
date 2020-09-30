@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_night", 
+        "Cost": 22000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": -1000, 
+        "Interval": 0.6, 
+        "NumBloons": 10, 
+        "Type": "BFB", 
+        "UnlockRound": 19
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "43", 
+    "NameOld": "MonkeyVillage24_BFBTight10", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "sunset_trees", 
+        "Cost": 22000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopFrozen"
+        ], 
+        "Type": "MonkeyVillage", 
+        "Upgrades": [
+            2, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

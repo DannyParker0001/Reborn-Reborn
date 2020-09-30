@@ -1,0 +1,67 @@
+{	
+    "Type"                                      : "TowerPower_DamageBoost",
+    "TargetRange"                               : 100000.0,
+	"CooldownTime"                              : 0.0,
+    "FireDelayTime"                             : 0.0,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
+    "RequiresTargetToFire"                      : false,
+    "MaxShots"                                  : 1,
+    
+    "Tasks" :
+    [
+		{
+            "Type" : "TowerModifier",
+            "Range":  100000,
+            "PriorityLevel" : 1,
+            "TerminateOnUserUpgrade" : false,
+            "TaskPersistsWithDuration" : true,
+            "ModifyNewlySpawnedTowers": false,
+            "ModifyMovingTowers": false,
+            "Duration": 18,
+            "NumPersists": -1,
+            "Modifier" :
+            {
+                "Cooldown"  : [ 0.769230, 0 ],
+                "FireDelay" : [ 0.833333, 0 ],
+                "Damage"  : [ 1, 1 ]
+            },
+            "Tasks" :
+            [
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "tower_boost_effect.json",
+                    "Duration": 18,
+                    "DrawLayer": "UnderTowers",
+                    "LoopForever": true,
+                    "AppliedToTower": true,
+                    "IgnoreAircraft": true,
+                    "Scale": 0.675
+                }
+            ]
+        },
+        {
+            "Type": "StatusEffect",
+            "Status": "MultiLayerDamage",
+            "ApplyForDuration": true,
+            "ApplyOnSpawn": true,
+            "ApplyToNatural": true,
+            "ApplyToPlayerSent": true,
+            "TargetAll": true,
+            "Duration" : 18,
+            "NumPersists": -1,
+            "Kill": true,
+            "RemoveOnPop": false
+        },
+        {
+            "Type": "Effect",
+            "SpriteFile": "TowerBoostAbility.json",
+            "PositionLeft": [ 1.0, 0.0 ],
+            "PositionRight": [ 0.0, 0.0 ],
+            "FlipLeft": [ false, false ],
+            "FlipRight": [ true, false ],
+            "Duration": 18,
+            "DrawLayer": "FullScreen",
+			"Audio": "POWERS_TOWER_DAMAGE_BOOST"
+        }
+	]
+}

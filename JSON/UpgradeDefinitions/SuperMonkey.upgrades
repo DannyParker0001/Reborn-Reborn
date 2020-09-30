@@ -1,0 +1,344 @@
+{
+    "Upgrades":
+    [
+        {
+            "Name" : "Laser Blasts",
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "SkipFirstFrameWhenFiring" : false
+                }
+            },
+            
+            "WeaponUpgrades" :
+            [
+            {            
+                "SlotIndices" : [ 0 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Fire"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_laser_vision_projectile_single"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 2,
+                        "Offsets" : [ [ -5, 0 ], [ 5, 0 ] ]
+                    },
+                    {
+                        "RequiresMinUpgradeCounters" : [ 0, 3 ],
+                        "Operation" : "Replace",
+                        "FireCount" : 1,
+                        "Offsets" : [ [ 0, 0 ] ]
+                    }
+                ]
+            },
+            {            
+                "SlotIndices" : [ 2, 3 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_laser_vision_projectile_single"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 2,
+                        "Offsets" : [ [ -5, 0 ], [ 5, 0 ] ]
+                    },
+                    {
+                        "RequiresMinUpgradeCounters" : [ 0, 3 ],
+                        "Operation" : "Replace",
+                        "FireCount" : 1,
+                        "Offsets" : [ [ 0, 0 ] ]
+                    }
+                ]
+            }
+            ]
+        },
+        {
+            "Name" : "Plasma Blasts",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 2, 3, 4, 5 ],
+                "Adjust" :
+                {
+                    "CooldownTime" : -0.028571428
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Adjust",
+                        "NumPersists" : 1
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Damage"                        
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "DamageType" : "Plasma"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_plasma_vision_projectile"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 1,
+                        "Offsets" : [ [ 0, 0 ] ]
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Sun God",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "0" : "",
+                    "1": "SunGod.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+               "SlotIndex" : 1,
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_sun_god_projectile"
+                    },
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" : "MultiFire"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "FireCount" : 3,
+                        "Offsets" : [ [ 0, -25 ] ]
+                    }
+                ]
+            }
+        },
+        {
+            "Name" : "Temple Of The Monkey God",
+            
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "1" : "",
+                    "7": "Temple.weapon",
+                    "8": "EvilTemple.weapon",
+                    "9": "TempleSacrifice.weapon",
+                    "10": "templeExplosion1.weapon",
+                    "11": "templeExplosion2.weapon",
+                    "12": "templeExplosion3.weapon",
+                    "13": "templeExplosion4.weapon",
+                    "14": "templeExplosion5.weapon",
+                    "15": "templeFreeze1.weapon",
+                    "16": "templeFreeze2.weapon",
+                    "17": "templeFreeze3.weapon",
+                    "18": "templeFreeze4.weapon",
+                    "19": "templeFreeze5.weapon",
+                    "20": "templeGlue1.weapon",
+                    "21": "templeGlue2.weapon",
+                    "22": "templeGlue3.weapon",
+                    "23": "templeGlue4.weapon",
+                    "24": "templeGlue5.weapon",
+                    "25": "templeSharp1.weapon",
+                    "26": "templeSharp2.weapon",
+                    "27": "templeSharp3.weapon",
+                    "28": "templeSharp4.weapon",
+                    "29": "templeSharp5.weapon",
+                    "30": "templeWind1.weapon",
+                    "31": "templeWind2.weapon",
+                    "32": "templeWind3.weapon",
+                    "33": "templeWind4.weapon",
+                    "34": "templeWind5.weapon"
+                },
+                "Replace" :
+                {
+                    "PlacementFiringSequence" : [ 9 ],
+                    "CanTargetCamo" : true
+                }
+            }
+        },
+        {
+            "Name" : "Super Range",
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "CanTargetCamo" : true
+                }
+            },
+			"WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 40
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+	                        "CutOffDistance" : 40
+						}
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Epic Range",
+            "WeaponUpgrade" :
+            {
+                "SlotIndices" : [ 0, 1, 2, 3, 4, 5, 7, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34 ],
+                "Adjust" :
+                {
+                    "TargetRange" : 30
+                },
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    
+                    {
+                        "Operation" : "Adjust",
+						"Movement":
+						{
+							"Type": "Forward",
+                        	"CutOffDistance" : 30
+						}
+                    }
+                ]
+            }
+
+        },
+        {
+            "Name" : "Robo Monkey",
+            
+            "TowerUpgrade" :
+            {
+                "Replace" :
+                {
+                    "SkipFirstFrameWhenFiring" : false
+                },
+                
+                "Weapons" :
+                {
+                    "0": "",
+                    "2": "RoboMonkeyLeft.weapon",
+                    "3": "RoboMonkeyRight.weapon"
+                }
+            }
+        },
+        {
+            "Name" : "Technological Terror",
+            "TowerUpgrade" :
+            {
+                "Replace":
+                {
+                    "DontResetAnimation" : true
+                },
+            
+                "Weapons" :
+                {
+                    "2": "",
+                    "3": "",
+                    "4": "TechTerrorLeft.weapon",
+                    "5": "TechTerrorRight.weapon",
+                    "6": "BloonAnnihilation.weapon"
+                }
+            },
+            "WeaponUpgrade":
+            {
+               "SlotIndices" : [ 4, 5 ],
+                "TaskUpgrade" :
+                [
+                    {
+                        "Operation" : "SelectByType",
+                        "Type" :    "Projectile"
+                    },
+                    {
+                        "Operation" : "Replace",
+                        "GraphicName" : "supermonkey_tech_terror_projectile"
+                    }
+                ] 
+            }
+        }
+    ]
+}

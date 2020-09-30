@@ -1,0 +1,32 @@
+{
+	"Rules" : {
+		"GiveCashAmount" : 250,
+		"MinGiveCashAmount" : 0,
+		"UseGameController" : "Assets/JSON/Controllers/TutorialCommands.json",
+		"OpponentInitialHealth" : 50,
+		"ApplyAchievementProgress" : false,
+		"InitialRoundDelay" : 0,
+		"StartMatchAfterGame" : true,
+		"LoadTutorialScreens" : true,
+		"AutoResume" : false,
+		"TipsScreen" : "Tutorial"
+	},
+    "LobbyRules" : {
+		"RecordGame" : false,
+    	"ForcedTowers"	: [
+    		"DartMonkey",
+    		"TackTower",
+    		"BombTower"
+    	],
+		"SelectableTrackList" : [
+			"park"
+		],
+    	"CanRollLottery" : false,
+		"CanSkipMap" : false,
+		"CanChooseMap" : false,
+		"OpponentDecal" : "ninjakiwi",
+		"OpponentName" : "Sergeant Monkey",
+		"HasLiveOpponent" : false,
+		"AllowRematch" : false
+    }
+}

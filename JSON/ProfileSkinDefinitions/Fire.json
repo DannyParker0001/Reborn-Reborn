@@ -1,0 +1,8 @@
+{
+	"ID":					"Fire",
+	"DisplayName":			"Fire",
+	"DisplayDescription":	"Skin your lobby card with Fire!",
+	"DisplayIcon":			"player_profile_panel_fire_store.json",
+	"SkinSpriteName":		"player_profile_panel_fire.json",
+	"Hide":					true
+}

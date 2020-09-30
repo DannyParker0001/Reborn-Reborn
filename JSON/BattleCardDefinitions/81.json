@@ -1,0 +1,47 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 3000, 
+        "Features": [
+            "Regen", 
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 38, 
+        "Interval": 0.1, 
+        "NumBloons": 32, 
+        "Type": "Pink", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "81", 
+    "NameOld": "GlueGunner42_CamoRegenPinkTight32", 
+    "PlatformProductID": "btdbattles_vet_gluegunner42_camoregenpinktight32", 
+    "PlatformProductIDiOS": "btdbattles_vet_GlueGunner42_CamoRegenPinkTight32", 
+    "ProductID": "Vet_GlueGunner42_CamoRegenPinkTight32", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 6000, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "GlueGunner", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

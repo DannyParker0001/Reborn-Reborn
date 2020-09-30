@@ -1,0 +1,317 @@
+{	
+    "Type":             "templeExplosion3",    
+    "TargetRange":      240.0,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+    "TargetsIndependently": true,
+    
+    "Tasks" :
+    [
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		},
+		{
+			"Type":             "Projectile",
+			"GraphicName":      "monkey_temple_bomb_tower_projectile",
+			"NumPersists":      1,
+			"TerminateOnZeroPersists": true,
+			"CollisionType": "Once",
+			
+			"Movement": 
+			{
+				"Type": "Forward",
+				"Speed": 600.0,
+				"CutOffDistance": 1000
+			},
+			
+			"Tasks" :
+			[ 
+				{
+					"Type": "AreaOfEffect",
+					"Range": 150,
+					"MaxTargets": 150,
+					"Tasks" :
+					[
+						{ 
+							"Type": "Damage",
+							"DamageType": "Explosive",
+							"Amount": 2
+						},
+						{
+							"Type": "StatusEffect",
+							"Status": "MultiLayerDamage"
+						},
+						{
+							"Type" : "Damage",
+							"DamageType": "MOABMauler",
+							"Amount": 8
+						}
+					]
+				},
+				{
+					"Type": "Effect",
+					"SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+					"Scale": 1.25
+				},
+				{
+                    "Type": "Effect",
+                    "SpriteFile": "GeneralShockwave.json",
+                    "Scale": 1.25
+				}
+			]
+		}
+	]
+}

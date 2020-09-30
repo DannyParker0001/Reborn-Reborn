@@ -1,0 +1,50 @@
+{
+    "ID": "SamuraiNinjaMonkey",
+    "DisplayName": "Ninja Monkey Skin",
+    "DisplayDescription": "The Ninja and its upgrades embrace the way of the samurai. Visual change only.",
+    "DisplayIcon": "ninja_monkey_skin_store_icon.json",
+    "SmallIcon": "ninja_monkey_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "NinjaMonkeySkin",
+    "RequiresTower": "NinjaMonkey",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+    
+    "TowerMap": {
+        "NinjaBlackBlueBandana.json": {
+            "Name" : "Ninja_NinjaBlackBlueBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaBlackRedBandana.json": {
+            "Name" : "Ninja_NinjaBlackRedBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaBlackWhiteBandana.json": {
+            "Name" : "Ninja_NinjaBlackWhiteBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaBloonjitsu.json": {
+            "Name" : "Ninja_NinjaBloonjitsu.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaMonkey.json": {
+            "Name" : "Ninja_NinjaMonkey.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaSabotageSupplyLines.json": {
+            "Name" : "Ninja_NinjaSabotageSupplyLines.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaWhiteBlackBandana.json": {
+            "Name" : "Ninja_NinjaWhiteBlackBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaWhitePurpleBandana.json": {
+            "Name" : "Ninja_NinjaWhitePurpleBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "NinjaWhiteRedBandana.json": {
+            "Name" : "Ninja_NinjaWhiteRedBandana.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

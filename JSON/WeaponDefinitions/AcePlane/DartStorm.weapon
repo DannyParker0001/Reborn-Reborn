@@ -1,0 +1,44 @@
+{	
+    "Type":             "DartStorm",    
+    "TargetRange":      1000.0,
+	"CooldownTime":     0.9,
+    "FireDelayTime":    0.0,
+    "CanFireWithNoTargetsAndRoundInProgress" : true,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": 11.25,
+    		"AngleIncrement": 22.5,
+    		"FireCount": 16,
+			"AimAtTarget": false,
+    		"Tasks":
+            [{
+    			"Type": "Projectile",
+    			"GraphicName": "dart_monkey_dart",
+    			"NumPersists":      15,
+                "TerminateOnZeroPersists": true,
+                "CollisionType": "Once",
+                "Radius" : 3,
+                
+				"Movement":
+				{
+					"Type": "Forward",
+					"Speed": 340,
+					"CutOffDistance": 1000
+				},
+				
+    			"Tasks":
+    			[
+    				{
+    					"Type": "Damage",
+    					"DamageType": "Piercing",
+    					"Amount": 1
+    				}
+    			]
+    		}]
+    	}
+    ]
+}
+

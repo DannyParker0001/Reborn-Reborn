@@ -1,0 +1,9 @@
+{
+	"Type" : "LeadSpaced1",
+	"BloonType" : "Lead",
+	"Quantity" : 2,
+	"Interval" : 1.5,
+	"Cost" : 90,
+	"IncomeChange" : 3.6,
+	"UnlockRound" : 8
+}

@@ -1,0 +1,44 @@
+{	
+    "Type":             "TrackPower_ExplodingMegaPineapples",    
+    "TargetRange":      100,
+	"CooldownTime":     0,
+    "FireDelayTime":    0.0,
+        
+    "Tasks" :
+        [{
+            "Type" : "TimerFire",
+            "TimeDelay" : 1.0,
+            "CompoundSprite" : "PineappleArmed.json",
+            "SpriteList":
+            [
+                "pineapple"
+            ],
+            
+            "Tasks" :
+            [
+                {
+                    "Type": "AreaOfEffect",
+                    "Range": 100,
+                    "MaxTargets": 40,
+                    "Tasks" :
+                    [
+                        {
+                            "Type": "Damage",
+                            "DamageType": "Explosive",
+                            "Amount": 2
+                        },
+                        {
+                            "Type"  : "StatusEffect",
+                            "Status": "MultiLayerDamage"
+                        }
+                    ]
+                },
+                {
+                    "Type": "Effect",
+                    "SpriteFile": "Explosion.json",
+					"Audio": "EXPLOSION",
+                    "Scale": 0.735
+                }
+            ]
+        }]  
+}

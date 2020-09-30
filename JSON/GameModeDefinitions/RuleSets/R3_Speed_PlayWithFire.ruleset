@@ -1,0 +1,39 @@
+{
+    "name": "R3_Speed_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Speed",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow",
+                "offsetY": 5
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "DisplayName": "R3 SPEED PLAY WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_speed_playwithfire"
+    },
+    "version": "1.0"
+}

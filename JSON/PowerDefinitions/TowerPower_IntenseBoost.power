@@ -1,0 +1,24 @@
+{
+    "TypeName"                  : "TowerPower_IntenseBoost",
+    "UnlockCost"                : 5000,
+    "RequiresUnlocked"          : ["TowerPower_LongBoost"],
+    "Description"               : "A quick but extreme boost for your Towers. Attack speed increased by 110% for 9 seconds. Three uses.",
+    "Icon"                      : "powers_intense_tower_boost",
+    "HudIcon"                   : "icon_intense_tower_boost",
+    "Category"                  : "Tower",
+
+    "TargetingSide"             : "Self",
+    "TargetingMode"             : "None",
+
+    "TowerType"                 : "TowerPower",
+    "PlacementMode"             : "InstantUse",
+    "PlacementH"                : 0.0,
+    "PlacementRadius"           : 8.0,
+    "PlacementW"                : 0.0,
+    "UseRadiusPlacement"        : true,
+
+    "MaxCooldown"               : 30,
+    "MinCooldown"               : 15,
+    "Count"                     : 3,
+    "Weapon"                    : "TowerPower_IntenseBoost.weapon"
+}

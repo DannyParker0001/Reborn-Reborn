@@ -1,0 +1,9 @@
+{
+	"Rules" : {
+		"UnlockAllRanksTo" : 4
+	},
+
+	"LobbyRules" : {
+		"CanRandomiseTowers" : false
+	}
+}

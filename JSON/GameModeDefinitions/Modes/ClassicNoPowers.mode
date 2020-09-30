@@ -1,0 +1,13 @@
+{
+    "Rules" : {
+        "DisablePowers": true
+    },
+    "LobbyRules": {
+        "CanSkipMap": true,
+        "CanChooseMap": false,
+        "CanRandomiseTowers": true,
+        "CanRollLottery": false,
+        "ShouldForceSameLastTower": false,
+        "DisablePowers": true
+    }
+}

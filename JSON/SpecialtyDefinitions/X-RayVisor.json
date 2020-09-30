@@ -1,0 +1,30 @@
+{
+	"Name" : "X-Ray Visor",
+	"Icon" : "x-ray_visor",
+    "Rarity" : "Gold",
+    "Description" : "Super Monkey can pop camo",
+	"Effects" :
+	[
+		{
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+				"Modifier" : { "CanTargetCamo" : [ true, true ] }
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+				"Modifier" : { "CanTargetCamo" : [ true, true ] }
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType": [ "SuperMonkey" ] } },
+				"Modifier" : { "CanTargetCamo" : [ true, true ] }
+			}]
+		}
+	]
+}

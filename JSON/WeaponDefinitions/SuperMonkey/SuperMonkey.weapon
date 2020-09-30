@@ -1,0 +1,38 @@
+{	
+    "Type":             "SuperMonkey",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.058,
+    "FireDelayTime":    0.0,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "MultiFire",
+    		"InitialOffset": 0.0,
+    		"AngleIncrement": 0.0,
+    		"FireCount": 1,
+			"AimAtTarget" : true,
+            "Tasks" :
+            [{
+                "Type":             "Projectile",
+                "GraphicName":      "dart_monkey_dart",
+                "NumPersists":      2,
+                "TerminateOnZeroPersists": true,
+                
+                "CollisionType": "Once",
+                
+                "Movement":
+                {
+                    "Type": "Forward",
+                    "Speed": 700.0,
+                    "CutOffDistance": 500
+                },
+                
+                "Tasks" :
+                [ 
+                    { "Type": "Damage", "DamageType": "Piercing", "Amount": 1 } 
+                ]
+            }]
+        }
+	]
+}

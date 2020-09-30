@@ -1,0 +1,26 @@
+{	
+    "Type":             "SniperMonkey",    
+    "TargetRange":      100000.0,
+	"CooldownTime":     1.8,
+    "FireDelayTime":    0.2,
+    
+    "Tasks" :
+    [
+        {
+            "Type": "Damage",
+            "DamageType": "Piercing",
+            "Amount": 2
+        }, 
+        
+        {
+            "Type": "StatusEffect",
+            "Status": "MultiLayerDamage"
+        },
+        
+        {   
+            "Type": "StatusEffect",
+            "Status": "",
+            "Duration" : 2
+        }
+    ]
+}

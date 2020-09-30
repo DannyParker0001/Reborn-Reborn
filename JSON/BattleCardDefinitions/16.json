@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 400, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 20, 
+        "Interval": 0.06, 
+        "NumBloons": 35, 
+        "Type": "Yellow", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "red", 
+    "DiscardCost": 400, 
+    "Name": "16", 
+    "NameOld": "MonkeyApprentice11_YellowTight35", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "fields_twilight", 
+        "Cost": 500, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "MonkeyApprentice", 
+        "Upgrades": [
+            1, 
+            1
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

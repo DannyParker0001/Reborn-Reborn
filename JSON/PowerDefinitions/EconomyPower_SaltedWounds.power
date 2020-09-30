@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "EconomyPower_SaltedWounds",
+    "UnlockCost"        : 500,
+    "Description"       : "Boost income by $10 per life lost by opponent for 25 seconds. Three uses, max $100 eco per use.",
+    "RequiresUnlocked"  : ["EconomyPower_EcoBoost"],
+    "Icon"              : "powers_salted_wounds",
+    "HudIcon"           : "icon_salted_wounds",
+    "Category"          : "Economy",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "EconomyPower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "EconomyPower_SaltedWounds.weapon"
+}

@@ -1,0 +1,64 @@
+{	
+    "Type":             	"RocketStormRockets",    
+    "TargetRange":      	100000.0,
+	"CooldownTime":     	2.0,
+    "FireDelayTime":    	0.0,
+	"ManuallyFired": 		false,
+	"RequiresTargetToFire":	true,
+    "TotalAmmo":            5,
+    "RemainingAmmo":        5,
+    "DisableSlotWhenOutOfAmmo" : true,
+
+    "Tasks" :
+    [
+        {
+            "Type": "MultiFire",
+            "AcquireTarget": true,
+            "InitialOffset": -0,
+            "AngleIncrement": 0,
+            "FireCount": 100,
+
+            "Tasks":
+            [
+                {
+                    "Type": "Projectile",
+                    "GraphicName": "dartling_gun_rocket",
+                    "NumPersists":      1,
+                    "TerminateOnZeroPersists": true,
+
+                    "CollisionType": "Once",
+                    
+                    "Movement":
+                    {
+                        "Type": "Forward",
+                        "Speed": 1000.0,
+                        "CutOffDistance": 1000
+                    },
+                    
+                    "Tasks" :
+                    [ 
+                        {
+                            "Type": "AreaOfEffect",
+                            "Range": 50,
+                            "MaxTargets": 23,
+                            "Tasks" :
+                            [
+                                { 
+                                    "Type": "Damage",
+                                    "DamageType": "Plasma",
+                                    "Amount": 1
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Effect",
+                            "SpriteFile": "Explosion.json",
+							"Audio": "EXPLOSION",
+                            "Scale": 0.66
+                        }
+                    ]
+                }
+            ]
+        }
+	]
+}

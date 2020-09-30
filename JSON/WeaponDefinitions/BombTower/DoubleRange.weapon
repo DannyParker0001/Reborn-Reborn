@@ -1,0 +1,42 @@
+{	
+    "Type":             "DoubleRange",
+    "TargetRange":      0.0,
+	"CooldownTime":     45.0,
+    "FireDelayTime":    0.0,
+	"ManuallyFired": 		true,
+	"RequiresTargetToFire":	false,
+    
+    "Tasks" :
+    [
+		{
+			"Type": "TowerModifier",
+			"Range": 1000,
+			"PriorityLevel": 1,
+			"ApplyToUserTower": true,
+			"TerminateOnUserUpgrade": false,
+
+			"Duration": 10,
+			"NumPersists": 10,
+
+			"TargetingFilter":
+			{
+				"Include" :
+				{ 
+					"TowerType": [ 
+						"BombTower"
+					]
+				}
+			},
+
+			"Modifier":
+			{
+				"TargetRange" : [ 2, 0 ]
+			}
+		},
+		{
+			"Type": "Effect",
+			"SpriteFile": "GeneralShockwave.json",
+			"DrawLayer": "FullScreen"
+		}
+    ]
+}

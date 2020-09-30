@@ -1,0 +1,60 @@
+{	
+    "Type":             "BananaFarm",    
+    "TargetRange":      120,
+	"CooldownTime":     1.0,
+    "FireDelayTime":    0.0,
+   	"RequiresTargetToFire"	: false,
+	"AllowFiringOnlyOnRoundStart": true,
+	"MaxShots": 2,
+
+    "Tasks" :
+    [
+		{
+			"Type": "RandomFire",
+			"Range": 120,
+			"OnlyTargetPathLocations": false,
+			"FireFullRange": true,
+			"TerminateOnZeroPersists": true,
+			"FollowTarget": false,
+            "WaitTimeRange": [ 0.0, 2.0 ],
+			
+			"Tasks":
+			[
+				{
+					"Type":             "Collectable",
+					"GraphicName":      "bananas",
+					"Duration":	15,
+					"MoneyRange": [ 60, 60 ],
+					"MoneyMultiplier": 1.0,
+					"CollectionRadius": 120,
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 250,
+						"KeepOnScreen": true,
+						"SpeedDecay": 0.95
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "TextEffect",
+							"Text": "",
+							"Font": "oetztype_24_black_stroke",
+							"Colour": [ 1.0, 1.0, 1.0 ],
+							
+							"Movement":
+							{
+								"Type": "Forward",
+								"Direction": [0, -1],
+								"Speed": 20,
+								"CutOffDistance": 30
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,57 @@
+{
+    "ID": "BazookaDartlingGun",
+    "DisplayName": "Dartling Gun Skin",
+    "DisplayDescription": "The Dartling Gun is mounting a new kind of offence! Visual change only.",
+    "DisplayIcon": "dartling_gun_skin_store_icon.json",
+    "SmallIcon": "dartling_gun_skin_icon_small",
+    "Type": "TowerSkin",
+    "Group": "DartlingGunSkin",
+    "RequiresTower": "DartlingGun",
+    "Tags": ["COSMETIC", "SKIN", "TOGGLE" ],
+
+    "ProjectileMap": {
+        "DartlingGun_tripod.json": {
+            "Name" : "Bazooka_DartlingGun_tripod.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    },
+
+    "TowerMap": {
+        "DartlingGun_tripod.json": {
+            "Name" : "Bazooka_DartlingGun_tripod.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGun.json": {
+            "Name" : "Bazooka_DartlingGun.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunBADS.json": {
+            "Name" : "Bazooka_DartlingGunBADS.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunBlue.json": {
+            "Name" : "Bazooka_DartlingGunBlue.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunDoomRay.json": {
+            "Name" : "Bazooka_DartlingGunDoomRay.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunHydraRockets.json": {
+            "Name" : "Bazooka_DartlingGunHydraRockets.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunLaserCannon.json": {
+            "Name" : "Bazooka_DartlingGunLaserCannon.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunPurple.json": {
+            "Name" : "Bazooka_DartlingGunPurple.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        },
+        "DartlingGunRedCircle.json": {
+            "Name" : "Bazooka_DartlingGunRedCircle.json",
+            "Location" : "Assets/JSON/TowerSprites/"
+        }
+    }
+}

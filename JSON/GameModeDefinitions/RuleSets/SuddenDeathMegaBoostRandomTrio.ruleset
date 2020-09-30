@@ -1,0 +1,82 @@
+{
+    "name": "SuddenDeathMegaBoostRandomTrio",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "MegaBoosts",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 15
+            },
+            {
+                "Text": "x3 Random Towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "sudden_death_icon|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "offsetY": 5,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Powers upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "sudden_death_icon|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "DisplayName": "BOOSTY R3 1 LIFE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_megaboost_r3"
+    },
+    "version": "1.0"
+}

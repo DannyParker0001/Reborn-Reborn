@@ -1,0 +1,32 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1000, 
+        "Features": [
+            "Camo", 
+            "Spaced"
+        ], 
+        "IncomeChange": 35, 
+        "Interval": 0.5, 
+        "NumBloons": 30, 
+        "Type": "Pink", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 900, 
+    "Name": "25", 
+    "NameOld": "BananaFarm20_CamoPinkSpaced30", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 2500, 
+        "Type": "BananaFarm", 
+        "Upgrades": [
+            2, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

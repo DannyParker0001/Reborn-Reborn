@@ -1,0 +1,51 @@
+{
+	"Name" : "Explosive Darts",
+	"Icon" : "explosive_darts",
+    "Rarity" : "Gold",
+    "Description" : "Dart Monkey fires explosive darts",
+	"Effects" :
+	[
+		{
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [
+                        [ 0, [ 0, 1 ], true ],
+                        [ 0, [ 0, 2 ], true ]
+                    ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [
+                        [ 0, [ 0, 1 ], true ],
+                        [ 0, [ 0, 2 ], true ]
+                    ]
+                }
+            }]
+		},
+        {
+            "TowerModifiers" :
+			[{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "DartMonkey" ] } },
+                "Modifier" :
+                {
+                    "EnabledSubtasks" :
+                    [
+                        [ 0, [ 0, 1 ], true ],
+                        [ 0, [ 0, 2 ], true ]
+                    ]
+                }
+            }]
+		}
+	]
+}

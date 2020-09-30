@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_TeamTowerStun",
+    "UnlockCost"        : 5000,
+    "Description"       : "Stuns all opponent's Towers for 2 seconds. Two uses.",
+    "RequiresUnlocked"  : ["SabotagePower_KnockOut"],
+    "Icon"              : "powers_team_tower_stun",
+    "HudIcon"           : "icon_team_tower_stun",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "SabotagePower_TeamTowerStun.weapon"
+}

@@ -1,0 +1,16 @@
+{
+    "SFX": [
+		[ "POPS", 0.05, [
+			"pop1.wav",
+			"pop2.wav",
+			"pop3.wav",
+			"pop4.wav"
+		]],
+		[ "BUY", 0.5, [
+			"buy.wav"
+		]],
+		[ "TAP", 0.1, [
+			"button_click.wav"
+		]]
+    ]
+}

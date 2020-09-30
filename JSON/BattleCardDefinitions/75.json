@@ -1,0 +1,45 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 700, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 28, 
+        "Interval": 0.1, 
+        "NumBloons": 80, 
+        "Type": "Red", 
+        "UnlockRound": 0
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "75", 
+    "NameOld": "Bloonchipper20_RedTight80", 
+    "PlatformProductID": "btdbattles_vet_bloonchipper20_redtight80", 
+    "PlatformProductIDiOS": "btdbattles_vet_Bloonchipper20_RedTight80", 
+    "ProductID": "Vet_Bloonchipper20_RedTight80", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields", 
+        "Cost": 1400, 
+        "Features": [
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "Bloonchipper", 
+        "Upgrades": [
+            2, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": true
+}

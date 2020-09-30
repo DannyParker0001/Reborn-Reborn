@@ -1,0 +1,28 @@
+{
+    "LobbyRules": {
+        "CanSpy": false,
+        "CanSkipMap": false,
+        "CanChooseMap": false,
+        "CanRandomiseTowers": true,
+        "CanRollLottery": true,
+        "CostToRollLottery": 0,
+        "CostToRerollLottery": 0,
+        "MaxLotteryRolls": 2,
+        "ShouldShowMedallions": false,
+        "ShouldForceSameLastTower": false,
+        "CostToQuit" : 0,
+        "AllowRematch" : false
+    },
+    "Rules" : {
+        "PowerEnergyCost" : 0,
+        "ReturnToLobbyAfterGame" : true,
+        "SuddenDeathRound" : 25,
+        "Reward": {
+        "WinBattleScore" : 0,
+        "WinMedallionsNoLivesLost": 0,
+        "WinMedallions" : 0,
+        "LossBattleScore" : 0,
+        "LossMedallions" : 0
+        }
+    }
+}

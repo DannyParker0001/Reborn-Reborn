@@ -1,0 +1,92 @@
+{
+    "name": "SuddenDeathPlayWithFireRandomTrio",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "PlayWithFire",
+        "SuddenDeath"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio",
+                "offsetX": 15,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetX": 65,
+                "offsetY": -10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 110,
+                "offsetY": 5
+            },
+            {
+                "Text": "Both players receive same 3 random towers",
+                "offsetY": 18,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "x2 income from Bloon sends",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 14,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Icon": "rulesIcon_RandomTrio",
+                "offsetX": 15,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_PlayWithFire",
+                "offsetX": 65,
+                "offsetY": -10
+            },
+            {
+                "Icon": "sudden_death_icon",
+                "offsetX": 110,
+                "offsetY": 5
+            },
+            {
+                "Text": "3x Random Towers",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "x2 income from Bloon sends",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 0,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Both players begin with only one life",
+                "Icon": "bullet_point_glow",
+                "offsetY": 0
+            }
+        ],
+        "DisplayNameFront": "   R3 1 LIFE WITH FIRE",
+        "DisplayName": "R3 1 LIFE WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_suddendeath_playwithfire_r3"
+    },
+    "version": "1.0"
+}

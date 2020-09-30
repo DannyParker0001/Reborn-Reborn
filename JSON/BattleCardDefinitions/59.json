@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "snowstorm", 
+        "Cost": 3000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 125, 
+        "Interval": 0.1, 
+        "NumBloons": 75, 
+        "Type": "White", 
+        "UnlockRound": 8
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "59", 
+    "NameOld": "MonkeyEngineer42_WhiteTight75", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "lab", 
+        "Cost": 6000, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite", 
+            "PopLead", 
+            "PopFrozen", 
+            "PopRegen"
+        ], 
+        "Type": "MonkeyEngineer", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

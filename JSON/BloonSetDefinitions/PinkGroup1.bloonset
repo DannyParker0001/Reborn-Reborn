@@ -1,0 +1,9 @@
+{
+	"Type" : "PinkGroup1",
+	"BloonType" : "Pink",
+	"Quantity" : 4,
+	"Interval" : 0.04,
+	"Cost" : 90,
+	"IncomeChange" : 3.6,
+	"UnlockRound" : 8
+}

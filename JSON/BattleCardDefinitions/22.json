@@ -1,0 +1,37 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "lab", 
+        "Cost": 1000, 
+        "Features": [
+            "Camo", 
+            "Tight"
+        ], 
+        "IncomeChange": 20, 
+        "Interval": 0.2, 
+        "NumBloons": 9, 
+        "Type": "Lead", 
+        "UnlockRound": 12
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "purple", 
+    "DiscardCost": 2500, 
+    "Name": "22", 
+    "NameOld": "NinjaMonkey42_CamoLeadTight9", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "jungle", 
+        "Cost": 5000, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "NinjaMonkey", 
+        "Upgrades": [
+            4, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

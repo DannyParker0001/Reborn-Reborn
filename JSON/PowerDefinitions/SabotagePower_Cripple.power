@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_Cripple",
+    "UnlockCost"        : 7500,
+    "Description"       : "Reduces pierce, attack speed and range of all opponent's Towers by 25% for 8 seconds. Two uses.",
+    "RequiresUnlocked"  : ["SabotagePower_TowerBlindness"],
+    "Icon"              : "powers_cripple",
+    "HudIcon"           : "icon_cripple",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 2,
+    "Weapon"            : "SabotagePower_Cripple.weapon"
+}

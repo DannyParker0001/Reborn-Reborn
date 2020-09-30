@@ -1,0 +1,39 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "rain_trees", 
+        "Cost": 8000, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 20, 
+        "Interval": 0.5, 
+        "NumBloons": 4, 
+        "Type": "MOAB", 
+        "UnlockRound": 17
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "gold", 
+    "DiscardCost": 1600, 
+    "Name": "69", 
+    "NameOld": "BananaFarm23_MOABTight4", 
+    "PlatformProductID": "btdbattles_vet_bananafarm23_moabtight4", 
+    "PlatformProductIDiOS": "btdbattles_vet_BananaFarm23_MOABTight4", 
+    "ProductID": "Vet_BananaFarm23_MOABTight4", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_twilight", 
+        "Cost": 8000, 
+        "Type": "BananaFarm", 
+        "Upgrades": [
+            2, 
+            3
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

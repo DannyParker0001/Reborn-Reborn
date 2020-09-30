@@ -1,0 +1,13 @@
+{
+	"Modifiers" : [ 
+		{
+			"type" : "pattern",
+			"pattern" : [
+				[ 1, 2 ]
+			]
+		}
+	],
+	"Music" : "main.mp3",
+	"BloonSendPath" : 0,
+	"HasWater" : true
+}

@@ -1,0 +1,30 @@
+{
+	"Name" : "Golden Shuriken",
+	"Icon" : "golden_shuriken",
+    "Rarity" : "Gold",
+    "Description" : "Ninja Monkey shurikens last much longer",
+	"Effects" :
+	[
+		{
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+                "Modifier" : { "ProjectileCutOff" : [ 2, 0 ] }
+            }]
+		},
+        {
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+                "Modifier" : { "ProjectileCutOff" : [ 2, 0 ] }
+            }]
+		},
+        {
+            "TowerModifiers" :
+            [{
+                "TargetingFilter" : { "Include" : { "TowerType": [ "NinjaMonkey" ] } },
+                "Modifier" : { "ProjectileCutOff" : [ 2, 0 ] }
+            }]
+		}
+	]
+}

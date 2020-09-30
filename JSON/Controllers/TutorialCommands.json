@@ -1,0 +1,222 @@
+{
+	"Commands" : [
+		{
+			"Time" : 1,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 1,
+				  "TowerType" : 4,
+				  "Position.x" : -62,
+				  "Position.y" : -86,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 40,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 2,
+				  "TowerType" : 64,
+				  "Position.x" : 40,
+				  "Position.y" : 0,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 41,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 7,
+				  "TowerType" : 64,
+				  "Position.x" : 36,
+				  "Position.y" : 64,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 40.75,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 8,
+				  "TowerType" : 2,
+				  "Position.x" : -32,
+				  "Position.y" : -38,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 40.75,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 9,
+				  "TowerType" : 2,
+				  "Position.x" : -21,
+				  "Position.y" : -18,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 40,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 1,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 1,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 41.5,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 2,
+				  "Levels[0]" : 1,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 41.75,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 7,
+				  "Levels[0]" : 1,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 41.8,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 8,
+				  "Levels[0]" : 0,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 41.9,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 9,
+				  "Levels[0]" : 0,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 240,
+			"Data" : {
+				  "Type" : 18,
+				  "BloonSetType" : 128,
+				  "WaveID" : 1,
+				  "IsCamo" : 1,
+				  "IsRegen" : 0
+			}
+		},
+		{
+			"Time" : 145,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 3,
+				  "TowerType" : 4,
+				  "Position.x" : -34,
+				  "Position.y" : -58,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 145.5,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 4,
+				  "TowerType" : 4,
+				  "Position.x" : -12,
+				  "Position.y" : 124,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 145.75,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 5,
+				  "TowerType" : 64,
+				  "Position.x" : 22,
+				  "Position.y" : 82,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 145.85,
+			"Data" : {
+				  "Type" : 15,
+				  "TowerID" : 6,
+				  "TowerType" : 8,
+				  "Position.x" : 103,
+				  "Position.y" : 8,
+				  "RandSeed" : 0,
+				  "MoneySpent" : 0
+			}
+		},
+		{
+			"Time" : 146,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 3,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 146.5,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 4,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 146.75,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 2,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 146.85,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 5,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 2,
+				  "RandSeed" : 0
+			}
+		},
+		{
+			"Time" : 147,
+			"Data" : {
+				  "Type" : 17,
+				  "TowerID" : 6,
+				  "Levels[0]" : 2,
+				  "Levels[1]" : 1,
+				  "RandSeed" : 0
+			}
+		}
+	]
+}

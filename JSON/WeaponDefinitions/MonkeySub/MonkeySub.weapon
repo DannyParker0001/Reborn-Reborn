@@ -1,0 +1,68 @@
+{
+    "Type": "MonkeySub",
+    "TargetRange": 125,
+    "FireDelayTime": 0,
+    "CooldownTime": 0.76,
+	"DisabledOnTargetModes" : [ "Submerged" ],
+	"DefaultSprite" : "SubmarineBarrel.json",
+    "StartsOnCooldown" : true,
+
+	"CanSpotFromOtherTowers" : false,
+	
+    "Tasks": [
+        {
+            "Type": "Projectile",
+            "SpriteFile": "submarine_dart.json",
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "NumPersists": 1,
+            "Movement": {
+                "Type": "Target",
+                "SeekAngle": 144,
+                "TurnSpeed": 360,
+                "CutOffDistance": 360,
+			    "ActivateCutOffFromSpotter" : true,
+                "TargetRange": 180,
+                "Speed": 420
+            },
+			"TasksToProcessOnCollision" : [ 0 ],
+            "DisabledTasks" : [ 2 ],
+
+            "Tasks": [
+                {
+                    "Type": "Damage",
+                    "DamageType": "Piercing",
+                    "Amount": 1
+                },
+                {
+                    "Type": "MultiFire",
+                    "InitialOffset": -22,
+                    "AngleIncrement": 22,
+                    "AimAtTarget": true,
+                    "FireCount": 3,
+                    "Tasks": [
+                        {
+                            "Type": "Projectile",
+                            "SpriteFile": "submarineAirBurst.json",
+                            "TerminateOnZeroPersists": true,
+                            "CollisionType": "Once",
+                            "NumPersists": 3,
+                            "Movement": {
+                                "Type": "Forward",
+                                "CutOffDistance": 234,
+                                "Speed": 840
+                            },
+                            "Tasks": [
+                                {
+                                    "Type": "Damage",
+                                    "DamageType": "Piercing",
+                                    "Amount": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

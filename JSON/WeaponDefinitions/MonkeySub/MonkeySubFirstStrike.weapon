@@ -1,0 +1,52 @@
+{
+    "Type": "MonkeySubFirstStrike",
+    "TargetsIndependently": true,
+    "SelfTargetMode": "Strong",
+    "FireDelayTime": 0,
+    "CooldownTime": 60,
+    "ManuallyFired": true,
+    "TargetRange": 1000,
+    "CanSelfTargetCamo": true,
+    "ShowRange": false,
+
+    "Tasks": [
+        {
+            "Type": "Projectile",
+            "ForcePersists": true,
+            "TerminateOnZeroPersists": true,
+            "CollisionType": "Once",
+            "SpriteFile": "SubmarineFirstStrikeMissile.json",
+            "NumPersists": 1,
+            "Movement": {
+                "SeekAngle": 360,
+                "TurnSpeed": 960,
+                "CutOffDistance": 1000,
+                "Type": "Target",
+                "TerminateOnNoTarget": false,
+                "TargetRange": 1000,
+                "Speed": 500,
+			 	"TargetMode": "Strong"
+            },
+            "Tasks": [
+                {
+                    "Type": "DamageSpread",
+                    "DamageType": "Plasma",
+                    "Range": 150,
+                    "Amount": 10000,
+                    "MaxTargets": -1
+                },
+                {
+                    "Type": "Effect",
+                    "Scale": 1.555,
+					"Audio": "EXPLOSION",
+                    "SpriteFile": "Explosion.json"
+                }
+            ]
+        },
+        {
+            "Type": "Effect",
+            "DrawLayer": "FullScreen",
+            "SpriteFile": "GeneralShockwave.json"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "name": "R3_Bananza_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "RandomTrio",
+        "Bananza",
+		"PlayWithFire",
+		"Bananza_WithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "x3 Random Towers",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_Bananza|CENTER_X",
+                "offsetY": 10
+            },
+            {
+                "Text": "x2 Starting Cash",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            },
+            {
+                "Text": "x4 Income from Bloons Sends",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "offsetY": 15,
+                "Icon": "bullet_point_glow"
+            }
+        ],
+        "DisplayNameFront": "   R3 BANANZA WITH FIRE",
+        "DisplayName": "R3 BANANZA WITH FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_r3_bananza_with_fire_small"
+    },
+    "version": "1.0"
+}

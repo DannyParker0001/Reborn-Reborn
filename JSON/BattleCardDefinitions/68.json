@@ -1,0 +1,44 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1400, 
+        "Features": [
+            "Tight"
+        ], 
+        "IncomeChange": 55, 
+        "Interval": 0.1, 
+        "NumBloons": 90, 
+        "Type": "Yellow", 
+        "UnlockRound": 5
+    }, 
+    "CardSet": "Veteran", 
+    "CardSprite": "blue", 
+    "DiscardCost": 900, 
+    "Name": "68", 
+    "NameOld": "NinjaMonkey22_YellowTight90", 
+    "PlatformProductID": "btdbattles_vet_ninjamonkey22_yellowtight90", 
+    "PlatformProductIDiOS": "btdbattles_vet_NinjaMonkey22_YellowTight90", 
+    "ProductID": "Vet_NinjaMonkey22_YellowTight90", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "forest", 
+        "Cost": 1400, 
+        "Features": [
+            "PopCamo", 
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "NinjaMonkey", 
+        "Upgrades": [
+            2, 
+            2
+        ]
+    }, 
+    "UnlockMethod": "Win", 
+    "UnlockWin": {
+        "Count": 50, 
+        "SpotlightCount": 10, 
+        "Type": "CardBattle"
+    }, 
+    "Visible": false
+}

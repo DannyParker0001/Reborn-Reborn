@@ -1,0 +1,31 @@
+{
+	"Setup"	: {
+		"Health" : 150,
+		"RoundFiles" : [
+			"Difficulty/Medium.mode"
+		]
+	},
+	
+	"Rules" : {
+		"TargetRound" : 43,
+		"PriceModifier" : 1.0,
+		"SpeedModifier" : 0.05
+	},
+	
+	"_Rounds" : [
+		{
+			"Round" : 0,
+			"Hint" : "Medium.mode intro hint text",
+			"Waves" : [
+			]
+		},
+		{
+			"Round" : 1,
+			"Hint" : "Medium.mode intro hint text",
+			"Waves" : [
+				{ "Bloon" : "Rainbow", "IsCamo" : false, "IsRegen" : false, "StartTime" : 0, "Duration" : 20, "Count" : 50 }
+			]
+		}
+	]
+}
+

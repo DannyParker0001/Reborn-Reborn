@@ -1,0 +1,35 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "twilight", 
+        "Cost": 500, 
+        "Features": [
+            "Spaced"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 0.5, 
+        "NumBloons": 20, 
+        "Type": "Black", 
+        "UnlockRound": 3
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 1600, 
+    "Name": "38", 
+    "NameOld": "BoomerangThrower30_BlackSpaced20", 
+    "StartingCard": true, 
+    "Tower": {
+        "BackgroundSprite": "jungle", 
+        "Cost": 2000, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "BoomerangThrower", 
+        "Upgrades": [
+            3, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Unlocked", 
+    "Visible": true
+}

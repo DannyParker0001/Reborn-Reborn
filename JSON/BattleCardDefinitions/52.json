@@ -1,0 +1,36 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 850, 
+        "Features": [
+            "Regen", 
+            "Spaced"
+        ], 
+        "IncomeChange": 25, 
+        "Interval": 1.0, 
+        "NumBloons": 3, 
+        "Type": "Rainbow", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "green", 
+    "DiscardCost": 400, 
+    "Name": "52", 
+    "NameOld": "HeliPilot10_RegenRainbowSpaced3", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "blue_sky", 
+        "Cost": 1700, 
+        "Features": [
+            "PopBlack", 
+            "PopWhite"
+        ], 
+        "Type": "HeliPilot", 
+        "Upgrades": [
+            1, 
+            0
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

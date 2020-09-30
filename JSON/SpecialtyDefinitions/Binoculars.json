@@ -1,0 +1,48 @@
+{
+	"Name" : "Binoculars",
+	"Icon" : "binoculars",
+    "Rarity" : "Silver",
+    "Description" : "+10% attack speed to Mortars, Requires 2 Snipers",
+	"Effects" :
+	[
+		{
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "SniperMonkey", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.90, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "SniperMonkey", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.90, 0 ]
+     				}
+     			}
+            ]
+		},
+        {
+     		"TowerModifiers" :
+     		[
+     			{
+     				"ActiveTowerRequirement" : { "TowerType": "SniperMonkey", "NumRequired" : 2 },
+                 	"TargetingFilter" : { "Include" : { "TowerType": [ "MortarTower" ] } },
+     				"Modifier" :
+     				{
+						"Cooldown" : [ 0.90, 0 ]
+     				}
+     			}
+            ]
+		}
+	]
+}

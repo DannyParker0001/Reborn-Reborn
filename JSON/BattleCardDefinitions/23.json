@@ -1,0 +1,40 @@
+{
+    "Bloon": {
+        "BackgroundSprite": "sunset", 
+        "Cost": 4000, 
+        "Features": [
+            "Camo", 
+            "Regen", 
+            "Tight"
+        ], 
+        "IncomeChange": 10, 
+        "Interval": 0.1, 
+        "NumBloons": 6, 
+        "Type": "Rainbow", 
+        "UnlockRound": 9
+    }, 
+    "CardSet": "Basic", 
+    "CardSprite": "gold", 
+    "DiscardCost": 2500, 
+    "Name": "23", 
+    "NameOld": "NinjaMonkey14_CamoRegenRainbowTight6", 
+    "StartingCard": false, 
+    "Tower": {
+        "BackgroundSprite": "fields_moonlight", 
+        "Cost": 8000, 
+        "Features": [
+            "PopCamo", 
+            "PopLead", 
+            "PopBlack", 
+            "PopFrozen", 
+            "PopWhite"
+        ], 
+        "Type": "NinjaMonkey", 
+        "Upgrades": [
+            1, 
+            4
+        ]
+    }, 
+    "UnlockMethod": "Tower", 
+    "Visible": true
+}

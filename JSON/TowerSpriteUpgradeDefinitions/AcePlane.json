@@ -1,0 +1,37 @@
+{
+	"Sprites":
+	{
+        "0" : "MonkeyAce",
+        "1" : "MonkeyAceRedStripes",
+        "2" : "MonkeyAceBlackPlaneRedStripes",
+        "3" : "MonkeyAceTargeting",
+        "4" : "MonkeyAceSpectre",
+        "5" : "MonkeyAceODS",
+        "6" : "MonkeyAceGroundZero"
+	},
+	
+	"UpgradeLevels":
+	{
+		"00"		: 0,
+		"01"		: 1,
+		"02"		: 2,
+		"03"		: 5,
+		"04"		: 6,
+		"10"		: 1,
+		"11"		: 1,
+		"12"		: 2,
+		"13"		: 5,
+		"14"		: 6,
+		"20"		: 2,
+		"21"		: 2,
+		"22"		: 2,
+		"23"		: 5,
+		"24"		: 6,
+		"30"		: 3,
+		"31"		: 3,
+		"32"		: 3,
+		"40"		: 4,
+		"41"		: 4,
+		"42"		: 4
+	}
+}

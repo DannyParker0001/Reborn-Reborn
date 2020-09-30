@@ -1,0 +1,24 @@
+{
+    "TypeName"          : "SabotagePower_TowerBlindness",
+    "UnlockCost"        : 5000,
+    "Description"       : "Reduces opponent's Tower's attacking range by 66% for 12 seconds. Three uses.",
+    "RequiresUnlocked"  : ["SabotagePower_ExtraSlow"],
+    "Icon"              : "powers_tower_blindness",
+    "HudIcon"           : "icon_tower_blindness",
+    "Category"          : "Sabotage",
+
+    "TargetingSide"     : "Opponent",
+    "TargetingMode"     : "None",
+
+    "TowerType"         : "SabotagePower",
+    "PlacementMode"     : "InstantUse",
+    "PlacementH"        : 0,
+    "PlacementRadius"   : 0,
+    "PlacementW"        : 0,
+    "UseRadiusPlacement": false,
+
+    "MaxCooldown"       : 30,
+    "MinCooldown"       : 15,
+    "Count"             : 3,
+    "Weapon"            : "SabotagePower_TowerBlindness.weapon"
+}

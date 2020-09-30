@@ -1,0 +1,44 @@
+{	
+    "Type":             "SunGod",    
+    "TargetRange":      140.0,
+	"CooldownTime":     0.058,
+    "FireDelayTime":    0.0,
+    
+    "Tasks"	:
+    [
+    	{
+    		"Type": "MultiFire",
+    		"InitialOffset": -7.3,
+    		"AngleIncrement": 7.3,
+    		"FireCount": 3,
+    		"Tasks":
+    		[
+				{
+					"Type": "Projectile",
+					"GraphicName": "supermonkey_sun_god_projectile",
+					"NumPersists":      15,
+                    "Radius" : 15,
+					"TerminateOnZeroPersists": true,
+					
+					"CollisionType": "Once",
+					
+					"Movement":
+					{
+						"Type": "Forward",
+						"Speed": 875,
+						"CutOffDistance": 500
+					},
+					
+					"Tasks":
+					[
+						{
+							"Type": "Damage",
+							"DamageType": "Plasma",
+							"Amount": 2
+						}
+					]
+				}
+			]
+    	}
+    ]
+}

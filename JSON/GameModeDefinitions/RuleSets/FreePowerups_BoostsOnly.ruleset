@@ -1,0 +1,48 @@
+{
+    "name": "FreePowerups_BoostsOnly",
+    "rules": [
+        "FreePowerups",
+        "BoostsOnly"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Text": "1x Map Skip",
+                "Icon": "ltd_skip_icon",
+                "offsetY": 5
+            },
+            {
+                "Text": "2x Random Rolls",
+                "Icon": "ltd_random_icon",
+                "offsetY": 5
+            },
+            {
+                "Text": "Powers do not cost energy",
+                "Icon": "ltd_powers_icon",
+                "offsetY": 5
+            },
+            {
+                "Text": "3x Tower Boosts",
+                "Icon": "ltd_tower_boost_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            },
+            {
+                "Text": "3x Bloon Boosts",
+                "Icon": "ltd_bloon_boost_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            },
+            {
+                "Text": "3x Red Hot Spikes",
+                "Icon": "ltd_rhs_icon",
+                "offsetX": 15,
+                "offsetY": -4
+            }
+        ],
+        "DisplayIcon": "rulesIcon_BoostsOnly",
+        "DisplayInfo": "BACK 2 BASICS",
+        "DisplayName": "BOOSTS ONLY",
+        "LobbyName" : ""
+    }
+}

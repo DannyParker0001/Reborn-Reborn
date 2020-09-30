@@ -1,0 +1,40 @@
+{
+    "name": "MegaBoost_PlayWithFire",
+    "rules": [
+        "FreePowerups",
+        "MegaBoosts",
+        "PlayWithFire"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 30,
+                "offsetY": 15
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "offsetY": 20,
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "warning|CENTER_X",
+                "offsetY": 5
+            },
+            {
+                "Text": "Bloon sends go to both players!",
+                "Icon": "bullet_point_glow",
+                "offsetY": 15
+            }
+        ],
+        "DisplayName": "MEGABOOST FIRE",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_megaboost_fire_small"
+    },
+    "version": "1.0"
+}

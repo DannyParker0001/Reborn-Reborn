@@ -1,0 +1,45 @@
+  {
+    "name": "RandomTrio_BoostsOnly",
+    "rules": [
+      "FreePowerups",
+      "RandomTrio",
+      "BoostsOnly"
+    ],
+    "UI": {
+      "CardTextInfo": [
+        {
+          "Text": "Both players receive the same random towers",
+          "Icon": "bullet_point_glow",
+          "offsetY": 5
+        },
+        {
+          "Text": "No bonus tower",
+          "Icon": "cross",
+          "offsetY": 5
+        },
+        {
+            "Text": "3x Tower Boosts",
+            "Icon": "ltd_tower_boost_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        },
+        {
+            "Text": "3x Bloon Boosts",
+            "Icon": "ltd_bloon_boost_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        },
+        {
+            "Text": "3x Red Hot Spikes",
+            "Icon": "ltd_rhs_icon",
+            "offsetX": 15,
+            "offsetY": -4
+        }
+      ],
+      "DisplayName": "R3 BOOSTS ONLY",
+      "DisplayInfo": "",
+      "DisplayIcon": "combo_r3_boostsonly",
+      "InGameRuleInfo": []
+    },
+    "version": "1.0"
+  }

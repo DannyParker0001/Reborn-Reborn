@@ -1,0 +1,39 @@
+{
+	"Name" : "Mounted Dartling Guns",
+	"Icon" : "mounted_dartling_guns",
+    "Rarity" : "Gold",
+    "Description" : "Adds forward firing gunners to Monkey Ace",
+	"Effects" :
+	[
+		{
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType" : [ "AcePlane" ] } },
+				"Modifier" :
+				{
+					"EnabledSubtasks" : [ [ 6, [ 0 ], true ] ]
+				}
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType" : [ "AcePlane" ] } },
+				"Modifier" :
+				{
+					"EnabledSubtasks" : [ [ 6, [ 0 ], true ] ]
+				}
+			}]
+		},
+        {
+			"TowerModifiers" :
+			[{
+				"TargetingFilter" : { "Include" : { "TowerType" : [ "AcePlane" ] } },
+				"Modifier" :
+				{
+					"EnabledSubtasks" : [ [ 6, [ 0 ], true ] ]
+				}
+			}]
+		}
+	]
+}

@@ -1,0 +1,198 @@
+{
+   "Alignment" : null,
+   "Point" : null,
+   "actors" : [
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ -40.0, 0.0 ],
+         "Scale" : [ 4.550000190734863, 20.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 3
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ 40.0, 0.0 ],
+         "Scale" : [ 4.550000190734863, 20.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 4
+      },
+      {
+         "Alignment" : [ 0, 3 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ 0.0, -40.0 ],
+         "Scale" : [ 11.50, 3.400000095367432 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 5
+      },
+      {
+         "Alignment" : [ 0, 4 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 0.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ 0.0, 40.0 ],
+         "Scale" : [ 11.55000019073486, 2.599999904632568 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 6
+      },
+      {
+         "Alignment" : [ 1, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : 35.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ -29.0, 18.0 ],
+         "Scale" : [ 7.599999904632568, 2.799999952316284 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 7
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 0.9960784316062927,
+         "Angle" : -35.0,
+         "Colour" : 4252388387,
+         "Flip" : 0,
+         "Position" : [ 29.0, 18.0 ],
+         "Scale" : [ 7.599999904632568, 2.799999952316284 ],
+         "Shown" : true,
+         "sprite" : "symbol_colour",
+         "type" : 1,
+         "uid" : 8
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 0.7960784435272217,
+         "Angle" : 0.0,
+         "Colour" : 3422552063,
+         "Flip" : 0,
+         "Position" : [ 2.0, 2.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_shield_02_shadow",
+         "type" : 1,
+         "uid" : 9
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 0.7960784435272217,
+         "Angle" : 0.0,
+         "Colour" : 3422552063,
+         "Flip" : 1,
+         "Position" : [ 2.0, 2.0 ],
+         "Scale" : [ 2.0, 2.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_shield_02_shadow",
+         "type" : 1,
+         "uid" : 10
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 0,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_shield_02",
+         "type" : 1,
+         "uid" : 1
+      },
+      {
+         "Alignment" : [ 2, 0 ],
+         "Alpha" : 1.0,
+         "Angle" : 0.0,
+         "Colour" : 4294967295,
+         "Flip" : 1,
+         "Position" : [ 0.0, 0.0 ],
+         "Scale" : [ 1.0, 1.0 ],
+         "Shown" : true,
+         "sprite" : "symbol_shield_02",
+         "type" : 1,
+         "uid" : 2
+      }
+   ],
+   "customvariables" : null,
+   "labels" : null,
+   "stageOptions" : {
+      "SpriteInfo" : [
+         {
+            "SpriteInfo" : "symbol_colour",
+            "Texture" : "clan_symbol"
+         },
+         {
+            "SpriteInfo" : "symbol_shield_02_shadow",
+            "Texture" : "clan_symbol"
+         },
+         {
+            "SpriteInfo" : "symbol_shield_02",
+            "Texture" : "clan_symbol"
+         }
+      ],
+      "StageLength" : 20.0,
+      "Version" : 1
+   },
+   "timelines" : [
+      {
+         "spriteuid" : 7,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 8,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 1,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 3,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 9,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 4,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 10,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 2,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 5,
+         "stage" : null
+      },
+      {
+         "spriteuid" : 6,
+         "stage" : null
+      }
+   ]
+}

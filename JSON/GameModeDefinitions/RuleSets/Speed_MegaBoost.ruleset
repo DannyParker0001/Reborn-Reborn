@@ -1,0 +1,71 @@
+{
+    "name": "Speed_MegaBoost",
+    "rules": [
+        "FreePowerups",
+        "Speed",
+        "MegaBoosts"
+    ],
+    "UI": {
+        "CardTextInfo": [
+            {
+                "Icon": "rulesIcon_SpeedBattle|CENTER_X",
+                "offsetX": 0,
+                "offsetY": 10
+            },
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "RestrictedTowersInfo": [
+            {
+                "Text": "Send faster bloons 2 rounds earlier",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Text": "Faster income generation",
+                "Icon": "bullet_point_glow"
+            },
+            {
+                "Icon": "rulesIcon_MegaBoosts",
+                "offsetX": 40,
+                "offsetY": 10
+            },
+            {
+                "Icon": "rulesIcon_Bloon_large",
+                "offsetX": 90,
+                "offsetY": -5
+            },
+            {
+                "Text": "Boosts upgrade Towers and Bloons",
+                "Icon": "bullet_point_glow",
+                "offsetY": 20
+            }
+        ],
+        "DisplayNameFront": "    SPEED MEGABOOSTS",
+        "DisplayName": "SPEED MEGABOOSTS",
+        "DisplayInfo": "",
+        "DisplayIcon": "combo_speed_megaboost_small"
+    },
+    "version": "1.0"
+}

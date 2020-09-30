@@ -1,0 +1,9 @@
+{
+	"Type" : "GreenGroup1",
+	"BloonType" : "Green",
+	"Quantity" : 5,
+	"Interval" : 0.08,
+	"Cost" : 60,
+	"IncomeChange" : 2.4,
+	"UnlockRound" : 4
+}
