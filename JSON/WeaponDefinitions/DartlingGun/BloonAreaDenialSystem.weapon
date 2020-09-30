@@ -22,6 +22,7 @@
 					
 					"CollisionType": "Once",
 					
+					"ForcePersists":	true,
 					"SpreadAngle": 23,
 
 					"Movement":

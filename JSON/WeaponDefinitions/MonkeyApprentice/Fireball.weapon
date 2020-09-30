@@ -12,6 +12,7 @@
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 
+			"ForcePersists":	true,
 			"CollisionType": "Once",
 			
 			"Movement":
