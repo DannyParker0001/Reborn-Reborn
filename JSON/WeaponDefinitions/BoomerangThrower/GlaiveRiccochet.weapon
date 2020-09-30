@@ -16,6 +16,7 @@
 			"CollisionType": "Once",
 			"SpinRate" : 1080,
             
+			"ForcePersists":	true,
 			"Movement":
 			{
 				"Type": "MotionCurve",

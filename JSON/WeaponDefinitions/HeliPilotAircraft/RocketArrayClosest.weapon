@@ -21,6 +21,7 @@
                 "CollisionType": "Once",
                 "Radius" : 14,
                 
+		    	"ForcePersists":	true,
                 "Movement":
                 {
                     "Type": "Target",

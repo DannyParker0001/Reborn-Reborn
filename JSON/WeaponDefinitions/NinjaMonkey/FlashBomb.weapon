@@ -11,7 +11,8 @@
 			"GraphicName":      "bomb_tower_bomb_01",
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
-
+			
+			"ForcePersists":	true,
 			"CollisionType": "Once",
 			"Radius": 5,
 			
