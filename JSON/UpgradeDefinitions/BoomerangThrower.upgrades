@@ -105,28 +105,6 @@
                         "RequiresMinUpgradeCounters" : [ 0, 2 ],
                         "GraphicName" : "glaive_red"
                     },
-                    
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" :    [ 1 ]
-                    },
-                    
-                    {
-                        "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
-                        "GraphicName" : "glaive_red"
-                    },
-                    
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 1, 0 ]
-                    },
-
-                    {
-                        "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
-                        "GraphicName" : "glaive_red"
-                    },
 					
                     {
                         "Operation" : "SelectByLocation",
@@ -142,35 +120,7 @@
                     {
                         "Operation" : "SelectByLocation",
                         "Location" : [ 0, 0, 0 ]
-                    },
-					
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 2 ],
-						"DamageType" : "Plasma"
-					},
-					
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 1, 0, 0 ]
-                    },
-					
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 1 ],
-						"DamageType" : "Fire"
-					},
-					
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 1, 0, 0 ]
-                    },
-					
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 2 ],
-						"DamageType" : "Plasma"
-					}
+                    }
                 ]
             }
         },
@@ -212,32 +162,6 @@
                         {
                             "Operation" : "SelectByLocation",
                             "Location" :    [ 0 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "GraphicName" : "boomerang_red"
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "RequiresMinUpgradeCounters" : [ 2, 0 ],
-                            "GraphicName" : "glaive_red"
-                        },
-
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 1, 0 ]
-                        },
-                        
-                        {
-                            "Operation" : "Replace",
-                            "DamageType" : "Plasma"
-                        },
-                        
-                        {
-                            "Operation" : "SelectByLocation",
-                            "Location" :    [ 1 ]
                         },
                         
                         {
