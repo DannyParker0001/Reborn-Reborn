@@ -15,16 +15,6 @@
                     {
                         "Operation" : "Adjust",
                         "NumPersists" : 7
-                    },
-                    
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 1 ]
-                    },
-                    
-                    {
-                        "Operation" : "Adjust",
-                        "NumPersists" : 1
                     }
                 ]
             }
@@ -52,14 +42,6 @@
 					{
 						"Operation" : "Replace",
 						"GraphicName": "glaive"
-					},
-                    {
-                        "Operation" : "SelectByLocation",
-                        "Location" : [ 1 ]
-                    },
-					{
-						"Operation" : "Replace",
-						"GraphicName": "glaive"
 					}
                 ]
             }
@@ -77,7 +59,7 @@
             },
 			"WeaponUpgrade" :
             {
-                "SlotIndex" : 0,
+                "SlotIndex" : 3,
                 "TaskUpgrade" :
                 [
                     {
