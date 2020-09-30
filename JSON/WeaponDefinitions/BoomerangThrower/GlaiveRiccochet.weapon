@@ -14,7 +14,8 @@
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
-			"SpinRate" : 1080,
+            "SpinRate" : 1080,
+            "ForcePersists":	true,
             
 			"Movement":
 			{
@@ -49,11 +50,20 @@
 
 					"Tasks" :
 					[ 
-						{
-							"Type": "Damage", 
-							"DamageType": "Piercing", 
-							"Amount": 1 
-						}
+						{ 
+                            "Type": "Damage", 
+                            "DamageType": "Piercing", 
+                            "Amount": 1 
+                        },
+                        { 
+                            "Type": "Damage", 
+                            "DamageType": "Juggernaut", 
+                            "Amount": 0 
+                        },
+                        {
+                            "Type": "StatusEffect",
+                            "Status": ""
+                        }
 					]
 				}
 			]

@@ -23,8 +23,8 @@
             "Glaive Lord"
         ],
         [
-            "Sonic Boom",
             "Red Hot Rangs",
+            "Sonic Boomer",
             "Bionic Boomer",
             "Turbo Charge"
         ]
@@ -53,8 +53,8 @@
 			"Two permanent glaives orbit the tower."
 		],
 		[
-			"Sonic boomerangs can smash through frozen bloons.",
-			"Red hot boomerangs can melt through lead bloons.",
+			"Red hot boomerangs can smash through any type of bloon.",
+			"Deals an extra layer of damage and increases ceramic damage by 1.",
 			"Throws boomerangs twice as fast.",
 			"Ability: attacks incredibly fast for 20 seconds."
 		]
@@ -67,7 +67,7 @@
     "UpgradePrices" : 
     [
         [ 300, 250, 1100, 4000 ],
-        [ 50, 50, 1300, 3000 ]
+        [ 100, 500, 1300, 3000 ]
     ],
     "UpgradeAvatars" : [
         [
