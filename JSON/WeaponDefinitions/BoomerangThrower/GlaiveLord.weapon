@@ -26,8 +26,8 @@
 				"TerminateOnCompletedRevolution" : true
 			},
 			
-			"TasksToProcessOnCollision" : [ 0 ],
-			"TasksToProcessOnTerminate" : [ 1 ],
+			"TasksToProcessOnCollision" : [ 0,1,2 ],
+			"TasksToProcessOnTerminate" : [ 3 ],
 			
 			"Tasks" :
 			[ 
@@ -70,8 +70,8 @@
 				"TerminateOnCompletedRevolution" : true
 			},
 			
-			"TasksToProcessOnCollision" : [ 0 ],
-			"TasksToProcessOnTerminate" : [ 1 ],
+			"TasksToProcessOnCollision" : [ 0,1,2 ],
+			"TasksToProcessOnTerminate" : [ 3 ],
 
 			"Tasks" :
 			[ 
