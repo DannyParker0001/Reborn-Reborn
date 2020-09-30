@@ -7,7 +7,6 @@
     
     "DisabledTasks" : [ 0 ],
     
-    "StartsOnCooldown" : true,
 
     "Tasks" :
     [
