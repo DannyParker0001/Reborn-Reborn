@@ -71,7 +71,8 @@
             {
                 "Weapons" :
                 {
-                    "0": "GlaiveRiccochet.weapon"
+                    "0": "",
+                    "3": "GlaiveRiccochet.weapon"
                 }
             },
 			"WeaponUpgrade" :
@@ -220,7 +221,38 @@
                             "GraphicName" : "glaive_red"
 						}
 					]
-				}
+                },
+                {
+                    "SlotIndex" : 3,
+                    "TaskUpgrade" :
+                        [
+                            {
+                                "Operation" : "SelectByLocation",
+                                "Location" :    [ 0, 0, 0 ]
+                            },
+                            
+                            {
+                                "Operation" : "Replace",
+                                "DamageType" : "Plasma"
+                            },
+                            
+                            {
+                                "Operation" : "SelectByLocation",
+                                "Location" :    [ 0, 0 ]
+                            },
+                            
+                            {
+                                "Operation" : "Replace",
+                                "GraphicName" : "boomerang_red"
+                            },
+                            
+                            {
+                                "Operation" : "Replace",
+                                "RequiresMinUpgradeCounters" : [ 2, 0 ],
+                                "GraphicName" : "glaive_red"
+                            }
+                        ]
+                    }
 			]
         },
         
@@ -320,6 +352,41 @@
                         {
                             "Operation" : "SelectByLocation",
                             "Location" :    [ 1, 2 ]
+                        },
+                        
+                        {
+                            "Operation" : "Replace",
+                            "Status" : "MultiLayerDamage"
+                        }
+                    ]
+                },
+                {
+                    "SlotIndex" : 3,
+                    "TaskUpgrade" :
+                    [
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" :    [ 0, 0, 0 ]
+                        },
+                                
+                        {
+                            "Operation" : "Adjust",
+                            "Amount" : 1
+                        },
+                        
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" :    [ 0, 0, 1 ]
+                        },
+                        
+                        {
+                            "Operation" : "Adjust",
+                            "Amount" : 1
+                        },
+                        
+                        {
+                            "Operation" : "SelectByLocation",
+                            "Location" :    [ 0, 0, 2 ]
                         },
                         
                         {
