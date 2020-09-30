@@ -1,2 +1,4 @@
 # Reborn-Reborn
-Sub to [JamByte](https://www.youtube.com/channel/UCByTnSyzoFHTRuxYqPBy-VA?view_as=subscriber)
+
+Sub to [JamByte](https://www.youtube.com/user/Tewtiy?view_as=subscriber)
+^^^^^^^^^^^^^^^^
