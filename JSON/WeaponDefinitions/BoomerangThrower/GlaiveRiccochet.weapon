@@ -10,7 +10,7 @@
     [
 		{
 			"Type":             "Projectile",
-			"GraphicName":      "glaive",
+			"GraphicName":      "boomerang",
 			"NumPersists":      1,
 			"TerminateOnZeroPersists": true,
 			"CollisionType": "Once",
@@ -53,15 +53,6 @@
 							"Type": "Damage", 
 							"DamageType": "Piercing", 
 							"Amount": 1 
-						},
-						{ 
-							"Type": "Damage", 
-							"DamageType": "Juggernaut", 
-							"Amount": 0 
-						},
-						{
-							"Type": "StatusEffect",
-							"Status": "MultiLayerDamage"
 						}
 					]
 				}
@@ -70,7 +61,7 @@
         
         {
             "Type":             "Projectile",
-            "GraphicName":      "glaive",
+            "GraphicName":      "boomerang",
             "NumPersists":      1,
             "TerminateOnZeroPersists": true,
             "CollisionType": "Once",
@@ -113,16 +104,7 @@
                             "Type": "Damage", 
                             "DamageType": "Piercing", 
                             "Amount": 1 
-                        },
-						{ 
-							"Type": "Damage", 
-							"DamageType": "Juggernaut", 
-							"Amount": 0 
-						},
-						{
-							"Type": "StatusEffect",
-							"Status": "MultiLayerDamage"
-						}
+                        }
                     ]
                 }
             ]

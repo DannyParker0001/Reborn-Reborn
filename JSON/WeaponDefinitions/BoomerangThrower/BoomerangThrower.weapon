@@ -36,16 +36,7 @@
 					"Type": "Damage", 
 					"DamageType": "Piercing", 
 					"Amount": 1 
-				},
-				{ 
-					"Type": "Damage", 
-					"DamageType": "Juggernaut", 
-					"Amount": 0 
-				},
-				{
-					"Type": "StatusEffect",
-					"Status": ""
-				}
+				} 
 			]
 		},
         {
@@ -76,16 +67,7 @@
                     "Type": "Damage", 
                     "DamageType": "Piercing", 
                     "Amount": 1 
-                },
-				{ 
-					"Type": "Damage", 
-					"DamageType": "Juggernaut", 
-					"Amount": 0 
-				},
-				{
-					"Type": "StatusEffect",
-					"Status": ""
-				}
+                } 
             ]
         }
 	]

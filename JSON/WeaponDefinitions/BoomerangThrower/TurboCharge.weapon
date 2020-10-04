@@ -14,11 +14,13 @@
 			"PriorityLevel": 1,
 			"ApplyToUserTower": true,
             "TerminateOnUserUpgrade" : false,
-			"Duration": 20,
+			"Duration": 15,
 			"Modifier":
 			{
 				"Cooldown": [ 0.1, 0 ],
-                "FireDelay": [ 0.2, 0 ]
+				"FireDelay": [ 0.2, 0 ],
+				"Damage"  : [ 1, 1 ],
+				"CanTargetCamo" : [ true, true ]
 			}
 		},
 		{

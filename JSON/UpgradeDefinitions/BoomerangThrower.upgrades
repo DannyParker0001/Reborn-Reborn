@@ -71,13 +71,12 @@
             {
                 "Weapons" :
                 {
-                    "0": "",
-                    "3": "GlaiveRiccochet.weapon"
+                    "0": "GlaiveRiccochet.weapon"
                 }
             },
 			"WeaponUpgrade" :
             {
-                "SlotIndex" : 3,
+                "SlotIndex" : 0,
                 "TaskUpgrade" :
                 [
                     {
@@ -92,7 +91,7 @@
 					
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
                         "GraphicName" : "glaive_red"
                     },
                     
@@ -103,7 +102,7 @@
 
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
                         "GraphicName" : "glaive_red"
                     },
                     
@@ -114,7 +113,7 @@
                     
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
                         "GraphicName" : "glaive_red"
                     },
                     
@@ -125,7 +124,7 @@
 
                     {
                         "Operation" : "Replace",
-                        "RequiresMinUpgradeCounters" : [ 0, 1 ],
+                        "RequiresMinUpgradeCounters" : [ 0, 2 ],
                         "GraphicName" : "glaive_red"
                     },
 					
@@ -137,7 +136,7 @@
 					{
 						"Operation" : "Replace",
 						"RequiresMinUpgradeCounters" : [ 0, 1 ],
-						"DamageType" : "Plasma"
+						"DamageType" : "Fire"
 					},
 					
                     {
@@ -147,7 +146,7 @@
 					
 					{
 						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
 						"DamageType" : "Plasma"
 					},
 					
@@ -159,7 +158,7 @@
 					{
 						"Operation" : "Replace",
 						"RequiresMinUpgradeCounters" : [ 0, 1 ],
-						"DamageType" : "Plasma"
+						"DamageType" : "Fire"
 					},
 					
                     {
@@ -169,38 +168,8 @@
 					
 					{
 						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 1 ],
+						"RequiresMinUpgradeCounters" : [ 0, 2 ],
 						"DamageType" : "Plasma"
-					},
-					{
-						"Operation" : "SelectByLocation",
-						"Location" :    [ 0, 0, 0 ]
-					},
-
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 2 ],
-						"Amount" : 2
-					},
-					{
-						"Operation" : "SelectByLocation",
-						"Location" :    [ 0, 0, 1 ]
-					},
-
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 2 ],
-						"Amount" : 1
-					},
-					{
-						"Operation" : "SelectByLocation",
-						"Location" :    [ 0, 0, 2 ]
-					},
-
-					{
-						"Operation" : "Replace",
-						"RequiresMinUpgradeCounters" : [ 0, 2 ],
-						"Status" : "MultiLayerDamage"
 					}
                 ]
             }
@@ -224,7 +193,7 @@
         },
         
         {
-            "Name" : "Sonic Boomer",
+            "Name" : "Sonic Boom",
             "WeaponUpgrades" : [
 				{
 					"SlotIndex" : 0,
@@ -237,55 +206,17 @@
 
 						{
 							"Operation" : "Replace",
-							"Amount" : 2
+							"DamageType" : "Fire"
 						},
 						
 						{
 							"Operation" : "SelectByLocation",
 							"Location" :    [ 1, 0 ]
 						},
-
-						{
-							"Operation" : "Replace",
-							"Amount" : 2
-						},
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 0, 1 ]
-						},
-
-						{
-							"Operation" : "Replace",
-							"Amount" : 1
-						},
 						
 						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 1, 1 ]
-						},
-
-						{
 							"Operation" : "Replace",
-							"Amount" : 1
-						},
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 0, 2 ]
-						},
-
-						{
-							"Operation" : "Replace",
-							"Status" : "MultiLayerDamage"
-						},
-						
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 1, 2 ]
-						},
-
-						{
-							"Operation" : "Replace",
-							"Status" : "MultiLayerDamage"
+							"DamageType" : "Fire"
 						}
 					]
 				},
@@ -319,64 +250,63 @@
         
         {
             "Name" : "Red Hot Rangs",
-            "WeaponUpgrades" : 
-			[
+            "WeaponUpgrades" : [
 				{
 				"SlotIndex" : 0,
-				"TaskUpgrade" :
-					[
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 0, 0 ]
-						},
-						
-						{
-							"Operation" : "Replace",
-							"DamageType" : "Plasma"
-						},
-						
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 0 ]
-						},
-						
-						{
-							"Operation" : "Replace",
-							"GraphicName" : "boomerang_red"
-						},
-						
-						{
-							"Operation" : "Replace",
-							"RequiresMinUpgradeCounters" : [ 2, 0 ],
-							"GraphicName" : "glaive_red"
-						},
+					"TaskUpgrade" :
+						[
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 0, 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"DamageType" : "Plasma"
+							},
+							
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"GraphicName" : "boomerang_red"
+							},
+							
+							{
+								"Operation" : "Replace",
+								"RequiresMinUpgradeCounters" : [ 2, 0 ],
+								"GraphicName" : "glaive_red"
+							},
 
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 1, 0 ]
-						},
-						
-						{
-							"Operation" : "Replace",
-							"DamageType" : "Plasma"
-						},
-						
-						{
-							"Operation" : "SelectByLocation",
-							"Location" :    [ 1 ]
-						},
-						
-						{
-							"Operation" : "Replace",
-							"GraphicName" : "boomerang_red"
-						},
-						
-						{
-							"Operation" : "Replace",
-							"RequiresMinUpgradeCounters" : [ 2, 0 ],
-							"GraphicName" : "glaive_red"
-						}
-					]
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 1, 0 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"DamageType" : "Plasma"
+							},
+							
+							{
+								"Operation" : "SelectByLocation",
+								"Location" :    [ 1 ]
+							},
+							
+							{
+								"Operation" : "Replace",
+								"GraphicName" : "boomerang_red"
+							},
+							
+							{
+								"Operation" : "Replace",
+								"RequiresMinUpgradeCounters" : [ 2, 0 ],
+                                "GraphicName" : "glaive_red"
+							}
+						]
 				},
 				{
 					"SlotIndex" : 1,
