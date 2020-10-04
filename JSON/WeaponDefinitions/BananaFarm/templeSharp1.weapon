@@ -1,17 +1,23 @@
 {	
     "Type":             "templeSharp1",    
     "TargetRange":      0.0,
-    "CooldownTime":     1.0,
+    "CooldownTime":     10.0,
     "FireDelayTime":    0.0,
-	"AnimatesTower": false,
-	"FiresOnRoundEnd": true,
+    "AnimatesTower": false,
+    "CanFireWithNoTargetsAndRoundInProgress"    : true,
 	
 	"Tasks":
 	[	
 		{
-            "Type"              : "MoneyChange",
-            "MoneyPerRound"     : 80,
-            "MaxMoney"          : 5000
+            "Type" : "WeaponBurstFire",
+            "MaxShotsMult" : 2.0,    
+            "TargetingFilter": {
+                "Include" : {
+                    "TowerType" : [
+                        "BananaFarm"
+                    ]
+                }
+            }
         }
 	]
 }
