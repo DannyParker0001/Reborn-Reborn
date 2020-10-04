@@ -1,7 +1,7 @@
 {	
     "Type":             "templeSharp1",    
     "TargetRange":      0.0,
-    "CooldownTime":     10.0,
+    "CooldownTime":     20.0,
     "FireDelayTime":    0.0,
     "AnimatesTower": false,
     "CanFireWithNoTargetsAndRoundInProgress"    : true,
@@ -10,12 +10,19 @@
 	[	
 		{
             "Type" : "WeaponBurstFire",
-            "MaxShotsMult" : 2.0,    
-            "TargetingFilter": {
-                "Include" : {
-                    "TowerType" : [
+            "MaxShotsMult" : 0.15,    
+            "TargetingFilter": 
+			{
+                "Include" : 
+				{
+                    "TowerType" : 
+					[
                         "BananaFarm"
                     ]
+                },
+				"Exclude" :
+                {
+					"TowerMinPath": [ 0, 3 ]
                 }
             }
         }

@@ -36,7 +36,7 @@
 			"Grows 3 big bunches of bananas.",
 			"Grows 7 big bunches each round.",
 			"Generates 13 big bunches of bananas every round.",
-			"Produces 6 boxes of bananas every round."
+			"Produces 6 boxes of bananas every round and boosts all left path farms every 20s."
 		],
 		[
 			"Bananas last 25 seconds instead of the usual 15.",
