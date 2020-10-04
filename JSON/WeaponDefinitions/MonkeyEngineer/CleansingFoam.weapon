@@ -56,7 +56,7 @@
                                    
                                     "Type": "Projectile",
                                     "SpriteFile": "engineer_foam_puddle_static.json",
-                                    "NumPersists":      30,
+                                    "NumPersists":      10,
                                     "TerminateOnZeroPersists": true,
                                     "RemoveOnRoundEnd" : false,
 
