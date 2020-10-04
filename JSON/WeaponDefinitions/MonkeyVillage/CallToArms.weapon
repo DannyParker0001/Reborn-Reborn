@@ -12,6 +12,7 @@
 			"Type": "TowerModifier",
 			"Range": 120,
 			"PriorityLevel": 1,
+			"ReplacesPriorityLevel": true,
             "TerminateOnUserUpgrade": false,
 			"Duration": 15,
 			"Modifier":
