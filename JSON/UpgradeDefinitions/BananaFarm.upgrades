@@ -74,6 +74,13 @@
 						"GraphicName": "banana_box"
                     }
                 ]
+            },
+            "TowerUpgrade" :
+            {
+                "Weapons" :
+                {
+                    "3" : "templeSharp1.weapon"
+                }
             }
         },
         {
